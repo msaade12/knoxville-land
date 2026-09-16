@@ -151,7 +151,9 @@ def to_tract(card):
         "photo": img,
         "gallery": gallery,
         "dom": info.get("daysOnZillow"),
-        "hoa": info.get("hoaFee") or info.get("monthlyHoaFee") or 0,
+        # Zillow's search cards rarely carry the fee; None means "not stated"
+        "hoa": (info["hoaFee"] if info.get("hoaFee") is not None
+                else info.get("monthlyHoaFee")),
     }
 
 

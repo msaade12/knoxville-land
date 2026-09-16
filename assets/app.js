@@ -41,7 +41,8 @@ const daysAgo = iso => {
 const state = {
   tracts: [],
   view: [],
-  hidden: {},          // id -> { h:bool, at:ISO }
+  hidden: {},          // id -> { h:bool, fav:bool, lists:[], hoa:bool, at:ISO }
+  ownerEx: new Set(),  // ids ruled out by hand in data/owner-excluded.json
   markers: new Map(),
   showHidden: false,
   token: null,
@@ -276,20 +277,23 @@ function initMap() {
         + '&layers=show:28&transparent=true&format=png32&f=image';
     },
   });
-  floodLayer = new Nfhl('', { opacity: .6, minZoom: 7, maxZoom: 18, pane: 'shadowPane',
+  // FEMA draws this layer only past 1:36,111 - zoom 14 and closer. Wider
+  // tiles come back blank, so don't even ask for them.
+  floodLayer = new Nfhl('', { opacity: .65, minZoom: 14, maxZoom: 18, pane: 'shadowPane',
     attribution: 'Flood zones: FEMA NFHL' });
   const floodHint = () => {
     const h = $('#floodHint');
     if (!h) return;
     const z = map.getZoom();
-    h.textContent = z < 10
-      ? `Zoom in to see zones — they are thin at this scale (zoom ${z}, best from 10). Tiles render on FEMA's server, allow a few seconds.`
-      : 'Loading from FEMA takes a few seconds per tile.';
+    h.textContent = z < 14
+      ? `Zoom in to street level to see the zones — FEMA draws them only from zoom 14 (you are at ${z}). Blue-ringed pins are tracts already known to sit in a flood zone.`
+      : 'Drawing from FEMA — a few seconds per tile.';
   };
   $('#floodToggle').addEventListener('click', e => {
     const on = !map.hasLayer(floodLayer);
     if (on) floodLayer.addTo(map); else map.removeLayer(floodLayer);
     e.currentTarget.classList.toggle('on', on);
+    document.body.classList.toggle('flood-on', on);
     $('#floodKey').hidden = !on;
     floodHint();
   });
@@ -336,6 +340,7 @@ function makeIcon(t) {
   if (t.geo !== 'parcel') cls.push('approx');
   if (isNew(t)) cls.push('isnew');
   else if (priceCut(t) && recentCut(t)) cls.push('iscut');
+  if (t.flood === 'sfha') cls.push('insfha');
   const ink = t.bandIdx === 2 ? '#2A2208' : '#fff';
   return L.divIcon({
     className: '',
@@ -439,6 +444,7 @@ function popupHtml(t) {
         <button class="${isFav(t.id) ? 'on' : ''}" data-fav="${t.id}">${isFav(t.id) ? '★ Favorited' : '☆ Favorite'}</button>
         ${allLists().map(n => `<button class="${listsOf(t.id).includes(n) ? 'on' : ''}" data-list="${esc(n)}" data-id="${t.id}">${esc(n)}</button>`).join('')}
         <button data-newlist="${t.id}">+ New list</button>
+        <button class="warn" data-hoa="${t.id}" title="Rule this one out for good — the daily sweep will drop it">Has HOA</button>
       </div>
     </div>`;
 }
@@ -459,6 +465,8 @@ function cardHtml(t) {
     t.convenience ? `<span class="tag conv" title="${esc(t.convenienceLabel)} — ${esc(convenienceLine(t))}">${stars(t.convenience)}</span>` : '',
     shop(t)
       ? `<span class="tag groc" title="to ${esc(shop(t).to)}">${shop(t).min} min shops</span>` : '',
+    t.hoaKnown === false || (t.hoaKnown == null && t.source === 'Redfin' && t.hoa == null)
+      ? '<span class="tag unconf" title="Neither Redfin\'s export nor Zillow stated whether there is an HOA">HOA ?</span>' : '',
     t.flood === 'sfha' ? '<span class="tag flood" title="FEMA: inside the 100-year floodplain (Special Flood Hazard Area)">flood zone</span>'
       : t.flood === 'x500' ? '<span class="tag flood2" title="FEMA: 500-year floodplain / moderate hazard">500-yr flood</span>' : '',
     located(t) && t.slope != null
@@ -501,6 +509,7 @@ function currentFilters() {
     onlyPhoto: $('#fPhoto').checked,
     onlyConfirmed: $('#fConfirmed').checked,
     noFlood: $('#fFlood').checked,
+    hoaKnown: $('#fHoa').checked,
     onlyFav: $('#fFav').checked,
     list: $('#fList').value,
     q: $('#search').value.trim().toLowerCase(),
@@ -521,6 +530,8 @@ function apply() {
     if (f.onlyPhoto && !t.img) return false;
     if (f.onlyConfirmed && (t.status !== 'active' || t.geo !== 'parcel')) return false;
     if (f.noFlood && t.flood === 'sfha') return false;
+    if (state.hidden[t.id]?.hoa || state.ownerEx.has(t.id)) return false;   // ruled out for good
+    if (f.hoaKnown && !(t.hoaKnown === true)) return false;
     if (f.onlyFav && !isFav(t.id)) return false;
     if (f.list && !listsOf(t.id).includes(f.list)) return false;
     if (f.q) {
@@ -741,7 +752,7 @@ function setView(v) {
 
 function wire() {
   ['#fDrive', '#fPrice', '#fAcres', '#fCounty', '#fSort',
-   '#fNew', '#fCut', '#fPhoto', '#fConfirmed', '#fGroc', '#fFlood', '#fFav', '#fList'].forEach(sel =>
+   '#fNew', '#fCut', '#fPhoto', '#fConfirmed', '#fGroc', '#fFlood', '#fFav', '#fList', '#fHoa'].forEach(sel =>
     $(sel).addEventListener('input', () => { syncOutputs(); apply(); }));
 
   let searchTimer;
@@ -763,7 +774,7 @@ function wire() {
     $('#fCounty').value = ''; $('#fSort').value = 'ppa';
     $('#fNew').checked = false; $('#fCut').checked = false;
     $('#fPhoto').checked = false; $('#fConfirmed').checked = false; $('#fFlood').checked = false;
-    $('#fFav').checked = false; $('#fList').value = '';
+    $('#fFav').checked = false; $('#fList').value = ''; $('#fHoa').checked = false;
     $('#search').value = '';
     syncOutputs(); apply();
   });
@@ -813,6 +824,12 @@ function wire() {
       setMark(id, { lists: cur.includes(list) ? cur.filter(x => x !== list) : [...cur, list] });
       refreshPopup(id);
     }));
+    root.querySelector('[data-hoa]')?.addEventListener('click', e => {
+      const id = e.target.dataset.hoa;
+      if (!confirm('Mark this listing as having an HOA? It will be removed from the map and the daily sweep will drop it.')) return;
+      setMark(id, { hoa: true, h: true });
+      map.closePopup();
+    });
     root.querySelector('[data-newlist]')?.addEventListener('click', e => {
       const id = e.target.dataset.newlist;
       const name = (prompt('Name for the new list:') || '').trim().slice(0, 40);
@@ -930,6 +947,10 @@ async function boot() {
     };
   });
 
+  try {
+    const r = await fetch(`data/owner-excluded.json?t=${Date.now()}`, { cache: 'no-store' });
+    if (r.ok) state.ownerEx = new Set(Object.keys(await r.json()));
+  } catch {}
   importLegacyHidden();
   const remote = await pullHidden();
   if (remote) { state.hidden = mergeHidden(state.hidden, remote); saveLocalHidden(); }

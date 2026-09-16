@@ -684,6 +684,7 @@ def row_to_tract(r, polys, stores=()):
         "lat": round(lat, 6),
         "lon": round(lon, 6),
         "hoa": hoa or 0,
+        "hoaKnown": True,           # the CSV has an HOA column - 0 means none
         "domSource": num(r.get("DAYS ON MARKET"), int),
         "source": (r.get("SOURCE") or "Redfin").strip(),
         "geo": "parcel",
@@ -738,12 +739,14 @@ def merge_zillow(found, prev, excluded, polys, stores):
             if z["price"] > MAX_PRICE or z["acres"] < MIN_ACRES:
                 continue
             if EXCLUDE_HOA and z.get("hoa"):
+                excluded["z" + z["zpid"]] = {"reason": "HOA", "on": today, "town": z["town"]}
                 continue
             zt = finish_tract({
                 "id": "z" + z["zpid"], "mls": None, "acres": z["acres"],
                 "price": z["price"], "address": z["address"], "town": z["town"],
                 "zip": z["zip"], "url": z["url"], "photo": z["photo"],
                 "lat": z["lat"], "lon": z["lon"], "hoa": z.get("hoa") or 0,
+                "hoaKnown": z.get("hoa") is not None,
                 "domSource": z.get("dom"), "source": "Zillow",
                 "gallery": z.get("gallery") or [], "geo": "parcel",
             }, polys, stores)
@@ -960,6 +963,17 @@ def download_photo(t):
 
 # ------------------------------------------------------------------- main ---
 
+def load_owner_excluded():
+    """Tracts the owner has ruled out by hand (data/owner-excluded.json,
+    never written by the sweep) plus anything flagged 'Has HOA' on the site
+    (data/marks.json, written by the page). Both are permanent."""
+    out = dict(load_json("owner-excluded.json", {}))
+    for tid, m in load_json("marks.json", {}).items():
+        if isinstance(m, dict) and m.get("hoa"):
+            out.setdefault(tid, {"reason": "HOA - flagged on the site", "on": m.get("at", "")[:10]})
+    return out
+
+
 def load_excluded():
     """Tracts we have already measured and thrown out (too steep). Remembered
     so the next run doesn't route and survey them all over again."""
@@ -988,7 +1002,11 @@ def main():
     log(f"grocery stores: {len(stores)} | anchor stores: {len(anchors)}")
     prev = load_previous()
     excluded = load_excluded()
-    log(f"previous dataset: {len(prev)} tracts | remembered exclusions: {len(excluded)}")
+    owner_ex = load_owner_excluded()
+    for tid, v in owner_ex.items():
+        excluded[tid] = {**v, "reason": v.get("reason", "owner")}
+    log(f"previous dataset: {len(prev)} tracts | remembered exclusions: {len(excluded)} "
+        f"(owner: {len(owner_ex)})")
 
     # ---- sweep ----------------------------------------------------------
     found = {}
@@ -1062,7 +1080,7 @@ def main():
             if old.get("baseline"):
                 t["baseline"] = True
             # Terrain and routing never change and cost API calls - carry them.
-            for k in ("gallery", "imgs", "flood", "floodZone", "floodSub",
+            for k in ("gallery", "imgs", "hoaKnown", "flood", "floodZone", "floodSub",
                       "slope", "elev", "relief", "shopRoad",
                       "shopMin", "shopName", "shopCity", "shopMi", "driveRoad"):
                 if old.get(k) is not None:
