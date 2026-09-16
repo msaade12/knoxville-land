@@ -1,0 +1,320 @@
+{
+ "generated": "2026-09-16T13:13:17+00:00",
+ "date": "2026-09-16",
+ "count": 111,
+ "confirmed": 78,
+ "new": [
+  {
+   "id": "rf196856283",
+   "acres": 10.77,
+   "price": 104500,
+   "ppa": 9703,
+   "town": "Deer Lodge",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Deer-Lodge/Valerie-Dr-37726/home/196856283"
+  }
+ ],
+ "priceCuts": [],
+ "priceIncreases": [],
+ "unconfirmed": [
+  {
+   "id": "rf63023739",
+   "acres": 100.0,
+   "price": 240000,
+   "town": "LaFollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Lick-Creek-Ln-37766/home/63023739",
+   "missCount": 1
+  },
+  {
+   "id": "rf201527108",
+   "acres": 44.31,
+   "price": 184900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/1-Lay-Hollow-Rd-37866/home/201527108",
+   "missCount": 1
+  },
+  {
+   "id": "rf103868729",
+   "acres": 10.7,
+   "price": 70000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/822-W-Bates-St-37854/home/103868729",
+   "missCount": 1
+  },
+  {
+   "id": "rf198101836",
+   "acres": 19.81,
+   "price": 134900,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/318-Rhodas-WAY-37872/home/198101836",
+   "missCount": 1
+  },
+  {
+   "id": "rf62969122",
+   "acres": 17.2,
+   "price": 125000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Ironsburg-Rd-37385/home/62969122",
+   "missCount": 1
+  },
+  {
+   "id": "rf197624421",
+   "acres": 30.07,
+   "price": 220000,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Cosby/Boomer-Way-37722/home/197624421",
+   "missCount": 1
+  },
+  {
+   "id": "rf197401512",
+   "acres": 28.33,
+   "price": 207475,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Shadden-Rd-37385/home/197401512",
+   "missCount": 1
+  },
+  {
+   "id": "rf197723905",
+   "acres": 21.0,
+   "price": 159900,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Seymour/Reagan-Springs-Rd-37865/home/197723905",
+   "missCount": 1
+  },
+  {
+   "id": "rf104134276",
+   "acres": 11.4,
+   "price": 88000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Old-Hag-Hollow-Way-37876/home/104134276",
+   "missCount": 1
+  },
+  {
+   "id": "rf201260285",
+   "acres": 18.13,
+   "price": 149999,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Madisonville/6-Saffles-Ln-37354/home/201260285",
+   "missCount": 1
+  },
+  {
+   "id": "rf185514748",
+   "acres": 10.7,
+   "price": 99000,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/9745-Morgan-County-Hwy-37872/home/185514748",
+   "missCount": 1
+  },
+  {
+   "id": "rf62924505",
+   "acres": 10.77,
+   "price": 104500,
+   "town": "Deer Lodge",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Deer-Lodge/Valerie-Dr-37726/home/62924505",
+   "missCount": 1
+  },
+  {
+   "id": "rf190890927",
+   "acres": 19.82,
+   "price": 199000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Madisonville/3011-Ballplay-Rd-37354/home/190890927",
+   "missCount": 1
+  },
+  {
+   "id": "rf111031104",
+   "acres": 20.13,
+   "price": 207000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Mossy-Cove-Way-37876/home/111031104",
+   "missCount": 1
+  },
+  {
+   "id": "rf205372017",
+   "acres": 17.9,
+   "price": 185000,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/145-Black-Bear-LN-37872/home/205372017",
+   "missCount": 1
+  },
+  {
+   "id": "rf198197523",
+   "acres": 15.43,
+   "price": 159900,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/674-Rhodas-WAY-37872/home/198197523",
+   "missCount": 1
+  },
+  {
+   "id": "rf180598739",
+   "acres": 16.6,
+   "price": 175000,
+   "town": "Pittman Center",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Pittman-Center/Lot-24-Lakeshore-Ave-37876/home/180598739",
+   "missCount": 1
+  },
+  {
+   "id": "rf203164022",
+   "acres": 21.33,
+   "price": 245295,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/5-Old-Furnace-Rd-37385/home/203164022",
+   "missCount": 1
+  },
+  {
+   "id": "rf200711128",
+   "acres": 17.99,
+   "price": 229900,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Ten-Mile/8-Pleasant-Hill-Rd-37880/home/200711128",
+   "missCount": 1
+  },
+  {
+   "id": "rf199117106",
+   "acres": 14.2,
+   "price": 198000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Lot-14-Airport-Rd-37854/home/199117106",
+   "missCount": 1
+  },
+  {
+   "id": "rf111323141",
+   "acres": 10.7,
+   "price": 150000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Gatlinburg/Branam-Hollow-Rd-37738/home/111323141",
+   "missCount": 1
+  },
+  {
+   "id": "rf197723800",
+   "acres": 13.87,
+   "price": 194900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Anderson-Way-37876/home/197723800",
+   "missCount": 1
+  },
+  {
+   "id": "rf111335006",
+   "acres": 10.0,
+   "price": 146000,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Cosby/Bogard-Rd-37722/home/111335006",
+   "missCount": 1
+  },
+  {
+   "id": "rf194555113",
+   "acres": 16.96,
+   "price": 249900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/907-Sharp-Rd-37876/home/194555113",
+   "missCount": 1
+  },
+  {
+   "id": "rf87534835",
+   "acres": 14.1,
+   "price": 211500,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Airport-Rd-37854/home/87534835",
+   "missCount": 1
+  },
+  {
+   "id": "rf200792177",
+   "acres": 14.41,
+   "price": 220000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Harriman/222-Heritage-Hills-Rd-37748/home/200792177",
+   "missCount": 1
+  },
+  {
+   "id": "rf199132094",
+   "acres": 10.68,
+   "price": 169900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/138-Bowater-Rd-37385/home/199132094",
+   "missCount": 1
+  },
+  {
+   "id": "rf111408250",
+   "acres": 14.0,
+   "price": 227000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/873-Indian-Gap-Rd-37876/home/111408250",
+   "missCount": 1
+  },
+  {
+   "id": "rf195543606",
+   "acres": 12.0,
+   "price": 199969,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/4585-Crooked-Creek-Way-37803/home/195543606",
+   "missCount": 1
+  },
+  {
+   "id": "rf111340069",
+   "acres": 11.88,
+   "price": 200000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/3910-Wilhite-Rd-37876/home/111340069",
+   "missCount": 1
+  },
+  {
+   "id": "rf201816083",
+   "acres": 10.1,
+   "price": 171000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Lot-23-Cornerstone-DR-37854/home/201816083",
+   "missCount": 1
+  },
+  {
+   "id": "rf63013127",
+   "acres": 13.84,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Stepping-Stone-Dr-37862/home/63013127",
+   "missCount": 1
+  },
+  {
+   "id": "rf194042084",
+   "acres": 10.0,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/340-Swadis-Dr-37876/home/194042084",
+   "missCount": 1
+  }
+ ],
+ "retired": [],
+ "baseline": false
+}

@@ -1,0 +1,45 @@
+name: Daily land sweep
+
+on:
+  schedule:
+    # 11:15 UTC ≈ 6:15am Central / 7:15am Eastern, every day
+    - cron: '15 11 * * *'
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sweep
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sweep Redfin
+        run: python3 scripts/sweep.py
+
+      - name: Summarise the run
+        run: python3 scripts/report.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit any changes
+        run: |
+          git config user.name  "land-scout[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tracts.json data/report.json photos
+          if git diff --cached --quiet; then
+            echo "Nothing changed — a quiet day is a cheap day."
+            exit 0
+          fi
+          NEW=$(python3 -c "import json;print(len(json.load(open('data/report.json'))['new']))")
+          git commit -m "sweep $(date -u +%F): ${NEW} new"
+          # another device may have written data/hidden.json meanwhile
+          git pull --rebase --autostash origin main
+          git push
