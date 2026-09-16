@@ -251,14 +251,24 @@ function initMap() {
         + '&layers=show:28&transparent=true&format=png32&f=image';
     },
   });
-  floodLayer = new Nfhl('', { opacity: .55, minZoom: 9, maxZoom: 18, pane: 'shadowPane',
+  floodLayer = new Nfhl('', { opacity: .6, minZoom: 7, maxZoom: 18, pane: 'shadowPane',
     attribution: 'Flood zones: FEMA NFHL' });
+  const floodHint = () => {
+    const h = $('#floodHint');
+    if (!h) return;
+    const z = map.getZoom();
+    h.textContent = z < 10
+      ? `Zoom in to see zones — they are thin at this scale (zoom ${z}, best from 10). Tiles render on FEMA's server, allow a few seconds.`
+      : 'Loading from FEMA takes a few seconds per tile.';
+  };
   $('#floodToggle').addEventListener('click', e => {
     const on = !map.hasLayer(floodLayer);
     if (on) floodLayer.addTo(map); else map.removeLayer(floodLayer);
     e.currentTarget.classList.toggle('on', on);
     $('#floodKey').hidden = !on;
+    floodHint();
   });
+  map.on('zoomend', floodHint);
 
   $$('#basemaps button').forEach(b => b.addEventListener('click', () => {
     $$('#basemaps button').forEach(x => x.classList.toggle('on', x === b));

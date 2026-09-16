@@ -255,7 +255,8 @@ body.light-map .maplabel{color:#2f3f3a;text-shadow:0 0 3px #fff,0 0 6px #fff}
   display:flex;flex-direction:column;gap:4px;box-shadow:var(--shadow);
 }
 .floodkey i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;opacity:.85}
-.floodkey .src{color:var(--ink-3);font-size:10.5px}
+.floodkey .src{color:var(--ink-3);font-size:10.5px;max-width:230px;line-height:1.35}
+.floodkey #floodHint{color:#2b4f85}
 .tag.conv{background:#fff7dc;color:#7a5a00;letter-spacing:.05em;text-transform:none}
 .pop{color:var(--ink-3);font-size:11.5px}
 .tag.flood{background:#3b6fb6;color:#fff}
@@ -400,7 +401,8 @@ body.light-map .maplabel{color:#2f3f3a;text-shadow:0 0 3px #fff,0 0 6px #fff}
   display:flex;flex-direction:column;gap:4px;box-shadow:var(--shadow);
 }
 .floodkey i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;opacity:.85}
-.floodkey .src{color:var(--ink-3);font-size:10.5px}
+.floodkey .src{color:var(--ink-3);font-size:10.5px;max-width:230px;line-height:1.35}
+.floodkey #floodHint{color:#2b4f85}
 .tag.conv{background:#fff7dc;color:#7a5a00;letter-spacing:.05em;text-transform:none}
 .pop{color:var(--ink-3);font-size:11.5px}
 .tag.flood{background:#3b6fb6;color:#fff}
