@@ -25,6 +25,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
@@ -331,6 +332,103 @@ def add_shop_times(tracts, anchors, cap=100):
                                                  (a["lat"], a["lon"])), 1)
                 done += 1
         time.sleep(1.5)
+    return done
+
+
+# ---------------------------------------------------------------- parcels ---
+
+PARCELS = ("https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/"
+           "Tennessee_Property_Boundaries_Public_Use/FeatureServer/0/query")
+PARCEL_CAP = int(os.environ.get("PARCEL_CAP", "400"))
+PARCEL_PAUSE = 0.35
+
+
+def parcel_at(lat, lon, acres=None, tries=3):
+    """The parcel for a listing. Redfin/Zillow pins are often a little off -
+    on the road, or the neighbour - so look at every parcel within ~150 m and
+    prefer the one whose deeded acreage matches the listing; fall back to the
+    one under the point. Returns a dict, {} if nothing is mapped, None on
+    failure."""
+    dl = 0.0014
+    q = urllib.parse.urlencode({
+        "geometry": json.dumps({"xmin": lon - dl, "ymin": lat - dl, "xmax": lon + dl,
+                                "ymax": lat + dl, "spatialReference": {"wkid": 4326}}),
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": 4326, "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "PARCELID,DEEDAC,OWNER,ADDRESS,COUNTY_NAME,LINK_TPAD,LINK_TPV",
+        "returnGeometry": "true", "outSR": 4326, "geometryPrecision": 6, "f": "geojson"})
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(PARCELS, data=q.encode(), headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                d = json.load(r)
+            if "error" in d:
+                raise RuntimeError(d["error"].get("message", "error"))
+            feats = d.get("features") or []
+            if not feats:
+                return {}
+
+            def contains(f):
+                g = f.get("geometry") or {}
+                rings = (g["coordinates"] if g.get("type") == "Polygon"
+                         else [r for poly in g.get("coordinates", []) for r in poly[:1]])
+                return any(point_in_ring(lon, lat, ring) for ring in rings)
+
+            def deed(f):
+                v = (f.get("properties") or {}).get("DEEDAC")
+                return float(v) if v else None
+
+            best = None
+            if acres:
+                cands = [f for f in feats if deed(f)]
+                if cands:
+                    f = min(cands, key=lambda f: abs(deed(f) - acres))
+                    if abs(deed(f) - acres) <= max(0.3, 0.08 * acres):
+                        best = (f, "acreage match")
+            if not best:
+                under = [f for f in feats if contains(f)]
+                if under:
+                    best = (under[0], "under the pin")
+            if not best:
+                return {}
+            f, how = best
+            pr = f.get("properties") or {}
+            return {
+                "geom": f.get("geometry"),
+                "deedAc": deed(f),
+                "owner": (pr.get("OWNER") or "").strip() or None,
+                "parcelId": (pr.get("PARCELID") or "").strip() or None,
+                "assessor": pr.get("LINK_TPV") or pr.get("LINK_TPAD"),
+                "match": how,
+            }
+        except Exception as e:                               # noqa: BLE001
+            if attempt == tries - 1:
+                log(f"  ! parcel lookup failed at {lat},{lon}: {e}")
+                return None
+            time.sleep(3 * (attempt + 1))
+
+
+def add_parcels(tracts):
+    """Attach the parcel boundary to located tracts that don't have one."""
+    todo = [t for t in tracts if t.get("geo") == "parcel"
+            and t.get("lat") is not None and "parcel" not in t]
+    if not todo:
+        return 0
+    log(f"parcel lookups needed: {len(todo)} (doing up to {PARCEL_CAP})")
+    done, streak = 0, 0
+    for t in todo[:PARCEL_CAP]:
+        r = parcel_at(t["lat"], t["lon"], t.get("acres"))
+        if r is None:
+            streak += 1
+            if streak >= 5:
+                log("  parcels: five failures running - stopping for this run")
+                break
+            continue
+        streak = 0
+        t["parcel"] = r          # {} means "no parcel mapped here"
+        done += 1
+        time.sleep(PARCEL_PAUSE)
+    log(f"parcel lookups done: {done}")
     return done
 
 
@@ -1080,7 +1178,7 @@ def main():
             if old.get("baseline"):
                 t["baseline"] = True
             # Terrain and routing never change and cost API calls - carry them.
-            for k in ("gallery", "imgs", "hoaKnown", "flood", "floodZone", "floodSub",
+            for k in ("gallery", "imgs", "hoaKnown", "parcel", "flood", "floodZone", "floodSub",
                       "slope", "elev", "relief", "shopRoad",
                       "shopMin", "shopName", "shopCity", "shopMi", "driveRoad"):
                 if old.get(k) is not None:
@@ -1180,6 +1278,9 @@ def main():
 
     # ---- flood: FEMA zone at the pin --------------------------------------
     add_flood(list(found.values()))
+
+    # ---- the parcel itself: boundary, deeded acres, owner, assessor link --
+    add_parcels(list(found.values()))
 
     # ---- nearest town and everyday convenience (local data, recomputed) ----
     n = add_convenience(list(found.values()),
@@ -1283,6 +1384,17 @@ def main():
         return 0
 
     os.makedirs(DATA, exist_ok=True)
+    # parcel geometries live apart from the tract list - they triple its size
+    geoms = load_json("parcels.json", {})
+    for t in tracts:
+        pc = t.get("parcel")
+        if pc and pc.get("geom"):
+            geoms[t["id"]] = pc.pop("geom")
+            pc["hasGeom"] = True
+    keep = {t["id"] for t in tracts}
+    geoms = {k: v for k, v in geoms.items() if k in keep}
+    with open(os.path.join(DATA, "parcels.json"), "w") as f:
+        json.dump(geoms, f, separators=(",", ":"))
     with open(os.path.join(DATA, "tracts.json"), "w") as f:
         json.dump({"generated": report["generated"], "date": today,
                    "count": len(tracts), "criteria": {

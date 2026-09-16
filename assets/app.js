@@ -48,6 +48,7 @@ const state = {
   token: null,
   hiddenSha: null,
   lb: { list: [], i: 0 },
+  geoms: null,        // id -> parcel boundary, loaded after the page is up
 };
 
 /* ───────────────────────────── hidden store ───────────────────────────── */
@@ -206,7 +207,7 @@ const setSyncState = (msg, ok) => {
 
 /* ────────────────────────────────── map ──────────────────────────────── */
 
-let map, markerLayer, countyLayer, ringLayer, floodLayer, baseLayers = {}, currentBase;
+let map, markerLayer, countyLayer, ringLayer, floodLayer, parcelLayer, linesLayer, baseLayers = {}, currentBase;
 
 function initMap() {
   map = L.map('map', {
@@ -263,6 +264,52 @@ function initMap() {
   }).addTo(map);
 
   markerLayer = L.layerGroup().addTo(map);
+  parcelLayer = L.geoJSON(null, {
+    style: { color: '#ffd23f', weight: 3, opacity: .95, fillColor: '#ffd23f', fillOpacity: .12, dashArray: null },
+    interactive: false,
+  }).addTo(map);
+  map.on('popupclose', () => parcelLayer.clearLayers());
+
+  // All parcel lines in the current view, LandGlide-style, from the state's
+  // hosted feature service. Only from zoom 15 - the service caps a query at
+  // 2,000 polygons and a wide window would blow past that.
+  linesLayer = L.geoJSON(null, {
+    style: { color: '#fff', weight: 1, opacity: .8, fill: true, fillOpacity: 0.02 },
+    onEachFeature: (f, l) => {
+      const p = f.properties || {};
+      l.bindTooltip(`${p.DEEDAC != null ? p.DEEDAC + ' ac' : ''}${p.OWNER ? ' · ' + p.OWNER : ''}${p.ADDRESS ? ' · ' + p.ADDRESS : ''}`,
+        { sticky: true, direction: 'top', opacity: .9 });
+    },
+  });
+  let linesOn = false, linesReq = 0;
+  const PARCEL_Q = 'https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0/query';
+  async function loadLines() {
+    const hint = $('#linesHint');
+    if (!linesOn) return;
+    if (map.getZoom() < 15) { linesLayer.clearLayers(); hint.textContent = `Zoom in to 15 to see parcel lines (you are at ${map.getZoom()}).`; return; }
+    const b = map.getBounds(), my = ++linesReq;
+    hint.textContent = 'Loading parcels…';
+    const body = new URLSearchParams({
+      geometry: JSON.stringify({ xmin: b.getWest(), ymin: b.getSouth(), xmax: b.getEast(), ymax: b.getNorth(), spatialReference: { wkid: 4326 } }),
+      geometryType: 'esriGeometryEnvelope', inSR: '4326', spatialRel: 'esriSpatialRelIntersects',
+      outFields: 'DEEDAC,OWNER,ADDRESS', returnGeometry: 'true', outSR: '4326', geometryPrecision: '5', f: 'geojson',
+    });
+    try {
+      const r = await fetch(PARCEL_Q, { method: 'POST', body });
+      const gj = await r.json();
+      if (my !== linesReq) return;                       // a newer pan superseded this
+      linesLayer.clearLayers().addData(gj);
+      const n = (gj.features || []).length;
+      hint.textContent = `${n} parcels in view${gj.properties?.exceededTransferLimit ? ' (more than the service will send — zoom in)' : ''}. Hover a parcel for acres and owner.`;
+    } catch { hint.textContent = 'Parcel service did not answer — try again.'; }
+  }
+  $('#linesToggle').addEventListener('click', e => {
+    linesOn = !linesOn;
+    e.currentTarget.classList.toggle('on', linesOn);
+    $('#linesKey').hidden = !linesOn;
+    if (linesOn) { linesLayer.addTo(map); loadLines(); } else { map.removeLayer(linesLayer); linesLayer.clearLayers(); }
+  });
+  map.on('moveend', () => { if (linesOn) loadLines(); });
 
   // FEMA National Flood Hazard Layer, drawn per tile from the official
   // dynamic map service (layer 28 = flood hazard zones). Web-Mercator bbox
@@ -428,6 +475,10 @@ function popupHtml(t) {
         <div><b>${t.drive} min</b><span>to Knoxville${t.driveReal ? ' by road' : ', estimated'}</span></div>
         <div><b>${t.daysListed ?? '–'}</b><span>days listed</span></div>
         <div><b>${t.geo === 'parcel' ? 'Parcel' : 'Town'}</b><span>pin accuracy</span></div>
+        ${t.parcel?.hasGeom ? `<div style="grid-column:1/-1"><b>Boundary drawn${t.parcel.deedAc ? ` · deed says ${t.parcel.deedAc} ac` : ''}${
+            t.parcel.deedAc && Math.abs(t.parcel.deedAc - t.acres) > Math.max(0.3, 0.08 * t.acres) ? ` <span style="color:#8c3b3b">(listing says ${t.acres} — may be a neighbouring parcel)</span>` : ''}</b>
+          <span>${t.parcel.owner ? 'owner of record: ' + esc(t.parcel.owner) + ' · ' : ''}${t.parcel.assessor ? `<a href="${esc(t.parcel.assessor)}" target="_blank" rel="noopener">county assessor ↗</a>` : ''} · TN state parcel map</span></div>`
+          : t.parcel && !t.parcel.hasGeom ? `<div style="grid-column:1/-1"><b>No parcel mapped at this pin</b><span>the state layer has no boundary here — the pin may be on the road</span></div>` : ''}
         ${t.townName ? `<div style="grid-column:1/-1"><b>Nearest town: ${esc(t.townName)}</b><span>${esc(t.townKind || 'place')}, pop. ${t.townPop != null ? t.townPop.toLocaleString('en-US') : 'n/a'} · ${t.townMi} mi</span></div>` : ''}
         ${t.convenience ? `<div style="grid-column:1/-1"><b>Convenience ${stars(t.convenience)} ${esc(t.convenienceLabel)}</b><span>${esc(convenienceLine(t))}</span></div>` : ''}
         ${t.flood ? `<div style="grid-column:1/-1"><b>${t.flood === 'sfha' ? 'In a FEMA flood zone' : t.flood === 'x500' ? 'FEMA 500-year zone' : 'Outside FEMA flood zones'}</b><span>${esc(t.floodZone || '')}${t.floodSub ? ' — ' + esc(t.floodSub.toLowerCase()) : ''} · at the pin, per NFHL</span></div>` : ''}
@@ -466,6 +517,7 @@ function cardHtml(t) {
     t.convenience ? `<span class="tag conv" title="${esc(t.convenienceLabel)} — ${esc(convenienceLine(t))}">${stars(t.convenience)}</span>` : '',
     shop(t)
       ? `<span class="tag groc" title="to ${esc(shop(t).to)}">${shop(t).min} min shops</span>` : '',
+    t.parcel?.hasGeom ? '<span class="tag" title="Click to see the property boundary">boundary</span>' : '',
     t.hoaKnown === false || (t.hoaKnown == null && t.source === 'Redfin' && t.hoa == null)
       ? '<span class="tag unconf" title="Neither Redfin\'s export nor Zillow stated whether there is an HOA">HOA ?</span>' : '',
     t.flood === 'sfha' ? '<span class="tag flood" title="FEMA: inside the 100-year floodplain (Special Flood Hazard Area)">flood zone</span>'
@@ -680,6 +732,13 @@ const stepLightbox = d => {
 };
 const closeLightbox = () => { $('#lightbox').hidden = true; };
 
+let geomsPromise = null;
+function loadGeoms() {
+  if (!geomsPromise) geomsPromise = fetch('data/parcels.json').then(r => r.ok ? r.json() : {})
+    .then(g => { state.geoms = g; return g; }).catch(() => (state.geoms = {}));
+  return geomsPromise;
+}
+
 /* ─────────────────────────────── changes ─────────────────────────────── */
 
 function renderChanges(r) {
@@ -814,6 +873,20 @@ function wire() {
   // popup buttons
   map.on('popupopen', ev => {
     const root = ev.popup.getElement();
+    parcelLayer.clearLayers();
+    const pid = root.querySelector('[data-hide]')?.dataset.hide;
+    const pt = state.tracts.find(x => x.id === pid);
+    const drawParcel = () => {
+      const g = state.geoms?.[pid];
+      if (!g) return;
+      parcelLayer.clearLayers().addData({ type: 'Feature', geometry: g });
+      const b = parcelLayer.getBounds();
+      if (b.isValid() && !map.getBounds().contains(b)) map.fitBounds(b.pad(0.6), { maxZoom: 16 });
+    };
+    if (pt?.parcel?.hasGeom) {
+      if (state.geoms) drawParcel();
+      else loadGeoms().then(drawParcel);
+    }
     root.querySelector('[data-hide]')?.addEventListener('click', e =>
       toggleHide(e.target.dataset.hide));
     root.querySelector('[data-fav]')?.addEventListener('click', e => {
@@ -993,6 +1066,7 @@ async function boot() {
 
   wire();
   loadChanges();
+  setTimeout(loadGeoms, 1500);      // boundaries in the background, after first paint
   syncOutputs();
   apply();
 

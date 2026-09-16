@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="assets/app.css?v=6">
+<link rel="stylesheet" href="assets/app.css?v=7">
 </head>
 <body>
 
@@ -111,6 +111,8 @@
       <button data-base="plain">Plain</button>
     </div>
     <button class="floodbtn" id="floodToggle" title="FEMA National Flood Hazard Layer">Flood zones</button>
+    <button class="floodbtn lines" id="linesToggle" title="Every property boundary in view — Tennessee state parcel map">Parcel lines</button>
+    <div class="floodkey lineskey" id="linesKey" hidden><span class="src" id="linesHint"></span><span class="src">Source: Tennessee Property Boundaries (state GIS), live</span></div>
     <div class="floodkey" id="floodKey" hidden>
       <span><i style="background:#7fa7d9"></i> 100-yr floodplain (A / AE)</span>
       <span><i style="background:#f4c48a"></i> 500-yr / moderate (X shaded)</span>
@@ -136,6 +138,7 @@
               Ingles, Publix, ALDI or Target — a real town, not a country store.</li>
           <li>Terrain is the average slope of the hillside around the pin. Anything
               over 20° is dropped before it reaches this map.</li>
+          <li><b>Click a pin</b> to draw its property boundary (Tennessee state parcel map).</li>
           <li><b>Solid pin</b> sits on the real parcel location.</li>
           <li><b>Dashed pin</b> is placed at the town centre — exact parcel unknown.</li>
           <li>Rings are straight-line 15/30/45 min approximations; the pin numbers are the real thing.</li>
@@ -187,6 +190,6 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="assets/app.js?v=6"></script>
+<script src="assets/app.js?v=7"></script>
 </body>
 </html>

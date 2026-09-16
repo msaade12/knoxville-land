@@ -124,6 +124,7 @@ data/tracts.json        the dataset — also the archive the next run diffs agai
 data/report.json        what changed on the last run
 data/marks.json         favorites, lists and hides, written by the page via the GitHub API
 data/excluded.json      tracts measured and dropped (too far / too steep), so they are not re-measured
+data/parcels.json       parcel boundary geometry per tract (TN state parcel map)
 data/towns.json         166 East TN places with population (OpenStreetMap)
 data/pois.json          3,755 amenities: pharmacies, hospitals, hardware, fuel, restaurants… (OpenStreetMap)
 data/counties.json      East TN county polygons (54 counties, 12 flagged in scope)
@@ -183,6 +184,21 @@ on the fringe of a town, not deep in the hollows with a country store as the onl
 `data/stores.json` (all 301 supermarkets) is kept as the fallback when routing is
 unavailable. Both were captured once from OpenStreetMap; anchor town names were filled from
 Nominatim.
+
+## Property boundaries (Tennessee state parcel map)
+
+Click any pin and its parcel boundary is drawn from **Tennessee Property Boundaries
+Public Use**, the state GIS office's hosted feature service — the same data the county
+assessor viewers use. The popup shows the deeded acreage, the owner of record and a link to
+the assessor's page. The **Parcel lines** button draws every boundary in view from zoom 15
+(hover for acres and owner), LandGlide-style.
+
+Listing pins are often a little off — on the road, or on the neighbour — so the sweep looks
+at every parcel within ~150 m of the pin and prefers the one whose deeded acreage matches the
+listing (within 8%); otherwise it takes the parcel under the pin and the popup says the
+listing acreage disagrees. A deeded acreage of 0 in the state data means "not recorded".
+Boundaries are looked up once and carried forward (`parcel` on the tract; geometry in
+`data/parcels.json`, loaded by the page after first paint).
 
 ## Flood zones (FEMA)
 
