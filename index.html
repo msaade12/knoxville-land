@@ -79,6 +79,8 @@
         <label><input type="checkbox" id="fPhoto"> Has photo</label>
         <label><input type="checkbox" id="fConfirmed"> Verified only</label>
         <label><input type="checkbox" id="fFlood"> No flood zone</label>
+        <label><input type="checkbox" id="fFav"> Favorites <span id="favCount"></span></label>
+        <select id="fList" class="listsel"><option value="">Any list</option></select>
       </div>
       <div class="hidebar">
         <span id="hideCount">0 hidden</span>
@@ -161,9 +163,9 @@
 <!-- ───────────────────────── sync dialog ───────────────────────── -->
 <dialog class="sync" id="syncDlg">
   <h2>Sync hidden listings</h2>
-  <p>Your hides are saved in this browser already. To carry them between your
+  <p>Your favorites, lists and hides are saved in this browser already. To carry them between your
      phone and desktop, they can be stored in the
-     <code>knoxville-land</code> repo as <code>data/hidden.json</code>.</p>
+     <code>knoxville-land</code> repo as <code>data/marks.json</code>.</p>
   <p>Paste a GitHub <b>fine-grained personal access token</b> with
      <b>Contents: read &amp; write</b> on that one repo. It is kept only in this
      browser's local storage and is sent only to api.github.com.</p>

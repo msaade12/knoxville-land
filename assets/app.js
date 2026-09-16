@@ -3,8 +3,10 @@
 
 const REPO   = 'msaade12/knoxville-land';
 const BRANCH = 'main';
-const HIDDEN_PATH = 'data/hidden.json';
-const LS_HIDDEN = 'kls-hidden-v2';
+const HIDDEN_PATH = 'data/marks.json';
+const OLD_HIDDEN_PATH = 'data/hidden.json';
+const LS_HIDDEN = 'kls-marks-v1';
+const LS_HIDDEN_OLD = 'kls-hidden-v2';
 const LS_TOKEN  = 'kls-ghtoken-v1';
 const LS_LEGACY = 'ktl-hidden-v1';       // the old GitHub page's key, by URL
 
@@ -50,9 +52,27 @@ const state = {
 /* ───────────────────────────── hidden store ───────────────────────────── */
 
 const loadLocalHidden = () => {
-  try { return JSON.parse(localStorage.getItem(LS_HIDDEN)) || {}; }
-  catch { return {}; }
+  try {
+    const cur = JSON.parse(localStorage.getItem(LS_HIDDEN)) || {};
+    const old = JSON.parse(localStorage.getItem(LS_HIDDEN_OLD)) || {};
+    return mergeHidden(old, cur);            // old hides carry over, newer wins
+  } catch { return {}; }
 };
+const isFav = id => !!state.hidden[id]?.fav;
+const listsOf = id => state.hidden[id]?.lists || [];
+const allLists = () => {
+  const names = new Set();
+  Object.values(state.hidden).forEach(m => (m.lists || []).forEach(n => names.add(n)));
+  return [...names].sort((a, b) => a.localeCompare(b));
+};
+/** Change one mark record, keeping the other fields. */
+function setMark(id, patch) {
+  const cur = state.hidden[id] || {};
+  state.hidden[id] = { ...cur, ...patch, at: new Date().toISOString() };
+  saveLocalHidden();
+  queuePush();
+  apply();
+}
 const saveLocalHidden = () => {
   try { localStorage.setItem(LS_HIDDEN, JSON.stringify(state.hidden)); }
   catch { /* private mode */ }
@@ -115,11 +135,16 @@ const gh = async (path, opts = {}) => {
 
 /** Read hidden.json from the public site (no token needed). */
 async function pullHidden() {
-  try {
-    const r = await fetch(`${HIDDEN_PATH}?t=${Date.now()}`, { cache: 'no-store' });
-    if (!r.ok) return null;
-    return await r.json();
-  } catch { return null; }
+  const get = async p => {
+    try {
+      const r = await fetch(`${p}?t=${Date.now()}`, { cache: 'no-store' });
+      return r.ok ? await r.json() : null;
+    } catch { return null; }
+  };
+  const marks = await get(HIDDEN_PATH);
+  const old = await get(OLD_HIDDEN_PATH);
+  if (!marks && !old) return null;
+  return mergeHidden(old || {}, marks || {});
 }
 
 /** Write the merged map back to the repo. Needs a token. */
@@ -143,7 +168,7 @@ async function pushHidden() {
     const put = await gh(`contents/${HIDDEN_PATH}`, {
       method: 'PUT',
       body: JSON.stringify({
-        message: `hidden listings — ${new Date().toISOString().slice(0, 10)}`,
+        message: `favorites, lists and hides — ${new Date().toISOString().slice(0, 10)}`,
         content: b64encode(body),
         branch: BRANCH,
         ...(sha ? { sha } : {}),
@@ -410,6 +435,11 @@ function popupHtml(t) {
         <a href="${gmaps}" target="_blank" rel="noopener">Maps</a>
         <button data-hide="${t.id}">${isHidden(t.id) ? 'Unhide' : 'Hide'}</button>
       </div>
+      <div class="pop-marks">
+        <button class="${isFav(t.id) ? 'on' : ''}" data-fav="${t.id}">${isFav(t.id) ? '★ Favorited' : '☆ Favorite'}</button>
+        ${allLists().map(n => `<button class="${listsOf(t.id).includes(n) ? 'on' : ''}" data-list="${esc(n)}" data-id="${t.id}">${esc(n)}</button>`).join('')}
+        <button data-newlist="${t.id}">+ New list</button>
+      </div>
     </div>`;
 }
 
@@ -434,9 +464,10 @@ function cardHtml(t) {
     located(t) && t.slope != null
       ? `<span class="tag terr" title="${t.slope}° average slope">${terrain(t.slope)}</span>` : '',
     `<span class="tag">${t.daysListed ?? '–'}d listed</span>`,
+    ...listsOf(t.id).map(n => `<span class="tag list">${esc(n)}</span>`),
   ].join('');
   return `
-    <article class="card${isNew(t) ? ' isnew' : ''}${t.status !== 'active' ? ' unconfirmed' : ''}${isHidden(t.id) ? ' hidden-row' : ''}"
+    <article class="card${isNew(t) ? ' isnew' : ''}${isFav(t.id) ? ' isfav' : ''}${t.status !== 'active' ? ' unconfirmed' : ''}${isHidden(t.id) ? ' hidden-row' : ''}"
              data-id="${t.id}" role="listitem" tabindex="0">
       ${thumb}
       <div class="cbody">
@@ -450,6 +481,7 @@ function cardHtml(t) {
         <div class="caddr">${esc(t.address)}</div>
         <div class="cmeta">${tags}</div>
       </div>
+      <button class="favbtn${isFav(t.id) ? ' on' : ''}" data-fav="${t.id}" title="Favorite">${isFav(t.id) ? '★' : '☆'}</button>
       <button class="hidebtn" data-hide="${t.id}">${isHidden(t.id) ? 'Unhide' : 'Hide'}</button>
     </article>`;
 }
@@ -469,6 +501,8 @@ function currentFilters() {
     onlyPhoto: $('#fPhoto').checked,
     onlyConfirmed: $('#fConfirmed').checked,
     noFlood: $('#fFlood').checked,
+    onlyFav: $('#fFav').checked,
+    list: $('#fList').value,
     q: $('#search').value.trim().toLowerCase(),
   };
 }
@@ -476,7 +510,7 @@ function currentFilters() {
 function apply() {
   const f = currentFilters();
   let rows = state.tracts.filter(t => {
-    if (!state.showHidden && isHidden(t.id)) return false;
+    if (!state.showHidden && isHidden(t.id) && !isFav(t.id)) return false;
     if (located(t) && t.drive > f.drive) return false;      // unknown is not "too far"
     { const sh = shop(t); if (sh && sh.min > f.groc) return false; }
     if (t.price > f.price) return false;
@@ -487,6 +521,8 @@ function apply() {
     if (f.onlyPhoto && !t.img) return false;
     if (f.onlyConfirmed && (t.status !== 'active' || t.geo !== 'parcel')) return false;
     if (f.noFlood && t.flood === 'sfha') return false;
+    if (f.onlyFav && !isFav(t.id)) return false;
+    if (f.list && !listsOf(t.id).includes(f.list)) return false;
     if (f.q) {
       const hay = `${t.town} ${t.county} ${t.address} ${t.zip || ''}`.toLowerCase();
       if (!hay.includes(f.q)) return false;
@@ -540,6 +576,9 @@ function renderNewBanner() {
 function renderCounts(rows) {
   const nNew = rows.filter(isNew).length;
   const nHid = Object.values(state.hidden).filter(v => v.h).length;
+  const nFav = Object.values(state.hidden).filter(v => v.fav).length;
+  $('#favCount').textContent = nFav ? `★ ${nFav}` : '';
+  refreshListFilter();
   $('#resultCount').textContent =
     `${rows.length} of ${state.tracts.length} tracts` + (nNew ? ` · ${nNew} new` : '');
   $('#hideCount').textContent = `${nHid} hidden`;
@@ -664,6 +703,20 @@ async function loadChanges() {
   } catch { renderChanges(null); }
 }
 
+function refreshPopup(id) {
+  const m = state.markers.get(id);
+  const t = state.tracts.find(x => x.id === id);
+  if (m && t && m.isPopupOpen()) m.setPopupContent(popupHtml(t));
+  refreshListFilter();
+}
+
+function refreshListFilter() {
+  const sel = $('#fList'); const cur = sel.value;
+  sel.innerHTML = '<option value="">Any list</option>' +
+    allLists().map(n => `<option value="${esc(n)}">${esc(n)}</option>`).join('');
+  sel.value = allLists().includes(cur) ? cur : '';
+}
+
 /* ──────────────────────────────── hides ──────────────────────────────── */
 
 function toggleHide(id) {
@@ -688,7 +741,7 @@ function setView(v) {
 
 function wire() {
   ['#fDrive', '#fPrice', '#fAcres', '#fCounty', '#fSort',
-   '#fNew', '#fCut', '#fPhoto', '#fConfirmed', '#fGroc', '#fFlood'].forEach(sel =>
+   '#fNew', '#fCut', '#fPhoto', '#fConfirmed', '#fGroc', '#fFlood', '#fFav', '#fList'].forEach(sel =>
     $(sel).addEventListener('input', () => { syncOutputs(); apply(); }));
 
   let searchTimer;
@@ -710,6 +763,7 @@ function wire() {
     $('#fCounty').value = ''; $('#fSort').value = 'ppa';
     $('#fNew').checked = false; $('#fCut').checked = false;
     $('#fPhoto').checked = false; $('#fConfirmed').checked = false; $('#fFlood').checked = false;
+    $('#fFav').checked = false; $('#fList').value = '';
     $('#search').value = '';
     syncOutputs(); apply();
   });
@@ -726,6 +780,8 @@ function wire() {
   // cards: hide button, hover sync, click to focus, thumbnail to lightbox
   const cards = $('#cards');
   cards.addEventListener('click', e => {
+    const fb = e.target.closest('[data-fav]');
+    if (fb) { e.stopPropagation(); setMark(fb.dataset.fav, { fav: !isFav(fb.dataset.fav) }); return; }
     const hb = e.target.closest('[data-hide]');
     if (hb) { e.stopPropagation(); toggleHide(hb.dataset.hide); return; }
     const card = e.target.closest('.card');
@@ -748,6 +804,22 @@ function wire() {
     const root = ev.popup.getElement();
     root.querySelector('[data-hide]')?.addEventListener('click', e =>
       toggleHide(e.target.dataset.hide));
+    root.querySelector('[data-fav]')?.addEventListener('click', e => {
+      const id = e.target.dataset.fav; setMark(id, { fav: !isFav(id) }); refreshPopup(id);
+    });
+    root.querySelectorAll('[data-list]').forEach(b => b.addEventListener('click', e => {
+      const { id, list } = e.target.dataset;
+      const cur = listsOf(id);
+      setMark(id, { lists: cur.includes(list) ? cur.filter(x => x !== list) : [...cur, list] });
+      refreshPopup(id);
+    }));
+    root.querySelector('[data-newlist]')?.addEventListener('click', e => {
+      const id = e.target.dataset.newlist;
+      const name = (prompt('Name for the new list:') || '').trim().slice(0, 40);
+      if (!name) return;
+      setMark(id, { lists: [...new Set([...listsOf(id), name])] });
+      refreshPopup(id);
+    });
     root.querySelector('[data-zoom]')?.addEventListener('click', e =>
       openLightbox(e.target.dataset.zoom));
   });

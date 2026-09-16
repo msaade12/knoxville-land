@@ -63,14 +63,17 @@ Tracts beyond 45 minutes are still collected; the site just filters them out by 
 - **Click any photo** — on a card or in a popup — to open the full-size viewer, then use
   the arrow keys to page through every tract currently filtered in.
 
-## Hiding listings
+## Favorites, lists and hiding
 
-Hit **Hide** on any card or popup. Hides save to this browser immediately.
+**★** on a card or popup marks a favorite; the popup also offers your named lists
+("Visit Saturday", "Call agent"…) and **+ New list**. Filter by *Favorites* or pick a list.
+A favorite is never hidden. **Hide** removes a listing from view. All three save to this
+browser immediately.
 
 To carry them between your phone and your desktop, press **Sync** and paste a GitHub
 [fine-grained personal access token](https://github.com/settings/tokens?type=beta) with
 **Contents: read & write** scoped to this one repository. Hides then round-trip through
-`data/hidden.json`. The token is kept in your browser's local storage and is only ever
+`data/marks.json` (the older `data/hidden.json` is read and merged). The token is kept in your browser's local storage and is only ever
 sent to `api.github.com` — it is never committed and never leaves your device otherwise.
 
 Without a token everything still works; hides just stay on that one device.
@@ -108,7 +111,10 @@ assets/app.css          styling
 assets/app.js           map, filters, hides, photo viewer
 data/tracts.json        the dataset — also the archive the next run diffs against
 data/report.json        what changed on the last run
-data/hidden.json        hidden listings, written by the page via the GitHub API
+data/marks.json         favorites, lists and hides, written by the page via the GitHub API
+data/excluded.json      tracts measured and dropped (too far / too steep), so they are not re-measured
+data/towns.json         166 East TN places with population (OpenStreetMap)
+data/pois.json          3,755 amenities: pharmacies, hospitals, hardware, fuel, restaurants… (OpenStreetMap)
 data/counties.json      East TN county polygons (54 counties, 12 flagged in scope)
 data/anchors.json       174 anchor stores (Walmart, Kroger, Food City…) — what "shopping" means
 data/stores.json        301 supermarkets of any kind — fallback when routing is unavailable
