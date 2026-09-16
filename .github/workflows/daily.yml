@@ -38,8 +38,16 @@ jobs:
             echo "Nothing changed — a quiet day is a cheap day."
             exit 0
           fi
-          NEW=$(python3 -c "import json;print(len(json.load(open('data/report.json'))['new']))")
-          git commit -m "sweep $(date -u +%F): ${NEW} new"
+          MSG=$(python3 -c "
+import json
+r = json.load(open('data/report.json'))
+bits = ['%d new' % len(r['new'])]
+if r['priceCuts']: bits.append('%d cut' % len(r['priceCuts']))
+if r.get('retired'): bits.append('%d retired' % len(r['retired']))
+bits.append('%d active' % r.get('confirmed', r['count']))
+print('sweep %s: %s' % (r['date'], ', '.join(bits)))
+")
+          git commit -m "$MSG"
           # another device may have written data/hidden.json meanwhile
           git pull --rebase --autostash origin main
           git push

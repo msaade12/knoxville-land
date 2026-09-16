@@ -18,8 +18,10 @@ Every day at 11:15 UTC (~6:15am Central) a GitHub Action runs `scripts/sweep.py`
 5. Downloads any photo it doesn't already have into `photos/`.
 6. Commits `data/tracts.json`, `data/report.json` and any new photos.
 
-The commit republishes the site. If nothing changed, nothing is committed — a quiet day
-costs nothing.
+The commit republishes the site. The whole run takes about 15 seconds. `lastSeen` is
+stamped on every tract each run, so there is normally one small commit a day even when
+nothing moved — read the commit message (`sweep 2026-09-16: 0 new, 78 active`) or the
+run summary to see whether anything actually changed.
 
 A written summary of each run lands in the **Actions** tab, under the run's Summary.
 
