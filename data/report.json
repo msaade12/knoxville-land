@@ -1,19 +1,9 @@
 {
- "generated": "2026-09-16T13:56:58+00:00",
+ "generated": "2026-09-16T14:28:05+00:00",
  "date": "2026-09-16",
- "count": 98,
- "confirmed": 66,
- "new": [
-  {
-   "id": "rf196856283",
-   "acres": 10.77,
-   "price": 104500,
-   "ppa": 9703,
-   "town": "Deer Lodge",
-   "county": "Morgan",
-   "url": "https://www.redfin.com/TN/Deer-Lodge/Valerie-Dr-37726/home/196856283"
-  }
- ],
+ "count": 95,
+ "confirmed": 63,
+ "new": [],
  "priceCuts": [],
  "priceIncreases": [],
  "unconfirmed": [
@@ -307,111 +297,35 @@
   }
  ],
  "retired": [],
- "rejected": [
+ "tooSteep": [
   {
-   "id": "rf62976286",
-   "acres": 16.21,
-   "price": 84900,
-   "town": "Maryville",
+   "id": "rf87169312",
+   "acres": 14.01,
+   "price": 196000,
+   "town": "Townsend",
    "county": "Blount",
-   "url": "https://www.redfin.com/TN/Maryville/Chilhowee-Trl-37803/home/62976286"
+   "url": "https://www.redfin.com/TN/Townsend/Carrs-Creek-Rd-37882/home/87169312",
+   "slope": 23.2
   },
   {
-   "id": "rf103004267",
-   "acres": 11.23,
-   "price": 79900,
-   "town": "Sharps Chapel",
-   "county": "Union",
-   "url": "https://www.redfin.com/TN/Sharps-Chapel/Highland-Trace-Rd-37866/home/103004267"
+   "id": "rf197635673",
+   "acres": 20.0,
+   "price": 100000,
+   "town": "Rocky Top",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Rocky-Top/Vowell-Mountain-Ln-37769/home/197635673",
+   "slope": 20.7
   },
   {
-   "id": "rf202412165",
-   "acres": 11.77,
-   "price": 83900,
-   "town": "Sharps Chapel",
-   "county": "Union",
-   "url": "https://www.redfin.com/TN/Sharps-Chapel/117-Grizzell-Ridge-Rd-37866/home/202412165"
-  },
-  {
-   "id": "rf201829103",
-   "acres": 22.48,
-   "price": 173800,
-   "town": "Sunbright",
-   "county": "Morgan",
-   "url": "https://www.redfin.com/TN/Sunbright/Lot-68-Black-Bear-LN-37872/home/201829103"
-  },
-  {
-   "id": "rf201104833",
-   "acres": 17.66,
-   "price": 149500,
-   "town": "Sharps Chapel",
-   "county": "Union",
-   "url": "https://www.redfin.com/TN/Sharps-Chapel/Lot-31-Ridgeland-Dr-37866/home/201104833"
-  },
-  {
-   "id": "rf194761598",
-   "acres": 15.6,
-   "price": 139900,
-   "town": "Sunbright",
-   "county": "Morgan",
-   "url": "https://www.redfin.com/TN/Sunbright/59-Union-Hill-Rd-37872/home/194761598"
-  },
-  {
-   "id": "rf202656849",
-   "acres": 14.05,
-   "price": 145000,
-   "town": "Sunbright",
-   "county": "Morgan",
-   "url": "https://www.redfin.com/TN/Sunbright/Owl-Ridge-WAY-37872/home/202656849"
-  },
-  {
-   "id": "rf201696368",
-   "acres": 18.9,
-   "price": 199900,
-   "town": "Maryville",
-   "county": "Blount",
-   "url": "https://www.redfin.com/TN/Maryville/Tract-1-2-Chilhowee-Trl-37803/home/201696368"
-  },
-  {
-   "id": "rf201871677",
-   "acres": 12.22,
-   "price": 134900,
-   "town": "Sharps Chapel",
-   "county": "Union",
-   "url": "https://www.redfin.com/TN/Sharps-Chapel/lot-A-B-11-Mountain-WAY-37866/home/201871677"
-  },
-  {
-   "id": "rf189453959",
-   "acres": 14.76,
-   "price": 175000,
-   "town": "Sunbright",
-   "county": "Morgan",
-   "url": "https://www.redfin.com/TN/Sunbright/Cottonwood-Trl-37872/home/189453959"
-  },
-  {
-   "id": "rf200890154",
-   "acres": 10.06,
-   "price": 129000,
-   "town": "Walland",
-   "county": "Blount",
-   "url": "https://www.redfin.com/TN/Walland/Lot-6-7-Journeys-End-RD-37886/home/200890154"
-  },
-  {
-   "id": "rf87534835",
-   "acres": 14.1,
-   "price": 211500,
-   "town": "Rockwood",
-   "county": "Roane",
-   "url": "https://www.redfin.com/TN/Rockwood/Airport-Rd-37854/home/87534835"
-  },
-  {
-   "id": "rf190631736",
-   "acres": 10.18,
-   "price": 169900,
-   "town": "Maryville",
-   "county": "Blount",
-   "url": "https://www.redfin.com/TN/Maryville/4166-Chilhowee-Trl-37803/home/190631736"
+   "id": "rf119127129",
+   "acres": 20.03,
+   "price": 120000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/1272-Briar-Fork-Rd-37708/home/119127129",
+   "slope": 22.1
   }
  ],
+ "rejected": [],
  "baseline": false
 }

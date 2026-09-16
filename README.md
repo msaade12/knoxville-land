@@ -139,10 +139,23 @@ The estimate is straight-line distance × 1.60 (about 37 mph effective), heavier
 factor used for the run into Knoxville because errand roads wind more. To refresh the
 store list, re-run the Overpass query in the commit that added it.
 
+## Terrain
+
+Every tract carries `slope` (degrees), `elev` (metres) and `relief`, computed from
+Open-Meteo's elevation service over a 3×3 grid 150 m apart around the listing's point.
+That describes the hillside the parcel sits on, not any single spot on it — Redfin gives
+one coordinate, not a parcel boundary, so treat it as a strong hint rather than a survey.
+
+Across the current set: median 3.8°, max 23.2°. **Anything above `MAX_SLOPE_DEG` (20°) is
+dropped** as mountainside. 15–20° is ordinary East Tennessee "steep" and is kept, with a
+*steep* tag on the card. Terrain is carried forward between runs, so the elevation service
+is only called for genuinely new tracts.
+
 ## What gets dropped, and why
 
 The sweep distinguishes three very different things:
 
+- **too steep** — average slope above 20°. Dropped every run; listed in the summary.
 - **rejected** — Redfin still lists it, but it no longer meets the criteria (an HOA
   appeared, the price rose, the acreage was corrected). Dropped immediately; there is
   nothing uncertain about it.

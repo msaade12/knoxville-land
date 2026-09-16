@@ -184,6 +184,7 @@ input[type=range]{width:100%;accent-color:var(--accent);margin:3px 0}
 .tag.new{background:var(--new);color:#2A2208}
 .tag.cut{background:var(--cut);color:#fff}
 .tag.groc{background:#e7efe9;color:#2f6b4f}
+.tag.terr{background:#efeae1;color:#6b5b45}
 .tag.unconf{background:#fff;color:var(--ink-3);border:1px dashed var(--line-2)}
 
 .hidebtn{

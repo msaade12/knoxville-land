@@ -65,6 +65,13 @@ ERRAND_FACTOR = 1.60
 # A listing with a monthly HOA fee is excluded outright.
 EXCLUDE_HOA = True
 
+# Terrain. Slope is averaged over a 3x3 grid 150 m apart around the listing's
+# point, so it describes the hillside the parcel sits on rather than any one
+# spot on it. Measured across the current set: median 3.8 deg, max 23.2 deg.
+# 15-20 deg is ordinary East TN "steep"; above 20 is mountainside, and dropped.
+MAX_SLOPE_DEG = 20.0
+SLOPE_GRID_M = 150.0
+
 # $/acre bands: (upper_bound_exclusive, label, colour)
 BANDS = [
     (5_000, "under $5k", "#1F5C40"),
@@ -197,6 +204,75 @@ def county_for(lat, lon, polys):
             if point_in_ring(lon, lat, ring):
                 return c["name"]
     return None
+
+
+# ---------------------------------------------------------------- terrain ---
+
+def _slope_grid(lat, lon):
+    dlat = SLOPE_GRID_M / 111320.0
+    dlon = SLOPE_GRID_M / (111320.0 * math.cos(math.radians(lat)))
+    return [(lat + dy * dlat, lon + dx * dlon)
+            for dy in (1, 0, -1) for dx in (-1, 0, 1)]     # north row first
+
+
+def _elevations(points, tries=6):
+    """Open-Meteo returns plain JSON numbers - no image decoding needed."""
+    url = ("https://api.open-meteo.com/v1/elevation?latitude="
+           + ",".join(f"{p[0]:.6f}" for p in points)
+           + "&longitude=" + ",".join(f"{p[1]:.6f}" for p in points))
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.load(r)["elevation"]
+        except Exception as e:                               # noqa: BLE001
+            code = getattr(e, "code", None)
+            if attempt == tries - 1:
+                log(f"  ! elevation lookup failed: {e}")
+                return None
+            time.sleep(30 if code == 429 else 3 * (attempt + 1))
+
+
+def _slope_deg(z):
+    """Horn's method over a 3x3 grid, z1..z9, north row first."""
+    z1, z2, z3, z4, z5, z6, z7, z8, z9 = z
+    dzdx = ((z3 + 2 * z6 + z9) - (z1 + 2 * z4 + z7)) / (8 * SLOPE_GRID_M)
+    dzdy = ((z1 + 2 * z2 + z3) - (z7 + 2 * z8 + z9)) / (8 * SLOPE_GRID_M)
+    return math.degrees(math.atan(math.hypot(dzdx, dzdy)))
+
+
+def add_terrain(tracts, batch=50):
+    """Fill slope/elev/relief on tracts that don't have it yet."""
+    todo = [t for t in tracts
+            if t.get("slope") is None and t.get("lat") is not None]
+    if not todo:
+        return 0
+    log(f"terrain lookups needed: {len(todo)}")
+    pts, owner = [], []
+    for t in todo:
+        for p in _slope_grid(t["lat"], t["lon"]):
+            pts.append(p)
+            owner.append(t["id"])
+    elevs = []
+    for i in range(0, len(pts), batch):
+        chunk = _elevations(pts[i:i + batch])
+        if chunk is None:
+            return 0                 # leave slope unset; nothing gets dropped
+        elevs.extend(chunk)
+        time.sleep(5.0)
+    by = {}
+    for tid, e in zip(owner, elevs):
+        by.setdefault(tid, []).append(e)
+    done = 0
+    for t in todo:
+        z = by.get(t["id"], [])
+        if len(z) != 9 or any(v is None for v in z):
+            continue
+        t["slope"] = round(_slope_deg(z), 1)
+        t["elev"] = round(z[4])
+        t["relief"] = round(max(z) - min(z))
+        done += 1
+    return done
 
 
 # ---------------------------------------------------------------- parsing ---
@@ -435,6 +511,10 @@ def main():
                 t["img"] = old["img"]
             if old.get("baseline"):
                 t["baseline"] = True
+            # Terrain never changes and costs an API call - always carry it.
+            for k in ("slope", "elev", "relief"):
+                if old.get(k) is not None:
+                    t[k] = old[k]
         t["lastSeen"] = today
 
     # ---- tracts the sweep did not return --------------------------------
@@ -470,6 +550,22 @@ def main():
         if t.get("groceryMin") is None and t.get("lat") is not None:
             gmi, gmin, gname = nearest_store(t["lat"], t["lon"], stores)
             t["groceryMi"], t["groceryMin"], t["groceryName"] = gmi, gmin, gname
+
+    # ---- terrain: slope decides whether it is buildable at all -----------
+    add_terrain(list(found.values()))
+    steep = []
+    for tid in list(found):
+        sl = found[tid].get("slope")
+        if sl is not None and sl > MAX_SLOPE_DEG:
+            steep.append(found.pop(tid))
+    if steep:
+        log(f"dropped as too steep (>{MAX_SLOPE_DEG} deg): {len(steep)}")
+        # A dropped tract must not linger in the new/price-change lists,
+        # which are looked up against `found` when the report is built.
+        dropped = {g["id"] for g in steep}
+        new_ids = [i for i in new_ids if i not in dropped]
+        cuts = [c for c in cuts if c["id"] not in dropped]
+        bumps = [b for b in bumps if b["id"] not in dropped]
 
     # ---- photos: only look up the ones we don't have ---------------------
     need = [t for t in found.values() if not t.get("photo")]
@@ -530,6 +626,11 @@ def main():
              ("id", "acres", "price", "town", "county", "url")}
             for g in retired
         ],
+        "tooSteep": [
+            {**{k: g.get(k) for k in
+                ("id", "acres", "price", "town", "county", "url")},
+             "slope": g.get("slope")} for g in steep
+        ],
         "rejected": [
             {k: g.get(k) for k in
              ("id", "acres", "price", "town", "county", "url")}
@@ -541,7 +642,8 @@ def main():
     confirmed = sum(1 for t in tracts if t["status"] == "active")
     log(f"\n{len(tracts)} tracts | {confirmed} confirmed active | "
         f"{len(stale)} unconfirmed | new {len(new_ids)} | cuts {len(cuts)} | "
-        f"rejected {len(rejected)} | retired {len(retired)}")
+        f"rejected {len(rejected)} | steep {len(steep)} | "
+        f"retired {len(retired)}")
 
     if dry:
         log("(dry run - nothing written)")

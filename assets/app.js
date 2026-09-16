@@ -279,6 +279,14 @@ function makeIcon(t) {
 }
 
 const isNew = t => !t.baseline && daysAgo(t.firstSeen) <= NEW_DAYS;
+
+/** Plain-language terrain from the averaged hillside slope. */
+const terrain = s => s == null ? null
+  : s < 3  ? 'flat'
+  : s < 6  ? 'gentle'
+  : s < 10 ? 'rolling'
+  : s < 15 ? 'hilly'
+  : 'steep';
 const priceCut = t => {
   const h = t.priceHistory || [];
   return h.length > 1 && h[h.length - 1].price < h[0].price;
@@ -309,6 +317,8 @@ function popupHtml(t) {
         <div><b>${t.drive} min</b><span>${t.miles} mi straight line</span></div>
         <div><b>${t.daysListed ?? '–'}</b><span>days listed</span></div>
         <div><b>${t.geo === 'parcel' ? 'Parcel' : 'Town'}</b><span>pin accuracy</span></div>
+        ${t.slope != null ? `<div><b>${terrain(t.slope)}</b><span>${t.slope}° slope${
+          t.elev != null ? `, ${Math.round(t.elev * 3.281)} ft` : ''}</span></div>` : ''}
         ${t.groceryMin != null ? `<div style="grid-column:1/-1"><b>${t.groceryMin} min
           to ${esc(t.groceryName)}</b><span>nearest groceries (${t.groceryMi} mi)</span></div>` : ''}
       </div>
@@ -333,6 +343,8 @@ function cardHtml(t) {
     `<span class="tag">${t.drive} min</span>`,
     t.groceryMin != null
       ? `<span class="tag groc" title="to ${esc(t.groceryName)}">${t.groceryMin} min shops</span>` : '',
+    t.slope != null
+      ? `<span class="tag terr" title="${t.slope}° average slope">${terrain(t.slope)}</span>` : '',
     `<span class="tag">${t.daysListed ?? '–'}d listed</span>`,
   ].join('');
   return `
