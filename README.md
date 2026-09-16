@@ -9,7 +9,18 @@ Swept from Redfin every morning, mapped, and published free on GitHub Pages.
 
 ## What it does
 
-Every day at 11:15 UTC (~6:15am Central) a GitHub Action runs `scripts/sweep.py`, which:
+Two scheduled runs a day, same script:
+
+| When | Where | What |
+|---|---|---|
+| **7:00am** | this Mac, via launchd (`scripts/daily-local.sh`) | the full sweep — Redfin **and Zillow**, routing, terrain, flood — then push |
+| 9:15am ET | GitHub Action (`.github/workflows/daily.yml`) | Redfin-only fallback, in case the Mac was off |
+
+Zillow answers home connections but returns 403 to GitHub's servers, which is why the
+full run lives on the Mac. If the Mac is asleep at 7:00 the job runs when it wakes.
+Re-install the job with `zsh scripts/install-launchd.sh`; its log is `logs/daily-local.log`.
+
+`scripts/sweep.py`:
 
 1. Pulls active vacant-land listings from **two sources**: Redfin's CSV export for the
    12 counties, then Zillow's county land pages (`scripts/zillow.py`). Zillow's page
