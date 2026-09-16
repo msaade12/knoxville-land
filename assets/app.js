@@ -48,6 +48,7 @@ const state = {
   token: null,
   hiddenSha: null,
   lb: { list: [], i: 0 },
+  detailId: null,
   geoms: null,        // id -> parcel boundary, loaded after the page is up
 };
 
@@ -268,7 +269,6 @@ function initMap() {
     style: { color: '#ffd23f', weight: 3, opacity: .95, fillColor: '#ffd23f', fillOpacity: .12, dashArray: null },
     interactive: false,
   }).addTo(map);
-  map.on('popupclose', () => parcelLayer.clearLayers());
 
   // All parcel lines in the current view, LandGlide-style, from the state's
   // hosted feature service. Only from zoom 15 - the service caps a query at
@@ -669,7 +669,7 @@ function renderMarkers(rows) {
       riseOnHover: true,
       zIndexOffset: isNew(t) ? 500 : 0,
     });
-    m.bindPopup(() => popupHtml(t), { maxWidth: 300, autoPanPadding: [30, 30] });
+    m.on('click', () => showDetail(t.id));
     m.on('mouseover', () => highlight(t.id, true));
     m.on('mouseout',  () => highlight(t.id, false));
     m.addTo(markerLayer);
@@ -693,8 +693,7 @@ function focusTract(id) {
   const m = state.markers.get(id);
   if (!t || !m) return;
   if (document.body.classList.contains('view-list')) setView('map');
-  map.flyTo([t.lat, t.lon], Math.max(map.getZoom(), 12), { duration: .55 });
-  setTimeout(() => m.openPopup(), 380);
+  showDetail(id);
 }
 
 /* ─────────────────────────────── lightbox ────────────────────────────── */
@@ -775,10 +774,67 @@ async function loadChanges() {
 }
 
 function refreshPopup(id) {
-  const m = state.markers.get(id);
-  const t = state.tracts.find(x => x.id === id);
-  if (m && t && m.isPopupOpen()) m.setPopupContent(popupHtml(t));
+  if (state.detailId === id) showDetail(id, { keepView: true });
   refreshListFilter();
+}
+
+/** The details panel: docked at the right edge, parcel framed to its left. */
+function showDetail(id, opts = {}) {
+  const t = state.tracts.find(x => x.id === id);
+  if (!t) return;
+  state.detailId = id;
+  const panel = $('#detail'), root = $('#detailBody');
+  root.innerHTML = popupHtml(t);
+  panel.hidden = false;
+  $('.mapwrap').classList.add('has-detail');
+  $('#changes').hidden = true;
+  wireDetail(root, id);
+  if (document.body.classList.contains('view-list')) setView('map');
+
+  const drawParcel = () => {
+    const g = state.geoms?.[id];
+    parcelLayer.clearLayers();
+    if (g) parcelLayer.addData({ type: 'Feature', geometry: g });
+    if (opts.keepView) return;
+    // frame the parcel (or the pin) in the map area the panel doesn't cover
+    const phone = window.matchMedia('(max-width:860px)').matches;
+    const pad = phone ? { paddingTopLeft: [30, 30], paddingBottomRight: [30, Math.round(map.getSize().y * 0.58)] }
+                      : { paddingTopLeft: [40, 40], paddingBottomRight: [340, 40] };
+    const b = g ? parcelLayer.getBounds() : L.latLng(t.lat, t.lon).toBounds(600);
+    if (b.isValid()) map.fitBounds(b, { ...pad, maxZoom: 16, animate: true, duration: .6 });
+  };
+  if (t.parcel?.hasGeom && !state.geoms) loadGeoms().then(drawParcel); else drawParcel();
+}
+
+function closeDetail() {
+  state.detailId = null;
+  $('#detail').hidden = true;
+  $('.mapwrap').classList.remove('has-detail');
+  parcelLayer.clearLayers();
+}
+
+function wireDetail(root, id) {
+  root.querySelector('[data-hide]')?.addEventListener('click', e => {
+    toggleHide(e.target.dataset.hide); showDetail(id, { keepView: true });
+  });
+  root.querySelector('[data-zoom]')?.addEventListener('click', e => openLightbox(e.target.dataset.zoom));
+  root.querySelector('[data-fav]')?.addEventListener('click', e => {
+    setMark(id, { fav: !isFav(id) }); refreshPopup(id);
+  });
+  root.querySelectorAll('[data-list]').forEach(b => b.addEventListener('click', e => {
+    const list = e.target.dataset.list, cur = listsOf(id);
+    setMark(id, { lists: cur.includes(list) ? cur.filter(x => x !== list) : [...cur, list] });
+    refreshPopup(id);
+  }));
+  root.querySelector('[data-hoa]')?.addEventListener('click', () => {
+    if (!confirm('Mark this listing as having an HOA? It will be removed from the map and the daily sweep will drop it.')) return;
+    setMark(id, { hoa: true, h: true }); closeDetail();
+  });
+  root.querySelector('[data-newlist]')?.addEventListener('click', () => {
+    const name = (prompt('Name for the new list:') || '').trim().slice(0, 40);
+    if (!name) return;
+    setMark(id, { lists: [...new Set([...listsOf(id), name])] }); refreshPopup(id);
+  });
 }
 
 function refreshListFilter() {
@@ -871,49 +927,7 @@ function wire() {
   });
 
   // popup buttons
-  map.on('popupopen', ev => {
-    const root = ev.popup.getElement();
-    parcelLayer.clearLayers();
-    const pid = root.querySelector('[data-hide]')?.dataset.hide;
-    const pt = state.tracts.find(x => x.id === pid);
-    const drawParcel = () => {
-      const g = state.geoms?.[pid];
-      if (!g) return;
-      parcelLayer.clearLayers().addData({ type: 'Feature', geometry: g });
-      const b = parcelLayer.getBounds();
-      if (b.isValid() && !map.getBounds().contains(b)) map.fitBounds(b.pad(0.6), { maxZoom: 16 });
-    };
-    if (pt?.parcel?.hasGeom) {
-      if (state.geoms) drawParcel();
-      else loadGeoms().then(drawParcel);
-    }
-    root.querySelector('[data-hide]')?.addEventListener('click', e =>
-      toggleHide(e.target.dataset.hide));
-    root.querySelector('[data-fav]')?.addEventListener('click', e => {
-      const id = e.target.dataset.fav; setMark(id, { fav: !isFav(id) }); refreshPopup(id);
-    });
-    root.querySelectorAll('[data-list]').forEach(b => b.addEventListener('click', e => {
-      const { id, list } = e.target.dataset;
-      const cur = listsOf(id);
-      setMark(id, { lists: cur.includes(list) ? cur.filter(x => x !== list) : [...cur, list] });
-      refreshPopup(id);
-    }));
-    root.querySelector('[data-hoa]')?.addEventListener('click', e => {
-      const id = e.target.dataset.hoa;
-      if (!confirm('Mark this listing as having an HOA? It will be removed from the map and the daily sweep will drop it.')) return;
-      setMark(id, { hoa: true, h: true });
-      map.closePopup();
-    });
-    root.querySelector('[data-newlist]')?.addEventListener('click', e => {
-      const id = e.target.dataset.newlist;
-      const name = (prompt('Name for the new list:') || '').trim().slice(0, 40);
-      if (!name) return;
-      setMark(id, { lists: [...new Set([...listsOf(id), name])] });
-      refreshPopup(id);
-    });
-    root.querySelector('[data-zoom]')?.addEventListener('click', e =>
-      openLightbox(e.target.dataset.zoom));
-  });
+  $('#detailClose').addEventListener('click', closeDetail);
 
   // lightbox
   $('#lbClose').addEventListener('click', closeLightbox);

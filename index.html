@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="assets/app.css?v=7">
+<link rel="stylesheet" href="assets/app.css?v=8">
 </head>
 <body>
 
@@ -149,6 +149,12 @@
   </div>
 </main>
 
+<!-- ───────────────────────── detail panel ───────────────────────── -->
+<aside class="detail" id="detail" hidden>
+  <button class="detail-close" id="detailClose" aria-label="Close">&times;</button>
+  <div class="detail-body" id="detailBody"></div>
+</aside>
+
 <!-- ───────────────────────── changes drawer ───────────────────────── -->
 <aside class="drawer" id="changes" hidden>
   <header>
@@ -190,6 +196,6 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="assets/app.js?v=7"></script>
+<script src="assets/app.js?v=8"></script>
 </body>
 </html>
