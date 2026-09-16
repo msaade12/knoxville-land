@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T13:13:17+00:00",
+ "generated": "2026-09-16T13:30:25+00:00",
  "date": "2026-09-16",
  "count": 111,
  "criteria": {
@@ -53,9 +53,9 @@
     }
    ],
    "img": "photos/rf194559456.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 593,
-   "baseline": true
+   "daysListed": 593
   },
   {
    "id": "rf63023739",
@@ -89,7 +89,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf200699282",
@@ -123,9 +124,9 @@
     }
    ],
    "img": "photos/rf200699282.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 201,
-   "baseline": true
+   "daysListed": 201
   },
   {
    "id": "rf104523528",
@@ -159,9 +160,9 @@
     }
    ],
    "img": "photos/rf104523528.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 30,
-   "baseline": true
+   "daysListed": 30
   },
   {
    "id": "rf201527108",
@@ -195,7 +196,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf119127114",
@@ -229,9 +231,9 @@
     }
    ],
    "img": "photos/rf119127114.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 916,
-   "baseline": true
+   "daysListed": 916
   },
   {
    "id": "rf197635673",
@@ -265,9 +267,9 @@
     }
    ],
    "img": "photos/rf197635673.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 60,
-   "baseline": true
+   "daysListed": 60
   },
   {
    "id": "rf87490190",
@@ -301,9 +303,9 @@
     }
    ],
    "img": "photos/rf87490190.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 105,
-   "baseline": true
+   "daysListed": 105
   },
   {
    "id": "rf62976286",
@@ -337,9 +339,9 @@
     }
    ],
    "img": "photos/rf62976286.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 766,
-   "baseline": true
+   "daysListed": 766
   },
   {
    "id": "rf197562205",
@@ -373,9 +375,9 @@
     }
    ],
    "img": "photos/rf197562205.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 336,
-   "baseline": true
+   "daysListed": 336
   },
   {
    "id": "rf195991456",
@@ -409,9 +411,9 @@
     }
    ],
    "img": "photos/rf195991456.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 15,
-   "baseline": true
+   "daysListed": 15
   },
   {
    "id": "rf62967308",
@@ -445,9 +447,9 @@
     }
    ],
    "img": "photos/rf62967308.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 156,
-   "baseline": true
+   "daysListed": 156
   },
   {
    "id": "rf201030954",
@@ -481,9 +483,9 @@
     }
    ],
    "img": "photos/rf201030954.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 172,
-   "baseline": true
+   "daysListed": 172
   },
   {
    "id": "rf201030926",
@@ -517,9 +519,9 @@
     }
    ],
    "img": "photos/rf201030926.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 172,
-   "baseline": true
+   "daysListed": 172
   },
   {
    "id": "rf201030942",
@@ -553,9 +555,9 @@
     }
    ],
    "img": "photos/rf201030942.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 172,
-   "baseline": true
+   "daysListed": 172
   },
   {
    "id": "rf195341685",
@@ -589,9 +591,9 @@
     }
    ],
    "img": "photos/rf195341685.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 523,
-   "baseline": true
+   "daysListed": 523
   },
   {
    "id": "rf119127129",
@@ -625,9 +627,9 @@
     }
    ],
    "img": "photos/rf119127129.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 8,
-   "baseline": true
+   "daysListed": 8
   },
   {
    "id": "rf203585215",
@@ -661,9 +663,9 @@
     }
    ],
    "img": "photos/rf203585215.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 47,
-   "baseline": true
+   "daysListed": 47
   },
   {
    "id": "rf62967557",
@@ -697,9 +699,9 @@
     }
    ],
    "img": "photos/rf62967557.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 570,
-   "baseline": true
+   "daysListed": 570
   },
   {
    "id": "rf197965351",
@@ -733,9 +735,9 @@
     }
    ],
    "img": "photos/rf197965351.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 170,
-   "baseline": true
+   "daysListed": 170
   },
   {
    "id": "rf103868729",
@@ -769,7 +771,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf109632331",
@@ -803,9 +806,9 @@
     }
    ],
    "img": "photos/rf109632331.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 282,
-   "baseline": true
+   "daysListed": 282
   },
   {
    "id": "rf198101836",
@@ -839,7 +842,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf182771136",
@@ -873,9 +877,9 @@
     }
    ],
    "img": "photos/rf182771136.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 111,
-   "baseline": true
+   "daysListed": 111
   },
   {
    "id": "rf103004267",
@@ -909,9 +913,9 @@
     }
    ],
    "img": "photos/rf103004267.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 211,
-   "baseline": true
+   "daysListed": 211
   },
   {
    "id": "rf202412165",
@@ -945,9 +949,9 @@
     }
    ],
    "img": "photos/rf202412165.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 774,
-   "baseline": true
+   "daysListed": 774
   },
   {
    "id": "rf62969122",
@@ -981,7 +985,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf105454449",
@@ -1015,9 +1020,9 @@
     }
    ],
    "img": "photos/rf105454449.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 779,
-   "baseline": true
+   "daysListed": 779
   },
   {
    "id": "rf199063750",
@@ -1051,9 +1056,9 @@
     }
    ],
    "img": "photos/rf199063750.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 89,
-   "baseline": true
+   "daysListed": 89
   },
   {
    "id": "rf197624421",
@@ -1087,7 +1092,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf197401512",
@@ -1121,7 +1127,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf197723372",
@@ -1155,9 +1162,9 @@
     }
    ],
    "img": "photos/rf197723372.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 23,
-   "baseline": true
+   "daysListed": 23
   },
   {
    "id": "rf197723905",
@@ -1191,7 +1198,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf104134276",
@@ -1225,7 +1233,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf201829103",
@@ -1259,9 +1268,9 @@
     }
    ],
    "img": "photos/rf201829103.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 126,
-   "baseline": true
+   "daysListed": 126
   },
   {
    "id": "rf87490183",
@@ -1295,9 +1304,9 @@
     }
    ],
    "img": "photos/rf87490183.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 260,
-   "baseline": true
+   "daysListed": 260
   },
   {
    "id": "rf190487644",
@@ -1331,9 +1340,9 @@
     }
    ],
    "img": "photos/rf190487644.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 153,
-   "baseline": true
+   "daysListed": 153
   },
   {
    "id": "rf104530143",
@@ -1367,9 +1376,9 @@
     }
    ],
    "img": "photos/rf104530143.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 20,
-   "baseline": true
+   "daysListed": 20
   },
   {
    "id": "rf119079805",
@@ -1403,9 +1412,9 @@
     }
    ],
    "img": "photos/rf119079805.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 41,
-   "baseline": true
+   "daysListed": 41
   },
   {
    "id": "rf189988239",
@@ -1439,9 +1448,9 @@
     }
    ],
    "img": "photos/rf189988239.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 141,
-   "baseline": true
+   "daysListed": 141
   },
   {
    "id": "rf201260285",
@@ -1475,7 +1484,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf182665570",
@@ -1509,9 +1519,9 @@
     }
    ],
    "img": "photos/rf182665570.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 385,
-   "baseline": true
+   "daysListed": 385
   },
   {
    "id": "rf202364575",
@@ -1545,9 +1555,9 @@
     }
    ],
    "img": "photos/rf202364575.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 84,
-   "baseline": true
+   "daysListed": 84
   },
   {
    "id": "rf201104833",
@@ -1581,9 +1591,9 @@
     }
    ],
    "img": "photos/rf201104833.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 167,
-   "baseline": true
+   "daysListed": 167
   },
   {
    "id": "rf87502448",
@@ -1617,9 +1627,9 @@
     }
    ],
    "img": "photos/rf87502448.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 56,
-   "baseline": true
+   "daysListed": 56
   },
   {
    "id": "rf200584287",
@@ -1653,9 +1663,9 @@
     }
    ],
    "img": "photos/rf200584287.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 208,
-   "baseline": true
+   "daysListed": 208
   },
   {
    "id": "rf187476109",
@@ -1689,9 +1699,9 @@
     }
    ],
    "img": "photos/rf187476109.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 65,
-   "baseline": true
+   "daysListed": 65
   },
   {
    "id": "rf194761598",
@@ -1725,9 +1735,9 @@
     }
    ],
    "img": "photos/rf194761598.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 243,
-   "baseline": true
+   "daysListed": 243
   },
   {
    "id": "rf119028390",
@@ -1761,9 +1771,9 @@
     }
    ],
    "img": "photos/rf119028390.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 248,
-   "baseline": true
+   "daysListed": 248
   },
   {
    "id": "rf185514748",
@@ -1797,7 +1807,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf196856283",
@@ -1810,7 +1821,7 @@
    "county": "Morgan",
    "zip": "37726",
    "url": "https://www.redfin.com/TN/Deer-Lodge/Valerie-Dr-37726/home/196856283",
-   "photo": null,
+   "photo": "https://ssl.cdn-redfin.com/photo/177/mbpaddedwide/070/genMid.1319070_3.jpg",
    "lat": 36.139009,
    "lon": -84.83048,
    "miles": 52.3,
@@ -1830,6 +1841,7 @@
      "price": 104500
     }
    ],
+   "img": "photos/rf196856283.jpg",
    "lastSeen": "2026-09-16",
    "daysListed": 334
   },
@@ -1865,7 +1877,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf109642898",
@@ -1899,9 +1912,9 @@
     }
    ],
    "img": "photos/rf109642898.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 49,
-   "baseline": true
+   "daysListed": 49
   },
   {
    "id": "rf62857156",
@@ -1935,9 +1948,9 @@
     }
    ],
    "img": "photos/rf62857156.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 42,
-   "baseline": true
+   "daysListed": 42
   },
   {
    "id": "rf118967970",
@@ -1971,9 +1984,9 @@
     }
    ],
    "img": "photos/rf118967970.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 831,
-   "baseline": true
+   "daysListed": 831
   },
   {
    "id": "rf170016417",
@@ -2007,9 +2020,9 @@
     }
    ],
    "img": "photos/rf170016417.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 101,
-   "baseline": true
+   "daysListed": 101
   },
   {
    "id": "rf190890927",
@@ -2043,7 +2056,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf87533370",
@@ -2077,9 +2091,9 @@
     }
    ],
    "img": "photos/rf87533370.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 16,
-   "baseline": true
+   "daysListed": 16
   },
   {
    "id": "rf111031104",
@@ -2113,7 +2127,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf202656849",
@@ -2147,9 +2162,9 @@
     }
    ],
    "img": "photos/rf202656849.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 72,
-   "baseline": true
+   "daysListed": 72
   },
   {
    "id": "rf205372017",
@@ -2183,7 +2198,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf198197523",
@@ -2217,7 +2233,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf180598739",
@@ -2251,7 +2268,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf201696368",
@@ -2285,9 +2303,9 @@
     }
    ],
    "img": "photos/rf201696368.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 777,
-   "baseline": true
+   "daysListed": 777
   },
   {
    "id": "rf104539174",
@@ -2321,9 +2339,9 @@
     }
    ],
    "img": "photos/rf104539174.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 179,
-   "baseline": true
+   "daysListed": 179
   },
   {
    "id": "rf111123961",
@@ -2357,9 +2375,9 @@
     }
    ],
    "img": "photos/rf111123961.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 54,
-   "baseline": true
+   "daysListed": 54
   },
   {
    "id": "rf107682902",
@@ -2393,9 +2411,9 @@
     }
    ],
    "img": "photos/rf107682902.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 44,
-   "baseline": true
+   "daysListed": 44
   },
   {
    "id": "rf197636101",
@@ -2429,9 +2447,9 @@
     }
    ],
    "img": "photos/rf197636101.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 154,
-   "baseline": true
+   "daysListed": 154
   },
   {
    "id": "rf201871677",
@@ -2465,9 +2483,9 @@
     }
    ],
    "img": "photos/rf201871677.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 122,
-   "baseline": true
+   "daysListed": 122
   },
   {
    "id": "rf87532201",
@@ -2501,9 +2519,9 @@
     }
    ],
    "img": "photos/rf87532201.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 644,
-   "baseline": true
+   "daysListed": 644
   },
   {
    "id": "rf62867683",
@@ -2537,9 +2555,9 @@
     }
    ],
    "img": "photos/rf62867683.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 68,
-   "baseline": true
+   "daysListed": 68
   },
   {
    "id": "rf202246947",
@@ -2573,9 +2591,9 @@
     }
    ],
    "img": "photos/rf202246947.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 92,
-   "baseline": true
+   "daysListed": 92
   },
   {
    "id": "rf203164022",
@@ -2609,7 +2627,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf148001761",
@@ -2643,9 +2662,9 @@
     }
    ],
    "img": "photos/rf148001761.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 63,
-   "baseline": true
+   "daysListed": 63
   },
   {
    "id": "rf189453959",
@@ -2679,9 +2698,9 @@
     }
    ],
    "img": "photos/rf189453959.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 40,
-   "baseline": true
+   "daysListed": 40
   },
   {
    "id": "rf199478993",
@@ -2715,9 +2734,9 @@
     }
    ],
    "img": "photos/rf199478993.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 93,
-   "baseline": true
+   "daysListed": 93
   },
   {
    "id": "rf201534247",
@@ -2751,9 +2770,9 @@
     }
    ],
    "img": "photos/rf201534247.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 147,
-   "baseline": true
+   "daysListed": 147
   },
   {
    "id": "rf105453250",
@@ -2787,9 +2806,9 @@
     }
    ],
    "img": "photos/rf105453250.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 58,
-   "baseline": true
+   "daysListed": 58
   },
   {
    "id": "rf196243825",
@@ -2823,9 +2842,9 @@
     }
    ],
    "img": "photos/rf196243825.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 442,
-   "baseline": true
+   "daysListed": 442
   },
   {
    "id": "rf62975860",
@@ -2859,9 +2878,9 @@
     }
    ],
    "img": "photos/rf62975860.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 198,
-   "baseline": true
+   "daysListed": 198
   },
   {
    "id": "rf200711128",
@@ -2895,7 +2914,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf200890154",
@@ -2929,9 +2949,9 @@
     }
    ],
    "img": "photos/rf200890154.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 242,
-   "baseline": true
+   "daysListed": 242
   },
   {
    "id": "rf63017523",
@@ -2965,9 +2985,9 @@
     }
    ],
    "img": "photos/rf63017523.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 176,
-   "baseline": true
+   "daysListed": 176
   },
   {
    "id": "rf62977356",
@@ -3001,9 +3021,9 @@
     }
    ],
    "img": "photos/rf62977356.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 16,
-   "baseline": true
+   "daysListed": 16
   },
   {
    "id": "rf199117106",
@@ -3037,7 +3057,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf87169312",
@@ -3071,9 +3092,9 @@
     }
    ],
    "img": "photos/rf87169312.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 644,
-   "baseline": true
+   "daysListed": 644
   },
   {
    "id": "rf111323141",
@@ -3107,7 +3128,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf197723800",
@@ -3141,7 +3163,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf195330277",
@@ -3175,9 +3198,9 @@
     }
    ],
    "img": "photos/rf195330277.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 169,
-   "baseline": true
+   "daysListed": 169
   },
   {
    "id": "rf111335006",
@@ -3211,7 +3234,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf194555113",
@@ -3245,7 +3269,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf87534835",
@@ -3279,7 +3304,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf202019469",
@@ -3313,9 +3339,9 @@
     }
    ],
    "img": "photos/rf202019469.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 114,
-   "baseline": true
+   "daysListed": 114
   },
   {
    "id": "rf200792177",
@@ -3349,7 +3375,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf102131659",
@@ -3383,9 +3410,9 @@
     }
    ],
    "img": "photos/rf102131659.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 38,
-   "baseline": true
+   "daysListed": 38
   },
   {
    "id": "rf77289269",
@@ -3419,9 +3446,9 @@
     }
    ],
    "img": "photos/rf77289269.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 26,
-   "baseline": true
+   "daysListed": 26
   },
   {
    "id": "rf199132094",
@@ -3455,7 +3482,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf111408250",
@@ -3489,7 +3517,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf195153668",
@@ -3523,9 +3552,9 @@
     }
    ],
    "img": "photos/rf195153668.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 540,
-   "baseline": true
+   "daysListed": 540
   },
   {
    "id": "rf195543606",
@@ -3559,7 +3588,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf190631736",
@@ -3593,9 +3623,9 @@
     }
    ],
    "img": "photos/rf190631736.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 167,
-   "baseline": true
+   "daysListed": 167
   },
   {
    "id": "rf111340069",
@@ -3629,7 +3659,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf201816083",
@@ -3663,7 +3694,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf103002805",
@@ -3697,9 +3729,9 @@
     }
    ],
    "img": "photos/rf103002805.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 34,
-   "baseline": true
+   "daysListed": 34
   },
   {
    "id": "rf87918068",
@@ -3733,9 +3765,9 @@
     }
    ],
    "img": "photos/rf87918068.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 51,
-   "baseline": true
+   "daysListed": 51
   },
   {
    "id": "rf63013127",
@@ -3769,7 +3801,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   },
   {
    "id": "rf202110484",
@@ -3803,9 +3836,9 @@
     }
    ],
    "img": "photos/rf202110484.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 105,
-   "baseline": true
+   "daysListed": 105
   },
   {
    "id": "rf163132096",
@@ -3839,9 +3872,9 @@
     }
    ],
    "img": "photos/rf163132096.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 337,
-   "baseline": true
+   "daysListed": 337
   },
   {
    "id": "rf202550028",
@@ -3875,9 +3908,9 @@
     }
    ],
    "img": "photos/rf202550028.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 77,
-   "baseline": true
+   "daysListed": 77
   },
   {
    "id": "rf87530948",
@@ -3911,9 +3944,9 @@
     }
    ],
    "img": "photos/rf87530948.webp",
+   "baseline": true,
    "lastSeen": "2026-09-16",
-   "daysListed": 27,
-   "baseline": true
+   "daysListed": 27
   },
   {
    "id": "rf194042084",
@@ -3947,7 +3980,8 @@
    "geo": "town",
    "missCount": 1,
    "daysListed": 0,
-   "baseline": true
+   "baseline": true,
+   "missDate": "2026-09-16"
   }
  ]
 }

@@ -1,19 +1,9 @@
 {
- "generated": "2026-09-16T13:13:17+00:00",
+ "generated": "2026-09-16T13:30:25+00:00",
  "date": "2026-09-16",
  "count": 111,
  "confirmed": 78,
- "new": [
-  {
-   "id": "rf196856283",
-   "acres": 10.77,
-   "price": 104500,
-   "ppa": 9703,
-   "town": "Deer Lodge",
-   "county": "Morgan",
-   "url": "https://www.redfin.com/TN/Deer-Lodge/Valerie-Dr-37726/home/196856283"
-  }
- ],
+ "new": [],
  "priceCuts": [],
  "priceIncreases": [],
  "unconfirmed": [

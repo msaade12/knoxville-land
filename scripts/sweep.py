@@ -355,6 +355,7 @@ def main():
         old = prev.get(tid)
         t["geo"] = "parcel"          # real Redfin parcel coordinates
         t["missCount"] = 0
+        t.pop("missDate", None)
         t["status"] = "active"
         if not old:
             t["firstSeen"] = today
@@ -389,12 +390,17 @@ def main():
     for tid, old in prev.items():
         if tid in found:
             continue
-        miss = int(old.get("missCount") or 0) + 1
+        # Re-running on the same day must not double-count a miss.
+        if old.get("missDate") == today:
+            miss = int(old.get("missCount") or 1)
+        else:
+            miss = int(old.get("missCount") or 0) + 1
         if miss >= MISS_LIMIT:
             retired.append(old)
             continue
         carry = dict(old)
         carry["missCount"] = miss
+        carry["missDate"] = today
         carry["status"] = "unconfirmed"
         carry.setdefault("geo", "town")
         carry["lastSeen"] = old.get("lastSeen", old.get("firstSeen", today))
