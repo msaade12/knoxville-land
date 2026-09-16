@@ -53,6 +53,10 @@
         <input type="range" id="fAcres" min="10" max="100" step="1" value="10">
       </div>
       <div class="frow">
+        <label for="fGroc">To groceries <output id="oGroc">15 min</output></label>
+        <input type="range" id="fGroc" min="5" max="40" step="1" value="15">
+      </div>
+      <div class="frow">
         <label for="fCounty">County</label>
         <select id="fCounty"><option value="">All counties</option></select>
       </div>
@@ -80,6 +84,8 @@
       </div>
     </section>
 
+    <button class="newbanner" id="newBanner" hidden></button>
+
     <div class="resultbar">
       <span id="resultCount">—</span>
       <button class="btn tiny ghost" id="resetFilters">Reset</button>
@@ -106,6 +112,7 @@
         <ul class="lg-notes">
           <li><b>Number in pin</b> = estimated minutes from Knoxville.</li>
           <li><b>Pin size</b> = acreage.</li>
+          <li>Grocery times are to the nearest supermarket, straight-line estimated.</li>
           <li><b>Solid pin</b> sits on the real parcel location.</li>
           <li><b>Dashed pin</b> is placed at the town centre — exact parcel unknown.</li>
           <li>Rings are straight-line 15/30/45 min approximations, not road distance.</li>

@@ -309,6 +309,8 @@ function popupHtml(t) {
         <div><b>${t.drive} min</b><span>${t.miles} mi straight line</span></div>
         <div><b>${t.daysListed ?? '–'}</b><span>days listed</span></div>
         <div><b>${t.geo === 'parcel' ? 'Parcel' : 'Town'}</b><span>pin accuracy</span></div>
+        ${t.groceryMin != null ? `<div style="grid-column:1/-1"><b>${t.groceryMin} min
+          to ${esc(t.groceryName)}</b><span>nearest groceries (${t.groceryMi} mi)</span></div>` : ''}
       </div>
       <div class="pop-actions">
         <a class="primary" href="${esc(t.url)}" target="_blank" rel="noopener">Listing</a>
@@ -329,6 +331,8 @@ function cardHtml(t) {
     priceCut(t) ? `<span class="tag cut">price cut</span>` : '',
     t.status !== 'active' ? '<span class="tag unconf">unconfirmed</span>' : '',
     `<span class="tag">${t.drive} min</span>`,
+    t.groceryMin != null
+      ? `<span class="tag groc" title="to ${esc(t.groceryName)}">${t.groceryMin} min shops</span>` : '',
     `<span class="tag">${t.daysListed ?? '–'}d listed</span>`,
   ].join('');
   return `
@@ -354,6 +358,7 @@ function cardHtml(t) {
 function currentFilters() {
   return {
     drive: +$('#fDrive').value,
+    groc: +$('#fGroc').value,
     price: +$('#fPrice').value,
     acres: +$('#fAcres').value,
     county: $('#fCounty').value,
@@ -371,6 +376,7 @@ function apply() {
   let rows = state.tracts.filter(t => {
     if (!state.showHidden && isHidden(t.id)) return false;
     if (t.drive > f.drive) return false;
+    if (t.groceryMin != null && t.groceryMin > f.groc) return false;
     if (t.price > f.price) return false;
     if (t.acres < f.acres) return false;
     if (f.county && t.county !== f.county) return false;
@@ -399,6 +405,24 @@ function apply() {
   renderCards(rows);
   renderMarkers(rows);
   renderCounts(rows);
+  renderNewBanner();
+}
+
+function renderNewBanner() {
+  const el = $('#newBanner');
+  const all = state.tracts.filter(isNew);
+  if (!all.length) { el.hidden = true; return; }
+  el.hidden = false;
+  const on = $('#fNew').checked;
+  el.classList.toggle('on', on);
+  const when = all.map(t => t.firstSeen).sort().reverse()[0];
+  const nice = new Date(when + 'T00:00:00').toLocaleDateString('en-US',
+    { month: 'short', day: 'numeric' });
+  el.innerHTML = on
+    ? `Showing all <b>${all.length}</b> new since ${nice}
+       <span class="nb-act">back to my filters</span>`
+    : `<b>${all.length}</b> new since ${nice}
+       <span class="nb-act">show only these</span>`;
 }
 
 function renderCounts(rows) {
@@ -514,7 +538,7 @@ function setView(v) {
 
 function wire() {
   ['#fDrive', '#fPrice', '#fAcres', '#fCounty', '#fSort',
-   '#fNew', '#fCut', '#fPhoto', '#fConfirmed'].forEach(sel =>
+   '#fNew', '#fCut', '#fPhoto', '#fConfirmed', '#fGroc'].forEach(sel =>
     $(sel).addEventListener('input', () => { syncOutputs(); apply(); }));
 
   let searchTimer;
@@ -523,8 +547,43 @@ function wire() {
     searchTimer = setTimeout(apply, 140);
   });
 
+  $('#newBanner').addEventListener('click', () => {
+    const cb = $('#fNew');
+    cb.checked = !cb.checked;
+    if (cb.checked) {
+      // Remember the filters, then widen everything so that "show only the new
+      // ones" really shows all of them - a new tract 70 minutes out still counts.
+      state.savedFilters = {
+        drive: $('#fDrive').value, price: $('#fPrice').value,
+        acres: $('#fAcres').value, county: $('#fCounty').value,
+        sort: $('#fSort').value, confirmed: $('#fConfirmed').checked,
+        groc: $('#fGroc').value,
+        q: $('#search').value,
+      };
+      $('#fDrive').value = $('#fDrive').max;
+      $('#fPrice').value = $('#fPrice').max;
+      $('#fAcres').value = $('#fAcres').min;
+      $('#fCounty').value = '';
+      $('#fGroc').value = $('#fGroc').max;
+      $('#fConfirmed').checked = false;
+      $('#fSort').value = 'new';
+      $('#search').value = '';
+    } else if (state.savedFilters) {
+      const f = state.savedFilters;
+      $('#fDrive').value = f.drive; $('#fPrice').value = f.price;
+      $('#fAcres').value = f.acres; $('#fCounty').value = f.county;
+      $('#fSort').value = f.sort;   $('#fConfirmed').checked = f.confirmed;
+      $('#fGroc').value = f.groc;
+      $('#search').value = f.q;
+      state.savedFilters = null;
+    }
+    syncOutputs();
+    apply();
+  });
+
   $('#resetFilters').addEventListener('click', () => {
     $('#fDrive').value = 45; $('#fPrice').value = 250000; $('#fAcres').value = 10;
+    $('#fGroc').value = 15;
     $('#fCounty').value = ''; $('#fSort').value = 'ppa';
     $('#fNew').checked = false; $('#fCut').checked = false;
     $('#fPhoto').checked = false; $('#fConfirmed').checked = false;
@@ -624,6 +683,7 @@ function syncOutputs() {
   $('#oDrive').textContent = $('#fDrive').value + ' min';
   $('#oPrice').textContent = fmtK(+$('#fPrice').value);
   $('#oAcres').textContent = $('#fAcres').value;
+  $('#oGroc').textContent = $('#fGroc').value + ' min';
 }
 
 function buildLegend() {
@@ -666,6 +726,9 @@ async function boot() {
   importLegacyHidden();
   const remote = await pullHidden();
   if (remote) { state.hidden = mergeHidden(state.hidden, remote); saveLocalHidden(); }
+
+  const maxDrive = Math.max(90, ...state.tracts.map(t => t.drive || 0));
+  $('#fDrive').max = Math.ceil(maxDrive / 5) * 5;
 
   const counties = [...new Set(state.tracts.map(t => t.county))].sort();
   $('#fCounty').insertAdjacentHTML('beforeend',

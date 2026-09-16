@@ -34,6 +34,8 @@ A written summary of each run lands in the **Actions** tab, under the run's Summ
 | Price | $250,000 maximum |
 | Status | Active only |
 | Type | Vacant land — anything with a listed building square footage is dropped |
+| HOA | Excluded outright. Any listing with a monthly HOA fee is dropped (`EXCLUDE_HOA`) |
+| Groceries | Every tract carries an estimated drive to the nearest supermarket; the site filters to 15 minutes by default |
 
 Tracts beyond 45 minutes are still collected; the site just filters them out by default.
 
@@ -99,6 +101,7 @@ data/tracts.json        the dataset — also the archive the next run diffs agai
 data/report.json        what changed on the last run
 data/hidden.json        hidden listings, written by the page via the GitHub API
 data/counties.json      East TN county polygons (54 counties, 12 flagged in scope)
+data/stores.json        301 East TN grocery stores from OpenStreetMap, captured once
 photos/rf*.webp         one photo per listing, served same-origin
 scripts/sweep.py        the daily sweep — stdlib only, no dependencies
 scripts/report.py       renders report.json as Markdown for the Actions summary
@@ -123,6 +126,29 @@ Everything tunable is at the top of `scripts/sweep.py`: `MAX_PRICE`, `MIN_ACRES`
 `COUNTIES` (name → Redfin region id), `MISS_LIMIT`, `DRIVE_FACTOR` and the `BANDS`
 price-per-acre colour scale. The site reads the bands from `assets/app.js`, so change
 both if you re-cut them.
+
+## Groceries and shopping
+
+`data/stores.json` holds 301 supermarkets across East Tennessee — Food City, Walmart,
+Kroger, Ingles, ALDI, Publix, IGA, Save-A-Lot and the rest — pulled once from
+OpenStreetMap so the daily run never depends on the Overpass API being up. The sweep
+records the nearest one for every tract as `groceryMi` / `groceryMin` / `groceryName`,
+and the site filters to **15 minutes** by default.
+
+The estimate is straight-line distance × 1.60 (about 37 mph effective), heavier than the
+factor used for the run into Knoxville because errand roads wind more. To refresh the
+store list, re-run the Overpass query in the commit that added it.
+
+## What gets dropped, and why
+
+The sweep distinguishes three very different things:
+
+- **rejected** — Redfin still lists it, but it no longer meets the criteria (an HOA
+  appeared, the price rose, the acreage was corrected). Dropped immediately; there is
+  nothing uncertain about it.
+- **unconfirmed** — Redfin did not return it at all. Might be sold, might be the export
+  omitting it. Kept, tagged, retired after 3 consecutive misses.
+- **retired** — unconfirmed three runs running. Gone.
 
 ## Known gaps
 

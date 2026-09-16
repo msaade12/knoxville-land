@@ -126,6 +126,17 @@ input[type=range]{width:100%;accent-color:var(--accent);margin:3px 0}
 }
 .hidebar span{margin-right:auto;font-family:"IBM Plex Mono",monospace}
 
+.newbanner{
+  display:block;width:100%;text-align:left;cursor:pointer;
+  padding:10px 16px;border:0;border-bottom:1px solid var(--line);
+  background:linear-gradient(90deg,#fdf4d8,#fbefc6);
+  color:#4a3d10;font-size:13px;font-weight:500;
+}
+.newbanner:hover{background:linear-gradient(90deg,#fcefc6,#f8e7ae)}
+.newbanner b{font-family:"IBM Plex Mono",monospace;font-size:14px}
+.newbanner .nb-act{float:right;color:#7a6520;text-decoration:underline;font-weight:400}
+.newbanner.on{background:linear-gradient(90deg,#f3e3a8,#eeda92)}
+
 .resultbar{
   padding:8px 16px;display:flex;align-items:center;justify-content:space-between;
   font-size:12px;color:var(--ink-3);border-bottom:1px solid var(--line);
@@ -172,6 +183,7 @@ input[type=range]{width:100%;accent-color:var(--accent);margin:3px 0}
 }
 .tag.new{background:var(--new);color:#2A2208}
 .tag.cut{background:var(--cut);color:#fff}
+.tag.groc{background:#e7efe9;color:#2f6b4f}
 .tag.unconf{background:#fff;color:var(--ink-3);border:1px dashed var(--line-2)}
 
 .hidebtn{

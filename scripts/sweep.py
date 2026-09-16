@@ -58,6 +58,13 @@ MISS_LIMIT = 3
 # already on the map (13 / 26 / 38 mi == 15 / 30 / 45 min).
 DRIVE_FACTOR = 1.15
 
+# Local errand roads wind more than the run into Knoxville, so the grocery
+# estimate uses a heavier factor (~37 mph effective over straight-line distance).
+ERRAND_FACTOR = 1.60
+
+# A listing with a monthly HOA fee is excluded outright.
+EXCLUDE_HOA = True
+
 # $/acre bands: (upper_bound_exclusive, label, colour)
 BANDS = [
     (5_000, "under $5k", "#1F5C40"),
@@ -158,6 +165,29 @@ def load_counties():
     return out
 
 
+def load_stores():
+    """Grocery stores from OpenStreetMap, captured once into data/stores.json."""
+    path = os.path.join(DATA, "stores.json")
+    if not os.path.exists(path):
+        return []
+    with open(path) as f:
+        return json.load(f)
+
+
+def nearest_store(lat, lon, stores):
+    """(miles, minutes, name) to the closest grocery store."""
+    if not stores:
+        return None, None, None
+    best, bestd = None, 1e9
+    for st in stores:
+        # cheap planar approximation first - we only need the minimum
+        d = (st["lat"] - lat) ** 2 + ((st["lon"] - lon) * 0.81) ** 2
+        if d < bestd:
+            bestd, best = d, st
+    mi = haversine_mi((lat, lon), (best["lat"], best["lon"]))
+    return round(mi, 1), max(3, int(round(mi * ERRAND_FACTOR))), best["n"]
+
+
 def county_for(lat, lon, polys):
     for c in polys:
         x0, y0, x1, y1 = c["bbox"]
@@ -199,11 +229,17 @@ def num(v, cast=float):
 URL_ID_RE = re.compile(r"/home/(\d+)")
 
 
-def row_to_tract(r, polys):
+def row_url(r):
+    """Redfin's URL column has a long, brittle header - match it by prefix."""
+    for k, v in r.items():
+        if k and k.startswith("URL"):
+            return (v or "").strip()
+    return ""
+
+
+def row_to_tract(r, polys, stores=()):
     """Turn one CSV row into a tract dict, or None if it fails the criteria."""
-    url = (r.get("URL (SEE https://www.redfin.com/buy-a-home/"
-                 "comparative-market-analysis FOR INFO ON PRICING)")
-           or r.get("URL") or "").strip()
+    url = row_url(r)
     m = URL_ID_RE.search(url)
     if not m:
         return None
@@ -231,6 +267,11 @@ def row_to_tract(r, polys):
     # A listed square footage means a building is on it.
     if num(r.get("SQUARE FEET"), float):
         return None
+
+    # No HOA - a fee means covenants and a subdivision.
+    hoa = num(r.get("HOA/MONTH"), float)
+    if EXCLUDE_HOA and hoa:
+        return None
     if DWELLING_RE.search(r.get("ADDRESS") or ""):
         return None
 
@@ -239,6 +280,7 @@ def row_to_tract(r, polys):
         return None
 
     miles = haversine_mi(KNOXVILLE, (lat, lon))
+    gmi, gmin, gname = nearest_store(lat, lon, stores)
     ppa = int(round(price / acres))
     band = next(i for i, (hi, _, _) in enumerate(BANDS) if ppa < hi)
 
@@ -258,6 +300,10 @@ def row_to_tract(r, polys):
         "lon": round(lon, 6),
         "miles": round(miles, 1),
         "drive": max(5, int(round(miles * DRIVE_FACTOR))),
+        "hoa": hoa or 0,
+        "groceryMi": gmi,
+        "groceryMin": gmin,
+        "groceryName": gname,
         "domSource": num(r.get("DAYS ON MARKET"), int),
         "source": (r.get("SOURCE") or "Redfin").strip(),
         "status": "active",
@@ -322,17 +368,23 @@ def main():
     dry = "--dry-run" in sys.argv
     today = date.today().isoformat()
     polys = load_counties()
+    stores = load_stores()
+    log(f"grocery stores loaded: {len(stores)}")
     prev = load_previous()
     log(f"previous dataset: {len(prev)} tracts")
 
     # ---- sweep ----------------------------------------------------------
     found = {}
+    returned = set()        # every id Redfin gave back, passing or not
     for name, rid in COUNTIES.items():
         text = fetch(redfin_csv(rid))
         rows = parse_csv(text)
         kept = 0
         for r in rows:
-            t = row_to_tract(r, polys)
+            m = URL_ID_RE.search(row_url(r))
+            if m:
+                returned.add("rf" + m.group(1))
+            t = row_to_tract(r, polys, stores)
             if t and t["id"] not in found:
                 found[t["id"]] = t
                 kept += 1
@@ -386,9 +438,15 @@ def main():
         t["lastSeen"] = today
 
     # ---- tracts the sweep did not return --------------------------------
-    stale, retired = [], []
+    stale, retired, rejected = [], [], []
     for tid, old in prev.items():
         if tid in found:
+            continue
+        if tid in returned:
+            # Redfin still lists it, but it no longer meets the criteria
+            # (an HOA appeared, price rose, acreage was corrected). Drop it
+            # now - there is nothing uncertain about this one.
+            rejected.append(old)
             continue
         # Re-running on the same day must not double-count a miss.
         if old.get("missDate") == today:
@@ -406,6 +464,12 @@ def main():
         carry["lastSeen"] = old.get("lastSeen", old.get("firstSeen", today))
         found[tid] = carry
         stale.append(carry)
+
+    # carried-forward tracts predate the grocery data - fill it in once
+    for t in found.values():
+        if t.get("groceryMin") is None and t.get("lat") is not None:
+            gmi, gmin, gname = nearest_store(t["lat"], t["lon"], stores)
+            t["groceryMi"], t["groceryMin"], t["groceryName"] = gmi, gmin, gname
 
     # ---- photos: only look up the ones we don't have ---------------------
     need = [t for t in found.values() if not t.get("photo")]
@@ -466,13 +530,18 @@ def main():
              ("id", "acres", "price", "town", "county", "url")}
             for g in retired
         ],
+        "rejected": [
+            {k: g.get(k) for k in
+             ("id", "acres", "price", "town", "county", "url")}
+            for g in rejected
+        ],
         "baseline": not prev,
     }
 
     confirmed = sum(1 for t in tracts if t["status"] == "active")
     log(f"\n{len(tracts)} tracts | {confirmed} confirmed active | "
         f"{len(stale)} unconfirmed | new {len(new_ids)} | cuts {len(cuts)} | "
-        f"retired {len(retired)}")
+        f"rejected {len(rejected)} | retired {len(retired)}")
 
     if dry:
         log("(dry run - nothing written)")
