@@ -91,7 +91,8 @@
    "shopCity": "Clinton",
    "shopMi": 5.5,
    "driveRoad": 37.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2076284688",
@@ -169,7 +170,8 @@
    "shopCity": "Tazewell",
    "shopMi": 8.9,
    "driveRoad": 66.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf197562205",
@@ -249,7 +251,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 336
+   "daysListed": 336,
+   "hoaKnown": true
   },
   {
    "id": "rf103868729",
@@ -325,7 +328,8 @@
    "shopCity": "Rockwood",
    "shopMi": 1.6,
    "driveRoad": 58.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464827871",
@@ -403,7 +407,8 @@
    "shopCity": "Sevier",
    "shopMi": 3.8,
    "driveRoad": 32.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf182771136",
@@ -483,7 +488,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 111
+   "daysListed": 111,
+   "hoaKnown": true
   },
   {
    "id": "rf197723905",
@@ -559,7 +565,8 @@
    "shopCity": "Sevier",
    "shopMi": 1.0,
    "driveRoad": 23.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104134276",
@@ -632,7 +639,8 @@
    "shopCity": "Sevierville",
    "shopMi": 0.8,
    "driveRoad": 38.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104530143",
@@ -708,7 +716,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 20
+   "daysListed": 20,
+   "hoaKnown": true
   },
   {
    "id": "rf201260285",
@@ -782,7 +791,8 @@
    "shopCity": "Madisonville",
    "shopMi": 1.0,
    "driveRoad": 67.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf198592589",
@@ -849,7 +859,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 104
+   "daysListed": 104,
+   "hoaKnown": true
   },
   {
    "id": "rf87502448",
@@ -924,7 +935,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 56
+   "daysListed": 56,
+   "hoaKnown": true
   },
   {
    "id": "z464462138",
@@ -1002,7 +1014,8 @@
    "shopCity": "Rockwood",
    "shopMi": 1.7,
    "driveRoad": 55.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf184917339",
@@ -1072,7 +1085,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 324
+   "daysListed": 324,
+   "hoaKnown": true
   },
   {
    "id": "rf170016417",
@@ -1142,7 +1156,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 101
+   "daysListed": 101,
+   "hoaKnown": true
   },
   {
    "id": "z81271646",
@@ -1215,7 +1230,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.1,
    "driveRoad": 58.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205522979",
@@ -1295,7 +1311,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 5
+   "daysListed": 5,
+   "hoaKnown": true
   },
   {
    "id": "rf190890927",
@@ -1371,7 +1388,8 @@
    "shopCity": "Madisonville",
    "shopMi": 1.2,
    "driveRoad": 68.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf111031104",
@@ -1447,7 +1465,8 @@
    "shopCity": "Sevierville",
    "shopMi": 2.0,
    "driveRoad": 43.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62986175",
@@ -1524,7 +1543,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 75
+   "daysListed": 75,
+   "hoaKnown": true
   },
   {
    "id": "rf180598739",
@@ -1600,7 +1620,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 6.0,
    "driveRoad": 69.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205532765",
@@ -1672,7 +1693,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 3
+   "daysListed": 3,
+   "hoaKnown": true
   },
   {
    "id": "rf104539174",
@@ -1749,7 +1771,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 179
+   "daysListed": 179,
+   "hoaKnown": true
   },
   {
    "id": "rf87529599",
@@ -1824,7 +1847,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 353
+   "daysListed": 353,
+   "hoaKnown": true
   },
   {
    "id": "rf87567218",
@@ -1899,7 +1923,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 305
+   "daysListed": 305,
+   "hoaKnown": true
   },
   {
    "id": "rf196243886",
@@ -1972,7 +1997,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 442
+   "daysListed": 442,
+   "hoaKnown": true
   },
   {
    "id": "rf104530112",
@@ -2047,7 +2073,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 218
+   "daysListed": 218,
+   "hoaKnown": true
   },
   {
    "id": "rf87498459",
@@ -2124,7 +2151,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 119
+   "daysListed": 119,
+   "hoaKnown": true
   },
   {
    "id": "z457723182",
@@ -2202,7 +2230,8 @@
    "shopCity": "Clinton",
    "shopMi": 4.1,
    "driveRoad": 40.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201534247",
@@ -2282,7 +2311,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 147
+   "daysListed": 147,
+   "hoaKnown": true
   },
   {
    "id": "z464040606",
@@ -2360,7 +2390,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.3,
    "driveRoad": 52.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2054534632",
@@ -2438,7 +2469,8 @@
    "slope": 7.3,
    "elev": 339,
    "relief": 56,
-   "missDate": "2026-09-16"
+   "missDate": "2026-09-16",
+   "hoaKnown": false
   },
   {
    "id": "rf196243825",
@@ -2511,7 +2543,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 442
+   "daysListed": 442,
+   "hoaKnown": true
   },
   {
    "id": "rf62975860",
@@ -2591,7 +2624,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 198
+   "daysListed": 198,
+   "hoaKnown": true
   },
   {
    "id": "z463911286",
@@ -2667,7 +2701,8 @@
    "shopCity": "Harriman",
    "shopMi": 1.6,
    "driveRoad": 54.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z462900836",
@@ -2745,7 +2780,8 @@
    "shopCity": "Maynardville City Limits",
    "shopMi": 4.3,
    "driveRoad": 47.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf63017523",
@@ -2825,7 +2861,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 176
+   "daysListed": 176,
+   "hoaKnown": true
   },
   {
    "id": "rf124512505",
@@ -2905,7 +2942,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 30
+   "daysListed": 30,
+   "hoaKnown": true
   },
   {
    "id": "z2065316396",
@@ -2977,7 +3015,8 @@
    "shopCity": "Knoxville",
    "shopMi": 2.9,
    "driveRoad": 25.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z457942360",
@@ -3052,7 +3091,8 @@
    "shopCity": "Dandridge",
    "shopMi": 1.6,
    "driveRoad": 44.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87526767",
@@ -3129,7 +3169,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 152
+   "daysListed": 152,
+   "hoaKnown": true
   },
   {
    "id": "rf111323141",
@@ -3205,7 +3246,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.8,
    "driveRoad": 61.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf197723800",
@@ -3277,7 +3319,8 @@
    "shopCity": "Sevierville",
    "shopMi": 0.9,
    "driveRoad": 39.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87707475",
@@ -3357,7 +3400,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 490
+   "daysListed": 490,
+   "hoaKnown": true
   },
   {
    "id": "rf195330277",
@@ -3434,7 +3478,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 169
+   "daysListed": 169,
+   "hoaKnown": true
   },
   {
    "id": "z456266126",
@@ -3512,7 +3557,8 @@
    "shopCity": "Rockwood",
    "shopMi": 1.6,
    "driveRoad": 58.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463762911",
@@ -3590,7 +3636,8 @@
    "shopCity": "Sevierville",
    "shopMi": 4.7,
    "driveRoad": 50.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z460918185",
@@ -3668,7 +3715,8 @@
    "shopCity": "Harriman",
    "shopMi": 6.3,
    "driveRoad": 61.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf200792177",
@@ -3734,7 +3782,8 @@
    "_convV": 3,
    "slope": 3.4,
    "elev": 393,
-   "relief": 32
+   "relief": 32,
+   "hoaKnown": false
   },
   {
    "id": "rf190392419",
@@ -3814,7 +3863,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 538
+   "daysListed": 538,
+   "hoaKnown": true
   },
   {
    "id": "rf102131659",
@@ -3894,7 +3944,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 38
+   "daysListed": 38,
+   "hoaKnown": true
   },
   {
    "id": "z333894426",
@@ -3972,7 +4023,8 @@
    "shopCity": "Loudon",
    "shopMi": 5.9,
    "driveRoad": 50.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf196243882",
@@ -4042,7 +4094,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 442
+   "daysListed": 442,
+   "hoaKnown": true
   },
   {
    "id": "rf124469031",
@@ -4122,7 +4175,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 245
+   "daysListed": 245,
+   "hoaKnown": true
   },
   {
    "id": "rf111408250",
@@ -4198,7 +4252,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.1,
    "driveRoad": 43.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z439166765",
@@ -4276,7 +4331,8 @@
    "shopCity": "Sweetwater",
    "shopMi": 3.4,
    "driveRoad": 63.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf195153668",
@@ -4356,7 +4412,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 540
+   "daysListed": 540,
+   "hoaKnown": true
   },
   {
    "id": "rf195543606",
@@ -4431,7 +4488,8 @@
    "shopCity": "Maryville",
    "shopMi": 0.8,
    "driveRoad": 32.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163524533",
@@ -4510,7 +4568,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 92
+   "daysListed": 92,
+   "hoaKnown": true
   },
   {
    "id": "rf107659268",
@@ -4588,7 +4647,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 61
+   "daysListed": 61,
+   "hoaKnown": true
   },
   {
    "id": "rf111340069",
@@ -4664,7 +4724,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.5,
    "driveRoad": 41.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2065335573",
@@ -4740,7 +4801,8 @@
    "shopCity": "Knoxville",
    "shopMi": 6.1,
    "driveRoad": 27.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461175586",
@@ -4817,7 +4879,8 @@
    "shopCity": "Sevierville",
    "shopMi": 4.4,
    "driveRoad": 29.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z457601238",
@@ -4891,7 +4954,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 5.1,
    "driveRoad": 54.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103002805",
@@ -4971,7 +5035,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 34
+   "daysListed": 34,
+   "hoaKnown": true
   },
   {
    "id": "rf203564150",
@@ -5048,7 +5113,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 47
+   "daysListed": 47,
+   "hoaKnown": true
   },
   {
    "id": "rf203564137",
@@ -5125,7 +5191,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 47
+   "daysListed": 47,
+   "hoaKnown": true
   },
   {
    "id": "z81245781",
@@ -5200,7 +5267,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.0,
    "driveRoad": 58.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z460845484",
@@ -5276,7 +5344,8 @@
    "shopCity": "Morristown",
    "shopMi": 9.2,
    "driveRoad": 51.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103864708",
@@ -5343,7 +5412,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 882
+   "daysListed": 882,
+   "hoaKnown": true
   },
   {
    "id": "rf87918068",
@@ -5416,7 +5486,8 @@
    "convenienceLabel": "workable",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 51
+   "daysListed": 51,
+   "hoaKnown": true
   },
   {
    "id": "rf63013127",
@@ -5492,7 +5563,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.4,
    "driveRoad": 39.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202110484",
@@ -5569,7 +5641,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 105
+   "daysListed": 105,
+   "hoaKnown": true
   },
   {
    "id": "rf146135710",
@@ -5649,7 +5722,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 251
+   "daysListed": 251,
+   "hoaKnown": true
   },
   {
    "id": "rf163361323",
@@ -5727,7 +5801,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 64
+   "daysListed": 64,
+   "hoaKnown": true
   },
   {
    "id": "rf124520358",
@@ -5807,7 +5882,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 39
+   "daysListed": 39,
+   "hoaKnown": true
   },
   {
    "id": "rf163132096",
@@ -5887,7 +5963,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 337
+   "daysListed": 337,
+   "hoaKnown": true
   },
   {
    "id": "z450616020",
@@ -5958,7 +6035,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 4.3,
    "driveRoad": 42.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf198259152",
@@ -6025,7 +6103,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 355
+   "daysListed": 355,
+   "hoaKnown": true
   },
   {
    "id": "rf192322729",
@@ -6102,7 +6181,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 744
+   "daysListed": 744,
+   "hoaKnown": true
   },
   {
    "id": "rf200002931",
@@ -6169,7 +6249,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 248
+   "daysListed": 248,
+   "hoaKnown": true
   },
   {
    "id": "rf202019991",
@@ -6249,7 +6330,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 114
+   "daysListed": 114,
+   "hoaKnown": true
   },
   {
    "id": "rf202550028",
@@ -6324,7 +6406,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 77
+   "daysListed": 77,
+   "hoaKnown": true
   },
   {
    "id": "rf190924600",
@@ -6404,7 +6487,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 82
+   "daysListed": 82,
+   "hoaKnown": true
   },
   {
    "id": "rf204631897",
@@ -6481,7 +6565,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 29
+   "daysListed": 29,
+   "hoaKnown": true
   },
   {
    "id": "z465026950",
@@ -6559,7 +6644,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 5.1,
    "driveRoad": 60.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf63022666",
@@ -6638,7 +6724,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 95
+   "daysListed": 95,
+   "hoaKnown": true
   },
   {
    "id": "z42039480",
@@ -6716,7 +6803,8 @@
    "shopCity": "Harriman",
    "shopMi": 1.4,
    "driveRoad": 55.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205540910",
@@ -6790,7 +6878,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 2
+   "daysListed": 2,
+   "hoaKnown": true
   },
   {
    "id": "rf199612920",
@@ -6857,7 +6946,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 279
+   "daysListed": 279,
+   "hoaKnown": true
   },
   {
    "id": "z464155783",
@@ -6935,7 +7025,8 @@
    "shopCity": "Maryville",
    "shopMi": 5.2,
    "driveRoad": 45.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf124589807",
@@ -7005,7 +7096,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 192
+   "daysListed": 192,
+   "hoaKnown": true
   },
   {
    "id": "rf124637556",
@@ -7085,7 +7177,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 175
+   "daysListed": 175,
+   "hoaKnown": true
   },
   {
    "id": "rf196243951",
@@ -7158,7 +7251,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 442
+   "daysListed": 442,
+   "hoaKnown": true
   },
   {
    "id": "rf183950895",
@@ -7232,7 +7326,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 138
+   "daysListed": 138,
+   "hoaKnown": true
   },
   {
    "id": "rf204682617",
@@ -7309,7 +7404,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 26
+   "daysListed": 26,
+   "hoaKnown": true
   },
   {
    "id": "rf185051962",
@@ -7384,7 +7480,8 @@
    "convenienceLabel": "workable",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 159
+   "daysListed": 159,
+   "hoaKnown": true
   },
   {
    "id": "rf205494821",
@@ -7464,7 +7561,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 26
+   "daysListed": 26,
+   "hoaKnown": true
   },
   {
    "id": "z465026971",
@@ -7542,7 +7640,8 @@
    "shopCity": "Sevierville",
    "shopMi": 3.6,
    "driveRoad": 34.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2053018511",
@@ -7620,7 +7719,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.7,
    "driveRoad": 14.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201106242",
@@ -7697,7 +7797,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 167
+   "daysListed": 167,
+   "hoaKnown": true
   },
   {
    "id": "z2077091421",
@@ -7775,7 +7876,8 @@
    "shopCity": "Seymour",
    "shopMi": 1.4,
    "driveRoad": 23.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z450364683",
@@ -7853,7 +7955,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.4,
    "driveRoad": 57.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87917816",
@@ -7933,7 +8036,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 30
+   "daysListed": 30,
+   "hoaKnown": true
   },
   {
    "id": "rf204715516",
@@ -8013,7 +8117,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 25
+   "daysListed": 25,
+   "hoaKnown": true
   },
   {
    "id": "rf191304878",
@@ -8083,7 +8188,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 71
+   "daysListed": 71,
+   "hoaKnown": true
   },
   {
    "id": "z465182984",
@@ -8154,7 +8260,8 @@
    "shopCity": "Dandridge",
    "shopMi": 2.5,
    "driveRoad": 42.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104524595",
@@ -8226,7 +8333,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 90
+   "daysListed": 90,
+   "hoaKnown": true
   },
   {
    "id": "z465241899",
@@ -8304,7 +8412,8 @@
    "shopCity": "Sevierville",
    "shopMi": 7.4,
    "driveRoad": 48.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf193217944",
@@ -8384,7 +8493,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 352
+   "daysListed": 352,
+   "hoaKnown": true
   },
   {
    "id": "rf119015313",
@@ -8458,7 +8568,8 @@
    "convenienceLabel": "workable",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 334
+   "daysListed": 334,
+   "hoaKnown": true
   },
   {
    "id": "z81212484",
@@ -8536,7 +8647,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.0,
    "driveRoad": 58.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf184792199",
@@ -8616,7 +8728,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 124
+   "daysListed": 124,
+   "hoaKnown": true
   },
   {
    "id": "rf87495121",
@@ -8688,7 +8801,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 90
+   "daysListed": 90,
+   "hoaKnown": true
   },
   {
    "id": "rf102118424",
@@ -8755,7 +8869,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 350
+   "daysListed": 350,
+   "hoaKnown": true
   },
   {
    "id": "rf63007226",
@@ -8827,7 +8942,8 @@
    "convenienceLabel": "workable",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 119
+   "daysListed": 119,
+   "hoaKnown": true
   },
   {
    "id": "rf194042084",
@@ -8903,7 +9019,8 @@
    "shopCity": "Sevierville",
    "shopMi": 0.5,
    "driveRoad": 36.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87495562",
@@ -8975,7 +9092,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 90
+   "daysListed": 90,
+   "hoaKnown": true
   },
   {
    "id": "z2088993004",
@@ -9053,7 +9171,8 @@
    "shopCity": "Maryville",
    "shopMi": 5.3,
    "driveRoad": 42.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205524336",
@@ -9133,7 +9252,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 5
+   "daysListed": 5,
+   "hoaKnown": true
   },
   {
    "id": "rf205328457",
@@ -9213,7 +9333,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 15
+   "daysListed": 15,
+   "hoaKnown": true
   },
   {
    "id": "rf204660271",
@@ -9293,7 +9414,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 27
+   "daysListed": 27,
+   "hoaKnown": true
   },
   {
    "id": "rf204641101",
@@ -9363,7 +9485,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 28
+   "daysListed": 28,
+   "hoaKnown": true
   },
   {
    "id": "z247153271",
@@ -9439,7 +9562,8 @@
    "shopCity": "Seymour",
    "shopMi": 2.3,
    "driveRoad": 23.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z349896139",
@@ -9517,7 +9641,8 @@
    "shopCity": "Maynardville City Limits",
    "shopMi": 4.0,
    "driveRoad": 36.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464057750",
@@ -9595,7 +9720,8 @@
    "shopCity": "Sevier",
    "shopMi": 2.1,
    "driveRoad": 25.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z456792753",
@@ -9670,7 +9796,8 @@
    "shopCity": "Dandridge",
    "shopMi": 2.8,
    "driveRoad": 54.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87921931",
@@ -9750,7 +9877,8 @@
    "convenienceLabel": "workable",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 120
+   "daysListed": 120,
+   "hoaKnown": true
   },
   {
    "id": "rf87524231",
@@ -9827,7 +9955,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 180
+   "daysListed": 180,
+   "hoaKnown": true
   },
   {
    "id": "z464310437",
@@ -9899,7 +10028,8 @@
    "shopCity": "Maynardville City Limits",
    "shopMi": 2.2,
    "driveRoad": 45.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z42491786",
@@ -9977,7 +10107,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.4,
    "driveRoad": 41.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163368312",
@@ -10047,7 +10178,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 154
+   "daysListed": 154,
+   "hoaKnown": true
   },
   {
    "id": "rf104529133",
@@ -10119,7 +10251,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 90
+   "daysListed": 90,
+   "hoaKnown": true
   },
   {
    "id": "rf204636975",
@@ -10199,7 +10332,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 29
+   "daysListed": 29,
+   "hoaKnown": true
   },
   {
    "id": "rf204477979",
@@ -10279,7 +10413,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 37
+   "daysListed": 37,
+   "hoaKnown": true
   },
   {
    "id": "rf202551905",
@@ -10359,7 +10494,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 77
+   "daysListed": 77,
+   "hoaKnown": true
   },
   {
    "id": "z463344542",
@@ -10432,7 +10568,8 @@
    "shopCity": "La Follette",
    "shopMi": 2.9,
    "driveRoad": 57.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z456795257",
@@ -10510,7 +10647,8 @@
    "shopCity": "Knoxville",
    "shopMi": 0.4,
    "driveRoad": 10.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf192349853",
@@ -10587,7 +10725,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 92
+   "daysListed": 92,
+   "hoaKnown": true
   },
   {
    "id": "z463829539",
@@ -10658,7 +10797,8 @@
    "shopCity": "Blaine",
    "shopMi": 13.5,
    "driveRoad": 39.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z42479994",
@@ -10731,7 +10871,8 @@
    "shopCity": "Sevierville",
    "shopMi": 2.0,
    "driveRoad": 39.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202479052",
@@ -10798,7 +10939,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 78
+   "daysListed": 78,
+   "hoaKnown": true
   },
   {
    "id": "rf205384549",
@@ -10878,7 +11020,8 @@
    "convenienceLabel": "workable",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 12
+   "daysListed": 12,
+   "hoaKnown": true
   },
   {
    "id": "rf202551851",
@@ -10958,7 +11101,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 77
+   "daysListed": 77,
+   "hoaKnown": true
   },
   {
    "id": "rf104527960",
@@ -11030,7 +11174,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 69
+   "daysListed": 69,
+   "hoaKnown": true
   },
   {
    "id": "z463535186",
@@ -11108,7 +11253,8 @@
    "shopCity": "Madisonville",
    "shopMi": 2.2,
    "driveRoad": 69.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf111234582",
@@ -11187,7 +11333,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 1
+   "daysListed": 1,
+   "hoaKnown": true
   },
   {
    "id": "rf101642562",
@@ -11267,7 +11414,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 56
+   "daysListed": 56,
+   "hoaKnown": true
   },
   {
    "id": "rf87499294",
@@ -11344,7 +11492,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 692
+   "daysListed": 692,
+   "hoaKnown": true
   },
   {
    "id": "rf200532490",
@@ -11424,7 +11573,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 211
+   "daysListed": 211,
+   "hoaKnown": true
   },
   {
    "id": "rf200532489",
@@ -11494,7 +11644,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 211
+   "daysListed": 211,
+   "hoaKnown": true
   },
   {
    "id": "rf87527086",
@@ -11564,7 +11715,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 10
+   "daysListed": 10,
+   "hoaKnown": true
   },
   {
    "id": "rf200845629",
@@ -11641,7 +11793,8 @@
    "convenienceLabel": "workable",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 188
+   "daysListed": 188,
+   "hoaKnown": true
   },
   {
    "id": "z462201625",
@@ -11719,7 +11872,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.4,
    "driveRoad": 44.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464492880",
@@ -11797,7 +11951,8 @@
    "shopCity": "Sevierville",
    "shopMi": 2.1,
    "driveRoad": 41.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464750891",
@@ -11874,7 +12029,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.4,
    "driveRoad": 66.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z450615938",
@@ -11947,7 +12103,8 @@
    "shopCity": "Kingston",
    "shopMi": 0.7,
    "driveRoad": 48.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf198797783",
@@ -12026,7 +12183,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 77
+   "daysListed": 77,
+   "hoaKnown": true
   },
   {
    "id": "z459724895",
@@ -12097,7 +12255,8 @@
    "shopCity": "Sevierville",
    "shopMi": 3.1,
    "driveRoad": 32.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87491353",
@@ -12174,7 +12333,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 352
+   "daysListed": 352,
+   "hoaKnown": true
   },
   {
    "id": "z462316929",
@@ -12252,7 +12412,8 @@
    "shopCity": "Sweetwater",
    "shopMi": 1.4,
    "driveRoad": 53.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87571185",
@@ -12330,7 +12491,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 36
+   "daysListed": 36,
+   "hoaKnown": true
   },
   {
    "id": "rf104483850",
@@ -12410,7 +12572,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 16
+   "daysListed": 16,
+   "hoaKnown": true
   },
   {
    "id": "rf204478204",
@@ -12490,7 +12653,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 37
+   "daysListed": 37,
+   "hoaKnown": true
   },
   {
    "id": "rf87523545",
@@ -12560,7 +12724,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 299
+   "daysListed": 299,
+   "hoaKnown": true
   },
   {
    "id": "z464072116",
@@ -12638,7 +12803,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.2,
    "driveRoad": 63.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87157344",
@@ -12718,7 +12884,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 5
+   "daysListed": 5,
+   "hoaKnown": true
   },
   {
    "id": "rf87152423",
@@ -12798,7 +12965,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 36
+   "daysListed": 36,
+   "hoaKnown": true
   },
   {
    "id": "z42050593",
@@ -12873,7 +13041,8 @@
    "shopCity": "Rockwood",
    "shopMi": 2.5,
    "driveRoad": 64.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62847979",
@@ -12949,7 +13118,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 10
+   "daysListed": 10,
+   "hoaKnown": true
   },
   {
    "id": "rf202237946",
@@ -13022,7 +13192,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 96
+   "daysListed": 96,
+   "hoaKnown": true
   },
   {
    "id": "rf62966614",
@@ -13102,7 +13273,8 @@
    "convenienceLabel": "workable",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 119
+   "daysListed": 119,
+   "hoaKnown": true
   },
   {
    "id": "rf163412526",
@@ -13179,7 +13351,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 950
+   "daysListed": 950,
+   "hoaKnown": true
   },
   {
    "id": "rf87708076",
@@ -13259,7 +13432,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 21
+   "daysListed": 21,
+   "hoaKnown": true
   },
   {
    "id": "rf87525870",
@@ -13336,7 +13510,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 3
+   "daysListed": 3,
+   "hoaKnown": true
   },
   {
    "id": "rf205264820",
@@ -13413,7 +13588,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 16
+   "daysListed": 16,
+   "hoaKnown": true
   },
   {
    "id": "z465203087",
@@ -13489,7 +13665,8 @@
    "shopCity": "Sevierville",
    "shopMi": 2.0,
    "driveRoad": 33.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf203212479",
@@ -13561,7 +13738,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 57
+   "daysListed": 57,
+   "hoaKnown": true
   },
   {
    "id": "z460345702",
@@ -13635,7 +13813,8 @@
    "shopCity": "Powell",
    "shopMi": 2.4,
    "driveRoad": 17.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf197355354",
@@ -13715,7 +13894,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 387
+   "daysListed": 387,
+   "hoaKnown": true
   },
   {
    "id": "z465064303",
@@ -13793,7 +13973,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.5,
    "driveRoad": 50.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z444611421",
@@ -13871,7 +14052,8 @@
    "shopCity": "Newport",
    "shopMi": 5.4,
    "driveRoad": 54.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103002007",
@@ -13950,7 +14132,8 @@
    "convenienceLabel": "workable",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 52
+   "daysListed": 52,
+   "hoaKnown": true
   },
   {
    "id": "z465315296",
@@ -14027,7 +14210,8 @@
    "shopCity": "Blaine",
    "shopMi": 1.9,
    "driveRoad": 30.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205521155",
@@ -14107,7 +14291,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 5
+   "daysListed": 5,
+   "hoaKnown": true
   },
   {
    "id": "rf201713987",
@@ -14184,7 +14369,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 133
+   "daysListed": 133,
+   "hoaKnown": true
   },
   {
    "id": "rf200320437",
@@ -14259,7 +14445,8 @@
    "convenienceLabel": "workable",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 225
+   "daysListed": 225,
+   "hoaKnown": true
   },
   {
    "id": "rf103861509",
@@ -14336,7 +14523,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 184
+   "daysListed": 184,
+   "hoaKnown": true
   },
   {
    "id": "rf205339183",
@@ -14413,7 +14601,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 14
+   "daysListed": 14,
+   "hoaKnown": true
   },
   {
    "id": "rf205328321",
@@ -14483,7 +14672,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 15
+   "daysListed": 15,
+   "hoaKnown": true
   },
   {
    "id": "rf163417242",
@@ -14563,7 +14753,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 23
+   "daysListed": 23,
+   "hoaKnown": true
   },
   {
    "id": "rf185428729",
@@ -14643,7 +14834,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 119
+   "daysListed": 119,
+   "hoaKnown": true
   },
   {
    "id": "rf174440407",
@@ -14723,7 +14915,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 485
+   "daysListed": 485,
+   "hoaKnown": true
   },
   {
    "id": "z2076603962",
@@ -14795,7 +14988,8 @@
    "shopCity": "Sevierville",
    "shopMi": 3.1,
    "driveRoad": 32.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104531664",
@@ -14872,7 +15066,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 24
+   "daysListed": 24,
+   "hoaKnown": true
   },
   {
    "id": "rf104539286",
@@ -14944,7 +15139,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 152
+   "daysListed": 152,
+   "hoaKnown": true
   },
   {
    "id": "z458188554",
@@ -15022,7 +15218,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 7.2,
    "driveRoad": 44.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf198188345",
@@ -15102,7 +15299,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 13
+   "daysListed": 13,
+   "hoaKnown": true
   },
   {
    "id": "z464783741",
@@ -15180,7 +15378,8 @@
    "shopCity": "Sevier",
    "shopMi": 4.8,
    "driveRoad": 37.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103357583",
@@ -15257,7 +15456,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 71
+   "daysListed": 71,
+   "hoaKnown": true
   },
   {
    "id": "z349187387",
@@ -15335,7 +15535,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.1,
    "driveRoad": 58.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465064300",
@@ -15413,7 +15614,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.3,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf118993984",
@@ -15493,7 +15695,8 @@
    "convenienceLabel": "workable",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 121
+   "daysListed": 121,
+   "hoaKnown": true
   },
   {
    "id": "z463989890",
@@ -15571,7 +15774,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 5.9,
    "driveRoad": 54.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2063443712",
@@ -15649,7 +15853,8 @@
    "shopCity": "Sevierville",
    "shopMi": 4.1,
    "driveRoad": 43.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z453905049",
@@ -15727,7 +15932,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.3,
    "driveRoad": 59.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf189413163",
@@ -15803,7 +16009,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 312
+   "daysListed": 312,
+   "hoaKnown": true
   },
   {
    "id": "rf104525820",
@@ -15875,7 +16082,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 90
+   "daysListed": 90,
+   "hoaKnown": true
   },
   {
    "id": "rf87486218",
@@ -15955,7 +16163,8 @@
    "convenienceLabel": "workable",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 117
+   "daysListed": 117,
+   "hoaKnown": true
   },
   {
    "id": "rf87526806",
@@ -16032,7 +16241,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 84
+   "daysListed": 84,
+   "hoaKnown": true
   },
   {
    "id": "z2068414051",
@@ -16110,7 +16320,8 @@
    "shopCity": "Sevierville",
    "shopMi": 5.0,
    "driveRoad": 40.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463758038",
@@ -16186,7 +16397,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.5,
    "driveRoad": 57.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z350951113",
@@ -16264,7 +16476,8 @@
    "shopCity": "Clinton",
    "shopMi": 5.7,
    "driveRoad": 37.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202340695",
@@ -16344,7 +16557,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 86
+   "daysListed": 86,
+   "hoaKnown": true
   },
   {
    "id": "z464380900",
@@ -16422,7 +16636,8 @@
    "shopCity": "Clinton",
    "shopMi": 2.4,
    "driveRoad": 29.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104523423",
@@ -16494,7 +16709,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 89
+   "daysListed": 89,
+   "hoaKnown": true
   },
   {
    "id": "rf87534593",
@@ -16566,7 +16782,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 177
+   "daysListed": 177,
+   "hoaKnown": true
   },
   {
    "id": "rf189634044",
@@ -16646,7 +16863,8 @@
    "convenienceLabel": "workable",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 112
+   "daysListed": 112,
+   "hoaKnown": true
   },
   {
    "id": "rf189428105",
@@ -16722,7 +16940,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 879
+   "daysListed": 879,
+   "hoaKnown": true
   },
   {
    "id": "rf87180670",
@@ -16801,7 +17020,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 22
+   "daysListed": 22,
+   "hoaKnown": true
   },
   {
    "id": "rf205401179",
@@ -16871,7 +17091,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 10
+   "daysListed": 10,
+   "hoaKnown": true
   },
   {
    "id": "rf205401200",
@@ -16951,7 +17172,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 10
+   "daysListed": 10,
+   "hoaKnown": true
   },
   {
    "id": "rf103357012",
@@ -17028,7 +17250,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 185
+   "daysListed": 185,
+   "hoaKnown": true
   },
   {
    "id": "rf87553181",
@@ -17104,7 +17327,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 135
+   "daysListed": 135,
+   "hoaKnown": true
   },
   {
    "id": "z458188656",
@@ -17182,7 +17406,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 7.0,
    "driveRoad": 46.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103861514",
@@ -17259,7 +17484,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 184
+   "daysListed": 184,
+   "hoaKnown": true
   },
   {
    "id": "z463536952",
@@ -17337,7 +17563,8 @@
    "shopCity": "Alcoa",
    "shopMi": 4.6,
    "driveRoad": 44.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464238655",
@@ -17415,7 +17642,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.1,
    "driveRoad": 44.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87495400",
@@ -17492,7 +17720,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 42
+   "daysListed": 42,
+   "hoaKnown": true
   },
   {
    "id": "rf87497248",
@@ -17564,7 +17793,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 90
+   "daysListed": 90,
+   "hoaKnown": true
   },
   {
    "id": "rf203509140",
@@ -17644,7 +17874,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 49
+   "daysListed": 49,
+   "hoaKnown": true
   },
   {
    "id": "z42046793",
@@ -17717,7 +17948,8 @@
    "shopCity": "Rockwood",
    "shopMi": 2.2,
    "driveRoad": 59.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205394532",
@@ -17792,7 +18024,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 12
+   "daysListed": 12,
+   "hoaKnown": true
   },
   {
    "id": "z465026952",
@@ -17870,7 +18103,8 @@
    "shopCity": "Newport",
    "shopMi": 6.2,
    "driveRoad": 58.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201272235",
@@ -17950,7 +18184,8 @@
    "convenienceLabel": "workable",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 157
+   "daysListed": 157,
+   "hoaKnown": true
   },
   {
    "id": "z465240742",
@@ -18027,7 +18262,8 @@
    "shopCity": "Sevierville",
    "shopMi": 2.1,
    "driveRoad": 27.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463944287",
@@ -18105,7 +18341,8 @@
    "shopCity": "Sevierville",
    "shopMi": 2.8,
    "driveRoad": 37.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf108449674",
@@ -18185,7 +18422,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 211
+   "daysListed": 211,
+   "hoaKnown": true
   },
   {
    "id": "z455765883",
@@ -18263,7 +18501,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.8,
    "driveRoad": 60.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2065397326",
@@ -18335,7 +18574,8 @@
    "shopCity": "Knoxville",
    "shopMi": 4.7,
    "driveRoad": 23.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463239665",
@@ -18411,7 +18651,8 @@
    "shopCity": "Harriman",
    "shopMi": 0.5,
    "driveRoad": 46.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z247046261",
@@ -18489,7 +18730,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 4.0,
    "driveRoad": 34.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z348163817",
@@ -18567,7 +18809,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.3,
    "driveRoad": 60.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201378009",
@@ -18647,7 +18890,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 155
+   "daysListed": 155,
+   "hoaKnown": true
   },
   {
    "id": "rf119022464",
@@ -18727,7 +18971,8 @@
    "convenienceLabel": "workable",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 32
+   "daysListed": 32,
+   "hoaKnown": true
   },
   {
    "id": "z461095632",
@@ -18805,7 +19050,8 @@
    "shopCity": "Dandridge",
    "shopMi": 7.3,
    "driveRoad": 50.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464431308",
@@ -18883,7 +19129,8 @@
    "shopCity": "Blaine",
    "shopMi": 2.5,
    "driveRoad": 31.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103864844",
@@ -18962,7 +19209,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 14
+   "daysListed": 14,
+   "hoaKnown": true
   },
   {
    "id": "rf63004811",
@@ -19035,7 +19283,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 33
+   "daysListed": 33,
+   "hoaKnown": true
   },
   {
    "id": "rf124619745",
@@ -19110,7 +19359,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 75
+   "daysListed": 75,
+   "hoaKnown": true
   },
   {
    "id": "rf200123805",
@@ -19189,7 +19439,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 239
+   "daysListed": 239,
+   "hoaKnown": true
   },
   {
    "id": "rf197635781",
@@ -19269,7 +19520,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 4
+   "daysListed": 4,
+   "hoaKnown": true
   },
   {
    "id": "rf87163521",
@@ -19349,7 +19601,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 212
+   "daysListed": 212,
+   "hoaKnown": true
   },
   {
    "id": "z465089059",
@@ -19427,7 +19680,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.6,
    "driveRoad": 49.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62901048",
@@ -19500,7 +19754,8 @@
    "convenienceLabel": "workable",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 1
+   "daysListed": 1,
+   "hoaKnown": true
   },
   {
    "id": "rf87523162",
@@ -19573,7 +19828,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 43
+   "daysListed": 43,
+   "hoaKnown": true
   },
   {
    "id": "z464380903",
@@ -19651,7 +19907,8 @@
    "shopCity": "Clinton",
    "shopMi": 2.4,
    "driveRoad": 29.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf195479856",
@@ -19728,7 +19985,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 512
+   "daysListed": 512,
+   "hoaKnown": true
   },
   {
    "id": "rf62899122",
@@ -19801,7 +20059,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 121
+   "daysListed": 121,
+   "hoaKnown": true
   },
   {
    "id": "z42491661",
@@ -19874,7 +20133,8 @@
    "shopCity": "Sevierville",
    "shopMi": 5.5,
    "driveRoad": 41.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103861508",
@@ -19951,7 +20211,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 184
+   "daysListed": 184,
+   "hoaKnown": true
   },
   {
    "id": "rf200350179",
@@ -20031,7 +20292,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 224
+   "daysListed": 224,
+   "hoaKnown": true
   },
   {
    "id": "rf191758193",
@@ -20102,7 +20364,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 425
+   "daysListed": 425,
+   "hoaKnown": true
   },
   {
    "id": "rf62846841",
@@ -20178,7 +20441,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 680
+   "daysListed": 680,
+   "hoaKnown": true
   },
   {
    "id": "rf104532208",
@@ -20245,7 +20509,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 103
+   "daysListed": 103,
+   "hoaKnown": true
   },
   {
    "id": "z463633331",
@@ -20321,7 +20586,8 @@
    "shopCity": "Sevierville",
    "shopMi": 7.2,
    "driveRoad": 48.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2066835863",
@@ -20399,7 +20665,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.8,
    "driveRoad": 60.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf204344251",
@@ -20472,7 +20739,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 43
+   "daysListed": 43,
+   "hoaKnown": true
   },
   {
    "id": "rf124600788",
@@ -20542,7 +20810,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 61
+   "daysListed": 61,
+   "hoaKnown": true
   },
   {
    "id": "z465026944",
@@ -20620,7 +20889,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.3,
    "driveRoad": 56.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf118962823",
@@ -20696,7 +20966,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 36
+   "daysListed": 36,
+   "hoaKnown": true
   },
   {
    "id": "rf104531047",
@@ -20766,7 +21037,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 103
+   "daysListed": 103,
+   "hoaKnown": true
   },
   {
    "id": "rf103870456",
@@ -20846,7 +21118,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 72
+   "daysListed": 72,
+   "hoaKnown": true
   },
   {
    "id": "z455200874",
@@ -20917,7 +21190,8 @@
    "shopCity": "Sevierville",
    "shopMi": 3.0,
    "driveRoad": 31.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z457056475",
@@ -20995,7 +21269,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.8,
    "driveRoad": 51.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z462049895",
@@ -21069,7 +21344,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 5.7,
    "driveRoad": 53.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205386192",
@@ -21141,7 +21417,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 12
+   "daysListed": 12,
+   "hoaKnown": true
   },
   {
    "id": "z441775425",
@@ -21219,7 +21496,8 @@
    "shopCity": "Maryville",
    "shopMi": 3.8,
    "driveRoad": 49.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf183266822",
@@ -21294,7 +21572,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 132
+   "daysListed": 132,
+   "hoaKnown": true
   },
   {
    "id": "rf87465354",
@@ -21368,7 +21647,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 67
+   "daysListed": 67,
+   "hoaKnown": true
   },
   {
    "id": "rf102982066",
@@ -21445,7 +21725,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 218
+   "daysListed": 218,
+   "hoaKnown": true
   },
   {
    "id": "rf111333842",
@@ -21525,7 +21806,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 5
+   "daysListed": 5,
+   "hoaKnown": true
   },
   {
    "id": "z40883413",
@@ -21603,7 +21885,8 @@
    "shopCity": "La Follette",
    "shopMi": 5.2,
    "driveRoad": 61.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf174440465",
@@ -21683,7 +21966,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 488
+   "daysListed": 488,
+   "hoaKnown": true
   },
   {
    "id": "z449657571",
@@ -21761,7 +22045,8 @@
    "shopCity": "Newport",
    "shopMi": 5.2,
    "driveRoad": 55.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf119072105",
@@ -21834,7 +22119,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 229
+   "daysListed": 229,
+   "hoaKnown": true
   },
   {
    "id": "rf111379015",
@@ -21914,7 +22200,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 55
+   "daysListed": 55,
+   "hoaKnown": true
   },
   {
    "id": "rf201143978",
@@ -21990,7 +22277,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 163
+   "daysListed": 163,
+   "hoaKnown": true
   },
   {
    "id": "rf192692715",
@@ -22070,7 +22358,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 165
+   "daysListed": 165,
+   "hoaKnown": true
   },
   {
    "id": "z465240751",
@@ -22141,7 +22430,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.6,
    "driveRoad": 55.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z42502491",
@@ -22218,7 +22508,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.5,
    "driveRoad": 52.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z450110001",
@@ -22296,7 +22587,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.3,
    "driveRoad": 60.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z462416083",
@@ -22374,7 +22666,8 @@
    "shopCity": "Clinton",
    "shopMi": 1.1,
    "driveRoad": 27.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf196036543",
@@ -22450,7 +22743,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 463
+   "daysListed": 463,
+   "hoaKnown": true
   },
   {
    "id": "z41747949",
@@ -22528,7 +22822,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.3,
    "driveRoad": 50.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461132764",
@@ -22602,7 +22897,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 4.2,
    "driveRoad": 31.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104531046",
@@ -22676,7 +22972,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 103
+   "daysListed": 103,
+   "hoaKnown": true
   },
   {
    "id": "rf163516072",
@@ -22756,7 +23053,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 16
+   "daysListed": 16,
+   "hoaKnown": true
   },
   {
    "id": "rf87496927",
@@ -22833,7 +23131,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 446
+   "daysListed": 446,
+   "hoaKnown": true
   },
   {
    "id": "rf192207969",
@@ -22910,7 +23209,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 140
+   "daysListed": 140,
+   "hoaKnown": true
   },
   {
    "id": "z462631309",
@@ -22981,7 +23281,8 @@
    "shopCity": "Clinton",
    "shopMi": 4.0,
    "driveRoad": 31.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87502991",
@@ -23053,7 +23354,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 248
+   "daysListed": 248,
+   "hoaKnown": true
   },
   {
    "id": "z464244166",
@@ -23131,7 +23433,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 5.9,
    "driveRoad": 54.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf182481007",
@@ -23211,7 +23514,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 10
+   "daysListed": 10,
+   "hoaKnown": true
   },
   {
    "id": "rf189430457",
@@ -23287,7 +23591,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 109
+   "daysListed": 109,
+   "hoaKnown": true
   },
   {
    "id": "z462473636",
@@ -23359,7 +23664,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.6,
    "driveRoad": 34.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62978374",
@@ -23439,7 +23745,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 169
+   "daysListed": 169,
+   "hoaKnown": true
   },
   {
    "id": "rf205328456",
@@ -23518,7 +23825,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 15
+   "daysListed": 15,
+   "hoaKnown": true
   },
   {
    "id": "z464805703",
@@ -23594,7 +23902,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.8,
    "driveRoad": 47.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z439555158",
@@ -23672,7 +23981,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 0.9,
    "driveRoad": 66.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z460652305",
@@ -23750,7 +24060,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.1,
    "driveRoad": 58.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2075107284",
@@ -23825,7 +24136,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.8,
    "driveRoad": 60.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf195670157",
@@ -23905,7 +24217,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 495
+   "daysListed": 495,
+   "hoaKnown": true
   },
   {
    "id": "z463369222",
@@ -23983,7 +24296,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.2,
    "driveRoad": 61.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103863188",
@@ -24059,7 +24373,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 28
+   "daysListed": 28,
+   "hoaKnown": true
   },
   {
    "id": "rf174439979",
@@ -24138,7 +24453,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 11
+   "daysListed": 11,
+   "hoaKnown": true
   },
   {
    "id": "z42044444",
@@ -24216,7 +24532,8 @@
    "shopCity": "Rockwood",
    "shopMi": 1.6,
    "driveRoad": 56.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z443833688",
@@ -24294,7 +24611,8 @@
    "shopCity": "Seymour",
    "shopMi": 4.0,
    "driveRoad": 28.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z352464681",
@@ -24372,7 +24690,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.7,
    "driveRoad": 47.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf179083170",
@@ -24452,7 +24771,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 125
+   "daysListed": 125,
+   "hoaKnown": true
   },
   {
    "id": "z458458569",
@@ -24530,7 +24850,8 @@
    "shopCity": "Kingston",
    "shopMi": 0.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z450723344",
@@ -24608,7 +24929,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 0.5,
    "driveRoad": 62.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z352433300",
@@ -24686,7 +25008,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.7,
    "driveRoad": 47.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464380904",
@@ -24764,7 +25087,8 @@
    "shopCity": "Clinton",
    "shopMi": 2.3,
    "driveRoad": 29.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463758040",
@@ -24837,7 +25161,8 @@
    "shopCity": "Sevierville",
    "shopMi": 4.7,
    "driveRoad": 50.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf191768831",
@@ -24916,7 +25241,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 76
+   "daysListed": 76,
+   "hoaKnown": true
   },
   {
    "id": "rf103871248",
@@ -24992,7 +25318,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 67
+   "daysListed": 67,
+   "hoaKnown": true
   },
   {
    "id": "rf188740438",
@@ -25069,7 +25396,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 69
+   "daysListed": 69,
+   "hoaKnown": true
   },
   {
    "id": "z103843618",
@@ -25147,7 +25475,8 @@
    "shopCity": "Maynardville City Limits",
    "shopMi": 3.6,
    "driveRoad": 54.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2059361567",
@@ -25225,7 +25554,8 @@
    "shopCity": "Dandridge",
    "shopMi": 6.3,
    "driveRoad": 49.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf200398147",
@@ -25296,7 +25626,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 209
+   "daysListed": 209,
+   "hoaKnown": true
   },
   {
    "id": "rf62891220",
@@ -25368,7 +25699,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 187
+   "daysListed": 187,
+   "hoaKnown": true
   },
   {
    "id": "z2063136722",
@@ -25445,7 +25777,8 @@
    "shopCity": "Morristown",
    "shopMi": 9.3,
    "driveRoad": 51.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81158116",
@@ -25523,7 +25856,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.6,
    "driveRoad": 48.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z214907076",
@@ -25601,7 +25935,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 4.3,
    "driveRoad": 63.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf124653228",
@@ -25680,7 +26015,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 268
+   "daysListed": 268,
+   "hoaKnown": true
   },
   {
    "id": "z352436280",
@@ -25758,7 +26094,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.7,
    "driveRoad": 47.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465064298",
@@ -25836,7 +26173,8 @@
    "shopCity": "Kingston",
    "shopMi": 1.0,
    "driveRoad": 49.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202668825",
@@ -25916,7 +26254,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 72
+   "daysListed": 72,
+   "hoaKnown": true
   },
   {
    "id": "rf189413736",
@@ -25996,7 +26335,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 302
+   "daysListed": 302,
+   "hoaKnown": true
   },
   {
    "id": "z465241911",
@@ -26070,7 +26410,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 3.5,
    "driveRoad": 63.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202008712",
@@ -26149,7 +26490,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 85
+   "daysListed": 85,
+   "hoaKnown": true
   },
   {
    "id": "rf201924589",
@@ -26219,7 +26561,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 118
+   "daysListed": 118,
+   "hoaKnown": true
   },
   {
    "id": "rf103864842",
@@ -26299,7 +26642,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 40
+   "daysListed": 40,
+   "hoaKnown": true
   },
   {
    "id": "z464020405",
@@ -26377,7 +26721,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 3.1,
    "driveRoad": 60.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf197638599",
@@ -26457,7 +26802,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 17
+   "daysListed": 17,
+   "hoaKnown": true
   },
   {
    "id": "rf124614898",
@@ -26537,7 +26883,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 16
+   "daysListed": 16,
+   "hoaKnown": true
   },
   {
    "id": "z2061450494",
@@ -26615,7 +26962,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.3,
    "driveRoad": 60.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2072309268",
@@ -26693,7 +27041,8 @@
    "shopCity": "Sweetwater",
    "shopMi": 2.0,
    "driveRoad": 56.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf204541178",
@@ -26772,7 +27121,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 36
+   "daysListed": 36,
+   "hoaKnown": true
   },
   {
    "id": "z81128590",
@@ -26850,7 +27200,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.7,
    "driveRoad": 42.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464324038",
@@ -26928,7 +27279,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.4,
    "driveRoad": 65.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z42507076",
@@ -27006,7 +27358,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.2,
    "driveRoad": 55.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81154095",
@@ -27084,7 +27437,8 @@
    "shopCity": "Dandridge",
    "shopMi": 6.4,
    "driveRoad": 50.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463248368",
@@ -27162,7 +27516,8 @@
    "shopCity": "La Follette",
    "shopMi": 3.3,
    "driveRoad": 56.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z453025991",
@@ -27240,7 +27595,8 @@
    "shopCity": "Alcoa",
    "shopMi": 4.0,
    "driveRoad": 39.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf192895764",
@@ -27318,7 +27674,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 22
+   "daysListed": 22,
+   "hoaKnown": true
   },
   {
    "id": "z457622071",
@@ -27396,7 +27753,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.1,
    "driveRoad": 58.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87563613",
@@ -27473,7 +27831,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 87
+   "daysListed": 87,
+   "hoaKnown": true
   },
   {
    "id": "z465241897",
@@ -27551,7 +27910,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.2,
    "driveRoad": 55.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2066835844",
@@ -27629,7 +27989,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.8,
    "driveRoad": 60.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z460893831",
@@ -27707,7 +28068,8 @@
    "shopCity": "Madisonville",
    "shopMi": 0.8,
    "driveRoad": 65.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464165042",
@@ -27785,7 +28147,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.0,
    "driveRoad": 45.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104523781",
@@ -27855,7 +28218,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 16
+   "daysListed": 16,
+   "hoaKnown": true
   },
   {
    "id": "z464823453",
@@ -27933,7 +28297,8 @@
    "shopCity": "Dandridge",
    "shopMi": 0.6,
    "driveRoad": 39.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464396761",
@@ -28008,7 +28373,8 @@
    "shopCity": "Jefferson City",
    "shopMi": 2.2,
    "driveRoad": 40.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf204533619",
@@ -28088,7 +28454,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 37
+   "daysListed": 37,
+   "hoaKnown": true
   },
   {
    "id": "z351800526",
@@ -28160,7 +28527,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.6,
    "driveRoad": 62.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87569373",
@@ -28236,7 +28604,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 103
+   "daysListed": 103,
+   "hoaKnown": true
   },
   {
    "id": "rf205325560",
@@ -28313,7 +28682,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 15
+   "daysListed": 15,
+   "hoaKnown": true
   },
   {
    "id": "z42502788",
@@ -28388,7 +28758,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.3,
    "driveRoad": 53.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf124610778",
@@ -28458,7 +28829,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 271
+   "daysListed": 271,
+   "hoaKnown": true
   },
   {
    "id": "rf78792214",
@@ -28538,7 +28910,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 188
+   "daysListed": 188,
+   "hoaKnown": true
   },
   {
    "id": "rf102125605",
@@ -28615,7 +28988,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 20
+   "daysListed": 20,
+   "hoaKnown": true
   },
   {
    "id": "rf202666878",
@@ -28691,7 +29065,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 173
+   "daysListed": 173,
+   "hoaKnown": true
   },
   {
    "id": "z67660444",
@@ -28769,7 +29144,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.0,
    "driveRoad": 59.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463881193",
@@ -28843,7 +29219,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.1,
    "driveRoad": 52.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87144509",
@@ -28917,7 +29294,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 150
+   "daysListed": 150,
+   "hoaKnown": true
   },
   {
    "id": "rf200954345",
@@ -28994,7 +29372,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 180
+   "daysListed": 180,
+   "hoaKnown": true
   },
   {
    "id": "rf199389136",
@@ -29064,7 +29443,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 294
+   "daysListed": 294,
+   "hoaKnown": true
   },
   {
    "id": "rf185200057",
@@ -29144,7 +29524,8 @@
    "convenienceLabel": "workable",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 218
+   "daysListed": 218,
+   "hoaKnown": true
   },
   {
    "id": "rf62969890",
@@ -29214,7 +29595,8 @@
    "convenienceLabel": "workable",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 254
+   "daysListed": 254,
+   "hoaKnown": true
   },
   {
    "id": "z450616601",
@@ -29292,7 +29674,8 @@
    "shopCity": "Madisonville",
    "shopMi": 11.5,
    "driveRoad": 53.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf145745007",
@@ -29372,7 +29755,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 84
+   "daysListed": 84,
+   "hoaKnown": true
   },
   {
    "id": "rf62971287",
@@ -29447,7 +29831,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 747
+   "daysListed": 747,
+   "hoaKnown": true
   },
   {
    "id": "rf163414151",
@@ -29527,7 +29912,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 54
+   "daysListed": 54,
+   "hoaKnown": true
   },
   {
    "id": "z460905462",
@@ -29599,7 +29985,8 @@
    "shopCity": "Knoxville",
    "shopMi": 3.2,
    "driveRoad": 17.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205249528",
@@ -29679,7 +30066,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 17
+   "daysListed": 17,
+   "hoaKnown": true
   },
   {
    "id": "rf160509665",
@@ -29757,7 +30145,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 211
+   "daysListed": 211,
+   "hoaKnown": true
   },
   {
    "id": "z2057943316",
@@ -29835,7 +30224,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.2,
    "driveRoad": 63.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201836363",
@@ -29912,7 +30302,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 125
+   "daysListed": 125,
+   "hoaKnown": true
   },
   {
    "id": "rf87141553",
@@ -29992,7 +30383,8 @@
    "convenienceLabel": "workable",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 308
+   "daysListed": 308,
+   "hoaKnown": true
   },
   {
    "id": "rf62886013",
@@ -30072,7 +30464,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 88
+   "daysListed": 88,
+   "hoaKnown": true
   },
   {
    "id": "rf163431409",
@@ -30146,7 +30539,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 41
+   "daysListed": 41,
+   "hoaKnown": true
   },
   {
    "id": "z464380901",
@@ -30224,7 +30618,8 @@
    "shopCity": "Clinton",
    "shopMi": 2.3,
    "driveRoad": 29.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf203135303",
@@ -30304,7 +30699,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 696
+   "daysListed": 696,
+   "hoaKnown": true
   },
   {
    "id": "rf87536940",
@@ -30371,7 +30767,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 10
+   "daysListed": 10,
+   "hoaKnown": true
   },
   {
    "id": "z465087513",
@@ -30448,7 +30845,8 @@
    "shopCity": "Oliver Springs",
    "shopMi": 2.3,
    "driveRoad": 45.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465265757",
@@ -30524,7 +30922,8 @@
    "shopCity": "Madisonville",
    "shopMi": 8.2,
    "driveRoad": 59.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2098822283",
@@ -30602,7 +31001,8 @@
    "shopCity": "Sevierville",
    "shopMi": 5.0,
    "driveRoad": 27.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463761187",
@@ -30680,7 +31080,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.8,
    "driveRoad": 35.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z352433531",
@@ -30758,7 +31159,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.7,
    "driveRoad": 47.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163446626",
@@ -30834,7 +31236,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 97
+   "daysListed": 97,
+   "hoaKnown": true
   },
   {
    "id": "rf204427386",
@@ -30914,7 +31317,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 40
+   "daysListed": 40,
+   "hoaKnown": true
   },
   {
    "id": "rf188736167",
@@ -30992,7 +31396,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 69
+   "daysListed": 69,
+   "hoaKnown": true
   },
   {
    "id": "rf193224080",
@@ -31071,7 +31476,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 160
+   "daysListed": 160,
+   "hoaKnown": true
   },
   {
    "id": "rf163359576",
@@ -31151,7 +31557,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 139
+   "daysListed": 139,
+   "hoaKnown": true
   },
   {
    "id": "rf118986242",
@@ -31231,7 +31638,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 405
+   "daysListed": 405,
+   "hoaKnown": true
   },
   {
    "id": "z2065798470",
@@ -31309,7 +31717,8 @@
    "shopCity": "Dandridge",
    "shopMi": 2.8,
    "driveRoad": 48.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf146151202",
@@ -31389,7 +31798,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 148
+   "daysListed": 148,
+   "hoaKnown": true
   },
   {
    "id": "z465182979",
@@ -31467,7 +31877,8 @@
    "shopCity": "Sevier",
    "shopMi": 3.6,
    "driveRoad": 29.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163481811",
@@ -31546,7 +31957,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 147
+   "daysListed": 147,
+   "hoaKnown": true
   },
   {
    "id": "rf63023593",
@@ -31622,7 +32034,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 47
+   "daysListed": 47,
+   "hoaKnown": true
   },
   {
    "id": "rf102951736",
@@ -31692,7 +32105,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 35
+   "daysListed": 35,
+   "hoaKnown": true
   },
   {
    "id": "z464057878",
@@ -31770,7 +32184,8 @@
    "shopCity": "Newport",
    "shopMi": 8.9,
    "driveRoad": 52.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201390912",
@@ -31847,7 +32262,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 154
+   "daysListed": 154,
+   "hoaKnown": true
   },
   {
    "id": "z81144780",
@@ -31919,7 +32335,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 2.6,
    "driveRoad": 38.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z318405601",
@@ -31997,7 +32414,8 @@
    "shopCity": "Newport",
    "shopMi": 5.1,
    "driveRoad": 53.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z344993786",
@@ -32075,7 +32493,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202386998",
@@ -32155,7 +32574,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 82
+   "daysListed": 82,
+   "hoaKnown": true
   },
   {
    "id": "z463758044",
@@ -32230,7 +32650,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.7,
    "driveRoad": 58.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205325332",
@@ -32310,7 +32731,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 15
+   "daysListed": 15,
+   "hoaKnown": true
   },
   {
    "id": "z2069783507",
@@ -32388,7 +32810,8 @@
    "shopCity": "Jacksboro",
    "shopMi": 3.1,
    "driveRoad": 51.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104554406",
@@ -32460,7 +32883,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 28
+   "daysListed": 28,
+   "hoaKnown": true
   },
   {
    "id": "rf87487631",
@@ -32540,7 +32964,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 28
+   "daysListed": 28,
+   "hoaKnown": true
   },
   {
    "id": "rf195339811",
@@ -32617,7 +33042,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 44
+   "daysListed": 44,
+   "hoaKnown": true
   },
   {
    "id": "z90073155",
@@ -32695,7 +33121,8 @@
    "shopCity": "Alcoa",
    "shopMi": 5.4,
    "driveRoad": 37.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf203472641",
@@ -32774,7 +33201,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 50
+   "daysListed": 50,
+   "hoaKnown": true
   },
   {
    "id": "rf203146151",
@@ -32844,7 +33272,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 58
+   "daysListed": 58,
+   "hoaKnown": true
   },
   {
    "id": "z337820868",
@@ -32922,7 +33351,8 @@
    "shopCity": "Knoxville",
    "shopMi": 0.9,
    "driveRoad": 15.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463438139",
@@ -32999,7 +33429,8 @@
    "shopCity": "Madisonville",
    "shopMi": 8.0,
    "driveRoad": 58.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62972592",
@@ -33075,7 +33506,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 51
+   "daysListed": 51,
+   "hoaKnown": true
   },
   {
    "id": "rf174289545",
@@ -33153,7 +33585,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 39
+   "daysListed": 39,
+   "hoaKnown": true
   },
   {
    "id": "rf62868120",
@@ -33233,7 +33666,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 94
+   "daysListed": 94,
+   "hoaKnown": true
   },
   {
    "id": "z464125519",
@@ -33308,7 +33742,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.1,
    "driveRoad": 44.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf144307100",
@@ -33388,7 +33823,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 13
+   "daysListed": 13,
+   "hoaKnown": true
   },
   {
    "id": "rf163590925",
@@ -33468,7 +33904,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 57
+   "daysListed": 57,
+   "hoaKnown": true
   },
   {
    "id": "rf199142602",
@@ -33538,7 +33975,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 302
+   "daysListed": 302,
+   "hoaKnown": true
   },
   {
    "id": "z463534517",
@@ -33616,7 +34054,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.7,
    "driveRoad": 18.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41752070",
@@ -33694,7 +34133,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.2,
    "driveRoad": 57.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464057913",
@@ -33772,7 +34212,8 @@
    "shopCity": "Sevierville",
    "shopMi": 6.3,
    "driveRoad": 47.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461395670",
@@ -33850,7 +34291,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 4.9,
    "driveRoad": 40.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461184438",
@@ -33928,7 +34370,8 @@
    "shopCity": "Madisonville",
    "shopMi": 0.8,
    "driveRoad": 65.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2058112277",
@@ -34006,7 +34449,8 @@
    "shopCity": "Loudon",
    "shopMi": 5.6,
    "driveRoad": 51.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf111323350",
@@ -34079,7 +34523,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 20
+   "daysListed": 20,
+   "hoaKnown": true
   },
   {
    "id": "rf124687447",
@@ -34159,7 +34604,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 133
+   "daysListed": 133,
+   "hoaKnown": true
   },
   {
    "id": "rf170014546",
@@ -34239,7 +34685,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 79
+   "daysListed": 79,
+   "hoaKnown": true
   },
   {
    "id": "rf202019422",
@@ -34309,7 +34756,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 114
+   "daysListed": 114,
+   "hoaKnown": true
   },
   {
    "id": "rf192509985",
@@ -34389,7 +34837,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 44
+   "daysListed": 44,
+   "hoaKnown": true
   },
   {
    "id": "z465241876",
@@ -34467,7 +34916,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.3,
    "driveRoad": 56.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z462752160",
@@ -34541,7 +34991,8 @@
    "shopCity": "Newport",
    "shopMi": 9.7,
    "driveRoad": 54.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z460341482",
@@ -34616,7 +35067,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.5,
    "driveRoad": 58.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205251230",
@@ -34696,7 +35148,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 16
+   "daysListed": 16,
+   "hoaKnown": true
   },
   {
    "id": "z464072061",
@@ -34771,7 +35224,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.6,
    "driveRoad": 59.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465026951",
@@ -34846,7 +35300,8 @@
    "shopCity": "Dandridge",
    "shopMi": 2.7,
    "driveRoad": 37.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463784284",
@@ -34924,7 +35379,8 @@
    "shopCity": "Dandridge",
    "shopMi": 5.0,
    "driveRoad": 49.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464783721",
@@ -35002,7 +35458,8 @@
    "shopCity": "Sevierville",
    "shopMi": 4.3,
    "driveRoad": 42.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z352433720",
@@ -35080,7 +35537,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.6,
    "driveRoad": 47.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163607533",
@@ -35159,7 +35617,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 12
+   "daysListed": 12,
+   "hoaKnown": true
   },
   {
    "id": "z2078092510",
@@ -35235,7 +35694,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 1.6,
    "driveRoad": 54.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463919614",
@@ -35313,7 +35773,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 1.7,
    "driveRoad": 54.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104522761",
@@ -35390,7 +35851,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 35
+   "daysListed": 35,
+   "hoaKnown": true
   },
   {
    "id": "rf102116032",
@@ -35460,7 +35922,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 121
+   "daysListed": 121,
+   "hoaKnown": true
   },
   {
    "id": "z352433926",
@@ -35538,7 +36001,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.6,
    "driveRoad": 47.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87563698",
@@ -35611,7 +36075,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 252
+   "daysListed": 252,
+   "hoaKnown": true
   },
   {
    "id": "rf103354698",
@@ -35684,7 +36149,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 225
+   "daysListed": 225,
+   "hoaKnown": true
   },
   {
    "id": "rf189726494",
@@ -35761,7 +36227,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 196
+   "daysListed": 196,
+   "hoaKnown": true
   },
   {
    "id": "z2054915350",
@@ -35835,7 +36302,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.2,
    "driveRoad": 65.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf199200446",
@@ -35915,7 +36383,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 301
+   "daysListed": 301,
+   "hoaKnown": true
   },
   {
    "id": "rf119055041",
@@ -35993,7 +36462,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 176
+   "daysListed": 176,
+   "hoaKnown": true
   },
   {
    "id": "rf204420471",
@@ -36066,7 +36536,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 41
+   "daysListed": 41,
+   "hoaKnown": true
   },
   {
    "id": "rf64332929",
@@ -36143,7 +36614,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 39
+   "daysListed": 39,
+   "hoaKnown": true
   },
   {
    "id": "rf163560086",
@@ -36221,7 +36693,8 @@
    "convenienceLabel": "workable",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 110
+   "daysListed": 110,
+   "hoaKnown": true
   },
   {
    "id": "rf188373985",
@@ -36295,7 +36768,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 107
+   "daysListed": 107,
+   "hoaKnown": true
   },
   {
    "id": "z42506866",
@@ -36373,7 +36847,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.9,
    "driveRoad": 62.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104534073",
@@ -36448,7 +36923,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 28
+   "daysListed": 28,
+   "hoaKnown": true
   },
   {
    "id": "z2066391561",
@@ -36525,7 +37001,8 @@
    "shopCity": "Knoxville",
    "shopMi": 2.3,
    "driveRoad": 25.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465241912",
@@ -36603,7 +37080,8 @@
    "shopCity": "Sevierville",
    "shopMi": 2.8,
    "driveRoad": 35.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2058111828",
@@ -36681,7 +37159,8 @@
    "shopCity": "Loudon",
    "shopMi": 5.6,
    "driveRoad": 52.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163362331",
@@ -36757,7 +37236,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 41
+   "daysListed": 41,
+   "hoaKnown": true
   },
   {
    "id": "rf103359106",
@@ -36832,7 +37312,8 @@
    "convenienceLabel": "workable",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 96
+   "daysListed": 96,
+   "hoaKnown": true
   },
   {
    "id": "rf202657561",
@@ -36909,7 +37390,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 103
+   "daysListed": 103,
+   "hoaKnown": true
   },
   {
    "id": "rf163419703",
@@ -36989,7 +37471,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 121
+   "daysListed": 121,
+   "hoaKnown": true
   },
   {
    "id": "rf203214418",
@@ -37069,7 +37552,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 57
+   "daysListed": 57,
+   "hoaKnown": true
   },
   {
    "id": "rf163414278",
@@ -37139,7 +37623,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 102
+   "daysListed": 102,
+   "hoaKnown": true
   },
   {
    "id": "rf63014150",
@@ -37216,7 +37701,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 321
+   "daysListed": 321,
+   "hoaKnown": true
   },
   {
    "id": "z464021688",
@@ -37292,7 +37778,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.3,
    "driveRoad": 38.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87458444",
@@ -37372,7 +37859,8 @@
    "convenienceLabel": "workable",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 82
+   "daysListed": 82,
+   "hoaKnown": true
   },
   {
    "id": "z81209309",
@@ -37450,7 +37938,8 @@
    "shopCity": "Sweetwater",
    "shopMi": 1.5,
    "driveRoad": 53.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z352435404",
@@ -37528,7 +38017,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.6,
    "driveRoad": 47.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81186113",
@@ -37601,7 +38091,8 @@
    "shopCity": "Loudon",
    "shopMi": 1.6,
    "driveRoad": 46.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103359111",
@@ -37676,7 +38167,8 @@
    "convenienceLabel": "workable",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 96
+   "daysListed": 96,
+   "hoaKnown": true
   },
   {
    "id": "rf87499145",
@@ -37743,7 +38235,8 @@
    "convenienceLabel": "workable",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 96
+   "daysListed": 96,
+   "hoaKnown": true
   },
   {
    "id": "z464837071",
@@ -37821,7 +38314,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.0,
    "driveRoad": 59.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465254009",
@@ -37899,7 +38393,8 @@
    "shopCity": "Jacksboro",
    "shopMi": 3.1,
    "driveRoad": 52.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202753987",
@@ -37978,7 +38473,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 67
+   "daysListed": 67,
+   "hoaKnown": true
   },
   {
    "id": "rf205388500",
@@ -38058,7 +38554,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 12
+   "daysListed": 12,
+   "hoaKnown": true
   },
   {
    "id": "rf87525044",
@@ -38134,7 +38631,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 230
+   "daysListed": 230,
+   "hoaKnown": true
   },
   {
    "id": "rf103871539",
@@ -38204,7 +38702,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 82
+   "daysListed": 82,
+   "hoaKnown": true
   },
   {
    "id": "z2067924031",
@@ -38282,7 +38781,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.8,
    "driveRoad": 63.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464167447",
@@ -38357,7 +38857,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.7,
    "driveRoad": 53.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf205348999",
@@ -38437,7 +38938,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 14
+   "daysListed": 14,
+   "hoaKnown": true
   },
   {
    "id": "rf205549088",
@@ -38507,7 +39009,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 1
+   "daysListed": 1,
+   "hoaKnown": true
   },
   {
    "id": "rf163610280",
@@ -38584,7 +39087,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 90
+   "daysListed": 90,
+   "hoaKnown": true
   },
   {
    "id": "rf62988300",
@@ -38657,7 +39161,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 28
+   "daysListed": 28,
+   "hoaKnown": true
   },
   {
    "id": "rf104539710",
@@ -38724,7 +39229,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 28
+   "daysListed": 28,
+   "hoaKnown": true
   },
   {
    "id": "z2089672000",
@@ -38800,7 +39306,8 @@
    "shopCity": "Loudon",
    "shopMi": 1.6,
    "driveRoad": 46.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf142980422",
@@ -38877,7 +39384,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 102
+   "daysListed": 102,
+   "hoaKnown": true
   },
   {
    "id": "rf196137871",
@@ -38957,7 +39465,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 175
+   "daysListed": 175,
+   "hoaKnown": true
   },
   {
    "id": "z463728287",
@@ -39035,7 +39544,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 4.9,
    "driveRoad": 66.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87182146",
@@ -39115,7 +39625,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 757
+   "daysListed": 757,
+   "hoaKnown": true
   },
   {
    "id": "z66926175",
@@ -39193,7 +39704,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.6,
    "driveRoad": 64.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464683001",
@@ -39271,7 +39783,8 @@
    "shopCity": "Kingston",
    "shopMi": 3.0,
    "driveRoad": 51.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202384191",
@@ -39347,7 +39860,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 82
+   "daysListed": 82,
+   "hoaKnown": true
   },
   {
    "id": "z463571937",
@@ -39425,7 +39939,8 @@
    "shopCity": "Maryville",
    "shopMi": 6.0,
    "driveRoad": 51.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463776076",
@@ -39501,7 +40016,8 @@
    "shopCity": "Maryville",
    "shopMi": 2.9,
    "driveRoad": 42.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464348861",
@@ -39574,7 +40090,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.9,
    "driveRoad": 57.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z348257978",
@@ -39649,7 +40166,8 @@
    "shopCity": "Maryville",
    "shopMi": 9.2,
    "driveRoad": 51.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81243782",
@@ -39727,7 +40245,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.1,
    "driveRoad": 62.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202382598",
@@ -39804,7 +40323,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 82
+   "daysListed": 82,
+   "hoaKnown": true
   },
   {
    "id": "z81302932",
@@ -39882,7 +40402,8 @@
    "shopCity": "Kingston",
    "shopMi": 4.4,
    "driveRoad": 48.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87174238",
@@ -39962,7 +40483,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 167
+   "daysListed": 167,
+   "hoaKnown": true
   },
   {
    "id": "z463551705",
@@ -40040,7 +40562,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.9,
    "driveRoad": 32.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2054864042",
@@ -40118,7 +40641,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.1,
    "driveRoad": 62.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z458372853",
@@ -40195,7 +40719,8 @@
    "shopCity": "Seymour",
    "shopMi": 0.2,
    "driveRoad": 19.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z352470889",
@@ -40273,7 +40798,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.7,
    "driveRoad": 47.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2058920114",
@@ -40351,7 +40877,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 3.3,
    "driveRoad": 62.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465027443",
@@ -40427,7 +40954,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.7,
    "driveRoad": 58.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf124694244",
@@ -40500,7 +41028,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 44
+   "daysListed": 44,
+   "hoaKnown": true
   },
   {
    "id": "rf124645190",
@@ -40570,7 +41099,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 61
+   "daysListed": 61,
+   "hoaKnown": true
   },
   {
    "id": "rf203668521",
@@ -40637,7 +41167,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 44
+   "daysListed": 44,
+   "hoaKnown": true
   },
   {
    "id": "rf163446032",
@@ -40711,7 +41242,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 50
+   "daysListed": 50,
+   "hoaKnown": true
   },
   {
    "id": "rf62970672",
@@ -40790,7 +41322,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 484
+   "daysListed": 484,
+   "hoaKnown": true
   },
   {
    "id": "rf87502228",
@@ -40867,7 +41400,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 904
+   "daysListed": 904,
+   "hoaKnown": true
   },
   {
    "id": "z2054243012",
@@ -40945,7 +41479,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 5.1,
    "driveRoad": 42.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163551375",
@@ -41020,7 +41555,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 86
+   "daysListed": 86,
+   "hoaKnown": true
   },
   {
    "id": "z463775430",
@@ -41098,7 +41634,8 @@
    "shopCity": "Loudon",
    "shopMi": 2.6,
    "driveRoad": 42.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z352436115",
@@ -41176,7 +41713,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.9,
    "driveRoad": 47.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87148217",
@@ -41256,7 +41794,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 30
+   "daysListed": 30,
+   "hoaKnown": true
   },
   {
    "id": "z80988808",
@@ -41334,7 +41873,8 @@
    "shopCity": "Maryville",
    "shopMi": 4.5,
    "driveRoad": 41.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465241891",
@@ -41405,7 +41945,8 @@
    "shopCity": "Sevier",
    "shopMi": 3.6,
    "driveRoad": 27.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103870944",
@@ -41481,7 +42022,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 77
+   "daysListed": 77,
+   "hoaKnown": true
   },
   {
    "id": "z2114751924",
@@ -41555,7 +42097,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.4,
    "driveRoad": 57.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163367816",
@@ -41630,7 +42173,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 91
+   "daysListed": 91,
+   "hoaKnown": true
   },
   {
    "id": "z352434326",
@@ -41708,7 +42252,8 @@
    "shopCity": "Morristown",
    "shopMi": 6.6,
    "driveRoad": 47.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf204355026",
@@ -41788,7 +42333,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 42
+   "daysListed": 42,
+   "hoaKnown": true
   },
   {
    "id": "z459645177",
@@ -41866,7 +42412,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.3,
    "driveRoad": 47.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2076603885",
@@ -41944,7 +42491,8 @@
    "shopCity": "Loudon",
    "shopMi": 5.6,
    "driveRoad": 51.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81219066",
@@ -42022,7 +42570,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.7,
    "driveRoad": 63.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41744491",
@@ -42097,7 +42646,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.6,
    "driveRoad": 45.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81309954",
@@ -42168,7 +42718,8 @@
    "shopCity": "Kingston",
    "shopMi": 4.0,
    "driveRoad": 51.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z66951597",
@@ -42241,7 +42792,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.9,
    "driveRoad": 67.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf102953129",
@@ -42314,7 +42866,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 181
+   "daysListed": 181,
+   "hoaKnown": true
   },
   {
    "id": "rf62996562",
@@ -42389,7 +42942,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 58
+   "daysListed": 58,
+   "hoaKnown": true
   },
   {
    "id": "z463784650",
@@ -42467,7 +43021,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.4,
    "driveRoad": 58.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62971001",
@@ -42537,7 +43092,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 106
+   "daysListed": 106,
+   "hoaKnown": true
   },
   {
    "id": "z463781523",
@@ -42610,7 +43166,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 1.0,
    "driveRoad": 45.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z462578740",
@@ -42688,7 +43245,8 @@
    "shopCity": "Knoxville",
    "shopMi": 0.8,
    "driveRoad": 21.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464238657",
@@ -42761,7 +43319,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.1,
    "driveRoad": 64.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2059290222",
@@ -42839,7 +43398,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.0,
    "driveRoad": 59.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464328839",
@@ -42917,7 +43477,8 @@
    "shopCity": "Kingston",
    "shopMi": 2.9,
    "driveRoad": 57.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf188197882",
@@ -42994,7 +43555,8 @@
    "convenienceLabel": "workable",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 141
+   "daysListed": 141,
+   "hoaKnown": true
   },
   {
    "id": "rf205522794",
@@ -43074,7 +43636,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 5
+   "daysListed": 5,
+   "hoaKnown": true
   },
   {
    "id": "z81449326",
@@ -43152,7 +43715,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.3,
    "driveRoad": 61.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87146410",
@@ -43226,7 +43790,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 75
+   "daysListed": 75,
+   "hoaKnown": true
   },
   {
    "id": "z464893993",
@@ -43301,7 +43866,8 @@
    "shopCity": "Knoxville",
    "shopMi": 2.8,
    "driveRoad": 26.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464155800",
@@ -43379,7 +43945,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.1,
    "driveRoad": 61.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf63001457",
@@ -43459,7 +44026,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 718
+   "daysListed": 718,
+   "hoaKnown": true
   },
   {
    "id": "rf62994500",
@@ -43539,7 +44107,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 247
+   "daysListed": 247,
+   "hoaKnown": true
   },
   {
    "id": "rf204691382",
@@ -43619,7 +44188,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 26
+   "daysListed": 26,
+   "hoaKnown": true
   },
   {
    "id": "rf186107976",
@@ -43698,7 +44268,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 32
+   "daysListed": 32,
+   "hoaKnown": true
   },
   {
    "id": "z464162458",
@@ -43776,7 +44347,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.4,
    "driveRoad": 45.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf198736279",
@@ -43846,7 +44418,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 67
+   "daysListed": 67,
+   "hoaKnown": true
   },
   {
    "id": "z42049716",
@@ -43919,7 +44492,8 @@
    "shopCity": "Kingston",
    "shopMi": 6.7,
    "driveRoad": 33.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf200622673",
@@ -43996,7 +44570,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 204
+   "daysListed": 204,
+   "hoaKnown": true
   },
   {
    "id": "z41746490",
@@ -44074,7 +44649,8 @@
    "shopCity": "Loudon",
    "shopMi": 1.8,
    "driveRoad": 45.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf63017440",
@@ -44148,7 +44724,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 14
+   "daysListed": 14,
+   "hoaKnown": true
   },
   {
    "id": "z42477040",
@@ -44226,7 +44803,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.6,
    "driveRoad": 32.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z42512755",
@@ -44303,7 +44881,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 0.8,
    "driveRoad": 66.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81177459",
@@ -44381,7 +44960,8 @@
    "shopCity": "Loudon",
    "shopMi": 1.6,
    "driveRoad": 46.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87160110",
@@ -44461,7 +45041,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 213
+   "daysListed": 213,
+   "hoaKnown": true
   },
   {
    "id": "z42507192",
@@ -44539,7 +45120,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.6,
    "driveRoad": 55.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103366280",
@@ -44606,7 +45188,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 205
+   "daysListed": 205,
+   "hoaKnown": true
   },
   {
    "id": "rf201250791",
@@ -44686,7 +45269,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 160
+   "daysListed": 160,
+   "hoaKnown": true
   },
   {
    "id": "z2079202953",
@@ -44764,7 +45348,8 @@
    "shopCity": "Knox",
    "shopMi": 2.1,
    "driveRoad": 31.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163609009",
@@ -44838,7 +45423,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 57
+   "daysListed": 57,
+   "hoaKnown": true
   },
   {
    "id": "z463135185",
@@ -44914,7 +45500,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.0,
    "driveRoad": 59.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163381573",
@@ -44989,7 +45576,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 58
+   "daysListed": 58,
+   "hoaKnown": true
   },
   {
    "id": "z41749358",
@@ -45058,7 +45646,8 @@
    "_convShop": 7,
    "_convV": 3,
    "img": "photos/z41749358.jpg",
-   "daysListed": 308
+   "daysListed": 308,
+   "hoaKnown": false
   },
   {
    "id": "z463833173",
@@ -45135,7 +45724,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.3,
    "driveRoad": 61.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z439165624",
@@ -45210,7 +45800,8 @@
    "shopCity": "Dandridge",
    "shopMi": 5.5,
    "driveRoad": 45.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z459506072",
@@ -45288,7 +45879,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.5,
    "driveRoad": 49.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf204784748",
@@ -45368,7 +45960,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 23
+   "daysListed": 23,
+   "hoaKnown": true
   },
   {
    "id": "rf163414147",
@@ -45448,7 +46041,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 54
+   "daysListed": 54,
+   "hoaKnown": true
   },
   {
    "id": "rf201590176",
@@ -45528,7 +46122,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 142
+   "daysListed": 142,
+   "hoaKnown": true
   },
   {
    "id": "rf204538713",
@@ -45600,7 +46195,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 36
+   "daysListed": 36,
+   "hoaKnown": true
   },
   {
    "id": "rf186509091",
@@ -45677,7 +46273,8 @@
    "convenienceLabel": "workable",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 646
+   "daysListed": 646,
+   "hoaKnown": true
   },
   {
    "id": "z2064413239",
@@ -45755,7 +46352,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.5,
    "driveRoad": 56.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87491946",
@@ -45832,7 +46430,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 34
+   "daysListed": 34,
+   "hoaKnown": true
   },
   {
    "id": "rf63120238",
@@ -45905,7 +46504,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 71
+   "daysListed": 71,
+   "hoaKnown": true
   },
   {
    "id": "rf163179976",
@@ -45985,7 +46585,8 @@
    "convenienceLabel": "workable",
    "_convShop": 13,
    "_convV": 3,
-   "daysListed": 6
+   "daysListed": 6,
+   "hoaKnown": true
   },
   {
    "id": "z461827036",
@@ -46063,7 +46664,8 @@
    "shopCity": "Knoxville",
    "shopMi": 5.3,
    "driveRoad": 14.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41890759",
@@ -46141,7 +46743,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.8,
    "driveRoad": 63.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41750712",
@@ -46214,7 +46817,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.5,
    "driveRoad": 52.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z90070082",
@@ -46292,7 +46896,8 @@
    "shopCity": "Maryville",
    "shopMi": 1.0,
    "driveRoad": 36.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2070498802",
@@ -46370,7 +46975,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.8,
    "driveRoad": 60.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87918462",
@@ -46450,7 +47056,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 121
+   "daysListed": 121,
+   "hoaKnown": true
   },
   {
    "id": "rf87470499",
@@ -46525,7 +47132,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 6
+   "daysListed": 6,
+   "hoaKnown": true
   },
   {
    "id": "z2079307477",
@@ -46601,7 +47209,8 @@
    "shopCity": "Knox",
    "shopMi": 2.2,
    "driveRoad": 30.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf102084004",
@@ -46681,7 +47290,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 16
+   "daysListed": 16,
+   "hoaKnown": true
   },
   {
    "id": "rf111329402",
@@ -46758,7 +47368,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 39
+   "daysListed": 39,
+   "hoaKnown": true
   },
   {
    "id": "z41752084",
@@ -46836,7 +47447,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.2,
    "driveRoad": 57.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87555398",
@@ -46911,7 +47523,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 19
+   "daysListed": 19,
+   "hoaKnown": true
   },
   {
    "id": "z2066651417",
@@ -46989,7 +47602,8 @@
    "shopCity": "Maryville",
    "shopMi": 5.2,
    "driveRoad": 44.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z450611518",
@@ -47067,7 +47681,8 @@
    "shopCity": "Harriman",
    "shopMi": 4.9,
    "driveRoad": 59.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70274800",
@@ -47145,7 +47760,8 @@
    "shopCity": "Alcoa",
    "shopMi": 2.6,
    "driveRoad": 34.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87494492",
@@ -47218,7 +47834,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 141
+   "daysListed": 141,
+   "hoaKnown": true
   },
   {
    "id": "z41751913",
@@ -47290,7 +47907,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.9,
    "driveRoad": 51.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104020079",
@@ -47367,7 +47985,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 84
+   "daysListed": 84,
+   "hoaKnown": true
   },
   {
    "id": "z459957335",
@@ -47445,7 +48064,8 @@
    "shopCity": "Sevierville",
    "shopMi": 3.1,
    "driveRoad": 42.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z457093483",
@@ -47523,7 +48143,8 @@
    "shopCity": "La Follette",
    "shopMi": 8.6,
    "driveRoad": 63.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf63023792",
@@ -47596,7 +48217,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 289
+   "daysListed": 289,
+   "hoaKnown": true
   },
   {
    "id": "z458613520",
@@ -47674,7 +48296,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 0.8,
    "driveRoad": 67.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62858760",
@@ -47752,7 +48375,8 @@
    "convenienceLabel": "workable",
    "_convShop": 11,
    "_convV": 3,
-   "daysListed": 54
+   "daysListed": 54,
+   "hoaKnown": true
   },
   {
    "id": "z41750057",
@@ -47830,7 +48454,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.4,
    "driveRoad": 54.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41748979",
@@ -47901,7 +48526,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.5,
    "driveRoad": 52.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463076282",
@@ -47979,7 +48605,8 @@
    "shopCity": "Madisonville",
    "shopMi": 11.4,
    "driveRoad": 53.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z299822946",
@@ -48057,7 +48684,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.2,
    "driveRoad": 7.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163489208",
@@ -48137,7 +48765,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 209
+   "daysListed": 209,
+   "hoaKnown": true
   },
   {
    "id": "rf194832519",
@@ -48214,7 +48843,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 174
+   "daysListed": 174,
+   "hoaKnown": true
   },
   {
    "id": "z2057125190",
@@ -48292,7 +48922,8 @@
    "shopCity": "Sevierville",
    "shopMi": 4.7,
    "driveRoad": 43.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81003619",
@@ -48369,7 +49000,8 @@
    "shopCity": "Maryville",
    "shopMi": 4.1,
    "driveRoad": 22.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122385",
@@ -48447,7 +49079,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.3,
    "driveRoad": 47.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41744492",
@@ -48518,7 +49151,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.5,
    "driveRoad": 52.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122136",
@@ -48596,7 +49230,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163602395",
@@ -48672,7 +49307,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 51
+   "daysListed": 51,
+   "hoaKnown": true
   },
   {
    "id": "rf103869569",
@@ -48752,7 +49388,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 41
+   "daysListed": 41,
+   "hoaKnown": true
   },
   {
    "id": "rf87139939",
@@ -48827,7 +49464,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 49
+   "daysListed": 49,
+   "hoaKnown": true
   },
   {
    "id": "z2075432613",
@@ -48905,7 +49543,8 @@
    "shopCity": "Dandridge",
    "shopMi": 0.8,
    "driveRoad": 43.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf197041939",
@@ -48985,7 +49624,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 33
+   "daysListed": 33,
+   "hoaKnown": true
   },
   {
    "id": "z440921847",
@@ -49063,7 +49703,8 @@
    "shopCity": "Harriman",
    "shopMi": 5.1,
    "driveRoad": 59.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461012998",
@@ -49141,7 +49782,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 51.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87559716",
@@ -49211,7 +49853,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 7,
    "_convV": 3,
-   "daysListed": 146
+   "daysListed": 146,
+   "hoaKnown": true
   },
   {
    "id": "rf62989544",
@@ -49288,7 +49931,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 15
+   "daysListed": 15,
+   "hoaKnown": true
   },
   {
    "id": "z2078557339",
@@ -49366,7 +50010,8 @@
    "shopCity": "Maynardville City Limits",
    "shopMi": 3.7,
    "driveRoad": 56.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf124749110",
@@ -49446,7 +50091,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 145
+   "daysListed": 145,
+   "hoaKnown": true
   },
   {
    "id": "z465242399",
@@ -49524,7 +50170,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.0,
    "driveRoad": 47.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122377",
@@ -49602,7 +50249,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.2,
    "driveRoad": 47.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf63025920",
@@ -49682,7 +50330,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 203
+   "daysListed": 203,
+   "hoaKnown": true
   },
   {
    "id": "z81284274",
@@ -49760,7 +50409,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.2,
    "driveRoad": 63.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2064342001",
@@ -49834,7 +50484,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 2.3,
    "driveRoad": 56.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62989229",
@@ -49914,7 +50565,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 160
+   "daysListed": 160,
+   "hoaKnown": true
   },
   {
    "id": "z463578715",
@@ -49990,7 +50642,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 1.2,
    "driveRoad": 50.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41890780",
@@ -50068,7 +50721,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.8,
    "driveRoad": 62.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464190514",
@@ -50146,7 +50800,8 @@
    "shopCity": "Dandridge",
    "shopMi": 1.5,
    "driveRoad": 42.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf203501268",
@@ -50222,7 +50877,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 49
+   "daysListed": 49,
+   "hoaKnown": true
   },
   {
    "id": "rf196812070",
@@ -50302,7 +50958,8 @@
    "convenienceLabel": "quiet",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 21
+   "daysListed": 21,
+   "hoaKnown": true
   },
   {
    "id": "z81145610",
@@ -50380,7 +51037,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.5,
    "driveRoad": 48.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf102945930",
@@ -50457,7 +51115,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 154
+   "daysListed": 154,
+   "hoaKnown": true
   },
   {
    "id": "rf163457804",
@@ -50530,7 +51189,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 3
+   "daysListed": 3,
+   "hoaKnown": true
   },
   {
    "id": "z41749394",
@@ -50601,7 +51261,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.3,
    "driveRoad": 52.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z459641597",
@@ -50679,7 +51340,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 5.2,
    "driveRoad": 41.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf200392606",
@@ -50756,7 +51418,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 220
+   "daysListed": 220,
+   "hoaKnown": true
   },
   {
    "id": "z455122347",
@@ -50834,7 +51497,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.4,
    "driveRoad": 48.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455121621",
@@ -50912,7 +51576,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 51.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104312197",
@@ -50992,7 +51657,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 78
+   "daysListed": 78,
+   "hoaKnown": true
   },
   {
    "id": "z442034297",
@@ -51070,7 +51736,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 52.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf63027842",
@@ -51148,7 +51815,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 68
+   "daysListed": 68,
+   "hoaKnown": true
   },
   {
    "id": "z461987108",
@@ -51226,7 +51894,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463743652",
@@ -51301,7 +51970,8 @@
    "shopCity": "Clinton",
    "shopMi": 2.2,
    "driveRoad": 30.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461742616",
@@ -51379,7 +52049,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.5,
    "driveRoad": 47.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163621356",
@@ -51459,7 +52130,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 99
+   "daysListed": 99,
+   "hoaKnown": true
   },
   {
    "id": "z459413619",
@@ -51537,7 +52209,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 0.6,
    "driveRoad": 66.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461143302",
@@ -51614,7 +52287,8 @@
    "shopCity": "Knoxville",
    "shopMi": 2.3,
    "driveRoad": 6.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103870260",
@@ -51686,7 +52360,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 296
+   "daysListed": 296,
+   "hoaKnown": true
   },
   {
    "id": "rf87195964",
@@ -51763,7 +52438,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 175
+   "daysListed": 175,
+   "hoaKnown": true
   },
   {
    "id": "z461304683",
@@ -51840,7 +52516,8 @@
    "shopCity": "Alcoa",
    "shopMi": 5.7,
    "driveRoad": 38.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf113115028",
@@ -51920,7 +52597,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 25
+   "daysListed": 25,
+   "hoaKnown": true
   },
   {
    "id": "rf87175901",
@@ -52000,7 +52678,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 19
+   "daysListed": 19,
+   "hoaKnown": true
   },
   {
    "id": "z464346268",
@@ -52078,7 +52757,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 5.9,
    "driveRoad": 57.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z448978650",
@@ -52156,7 +52836,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81013969",
@@ -52228,7 +52909,8 @@
    "shopCity": "Maryville",
    "shopMi": 1.4,
    "driveRoad": 39.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41752190",
@@ -52302,7 +52984,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 0.7,
    "driveRoad": 54.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201629329",
@@ -52382,7 +53065,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 10,
    "_convV": 3,
-   "daysListed": 140
+   "daysListed": 140,
+   "hoaKnown": true
   },
   {
    "id": "rf105486434",
@@ -52455,7 +53139,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 54
+   "daysListed": 54,
+   "hoaKnown": true
   },
   {
    "id": "z81149590",
@@ -52529,7 +53214,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.3,
    "driveRoad": 53.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465240741",
@@ -52607,7 +53293,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 1.3,
    "driveRoad": 52.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf198294483",
@@ -52684,7 +53371,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 354
+   "daysListed": 354,
+   "hoaKnown": true
   },
   {
    "id": "z2065715195",
@@ -52762,7 +53450,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.3,
    "driveRoad": 6.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455862752",
@@ -52833,7 +53522,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.9,
    "driveRoad": 22.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122337",
@@ -52911,7 +53601,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.5,
    "driveRoad": 48.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463766623",
@@ -52988,7 +53679,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.2,
    "driveRoad": 43.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81190478",
@@ -53065,7 +53757,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z464228273",
@@ -53143,7 +53836,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.9,
    "driveRoad": 62.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41666281",
@@ -53221,7 +53915,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.2,
    "driveRoad": 7.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z214822144",
@@ -53299,7 +53994,8 @@
    "shopCity": "Sevier",
    "shopMi": 4.9,
    "driveRoad": 30.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465241898",
@@ -53377,7 +54073,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z456796918",
@@ -53452,7 +54149,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.8,
    "driveRoad": 7.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463853501",
@@ -53524,7 +54222,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.2,
    "driveRoad": 40.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2072086593",
@@ -53602,7 +54301,8 @@
    "shopCity": "Knoxville",
    "shopMi": 2.0,
    "driveRoad": 22.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201571310",
@@ -53682,7 +54382,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 144
+   "daysListed": 144,
+   "hoaKnown": true
   },
   {
    "id": "rf184724038",
@@ -53752,7 +54453,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 203
+   "daysListed": 203,
+   "hoaKnown": true
   },
   {
    "id": "z344993795",
@@ -53830,7 +54532,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.5,
    "driveRoad": 47.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf201649663",
@@ -53910,7 +54613,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 139
+   "daysListed": 139,
+   "hoaKnown": true
   },
   {
    "id": "z81171370",
@@ -53988,7 +54692,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 51.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163596540",
@@ -54068,7 +54773,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 8,
    "_convV": 3,
-   "daysListed": 53
+   "daysListed": 53,
+   "hoaKnown": true
   },
   {
    "id": "z434151256",
@@ -54146,7 +54852,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 52.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2064413069",
@@ -54224,7 +54931,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.3,
    "driveRoad": 62.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41748991",
@@ -54302,7 +55010,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.1,
    "driveRoad": 54.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81281525",
@@ -54380,7 +55089,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.1,
    "driveRoad": 61.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461906010",
@@ -54458,7 +55168,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 2.1,
    "driveRoad": 35.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z42041948",
@@ -54529,7 +55240,8 @@
    "shopCity": "Harriman",
    "shopMi": 0.2,
    "driveRoad": 45.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2079328537",
@@ -54607,7 +55319,8 @@
    "shopCity": "Knox",
    "shopMi": 1.9,
    "driveRoad": 29.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z66934476",
@@ -54685,7 +55398,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.4,
    "driveRoad": 48.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455942498",
@@ -54763,7 +55477,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z90208942",
@@ -54841,7 +55556,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.5,
    "driveRoad": 52.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z42511934",
@@ -54919,7 +55635,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.7,
    "driveRoad": 65.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87468567",
@@ -54999,7 +55716,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 6,
    "_convV": 3,
-   "daysListed": 230
+   "daysListed": 230,
+   "hoaKnown": true
   },
   {
    "id": "z464658736",
@@ -55077,7 +55795,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.6,
    "driveRoad": 62.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81123800",
@@ -55155,7 +55874,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.6,
    "driveRoad": 51.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465026937",
@@ -55233,7 +55953,8 @@
    "shopCity": "Sevierville",
    "shopMi": 0.9,
    "driveRoad": 43.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463027879",
@@ -55311,7 +56032,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.3,
    "driveRoad": 41.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87138740",
@@ -55391,7 +56113,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 506
+   "daysListed": 506,
+   "hoaKnown": true
   },
   {
    "id": "z2081780484",
@@ -55469,7 +56192,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.0,
    "driveRoad": 62.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163534686",
@@ -55549,7 +56273,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 34
+   "daysListed": 34,
+   "hoaKnown": true
   },
   {
    "id": "z2060139865",
@@ -55625,7 +56350,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103356846",
@@ -55702,7 +56428,8 @@
    "convenienceLabel": "workable",
    "_convShop": 9,
    "_convV": 3,
-   "daysListed": 68
+   "daysListed": 68,
+   "hoaKnown": true
   },
   {
    "id": "rf189413355",
@@ -55782,7 +56509,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 15,
    "_convV": 3,
-   "daysListed": 44
+   "daysListed": 44,
+   "hoaKnown": true
   },
   {
    "id": "z66590479",
@@ -55860,7 +56588,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 3.8,
    "driveRoad": 28.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62838722",
@@ -55934,7 +56663,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 85
+   "daysListed": 85,
+   "hoaKnown": true
   },
   {
    "id": "z81187090",
@@ -56012,7 +56742,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.8,
    "driveRoad": 48.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2129285037",
@@ -56090,7 +56821,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.2,
    "driveRoad": 61.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122169",
@@ -56168,7 +56900,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.5,
    "driveRoad": 52.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf189413485",
@@ -56238,7 +56971,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 104
+   "daysListed": 104,
+   "hoaKnown": true
   },
   {
    "id": "z2079677090",
@@ -56316,7 +57050,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.3,
    "driveRoad": 25.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41752112",
@@ -56391,7 +57126,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.2,
    "driveRoad": 57.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463241067",
@@ -56469,7 +57205,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.9,
    "driveRoad": 62.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461310437",
@@ -56547,7 +57284,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.6,
    "driveRoad": 49.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122166",
@@ -56625,7 +57363,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.5,
    "driveRoad": 52.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf104521424",
@@ -56703,7 +57442,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 35
+   "daysListed": 35,
+   "hoaKnown": true
   },
   {
    "id": "z2079420987",
@@ -56779,7 +57519,8 @@
    "_convShop": 7,
    "_convV": 3,
    "img": "photos/z2079420987.jpg",
-   "daysListed": 181
+   "daysListed": 181,
+   "hoaKnown": false
   },
   {
    "id": "z455100366",
@@ -56857,7 +57598,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 2.7,
    "driveRoad": 65.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z344993765",
@@ -56935,7 +57677,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.1,
    "driveRoad": 49.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81137222",
@@ -57013,7 +57756,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 4.6,
    "driveRoad": 47.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z41752240",
@@ -57091,7 +57835,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 1.6,
    "driveRoad": 58.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z458013257",
@@ -57169,7 +57914,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.9,
    "driveRoad": 63.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf103867582",
@@ -57244,7 +57990,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 119
+   "daysListed": 119,
+   "hoaKnown": true
   },
   {
    "id": "z41751261",
@@ -57315,7 +58062,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 0.9,
    "driveRoad": 55.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122055",
@@ -57393,7 +58141,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.3,
    "driveRoad": 52.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z454630201",
@@ -57471,7 +58220,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 52.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70524645",
@@ -57549,7 +58299,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.0,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70524621",
@@ -57627,7 +58378,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.6,
    "driveRoad": 51.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81110635",
@@ -57705,7 +58457,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.8,
    "driveRoad": 48.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z461091030",
@@ -57783,7 +58536,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.8,
    "driveRoad": 48.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463776810",
@@ -57861,7 +58615,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.1,
    "driveRoad": 45.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2054960536",
@@ -57939,7 +58694,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 51.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z111163083",
@@ -58017,7 +58773,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 2.1,
    "driveRoad": 40.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z90217147",
@@ -58095,7 +58852,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 3.6,
    "driveRoad": 29.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122186",
@@ -58173,7 +58931,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 51.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81127107",
@@ -58251,7 +59010,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.8,
    "driveRoad": 49.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z448019923",
@@ -58329,7 +59089,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.8,
    "driveRoad": 49.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf62921118",
@@ -58400,7 +59161,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 42
+   "daysListed": 42,
+   "hoaKnown": true
   },
   {
    "id": "z2058485713",
@@ -58478,7 +59240,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.3,
    "driveRoad": 51.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81447248",
@@ -58551,7 +59314,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 1.7,
    "driveRoad": 64.3,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z66904430",
@@ -58623,7 +59387,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 3.8,
    "driveRoad": 29.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z381497119",
@@ -58701,7 +59466,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.3,
    "driveRoad": 51.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163446505",
@@ -58781,7 +59547,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 134
+   "daysListed": 134,
+   "hoaKnown": true
   },
   {
    "id": "rf87138749",
@@ -58861,7 +59628,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 506
+   "daysListed": 506,
+   "hoaKnown": true
   },
   {
    "id": "rf62964596",
@@ -58931,7 +59699,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 506
+   "daysListed": 506,
+   "hoaKnown": true
   },
   {
    "id": "z214901759",
@@ -59007,7 +59776,8 @@
    "_convShop": 7,
    "_convV": 3,
    "img": "photos/z214901759.jpg",
-   "daysListed": 0
+   "daysListed": 0,
+   "hoaKnown": false
   },
   {
    "id": "rf191310829",
@@ -59082,7 +59852,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 43
+   "daysListed": 43,
+   "hoaKnown": true
   },
   {
    "id": "z70525189",
@@ -59160,7 +59931,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.8,
    "driveRoad": 49.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z444459425",
@@ -59235,7 +60007,8 @@
    "shopCity": "Alcoa",
    "shopMi": 0.9,
    "driveRoad": 36.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z214905508",
@@ -59311,7 +60084,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 1.8,
    "driveRoad": 57.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z346485122",
@@ -59389,7 +60163,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 4.4,
    "driveRoad": 41.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z462825632",
@@ -59465,7 +60240,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.4,
    "driveRoad": 49.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70525216",
@@ -59543,7 +60319,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70525086",
@@ -59621,7 +60398,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.1,
    "driveRoad": 49.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z90218283",
@@ -59699,7 +60477,8 @@
    "shopCity": "Clinton",
    "shopMi": 1.7,
    "driveRoad": 28.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122172",
@@ -59777,7 +60556,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.5,
    "driveRoad": 51.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70525190",
@@ -59855,7 +60635,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.8,
    "driveRoad": 49.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463997362",
@@ -59933,7 +60714,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.8,
    "driveRoad": 60.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81149132",
@@ -60011,7 +60793,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.0,
    "driveRoad": 50.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf189413549",
@@ -60084,7 +60867,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 12,
    "_convV": 3,
-   "daysListed": 347
+   "daysListed": 347,
+   "hoaKnown": true
   },
   {
    "id": "z81153295",
@@ -60158,7 +60942,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 0.7,
    "driveRoad": 54.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z66904421",
@@ -60233,7 +61018,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 3.8,
    "driveRoad": 28.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122232",
@@ -60311,7 +61097,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 49.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70525021",
@@ -60389,7 +61176,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.0,
    "driveRoad": 48.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81110655",
@@ -60467,7 +61255,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.0,
    "driveRoad": 50.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z453606860",
@@ -60545,7 +61334,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 50.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455942499",
@@ -60623,7 +61413,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2055264177",
@@ -60701,7 +61492,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 49.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z465241878",
@@ -60779,7 +61571,8 @@
    "shopCity": "Knoxville",
    "shopMi": 0.8,
    "driveRoad": 21.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70525076",
@@ -60857,7 +61650,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.2,
    "driveRoad": 50.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z66590473",
@@ -60929,7 +61723,8 @@
    "shopCity": "Oak Ridge",
    "shopMi": 3.9,
    "driveRoad": 28.1,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf183722780",
@@ -61009,7 +61804,8 @@
    "convenienceLabel": "convenient",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 23
+   "daysListed": 23,
+   "hoaKnown": true
   },
   {
    "id": "rf111137360",
@@ -61084,7 +61880,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 12
+   "daysListed": 12,
+   "hoaKnown": true
   },
   {
    "id": "rf102951297",
@@ -61164,7 +61961,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 30
+   "daysListed": 30,
+   "hoaKnown": true
   },
   {
    "id": "rf163607479",
@@ -61240,7 +62038,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 5,
    "_convV": 3,
-   "daysListed": 250
+   "daysListed": 250,
+   "hoaKnown": true
   },
   {
    "id": "z455122228",
@@ -61318,7 +62117,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 48.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455121565",
@@ -61396,7 +62196,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z2123486434",
@@ -61474,7 +62275,8 @@
    "shopCity": "Knoxville",
    "shopMi": 1.8,
    "driveRoad": 27.2,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z455122235",
@@ -61552,7 +62354,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 48.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z454842254",
@@ -61630,7 +62433,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.4,
    "driveRoad": 52.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf202759142",
@@ -61706,7 +62510,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 4,
    "_convV": 3,
-   "daysListed": 66
+   "daysListed": 66,
+   "hoaKnown": true
   },
   {
    "id": "z465182926",
@@ -61784,7 +62589,8 @@
    "shopCity": "Sevierville",
    "shopMi": 1.4,
    "driveRoad": 37.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z81200039",
@@ -61862,7 +62668,8 @@
    "shopCity": "Tellico Village",
    "shopMi": 3.4,
    "driveRoad": 65.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf163468771",
@@ -61942,7 +62749,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 2,
    "_convV": 3,
-   "daysListed": 5
+   "daysListed": 5,
+   "hoaKnown": true
   },
   {
    "id": "z440047934",
@@ -62020,7 +62828,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.8,
    "driveRoad": 50.0,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z439162687",
@@ -62098,7 +62907,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 49.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z214906580",
@@ -62176,7 +62986,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 1.8,
    "driveRoad": 58.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z70525020",
@@ -62254,7 +63065,8 @@
    "shopCity": "Loudon",
    "shopMi": 4.0,
    "driveRoad": 48.9,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z66934484",
@@ -62332,7 +63144,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.4,
    "driveRoad": 48.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z444665976",
@@ -62410,7 +63223,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 49.7,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "rf87530382",
@@ -62487,7 +63301,8 @@
    "convenienceLabel": "workable",
    "_convShop": 14,
    "_convV": 3,
-   "daysListed": 160
+   "daysListed": 160,
+   "hoaKnown": true
   },
   {
    "id": "rf163590738",
@@ -62562,7 +63377,8 @@
    "convenienceLabel": "very convenient",
    "_convShop": 3,
    "_convV": 3,
-   "daysListed": 107
+   "daysListed": 107,
+   "hoaKnown": true
   },
   {
    "id": "z2058872847",
@@ -62640,7 +63456,8 @@
    "shopCity": "Lenoir City",
    "shopMi": 3.5,
    "driveRoad": 49.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z348888524",
@@ -62718,7 +63535,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.7,
    "driveRoad": 48.6,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z351124208",
@@ -62796,7 +63614,8 @@
    "shopCity": "Loudon",
    "shopMi": 3.9,
    "driveRoad": 49.4,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z55748443",
@@ -62872,7 +63691,8 @@
    "shopCity": "Pigeon Forge",
    "shopMi": 3.3,
    "driveRoad": 61.8,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   },
   {
    "id": "z463853456",
@@ -62950,7 +63770,8 @@
    "shopCity": "Gatlinburg",
    "shopMi": 2.5,
    "driveRoad": 63.5,
-   "driveReal": true
+   "driveReal": true,
+   "hoaKnown": false
   }
  ]
 }
