@@ -402,7 +402,7 @@ function apply() {
     if (f.onlyNew && !isNew(t)) return false;
     if (f.onlyCut && !priceCut(t)) return false;
     if (f.onlyPhoto && !t.img) return false;
-    if (f.onlyConfirmed && t.status !== 'active') return false;
+    if (f.onlyConfirmed && (t.status !== 'active' || t.geo !== 'parcel')) return false;
     if (f.q) {
       const hay = `${t.town} ${t.county} ${t.address} ${t.zip || ''}`.toLowerCase();
       if (!hay.includes(f.q)) return false;
@@ -429,7 +429,15 @@ function apply() {
 
 function renderNewBanner() {
   const el = $('#newBanner');
-  const all = state.tracts.filter(isNew);
+  const all = state.view.filter(isNew);
+  if (!all.length && $('#fNew').checked) {
+    const any = state.tracts.filter(isNew).length;
+    el.hidden = false; el.classList.add('on');
+    el.innerHTML = any
+      ? `No new listing passes your filters <span class="nb-act">back to everything</span>`
+      : `Nothing new <span class="nb-act">back to everything</span>`;
+    return;
+  }
   if (!all.length) { el.hidden = true; return; }
   el.hidden = false;
   const on = $('#fNew').checked;
@@ -438,8 +446,8 @@ function renderNewBanner() {
   const nice = new Date(when + 'T00:00:00').toLocaleDateString('en-US',
     { month: 'short', day: 'numeric' });
   el.innerHTML = on
-    ? `Showing all <b>${all.length}</b> new since ${nice}
-       <span class="nb-act">back to my filters</span>`
+    ? `Showing the <b>${all.length}</b> new since ${nice}
+       <span class="nb-act">back to everything</span>`
     : `<b>${all.length}</b> new since ${nice}
        <span class="nb-act">show only these</span>`;
 }
@@ -569,34 +577,7 @@ function wire() {
   $('#newBanner').addEventListener('click', () => {
     const cb = $('#fNew');
     cb.checked = !cb.checked;
-    if (cb.checked) {
-      // Remember the filters, then widen everything so that "show only the new
-      // ones" really shows all of them - a new tract 70 minutes out still counts.
-      state.savedFilters = {
-        drive: $('#fDrive').value, price: $('#fPrice').value,
-        acres: $('#fAcres').value, county: $('#fCounty').value,
-        sort: $('#fSort').value, confirmed: $('#fConfirmed').checked,
-        groc: $('#fGroc').value,
-        q: $('#search').value,
-      };
-      $('#fDrive').value = $('#fDrive').max;
-      $('#fPrice').value = $('#fPrice').max;
-      $('#fAcres').value = $('#fAcres').min;
-      $('#fCounty').value = '';
-      $('#fGroc').value = $('#fGroc').max;
-      $('#fConfirmed').checked = false;
-      $('#fSort').value = 'new';
-      $('#search').value = '';
-    } else if (state.savedFilters) {
-      const f = state.savedFilters;
-      $('#fDrive').value = f.drive; $('#fPrice').value = f.price;
-      $('#fAcres').value = f.acres; $('#fCounty').value = f.county;
-      $('#fSort').value = f.sort;   $('#fConfirmed').checked = f.confirmed;
-      $('#fGroc').value = f.groc;
-      $('#search').value = f.q;
-      state.savedFilters = null;
-    }
-    syncOutputs();
+    if (cb.checked) $('#fSort').value = 'new';
     apply();
   });
 
@@ -605,7 +586,7 @@ function wire() {
     $('#fGroc').value = 15;
     $('#fCounty').value = ''; $('#fSort').value = 'ppa';
     $('#fNew').checked = false; $('#fCut').checked = false;
-    $('#fPhoto').checked = false; $('#fConfirmed').checked = false;
+    $('#fPhoto').checked = false; $('#fConfirmed').checked = true;
     $('#search').value = '';
     syncOutputs(); apply();
   });
@@ -755,8 +736,9 @@ async function boot() {
 
   const conf = state.tracts.filter(t => t.status === 'active').length;
   const nNew = state.tracts.filter(isNew).length;
+  const unver = state.tracts.length - state.tracts.filter(t => t.status === 'active' && t.geo === 'parcel').length;
   $('#tagline').textContent =
-    `${state.tracts.length} tracts · ${conf} confirmed active` +
+    `${state.tracts.length - unver} verified` + (unver ? ` · ${unver} awaiting page check` : '') +
     (nNew ? ` · ${nNew} new` : '') +
     ` · swept ${data.date || '—'}`;
 

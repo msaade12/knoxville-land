@@ -62,6 +62,29 @@ def main():
                        f"({money(c['delta'])}) · [listing]({c['url']})")
         out.append("")
 
+    if r.get("gone"):
+        out += [f"### {len(r['gone'])} confirmed gone (status read off the listing page)", ""]
+        for g in r["gone"]:
+            out.append(f"- {g['acres']} ac, {money(g['price'])}, {g['town']} — {g['status']}")
+        out.append("")
+
+    if r.get("tooFar"):
+        out += [f"### {len(r['tooFar'])} dropped as too far by road", "",
+                "_Over 60 min to Knoxville or over 15 min to a real town. Remembered "
+                "in `data/excluded.json`; delete the entry to reconsider one._", ""]
+        for g in r["tooFar"][:12]:
+            out.append(f"- {g['acres']} ac, {money(g['price'])}, {g['town']} — "
+                       f"Knoxville {g['drive']} min, shops {g['shopMin']} min · [listing]({g['url']})")
+        if len(r["tooFar"]) > 12:
+            out.append(f"- …and {len(r['tooFar']) - 12} more")
+        out.append("")
+
+    if r.get("tooSteep"):
+        out += [f"### {len(r['tooSteep'])} dropped as too steep", ""]
+        for g in r["tooSteep"]:
+            out.append(f"- {g['acres']} ac, {money(g['price'])}, {g['town']} — {g['slope']}°")
+        out.append("")
+
     if r.get("unconfirmed"):
         out += [f"### {len(r['unconfirmed'])} not seen this run",
                 "", "_Redfin's export omits some MLS listings, so these are kept "

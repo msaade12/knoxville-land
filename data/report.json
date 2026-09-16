@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-16T14:41:25+00:00",
+ "generated": "2026-09-16T17:22:13+00:00",
  "date": "2026-09-16",
- "count": 95,
- "confirmed": 63,
+ "count": 48,
+ "confirmed": 18,
  "new": [],
  "priceCuts": [],
  "priceIncreases": [],
@@ -297,6 +297,29 @@
   }
  ],
  "retired": [],
+ "gone": [],
+ "tooFar": [
+  {
+   "id": "rf63023739",
+   "acres": 100.0,
+   "price": 240000,
+   "town": "LaFollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Lick-Creek-Ln-37766/home/63023739",
+   "drive": 57,
+   "shopMin": 17
+  },
+  {
+   "id": "rf201527108",
+   "acres": 44.31,
+   "price": 184900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/1-Lay-Hollow-Rd-37866/home/201527108",
+   "drive": 56,
+   "shopMin": 21
+  }
+ ],
  "tooSteep": [],
  "rejected": [],
  "baseline": false

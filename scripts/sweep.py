@@ -73,6 +73,15 @@ SHOP_CANDIDATES = 5          # nearest anchor stores (by air) to route to
 # A listing with a monthly HOA fee is excluded outright.
 EXCLUDE_HOA = True
 
+# Hard limits on routed road time. Applied only when the figure is a real
+# routed one (never to a straight-line estimate), and remembered in
+# data/excluded.json so the tract is not routed again every morning.
+PAGE_FETCH_CAP = 12     # listing pages per run - Redfin blocks bursts
+PAGE_FETCH_PAUSE = 4.0  # seconds between them
+
+MAX_DRIVE_MIN = 60      # to downtown Knoxville
+MAX_SHOP_MIN = 15       # to the nearest anchor store
+
 # Terrain. Slope is averaged over a 3x3 grid 150 m apart around the listing's
 # point, so it describes the hillside the parcel sits on rather than any one
 # spot on it. Measured across the current set: median 3.8 deg, max 23.2 deg.
@@ -506,6 +515,78 @@ def row_to_tract(r, polys, stores=()):
     }
 
 
+# ------------------------------------------------------ listing-page check ---
+
+LAT_RE = re.compile(r'"latitude"\s*:\s*(-?\d+\.\d+)')
+LON_RE = re.compile(r'"longitude"\s*:\s*(-?\d+\.\d+)')
+STATUS_RE = re.compile(r'"mlsStatus"\s*:\s*"([^"]{2,30})"')
+
+
+def check_listing(t):
+    """Fetch the listing page. Returns (id, lat, lon, status) - any may be None."""
+    html = fetch(t["url"], tries=2, timeout=40)
+    if not html:
+        return t["id"], None, None, None
+    la = LAT_RE.search(html)
+    lo = LON_RE.search(html)
+    st = STATUS_RE.search(html)
+    return (t["id"],
+            float(la.group(1)) if la else None,
+            float(lo.group(1)) if lo else None,
+            st.group(1).strip().lower() if st else None)
+
+
+def refine_from_pages(found, polys, today):
+    """Two jobs, one fetch each:
+    - a tract we only know to the town gets its real parcel coordinates;
+    - a tract Redfin's export stopped returning gets its status read off the
+      page, so 'unconfirmed' resolves the same day instead of after 3 misses.
+    Returns the list of tracts confirmed gone."""
+    todo = [t for t in found.values()
+            if t.get("geo") != "parcel" or t.get("status") == "unconfirmed"]
+    if not todo:
+        return []
+    log(f"listing pages to check: {len(todo)}")
+    gone, parsed = [], 0
+    results = []
+    for i, t in enumerate(todo[:PAGE_FETCH_CAP]):
+        results.append(check_listing(t))
+        time.sleep(PAGE_FETCH_PAUSE)
+    for tid, la, lo, st in results:
+            t = found[tid]
+            if st is None and la is None:
+                continue          # blocked or unparsable - leave it alone
+            parsed += 1
+            if st and st != "active":
+                t["pageStatus"] = st
+                gone.append(found.pop(tid))
+                continue
+            if st == "active" and t.get("status") == "unconfirmed":
+                t["status"] = "active"
+                t["missCount"] = 0
+                t.pop("missDate", None)
+                t["lastSeen"] = today
+            if la is not None and lo is not None and t.get("geo") != "parcel":
+                county = county_for(la, lo, polys)
+                if county not in COUNTIES:
+                    t["pageStatus"] = f"outside area ({county})"
+                    gone.append(found.pop(tid))
+                    continue
+                t["lat"], t["lon"] = round(la, 6), round(lo, 6)
+                t["county"] = county
+                t["geo"] = "parcel"
+                t["miles"] = round(haversine_mi(KNOXVILLE, (la, lo)), 1)
+                # everything measured from the town centre is now wrong
+                for k in ("driveReal", "driveRoad", "shopMin", "shopRoad",
+                          "shopName", "shopCity", "shopMi",
+                          "slope", "elev", "relief"):
+                    t.pop(k, None)
+                t["drive"] = max(5, int(round(t["miles"] * DRIVE_FACTOR)))
+    log(f"listing pages parsed: {parsed}/{min(len(todo), PAGE_FETCH_CAP)}"
+        + (f" | confirmed gone: {len(gone)}" if gone else ""))
+    return gone
+
+
 # ----------------------------------------------------------------- photos ---
 
 OG_RE = re.compile(r'<meta property="og:image" content="([^"]+)"')
@@ -686,9 +767,35 @@ def main():
             gmi, gmin, gname = nearest_store(t["lat"], t["lon"], stores)
             t["groceryMi"], t["groceryMin"], t["groceryName"] = gmi, gmin, gname
 
+    # ---- listing pages: real coordinates, and the actual MLS status -------
+    page_gone = refine_from_pages(found, polys, today)
+    stale = [g for g in stale if g["id"] in found]
+
     # ---- real road times: to Knoxville, and to the nearest real town ------
     add_drive_times(list(found.values()))
     add_shop_times(list(found.values()), anchors)
+
+    # ---- too far: by real road time, from a real town or from Knoxville --
+    far = []
+    for tid in list(found):
+        t = found[tid]
+        why = None
+        if t.get("geo") != "parcel":
+            continue          # a town-centre pin can't be judged on distance
+        if t.get("driveReal") and t["drive"] > MAX_DRIVE_MIN:
+            why = f"{t['drive']} min to Knoxville"
+        elif t.get("shopMin") is not None and t["shopMin"] > MAX_SHOP_MIN:
+            why = f"{t['shopMin']} min to {t.get('shopName')}, {t.get('shopCity')}"
+        if why:
+            far.append(found.pop(tid))
+            excluded[tid] = {"reason": "too far", "detail": why,
+                             "on": today, "town": t.get("town")}
+    if far:
+        log(f"dropped as too far by road: {len(far)}")
+        dropped = {g["id"] for g in far}
+        new_ids = [i for i in new_ids if i not in dropped]
+        cuts = [c for c in cuts if c["id"] not in dropped]
+        bumps = [b for b in bumps if b["id"] not in dropped]
 
     # ---- terrain: slope decides whether it is buildable at all -----------
     add_terrain(list(found.values()))
@@ -768,6 +875,16 @@ def main():
              ("id", "acres", "price", "town", "county", "url")}
             for g in retired
         ],
+        "gone": [
+            {**{k: g.get(k) for k in
+                ("id", "acres", "price", "town", "county", "url")},
+             "status": g.get("pageStatus")} for g in page_gone
+        ],
+        "tooFar": [
+            {**{k: g.get(k) for k in
+                ("id", "acres", "price", "town", "county", "url")},
+             "drive": g.get("drive"), "shopMin": g.get("shopMin")} for g in far
+        ],
         "tooSteep": [
             {**{k: g.get(k) for k in
                 ("id", "acres", "price", "town", "county", "url")},
@@ -784,7 +901,8 @@ def main():
     confirmed = sum(1 for t in tracts if t["status"] == "active")
     log(f"\n{len(tracts)} tracts | {confirmed} confirmed active | "
         f"{len(stale)} unconfirmed | new {len(new_ids)} | cuts {len(cuts)} | "
-        f"rejected {len(rejected)} | steep {len(steep)} | "
+        f"rejected {len(rejected)} | gone {len(page_gone)} | far {len(far)} | "
+        f"steep {len(steep)} | "
         f"retired {len(retired)}")
 
     if dry:

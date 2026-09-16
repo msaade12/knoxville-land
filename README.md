@@ -170,10 +170,23 @@ dropped** as mountainside. 15–20° is ordinary East Tennessee "steep" and is k
 *steep* tag on the card. Terrain is carried forward between runs, so the elevation service
 is only called for genuinely new tracts.
 
+## Verified vs awaiting check
+
+A tract is **verified** when it is on a real parcel coordinate and Redfin's export returned
+it this run. The site shows only verified tracts by default ("Verified only"). The rest —
+inherited from the original archive on town-centre pins, or missing from the export — are
+**awaiting page check**: each run reads up to 12 listing pages (Redfin blocks bursts) and
+either places the tract on its real parcel, or confirms from the page's MLS status that it
+is gone. Nothing on a town-centre pin is ever judged on distance.
+
 ## What gets dropped, and why
 
 The sweep distinguishes three very different things:
 
+- **too far** — by real road, over 60 min to Knoxville or over 15 min to an anchor
+  store. Judged only on a real parcel coordinate, never a town pin. Remembered in
+  `data/excluded.json` — delete an entry to reconsider that tract.
+- **gone** — the listing page's own MLS status is not Active. Dropped the same day.
 - **too steep** — average slope above 20°. Dropped every run; listed in the summary.
 - **rejected** — Redfin still lists it, but it no longer meets the criteria (an HOA
   appeared, the price rose, the acreage was corrected). Dropped immediately; there is
