@@ -35,7 +35,8 @@ A written summary of each run lands in the **Actions** tab, under the run's Summ
 | Status | Active only |
 | Type | Vacant land — anything with a listed building square footage is dropped |
 | HOA | Excluded outright. Any listing with a monthly HOA fee is dropped (`EXCLUDE_HOA`) |
-| Groceries | Every tract carries an estimated drive to the nearest supermarket; the site filters to 15 minutes by default |
+| Shopping | Real road-network drive time to the nearest Walmart / Kroger / Food City / Ingles / Publix / ALDI / Target. The site filters to 15 minutes by default — land *around* a real town, not deep in the hollows |
+| Drive | Real road-network minutes to downtown Knoxville, not a straight-line estimate |
 
 Tracts beyond 45 minutes are still collected; the site just filters them out by default.
 
@@ -101,7 +102,8 @@ data/tracts.json        the dataset — also the archive the next run diffs agai
 data/report.json        what changed on the last run
 data/hidden.json        hidden listings, written by the page via the GitHub API
 data/counties.json      East TN county polygons (54 counties, 12 flagged in scope)
-data/stores.json        301 East TN grocery stores from OpenStreetMap, captured once
+data/anchors.json       174 anchor stores (Walmart, Kroger, Food City…) — what "shopping" means
+data/stores.json        301 supermarkets of any kind — fallback when routing is unavailable
 photos/rf*.webp         one photo per listing, served same-origin
 scripts/sweep.py        the daily sweep — stdlib only, no dependencies
 scripts/report.py       renders report.json as Markdown for the Actions summary
@@ -127,17 +129,34 @@ Everything tunable is at the top of `scripts/sweep.py`: `MAX_PRICE`, `MIN_ACRES`
 price-per-acre colour scale. The site reads the bands from `assets/app.js`, so change
 both if you re-cut them.
 
-## Groceries and shopping
+## Drive times are real
 
-`data/stores.json` holds 301 supermarkets across East Tennessee — Food City, Walmart,
-Kroger, Ingles, ALDI, Publix, IGA, Save-A-Lot and the rest — pulled once from
-OpenStreetMap so the daily run never depends on the Overpass API being up. The sweep
-records the nearest one for every tract as `groceryMi` / `groceryMin` / `groceryName`,
-and the site filters to **15 minutes** by default.
+Both drive numbers come from the OSRM road network, not from straight lines:
 
-The estimate is straight-line distance × 1.60 (about 37 mph effective), heavier than the
-factor used for the run into Knoxville because errand roads wind more. To refresh the
-store list, re-run the Overpass query in the commit that added it.
+- `drive` — minutes to downtown Knoxville. This is the number inside every pin.
+- `shopMin` / `shopName` / `shopCity` / `shopMi` — minutes to the nearest **anchor store**.
+
+The public OSRM server runs about 15% slower than real-world times on these roads
+(checked against four known routes; every ratio came out 0.85–0.86), so the raw road
+minutes are kept as `driveRoad` / `shopRoad` and the displayed `drive` / `shopMin` are
+calibrated by `ROAD_CAL = 0.86`.
+
+Straight-line estimates were badly wrong in lake and ridge country: a Sharps Chapel tract
+came out at "13 min to Food City" on a straight line and is **32 minutes** by road, because
+Norris Lake sits in the way. Every tract now carries the routed figure. Routing is done
+once per tract and carried forward, so the daily run only routes genuinely new listings.
+If OSRM is unreachable the tract keeps its straight-line estimate and is marked as such
+(`driveReal` absent) rather than being dropped.
+
+### What counts as "shopping"
+
+`data/anchors.json` holds 174 stores from chains whose presence means a real town:
+Walmart, Kroger, Food City, Ingles, Publix, ALDI, Food Lion, Target. A rural IGA, a
+Save-A-Lot or a Dollar General Market in a hamlet does **not** count — the owner wants land
+on the fringe of a town, not deep in the hollows with a country store as the only option.
+`data/stores.json` (all 301 supermarkets) is kept as the fallback when routing is
+unavailable. Both were captured once from OpenStreetMap; anchor town names were filled from
+Nominatim.
 
 ## Terrain
 
@@ -168,8 +187,6 @@ The sweep distinguishes three very different things:
 - **Redfin only.** LandSearch, LandWatch, Land.com, Craigslist FSBO and the auction
   houses are not swept. Owner-financing and by-owner flags came from those sources, so
   those filters are not on the site.
-- **Drive times are estimates** — straight-line distance × 1.15, not routed. Mountain
-  roads in Monroe and Morgan counties will read optimistic.
 - **Photos are one per listing.** Redfin's CDN serves the same image at every photo index
   for these land listings, so there is no gallery to pull.
 - **No parcel boundaries.** Redfin gives a point, not a polygon.

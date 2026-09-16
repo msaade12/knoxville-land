@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T14:28:05+00:00",
+ "generated": "2026-09-16T14:38:05+00:00",
  "date": "2026-09-16",
  "count": 95,
  "confirmed": 63,
@@ -297,35 +297,7 @@
   }
  ],
  "retired": [],
- "tooSteep": [
-  {
-   "id": "rf87169312",
-   "acres": 14.01,
-   "price": 196000,
-   "town": "Townsend",
-   "county": "Blount",
-   "url": "https://www.redfin.com/TN/Townsend/Carrs-Creek-Rd-37882/home/87169312",
-   "slope": 23.2
-  },
-  {
-   "id": "rf197635673",
-   "acres": 20.0,
-   "price": 100000,
-   "town": "Rocky Top",
-   "county": "Anderson",
-   "url": "https://www.redfin.com/TN/Rocky-Top/Vowell-Mountain-Ln-37769/home/197635673",
-   "slope": 20.7
-  },
-  {
-   "id": "rf119127129",
-   "acres": 20.03,
-   "price": 120000,
-   "town": "Bean Station",
-   "county": "Grainger",
-   "url": "https://www.redfin.com/TN/Bean-Station/1272-Briar-Fork-Rd-37708/home/119127129",
-   "slope": 22.1
-  }
- ],
+ "tooSteep": [],
  "rejected": [],
  "baseline": false
 }

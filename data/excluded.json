@@ -1,0 +1,20 @@
+{
+ "rf87169312": {
+  "reason": "too steep",
+  "slope": 23.2,
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf197635673": {
+  "reason": "too steep",
+  "slope": 20.7,
+  "on": "2026-09-16",
+  "town": "Rocky Top"
+ },
+ "rf119127129": {
+  "reason": "too steep",
+  "slope": 22.1,
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ }
+}

@@ -41,8 +41,8 @@
 
     <section class="filters" id="filters">
       <div class="frow">
-        <label for="fDrive">Drive time <output id="oDrive">45 min</output></label>
-        <input type="range" id="fDrive" min="15" max="90" step="5" value="45">
+        <label for="fDrive">To Knoxville <output id="oDrive">60 min</output></label>
+        <input type="range" id="fDrive" min="15" max="90" step="5" value="60">
       </div>
       <div class="frow">
         <label for="fPrice">Max price <output id="oPrice">$250k</output></label>
@@ -53,8 +53,8 @@
         <input type="range" id="fAcres" min="10" max="100" step="1" value="10">
       </div>
       <div class="frow">
-        <label for="fGroc">To groceries <output id="oGroc">15 min</output></label>
-        <input type="range" id="fGroc" min="5" max="40" step="1" value="15">
+        <label for="fGroc">To shopping <output id="oGroc">15 min</output></label>
+        <input type="range" id="fGroc" min="5" max="60" step="1" value="15">
       </div>
       <div class="frow">
         <label for="fCounty">County</label>
@@ -110,14 +110,15 @@
       <div class="legend-body">
         <div class="lg-scale" id="lgBands"></div>
         <ul class="lg-notes">
-          <li><b>Number in pin</b> = estimated minutes from Knoxville.</li>
+          <li><b>Number in pin</b> = road minutes to downtown Knoxville.</li>
           <li><b>Pin size</b> = acreage.</li>
-          <li>Grocery times are to the nearest supermarket, straight-line estimated.</li>
+          <li><b>Shopping</b> = real road time to the nearest Walmart, Kroger, Food City,
+              Ingles, Publix, ALDI or Target — a real town, not a country store.</li>
           <li>Terrain is the average slope of the hillside around the pin. Anything
               over 20° is dropped before it reaches this map.</li>
           <li><b>Solid pin</b> sits on the real parcel location.</li>
           <li><b>Dashed pin</b> is placed at the town centre — exact parcel unknown.</li>
-          <li>Rings are straight-line 15/30/45 min approximations, not road distance.</li>
+          <li>Rings are straight-line 15/30/45 min approximations; the pin numbers are the real thing.</li>
         </ul>
       </div>
     </details>

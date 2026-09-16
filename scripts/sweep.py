@@ -58,9 +58,17 @@ MISS_LIMIT = 3
 # already on the map (13 / 26 / 38 mi == 15 / 30 / 45 min).
 DRIVE_FACTOR = 1.15
 
-# Local errand roads wind more than the run into Knoxville, so the grocery
+# Local errand roads wind more than the run into Knoxville, so the fallback
 # estimate uses a heavier factor (~37 mph effective over straight-line distance).
+# Real road-network times from OSRM replace both estimates whenever available.
 ERRAND_FACTOR = 1.60
+OSRM = "https://router.project-osrm.org/table/v1/driving/"
+# The public OSRM server runs ~15% slower than real-world times on these
+# roads (checked: Maryville 29 vs ~25, Lenoir City 35 vs ~30, Madisonville
+# 65 vs ~55, Maynardville 41 vs ~35 - every ratio 0.85-0.86). Raw road
+# minutes are kept as driveRoad / shopRoad; the displayed figure is calibrated.
+ROAD_CAL = 0.86
+SHOP_CANDIDATES = 5          # nearest anchor stores (by air) to route to
 
 # A listing with a monthly HOA fee is excluded outright.
 EXCLUDE_HOA = True
@@ -204,6 +212,115 @@ def county_for(lat, lon, polys):
             if point_in_ring(lon, lat, ring):
                 return c["name"]
     return None
+
+
+# ---------------------------------------------------------------- routing ---
+
+def load_anchors():
+    """Walmart / Kroger / Food City / Ingles / Publix / ALDI / Target / Food Lion.
+    A store from one of these chains means a real town with proper shopping,
+    which a rural IGA or Dollar General Market does not."""
+    path = os.path.join(DATA, "anchors.json")
+    if not os.path.exists(path):
+        return []
+    with open(path) as f:
+        return json.load(f)
+
+
+def _osrm_table(sources, dests, tries=4):
+    """Road-network minutes, sources x dests. None on failure."""
+    pts = sources + dests
+    coords = ";".join(f"{p[1]:.5f},{p[0]:.5f}" for p in pts)       # lon,lat
+    url = (OSRM + coords
+           + "?sources=" + ";".join(str(i) for i in range(len(sources)))
+           + "&destinations=" + ";".join(str(len(sources) + i) for i in range(len(dests)))
+           + "&annotations=duration")
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                d = json.load(r)
+            if d.get("code") == "Ok":
+                return [[(v / 60.0 if v is not None else None) for v in row]
+                        for row in d["durations"]]
+            log(f"  ! osrm: {d.get('code')} {d.get('message', '')[:80]}")
+        except Exception as e:                               # noqa: BLE001
+            code = getattr(e, "code", None)
+            if attempt == tries - 1:
+                log(f"  ! osrm failed: {e}")
+            time.sleep(20 if code == 429 else 4 * (attempt + 1))
+    return None
+
+
+def add_drive_times(tracts, batch=99):
+    """Real minutes to Knoxville for tracts that only have the estimate."""
+    todo = [t for t in tracts if not t.get("driveReal") and t.get("lat") is not None]
+    if not todo:
+        return 0
+    log(f"knoxville routing needed: {len(todo)}")
+    done = 0
+    for i in range(0, len(todo), batch):
+        chunk = todo[i:i + batch]
+        m = _osrm_table([(t["lat"], t["lon"]) for t in chunk], [KNOXVILLE])
+        if m is None:
+            break
+        for t, row in zip(chunk, m):
+            if row and row[0] is not None:
+                t["driveRoad"] = round(row[0], 1)
+                t["drive"] = max(5, int(round(row[0] * ROAD_CAL)))
+                t["driveReal"] = True
+                done += 1
+        time.sleep(1.5)
+    return done
+
+
+def add_shop_times(tracts, anchors, cap=100):
+    """Real minutes to the nearest anchor store, batched to stay under OSRM's
+    coordinate limit: each request carries a set of tracts plus the union of
+    their nearest candidate stores."""
+    todo = [t for t in tracts if t.get("shopMin") is None and t.get("lat") is not None]
+    if not todo or not anchors:
+        return 0
+    log(f"shopping routing needed: {len(todo)}")
+
+    def nearest(t):
+        return sorted(range(len(anchors)), key=lambda i:
+                      (anchors[i]["lat"] - t["lat"]) ** 2
+                      + ((anchors[i]["lon"] - t["lon"]) * 0.81) ** 2)[:SHOP_CANDIDATES]
+
+    batches, cur_t, cur_a = [], [], set()
+    for t in todo:
+        cand = set(nearest(t))
+        if cur_t and len(cur_t) + 1 + len(cur_a | cand) > cap:
+            batches.append((cur_t, sorted(cur_a)))
+            cur_t, cur_a = [], set()
+        cur_t.append(t)
+        cur_a |= cand
+    if cur_t:
+        batches.append((cur_t, sorted(cur_a)))
+
+    done = 0
+    for ts, ai in batches:
+        m = _osrm_table([(t["lat"], t["lon"]) for t in ts],
+                        [(anchors[i]["lat"], anchors[i]["lon"]) for i in ai])
+        if m is None:
+            break
+        for t, row in zip(ts, m):
+            best = None
+            for j, mins in enumerate(row):
+                if mins is not None and (best is None or mins < best[0]):
+                    best = (mins, anchors[ai[j]])
+            if best:
+                mins, a = best
+                t["shopRoad"] = round(mins, 1)
+                t["shopMin"] = max(2, int(round(mins * ROAD_CAL)))
+                t["shopName"] = a["n"]
+                t["shopCity"] = a.get("city") or ""
+                t["shopMi"] = round(haversine_mi((t["lat"], t["lon"]),
+                                                 (a["lat"], a["lon"])), 1)
+                done += 1
+        time.sleep(1.5)
+    return done
 
 
 # ---------------------------------------------------------------- terrain ---
@@ -431,6 +548,16 @@ def download_photo(t):
 
 # ------------------------------------------------------------------- main ---
 
+def load_excluded():
+    """Tracts we have already measured and thrown out (too steep). Remembered
+    so the next run doesn't route and survey them all over again."""
+    path = os.path.join(DATA, "excluded.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path) as f:
+        return json.load(f)
+
+
 def load_previous():
     path = os.path.join(DATA, "tracts.json")
     if not os.path.exists(path):
@@ -445,9 +572,11 @@ def main():
     today = date.today().isoformat()
     polys = load_counties()
     stores = load_stores()
-    log(f"grocery stores loaded: {len(stores)}")
+    anchors = load_anchors()
+    log(f"grocery stores: {len(stores)} | anchor stores: {len(anchors)}")
     prev = load_previous()
-    log(f"previous dataset: {len(prev)} tracts")
+    excluded = load_excluded()
+    log(f"previous dataset: {len(prev)} tracts | remembered exclusions: {len(excluded)}")
 
     # ---- sweep ----------------------------------------------------------
     found = {}
@@ -461,6 +590,8 @@ def main():
             if m:
                 returned.add("rf" + m.group(1))
             t = row_to_tract(r, polys, stores)
+            if t and t["id"] in excluded:
+                continue
             if t and t["id"] not in found:
                 found[t["id"]] = t
                 kept += 1
@@ -511,10 +642,14 @@ def main():
                 t["img"] = old["img"]
             if old.get("baseline"):
                 t["baseline"] = True
-            # Terrain never changes and costs an API call - always carry it.
-            for k in ("slope", "elev", "relief"):
+            # Terrain and routing never change and cost API calls - carry them.
+            for k in ("slope", "elev", "relief", "shopRoad",
+                      "shopMin", "shopName", "shopCity", "shopMi", "driveRoad"):
                 if old.get(k) is not None:
                     t[k] = old[k]
+            if old.get("driveReal"):
+                t["drive"] = old["drive"]
+                t["driveReal"] = True
         t["lastSeen"] = today
 
     # ---- tracts the sweep did not return --------------------------------
@@ -551,6 +686,10 @@ def main():
             gmi, gmin, gname = nearest_store(t["lat"], t["lon"], stores)
             t["groceryMi"], t["groceryMin"], t["groceryName"] = gmi, gmin, gname
 
+    # ---- real road times: to Knoxville, and to the nearest real town ------
+    add_drive_times(list(found.values()))
+    add_shop_times(list(found.values()), anchors)
+
     # ---- terrain: slope decides whether it is buildable at all -----------
     add_terrain(list(found.values()))
     steep = []
@@ -560,6 +699,9 @@ def main():
             steep.append(found.pop(tid))
     if steep:
         log(f"dropped as too steep (>{MAX_SLOPE_DEG} deg): {len(steep)}")
+        for g in steep:
+            excluded[g["id"]] = {"reason": "too steep", "slope": g.get("slope"),
+                                 "on": today, "town": g.get("town")}
         # A dropped tract must not linger in the new/price-change lists,
         # which are looked up against `found` when the report is built.
         dropped = {g["id"] for g in steep}
@@ -658,6 +800,8 @@ def main():
                    "tracts": tracts}, f, indent=1)
     with open(os.path.join(DATA, "report.json"), "w") as f:
         json.dump(report, f, indent=1)
+    with open(os.path.join(DATA, "excluded.json"), "w") as f:
+        json.dump(excluded, f, indent=1)
     log("wrote data/tracts.json and data/report.json")
     return 0
 

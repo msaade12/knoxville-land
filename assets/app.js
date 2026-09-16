@@ -280,6 +280,13 @@ function makeIcon(t) {
 
 const isNew = t => !t.baseline && daysAgo(t.firstSeen) <= NEW_DAYS;
 
+/** Nearest real shopping: routed time to an anchor store, else the old estimate. */
+const shop = t => t.shopMin != null
+  ? { min: t.shopMin, mi: t.shopMi, to: t.shopName + (t.shopCity ? ', ' + t.shopCity : ''), real: true }
+  : t.groceryMin != null
+    ? { min: t.groceryMin, mi: t.groceryMi, to: t.groceryName, real: false }
+    : null;
+
 /** Plain-language terrain from the averaged hillside slope. */
 const terrain = s => s == null ? null
   : s < 3  ? 'flat'
@@ -314,13 +321,13 @@ function popupHtml(t) {
       <div class="pop-addr">${esc(t.address)}</div>
       <div class="pop-grid">
         <div><b>${fmt$(t.ppa)}</b><span>per acre</span></div>
-        <div><b>${t.drive} min</b><span>${t.miles} mi straight line</span></div>
+        <div><b>${t.drive} min</b><span>to Knoxville${t.driveReal ? ' by road' : ', estimated'}</span></div>
         <div><b>${t.daysListed ?? '–'}</b><span>days listed</span></div>
         <div><b>${t.geo === 'parcel' ? 'Parcel' : 'Town'}</b><span>pin accuracy</span></div>
         ${t.slope != null ? `<div><b>${terrain(t.slope)}</b><span>${t.slope}° slope${
           t.elev != null ? `, ${Math.round(t.elev * 3.281)} ft` : ''}</span></div>` : ''}
-        ${t.groceryMin != null ? `<div style="grid-column:1/-1"><b>${t.groceryMin} min
-          to ${esc(t.groceryName)}</b><span>nearest groceries (${t.groceryMi} mi)</span></div>` : ''}
+        ${shop(t) ? `<div style="grid-column:1/-1"><b>${shop(t).min} min to ${esc(shop(t).to)}</b>
+          <span>nearest real shopping, ${shop(t).real ? 'by road' : 'estimated'} (${shop(t).mi} mi)</span></div>` : ''}
       </div>
       <div class="pop-actions">
         <a class="primary" href="${esc(t.url)}" target="_blank" rel="noopener">Listing</a>
@@ -341,8 +348,8 @@ function cardHtml(t) {
     priceCut(t) ? `<span class="tag cut">price cut</span>` : '',
     t.status !== 'active' ? '<span class="tag unconf">unconfirmed</span>' : '',
     `<span class="tag">${t.drive} min</span>`,
-    t.groceryMin != null
-      ? `<span class="tag groc" title="to ${esc(t.groceryName)}">${t.groceryMin} min shops</span>` : '',
+    shop(t)
+      ? `<span class="tag groc" title="to ${esc(shop(t).to)}">${shop(t).min} min shops</span>` : '',
     t.slope != null
       ? `<span class="tag terr" title="${t.slope}° average slope">${terrain(t.slope)}</span>` : '',
     `<span class="tag">${t.daysListed ?? '–'}d listed</span>`,
@@ -388,7 +395,7 @@ function apply() {
   let rows = state.tracts.filter(t => {
     if (!state.showHidden && isHidden(t.id)) return false;
     if (t.drive > f.drive) return false;
-    if (t.groceryMin != null && t.groceryMin > f.groc) return false;
+    { const sh = shop(t); if (sh && sh.min > f.groc) return false; }
     if (t.price > f.price) return false;
     if (t.acres < f.acres) return false;
     if (f.county && t.county !== f.county) return false;
@@ -594,7 +601,7 @@ function wire() {
   });
 
   $('#resetFilters').addEventListener('click', () => {
-    $('#fDrive').value = 45; $('#fPrice').value = 250000; $('#fAcres').value = 10;
+    $('#fDrive').value = 60; $('#fPrice').value = 250000; $('#fAcres').value = 10;
     $('#fGroc').value = 15;
     $('#fCounty').value = ''; $('#fSort').value = 'ppa';
     $('#fNew').checked = false; $('#fCut').checked = false;
