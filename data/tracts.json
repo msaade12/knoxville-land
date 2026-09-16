@@ -94,10 +94,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WINDROCK LAND COMPANY",
     "parcelId": "001 062    00100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001062%20%20%20%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -520,10 +521,11 @@
    "daysListed": 111,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "POOLE SEAN MICHAEL",
     "parcelId": "001 085    04100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001085%20%20%20%2004100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -604,10 +606,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 47.13,
-    "owner": "GEIER LISA JANE",
-    "parcelId": "078 080    10305 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078080%20%20%20%2010305",
+    "deedAc": 20.47,
+    "owner": "STOFFLE SAMUEL C",
+    "parcelId": "078 080    10306 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078080%20%20%20%2010306",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -689,6 +692,7 @@
     "owner": "FRUTOS RUBEN & HEILYN",
     "parcelId": "078 065    13117 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078065%20%20%20%2013117",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -773,6 +777,7 @@
     "owner": "COOPER CASEY M",
     "parcelId": "007 101    18700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007101%20%20%20%2018700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -926,10 +931,11 @@
    "daysListed": 104,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "BOWENS LAURA",
     "parcelId": "007 094B E 01200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007094B%20E%2001200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -1095,10 +1101,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WALKER BOBBY G & WILMA W",
     "parcelId": "073 054M B 02700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073054M%20B%2002700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -1173,10 +1180,11 @@
    "daysListed": 324,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "RUTHERFORD DAVID EVAN",
     "parcelId": "001 019    01100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001019%20%20%20%2001100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -1586,6 +1594,7 @@
     "owner": "KOONCE STEVEN R & SHEILA M",
     "parcelId": "078 066    02119 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078066%20%20%20%2002119",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -1671,6 +1680,7 @@
     "owner": "DIPPEL NORVAL C",
     "parcelId": "007 062    05700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007062%20%20%20%2005700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -1831,10 +1841,11 @@
    "daysListed": 3,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 5.78,
-    "owner": "TORRECH RAMON L & WANDA",
-    "parcelId": "065 149    01235 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/065149%20%20%20%2001235",
+    "deedAc": 7.4,
+    "owner": "VANCE DONNYE JENAY",
+    "parcelId": "065 149    01236 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/065149%20%20%20%2001236",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -1916,10 +1927,11 @@
    "daysListed": 179,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "PAUL SHANNON LEE ETUX CHARLOTTE RENEE",
     "parcelId": "007 102K B 00100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20B%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -2162,7 +2174,14 @@
    "_convV": 3,
    "daysListed": 442,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 3.42,
+    "owner": "SPECIALTY INVESTMENTS GROUP INC",
+    "parcelId": "045 078    04617 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045078%20%20%20%2004617",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf104530112",
@@ -2325,10 +2344,11 @@
    "daysListed": 119,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "POWELL EDWARD H",
     "parcelId": "062 024I A 03100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062024I%20A%2003100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -2411,10 +2431,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "RUTHERFORD DAVID EVAN",
-    "parcelId": "001 019    01100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001019%20%20%20%2001100",
+    "deedAc": 6.83,
+    "owner": "LYCZYNSKI ROBERT",
+    "parcelId": "001 019    15300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001019%20%20%20%2015300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -2583,6 +2604,7 @@
     "owner": "HOSKINS GREG & DEBI",
     "parcelId": "078 104    08410 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078104%20%20%20%2008410",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -2739,7 +2761,14 @@
    "_convV": 3,
    "daysListed": 442,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 12.09,
+    "owner": "SPECIALTY INVESTMENTS GROUP INC",
+    "parcelId": "045 078    04606 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045078%20%20%20%2004606",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf62975860",
@@ -2986,10 +3015,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WILLIAMS JAMES E",
     "parcelId": "087 048    00802 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087048%20%20%20%2000802",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -3078,6 +3108,7 @@
     "owner": "SHARP DAVID E / JOHN C",
     "parcelId": "087 064    03106 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087064%20%20%20%2003106",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -3323,6 +3354,7 @@
     "owner": "MORGAN JOHN HUNT & CHARLOTTE LYNN",
     "parcelId": "045 076    07300 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045076%20%20%20%2007300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -3404,10 +3436,11 @@
    "daysListed": 152,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 7,
+    "deedAc": 7.0,
     "owner": "DEATON JOSHUA LEE",
     "parcelId": "073 064    02800 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073064%20%20%20%2002800",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -3568,10 +3601,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.63,
-    "owner": "SLOAN DIANE M &",
-    "parcelId": "078 074    03902 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078074%20%20%20%2003902",
+    "deedAc": 13.87,
+    "owner": "MCCARTER HAROLD  ET UX",
+    "parcelId": "078 074    03900 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078074%20%20%20%2003900",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -3987,10 +4021,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "NAPIER TAVIN & BYRD ABIGAIL PAIGE",
     "parcelId": "065 148    08202 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/065148%20%20%20%2008202",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -4060,7 +4095,14 @@
    "elev": 393,
    "relief": 32,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 15.45,
+    "owner": "WARD BARBARA",
+    "parcelId": "065 148    01224 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/065148%20%20%20%2001224",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf190392419",
@@ -4147,6 +4189,7 @@
     "owner": "ALVAREZ D ERIKA TRUSTEE",
     "parcelId": "087 073    07400 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087073%20%20%20%2007400",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -4395,10 +4438,11 @@
    "daysListed": 442,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.55,
-    "owner": "SPECIALTY INVESTMENTS GROUP INC",
-    "parcelId": "045 078    04619 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045078%20%20%20%2004619",
+    "deedAc": 2.13,
+    "owner": "BARTEK STEPHEN A III REVOCABLE TRUST",
+    "parcelId": "045 078    04620 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045078%20%20%20%2004620",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -4483,10 +4527,11 @@
    "daysListed": 245,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 4.47,
-    "owner": "HAMBY JOE D & GAIL B",
-    "parcelId": "045 059    00110 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045059%20%20%20%2000110",
+    "deedAc": 5.02,
+    "owner": "BORGES ORLANDO & JESSICA Y",
+    "parcelId": "045 059    00103 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045059%20%20%20%2000103",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -4567,10 +4612,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "CARR WALTER & VALDA",
     "parcelId": "078 036    06005 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078036%20%20%20%2006005",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -4745,6 +4791,7 @@
     "owner": "ROACH WM ALLEN JR & ETUX",
     "parcelId": "087 077    03801 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087077%20%20%20%2003801",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -4828,6 +4875,7 @@
     "owner": "WHITAKER KERRY C & MELINDA R",
     "parcelId": "005 081    06700 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005081%20%20%20%2006700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -4991,10 +5039,11 @@
    "daysListed": 61,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "FOUST JONATHAN & ARLENE",
-    "parcelId": "073 046    06800 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046%20%20%20%2006800",
+    "deedAc": 1.0,
+    "owner": "WIESMAYER KURT & MONIKA",
+    "parcelId": "073 046    06900 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046%20%20%20%2006900",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -5242,6 +5291,7 @@
     "owner": "HOUSER WANDA COWAN",
     "parcelId": "078 007    00300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078007%20%20%20%2000300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -5320,10 +5370,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.21,
-    "owner": "CASTELLINO MARK",
-    "parcelId": "078 097A B 00900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078097A%20B%2000900",
+    "deedAc": 2.71,
+    "owner": "HUMPHREY GREGORY S",
+    "parcelId": "078 086    02933 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078086%20%20%20%2002933",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -5408,10 +5459,11 @@
    "daysListed": 34,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "COTHRAN DONNA",
     "parcelId": "087 063    02200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087063%20%20%20%2002200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -5883,10 +5935,11 @@
    "daysListed": 51,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "HOLLOWAY CHARLES D",
     "parcelId": "087 058F B 01300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087058F%20B%2001300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -5968,10 +6021,11 @@
    "daysListed": 105,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 4.48,
-    "owner": "DECKER PATRICIA",
-    "parcelId": "062 046    08700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062046%20%20%20%2008700",
+    "deedAc": 13.75,
+    "owner": "SCHIAVONE DEBRA ETAL",
+    "parcelId": "062 057    08202 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062057%20%20%20%2008202",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -6228,6 +6282,7 @@
     "owner": "MILLER KEITH CARL",
     "parcelId": "045 097    05201 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045097%20%20%20%2005201",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -6465,7 +6520,14 @@
    "_convV": 3,
    "daysListed": 355,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.04,
+    "owner": "RICHARD ROBERT TODD",
+    "parcelId": "007 085K E 00800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007085K%20E%2000800",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf192322729",
@@ -6702,10 +6764,11 @@
    "daysListed": 114,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 30,
+    "deedAc": 30.0,
     "owner": "HENSON MARVIN & JOANNE",
     "parcelId": "045 026    04200 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045026%20%20%20%2004200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -6785,10 +6848,11 @@
    "daysListed": 77,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 3.84,
-    "owner": "COOPER KIMBERLY A",
-    "parcelId": "062 018    05802 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062018%20%20%20%2005802",
+    "deedAc": 9.69,
+    "owner": "HASS GARY R",
+    "parcelId": "062 018    05801 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062018%20%20%20%2005801",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -7032,10 +7096,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 10.06,
-    "owner": "WALDEN DAVID EARL",
-    "parcelId": "078 097    04321 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078097%20%20%20%2004321",
+    "deedAc": 8.06,
+    "owner": "BELTON GLENN L & BONNIE S",
+    "parcelId": "078 097    04313 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078097%20%20%20%2004313",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -7119,10 +7184,11 @@
    "daysListed": 95,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 50,
+    "deedAc": 50.0,
     "owner": "SAWYER THOMAS DANIEL",
     "parcelId": "087 079    02601 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087079%20%20%20%2002601",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -7520,10 +7586,11 @@
    "daysListed": 192,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MURRAY ROBERT DALE",
-    "parcelId": "045 098P A 02000 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045098P%20A%2002000",
+    "deedAc": 0.49,
+    "owner": "DANOKARAS ANGELA",
+    "parcelId": "045 098P A 02800 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045098P%20A%2002800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -7608,10 +7675,11 @@
    "daysListed": 175,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MURRAY JODI",
-    "parcelId": "045 098P A 02100 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045098P%20A%2002100",
+    "deedAc": 0.47,
+    "owner": "CHANEY REBEKAH J",
+    "parcelId": "045 098P A 02200 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045098P%20A%2002200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -8015,10 +8083,11 @@
    "daysListed": 26,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.4,
-    "owner": "SMITH FREDDIE DOYLE LE",
-    "parcelId": "045 084    05406 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045084%20%20%20%2005406",
+    "deedAc": 4.49,
+    "owner": "SWANN KATHY SHERROD & ADAM",
+    "parcelId": "045 084    05414 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045084%20%20%20%2005414",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -8266,10 +8335,11 @@
    "daysListed": 167,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 2.8,
-    "owner": "RANEY FRED & DONNA M",
-    "parcelId": "073 066    08000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066%20%20%20%2008000",
+    "deedAc": 1.85,
+    "owner": "TALING RICHARD & REBEKAH",
+    "parcelId": "073 066    06101 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066%20%20%20%2006101",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -8356,6 +8426,7 @@
     "owner": "FLOYD BULA F LAROCHELLE",
     "parcelId": "078 034    04500 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078034%20%20%20%2004500",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -8530,6 +8601,7 @@
     "owner": "BAILEY TIMMY RANDALL",
     "parcelId": "087 051    02401 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087051%20%20%20%2002401",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -8614,10 +8686,11 @@
    "daysListed": 25,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "LOVEDAY & FAMILY GENERAL",
     "parcelId": "078 026    02200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078026%20%20%20%2002200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -8691,7 +8764,14 @@
    "_convV": 3,
    "daysListed": 71,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.45,
+    "owner": "LAKINS JOHN & GEORGIA",
+    "parcelId": "029 058F A 01700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029058F%20A%2001700",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z465182984",
@@ -8769,6 +8849,7 @@
     "owner": "ROCHELLE LANCE & STILSON-ROCHELLE LYNN",
     "parcelId": "045 058B A 03300 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045058B%20A%2003300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -8845,10 +8926,11 @@
    "daysListed": 90,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "COUGHLIN MICHALE ETUX",
     "parcelId": "007 102K A 09000 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2009000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -9343,10 +9425,11 @@
    "daysListed": 90,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "COUGHLIN MICHALE ETUX",
     "parcelId": "007 102K A 09100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2009100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -9498,10 +9581,11 @@
    "daysListed": 119,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "TALLENT CECIL L ETUX",
-    "parcelId": "062 037    06405 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062037%20%20%20%2006405",
+    "deedAc": 1.0,
+    "owner": "EVANS TIMOTHY ETUX",
+    "parcelId": "062 037    08102 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062037%20%20%20%2008102",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -9586,6 +9670,7 @@
     "owner": "MCMAHAN ERNEST & VIOLET",
     "parcelId": "078 059    12902 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078059%20%20%20%2012902",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -9662,10 +9747,11 @@
    "daysListed": 90,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "COUGHLIN MICHALE ETUX",
     "parcelId": "007 102K A 09200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2009200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -9840,6 +9926,7 @@
     "owner": "FOY JAMES & SHERRI",
     "parcelId": "073 066J E 01700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20E%2001700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -9924,10 +10011,11 @@
    "daysListed": 15,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 4.84,
-    "owner": "FRANKLIN JERRY WAYNE &",
-    "parcelId": "078 071    05805 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071%20%20%20%2005805",
+    "deedAc": 5.97,
+    "owner": "GOLDSMITH RONALD G &",
+    "parcelId": "078 071    09100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071%20%20%20%2009100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -10084,10 +10172,11 @@
    "daysListed": 28,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.29,
-    "owner": "MARTINEZ ELENA &",
-    "parcelId": "029 042D A 00100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029042D%20A%2000100",
+    "deedAc": 2.61,
+    "owner": "MONKS AUSTIN",
+    "parcelId": "029 042D A 00300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029042D%20A%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -10252,6 +10341,7 @@
     "owner": "HILL DAVID G",
     "parcelId": "087 072    05411 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087072%20%20%20%2005411",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -10590,10 +10680,11 @@
    "daysListed": 180,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "FENNELL LAHANNA",
     "parcelId": "073 046L A 01901 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046L%20A%2001901",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -10669,7 +10760,14 @@
    "driveRoad": 45.3,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.09,
+    "owner": "LINVILLE MICHELLE LIANNE",
+    "parcelId": "087 051H B 00500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087051H%20B%2000500",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z42491786",
@@ -10750,10 +10848,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MEJIA BRENDA L",
     "parcelId": "078 071    07200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071%20%20%20%2007200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -10902,10 +11001,11 @@
    "daysListed": 90,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "COUGHLIN MICHALE ETUX",
-    "parcelId": "007 102K A 09300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2009300",
+    "deedAc": 0.73,
+    "owner": "CUPP JOHNATHAN AND SHEENA",
+    "parcelId": "007 102K A 01500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2001500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -11082,6 +11182,7 @@
     "owner": "ORANGE PROPERTY GROUP LLC",
     "parcelId": "078 095    15600 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078095%20%20%20%2015600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -11247,10 +11348,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "PENNY BARBARA ETVIR",
-    "parcelId": "007 102    09100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102%20%20%20%2009100",
+    "deedAc": 0.85,
+    "owner": "MULLINS DANIEL LEE",
+    "parcelId": "007 102    09101 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102%20%20%20%2009101",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -11412,10 +11514,11 @@
    "daysListed": 92,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MUELLER STACY & AMY D",
-    "parcelId": "073 044L A 00902 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073044L%20A%2000902",
+    "deedAc": 5.62,
+    "owner": "ANDREWS JAMES",
+    "parcelId": "073 044L A 01000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073044L%20A%2001000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -11647,10 +11750,11 @@
    "daysListed": 78,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "UNITED STATES",
     "parcelId": "062 023K E 01000 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062023K%20E%2001000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -11817,10 +11921,11 @@
    "daysListed": 77,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.36,
+    "deedAc": 1.03,
     "owner": "PRIME CUTS CONSTRUCTION LLC",
-    "parcelId": "045 067J A 02000 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045067J%20A%2002000",
+    "parcelId": "045 067J A 01900 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045067J%20A%2001900",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -11897,10 +12002,11 @@
    "daysListed": 69,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "HARDIN BLAKE",
-    "parcelId": "007 102K A 08200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2008200",
+    "deedAc": 0.57,
+    "owner": "ELLISON RICHARD R ETUX",
+    "parcelId": "007 102K A 08300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2008300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -11983,10 +12089,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "SWABE ROBERT A",
     "parcelId": "062 056    09000 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062056%20%20%20%2009000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -12237,10 +12344,11 @@
    "daysListed": 692,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 5.02,
-    "owner": "ODELL JACK",
-    "parcelId": "062 057    05200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062057%20%20%20%2005200",
+    "deedAc": 5.8,
+    "owner": "MADISONVILLE HALL APARTMENTS LP",
+    "parcelId": "062 057    05001 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062057%20%20%20%2005001",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -12324,7 +12432,14 @@
    "_convV": 3,
    "daysListed": 211,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.0,
+    "owner": "KOOPMAN PETER L & BEATRIZ E",
+    "parcelId": "045 067J A 01700 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045067J%20A%2001700",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf200532489",
@@ -12475,10 +12590,11 @@
    "daysListed": 10,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WHITE MICHELE",
-    "parcelId": "073 065J B 03400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073065J%20B%2003400",
+    "deedAc": 0.64,
+    "owner": "MAIRE HEATHER LOUISE & DANIEL EARL",
+    "parcelId": "073 065J B 01801 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073065J%20B%2001801",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -12564,6 +12680,7 @@
     "owner": "CALLOWAY HUNT REAL ESTATE LLC",
     "parcelId": "062 037    06503 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062037%20%20%20%2006503",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -12646,10 +12763,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 5.03,
-    "owner": "1627 PARADISE RIDGE CABINS LLC",
-    "parcelId": "078 071    10604 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071%20%20%20%2010604",
+    "deedAc": 6.56,
+    "owner": "LANDCORP OF ILLINOIS INC",
+    "parcelId": "078 071    11000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071%20%20%20%2011000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -12736,6 +12854,7 @@
     "owner": "SCHLECHTY KAREN S",
     "parcelId": "078 038    04803 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078038%20%20%20%2004803",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -12892,10 +13011,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 1.75,
-    "owner": "SAUNDERS LIVING TRUST",
-    "parcelId": "073 048P A 00100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073048P%20A%2000100",
+    "deedAc": 1.14,
+    "owner": "BROWDER MELISSA",
+    "parcelId": "073 048P B 00700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073048P%20B%2000700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -12978,7 +13098,14 @@
    "_convV": 3,
    "daysListed": 77,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.0,
+    "owner": "PARKS GARY M",
+    "parcelId": "001 065H A 02500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001065H%20A%2002500",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z459724895",
@@ -13052,10 +13179,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "LOVEDAY & FAMILY GENERAL",
     "parcelId": "078 026    02200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078026%20%20%20%2002200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -13137,10 +13265,11 @@
    "daysListed": 352,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BOWMAN SHARON CARMANY",
-    "parcelId": "007 085E A 00600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007085E%20A%2000600",
+    "deedAc": 1.1,
+    "owner": "JORDAN LOGAN",
+    "parcelId": "007 085E A 00503 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007085E%20A%2000503",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -13303,10 +13432,11 @@
    "daysListed": 36,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "PERKINS RAYMOND ARNOLD, JR.",
     "parcelId": "001 065    00800 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001065%20%20%20%2000800",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -13483,6 +13613,7 @@
     "owner": "ORANGE PROPERTY GROUP LLC",
     "parcelId": "078 095    15600 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078095%20%20%20%2015600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -13557,10 +13688,11 @@
    "daysListed": 299,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "BOLDEN NOAH",
     "parcelId": "073 026E C 02100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073026E%20C%2002100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -13731,10 +13863,11 @@
    "daysListed": 5,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WHITE PAW LLC",
-    "parcelId": "005 027I A 00700 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005027I%20A%2000700",
+    "deedAc": 0.83,
+    "owner": "WHITEHEAD AMANDA",
+    "parcelId": "005 027I A 01700 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005027I%20A%2001700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -13986,10 +14119,11 @@
    "daysListed": 10,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "REAL ESCAPE REAL ESTATE LLC",
-    "parcelId": "073 065J B 00900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073065J%20B%2000900",
+    "deedAc": 0.43,
+    "owner": "CANTALINE NOAH & STORMY",
+    "parcelId": "073 065O A 02000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073065O%20A%2002000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -14155,10 +14289,11 @@
    "daysListed": 119,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 2.29,
-    "owner": "RAY MELINDA SUE",
-    "parcelId": "087 051H B 00200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087051H%20B%2000200",
+    "deedAc": 1.04,
+    "owner": "HURST THAYNE A",
+    "parcelId": "087 051H B 00600 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087051H%20B%2000600",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -14322,10 +14457,11 @@
    "daysListed": 21,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MCKENSIE DAVID ETUX",
     "parcelId": "001 032    05601 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001032%20%20%20%2005601",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -14407,10 +14543,11 @@
    "daysListed": 3,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MCDAVID DAISY SHELIA",
     "parcelId": "073 054F A 00800 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073054F%20A%2000800",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -14492,10 +14629,11 @@
    "daysListed": 16,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "STERN MATTHEW ETUX ASHLYN",
     "parcelId": "065 149    02300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/065149%20%20%20%2002300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -14738,10 +14876,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "COOPER PHYLLIS",
     "parcelId": "001 103    00500 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001103%20%20%20%2000500",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -14910,6 +15049,7 @@
     "owner": "STM PROPERTIES LLC",
     "parcelId": "045 037    03903 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045037%20%20%20%2003903",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -14992,10 +15132,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 13.26,
-    "owner": "WATERSIDE AT DOUGLAS, LLC",
-    "parcelId": "045 071    01501 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045071%20%20%20%2001501",
+    "deedAc": 2.49,
+    "owner": "BALDWIN JACK GREGORY & SAMANTHA P",
+    "parcelId": "045 071    01551 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045071%20%20%20%2001551",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -15079,10 +15220,11 @@
    "daysListed": 52,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WOOLARD GARY ALLEN",
-    "parcelId": "087 051    01618 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087051%20%20%20%2001618",
+    "deedAc": 1.21,
+    "owner": "VAUGHN KATHY",
+    "parcelId": "087 051    01622 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087051%20%20%20%2001622",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -15250,6 +15392,7 @@
     "owner": "SHORT LESTER &",
     "parcelId": "045 085    10600 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045085%20%20%20%2010600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -15331,10 +15474,11 @@
    "daysListed": 133,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SCHWEPFINGER ELIZABETH R &",
-    "parcelId": "073 017    04600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073017%20%20%20%2004600",
+    "deedAc": 5.03,
+    "owner": "MCCLUEN SCOTT",
+    "parcelId": "073 017    04701 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073017%20%20%20%2004701",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -15414,10 +15558,11 @@
    "daysListed": 225,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.94,
+    "deedAc": 3.23,
     "owner": "TROUTT SCOTT",
-    "parcelId": "029 085    02101 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029085%20%20%20%2002101",
+    "parcelId": "029 085    02109 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029085%20%20%20%2002109",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -15499,10 +15644,11 @@
    "daysListed": 184,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "NOBILE KNIGHTS CONSTRUCTION SERVICES INC",
-    "parcelId": "073 066J A 00500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2000500",
+    "deedAc": 0.54,
+    "owner": "NOBLE KNIGHTS CONSTRUCTION SERVICES INC",
+    "parcelId": "073 066J A 01000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2001000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -15584,10 +15730,11 @@
    "daysListed": 14,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MCCOY CINDY L",
     "parcelId": "078 049A A 02600 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078049A%20A%2002600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -15662,10 +15809,11 @@
    "daysListed": 15,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 8.71,
-    "owner": "FRANKLIN BRADLEY JACK &",
-    "parcelId": "078 071    05809 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071%20%20%20%2005809",
+    "deedAc": 3.53,
+    "owner": "WOODS LESLIE BROOKE",
+    "parcelId": "078 071    05804 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071%20%20%20%2005804",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -16000,10 +16148,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "LOVEDAY & FAMILY GENERAL",
     "parcelId": "078 026    02200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078026%20%20%20%2002200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -16165,10 +16314,11 @@
    "daysListed": 152,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 6,
+    "deedAc": 6.0,
     "owner": "FRANKLIN BILLY J",
     "parcelId": "007 102    07200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102%20%20%20%2007200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -16251,10 +16401,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.55,
+    "deedAc": 5.23,
     "owner": "CABLE CORY T",
-    "parcelId": "053 051    04614 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053051%20%20%20%2004614",
+    "parcelId": "053 051    04615 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053051%20%20%20%2004615",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -16510,10 +16661,11 @@
    "daysListed": 71,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "R&D ANDERSON TRUST",
-    "parcelId": "062 024P A 02900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062024P%20A%2002900",
+    "deedAc": 1.27,
+    "owner": "VFW POST 5156",
+    "parcelId": "062 024    00603 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062024%20%20%20%2000603",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -16596,10 +16748,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "REAGAN DENNIS LAMON",
     "parcelId": "078 106    02200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078106%20%20%20%2002200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -16682,10 +16835,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.84,
-    "owner": "GHRAIRI WISAM FAWWAZ BACHAY",
-    "parcelId": "045 037    01601 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045037%20%20%20%2001601",
+    "deedAc": 5.02,
+    "owner": "GGDA",
+    "parcelId": "045 037    01621 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045037%20%20%20%2001621",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -16770,10 +16924,11 @@
    "daysListed": 121,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SUMMERS ALVIS & WANDA",
-    "parcelId": "029 101    00602 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029101%20%20%20%2000602",
+    "deedAc": 4.99,
+    "owner": "SUMMERS MAKAYLEE DANIELLE &",
+    "parcelId": "029 101    00605 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029101%20%20%20%2000605",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -16860,6 +17015,7 @@
     "owner": "ROCKY TOP RETREATS LLC",
     "parcelId": "078 103    01715 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078103%20%20%20%2001715",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -17192,10 +17348,11 @@
    "daysListed": 90,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "COUGHLIN MICHALE ETUX",
-    "parcelId": "007 102K A 08900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2008900",
+    "deedAc": 0.66,
+    "owner": "COCHRAN-DAUGHERTY KELLI",
+    "parcelId": "007 102K A 03000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2003000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -17439,10 +17596,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 5.96,
-    "owner": "SMITH SHIRLEY ANN &",
-    "parcelId": "078 070    07400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078070%20%20%20%2007400",
+    "deedAc": 3.8,
+    "owner": "CHURCHILL ROBERT WILLIAM &",
+    "parcelId": "078 070    07300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078070%20%20%20%2007300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -17522,7 +17680,14 @@
    "driveRoad": 57.4,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.09,
+    "owner": "GRAY DANIEL P &",
+    "parcelId": "078 085    00985 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078085%20%20%20%2000985",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z350951113",
@@ -17603,10 +17768,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "CRAWFORD CARLOS W",
     "parcelId": "001 011    03903 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001011%20%20%20%2003903",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -17695,6 +17861,7 @@
     "owner": "GARCIA MARTHA",
     "parcelId": "001 108    01906 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001108%20%20%20%2001906",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -17777,10 +17944,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 13,
-    "owner": "REAVES RONALD W.",
-    "parcelId": "001 073    07104 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007104",
+    "deedAc": 1.61,
+    "owner": "GUILLEMET BOBBY",
+    "parcelId": "001 073    07105 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007105",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -17857,10 +18025,11 @@
    "daysListed": 89,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "COUGHLIN MICHALE ETUX",
-    "parcelId": "007 102K A 08800 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2008800",
+    "deedAc": 0.57,
+    "owner": "ELLISON RICHARD R ETUX",
+    "parcelId": "007 102K A 08300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102K%20A%2008300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -18109,10 +18278,11 @@
    "daysListed": 879,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "JONES B DANNY",
     "parcelId": "073 045H A 00300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073045H%20A%2000300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -18196,10 +18366,11 @@
    "daysListed": 22,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "ROBERTSON DAVID D JR & ASHLEY A",
     "parcelId": "005 037K M 00802 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005037K%20M%2000802",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -18274,10 +18445,11 @@
    "daysListed": 10,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 214,
+    "deedAc": 214.0,
     "owner": "HARRISON FAMILY FARMS",
     "parcelId": "053 055    06100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053055%20%20%20%2006100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -18441,10 +18613,11 @@
    "daysListed": 185,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BLANKENSHIP DEBORAH M",
-    "parcelId": "062 018    07300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062018%20%20%20%2007300",
+    "deedAc": 3.0,
+    "owner": "LANCE CATHY",
+    "parcelId": "062 018    07000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062018%20%20%20%2007000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -18525,10 +18698,11 @@
    "daysListed": 135,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MILEN TERRY G.",
-    "parcelId": "001 019    04500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001019%20%20%20%2004500",
+    "deedAc": 1.2,
+    "owner": "SHARP HOMER JUNIOR, TRUSTEE",
+    "parcelId": "001 019    04400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001019%20%20%20%2004400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -19033,10 +19207,11 @@
    "daysListed": 90,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "PENNY BARBARA ETVIR",
-    "parcelId": "007 102    09100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102%20%20%20%2009100",
+    "deedAc": 0.46,
+    "owner": "RYAN GREG",
+    "parcelId": "007 102    09201 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007102%20%20%20%2009201",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -19121,10 +19296,11 @@
    "daysListed": 49,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MAPLES FRED H",
-    "parcelId": "078 117    09829 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117%20%20%20%2009829",
+    "deedAc": 1.0,
+    "owner": "MAPLES AARON",
+    "parcelId": "078 117    09302 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117%20%20%20%2009302",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -19284,7 +19460,14 @@
    "_convV": 3,
    "daysListed": 12,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 2.13,
+    "owner": "STEINBRUNNER JILL K &",
+    "parcelId": "078 097    04732 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078097%20%20%20%2004732",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z465026952",
@@ -19452,7 +19635,14 @@
    "_convV": 3,
    "daysListed": 157,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 4.71,
+    "owner": "BARNES HELENA RENEE & JAMES (JIM) LEE",
+    "parcelId": "029 099    05418 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029099%20%20%20%2005418",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z465240742",
@@ -19786,10 +19976,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.65,
-    "owner": "DOCKS AT CANEY CREEK PROPERTY OWNERS",
-    "parcelId": "073 066J E 00400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20E%2000400",
+    "deedAc": 1.1,
+    "owner": "LORMS FAMILY TRUST",
+    "parcelId": "073 066J B 01500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20B%2001500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -19944,10 +20135,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WHITE LINDSAY J",
-    "parcelId": "073 046    08300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046%20%20%20%2008300",
+    "deedAc": 1.75,
+    "owner": "LODEN GEORGE LAWSON & JOACHIM JON MARCO",
+    "parcelId": "073 046    08100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046%20%20%20%2008100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -20030,10 +20222,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 89.02,
-    "owner": "SAUTER ANDREW H ETUX",
-    "parcelId": "053 005    02201 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053005%20%20%20%2002201",
+    "deedAc": 5.1,
+    "owner": "TRINITY FARM EAST TN LLC",
+    "parcelId": "053 005    02207 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053005%20%20%20%2002207",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -20116,10 +20309,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "LRB HOLDINGS INC",
-    "parcelId": "073 027L B 04100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073027L%20B%2004100",
+    "deedAc": 0.57,
+    "owner": "ROSE COLTON J",
+    "parcelId": "073 027L D 00100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073027L%20D%2000100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -20208,6 +20402,7 @@
     "owner": "RIVER VALLEY AGCREDIT ACA",
     "parcelId": "053 042    06000 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053042%20%20%20%2006000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -20551,10 +20746,11 @@
    "daysListed": 14,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MAGILL BRIAN AND MISTY",
     "parcelId": "073 017D D 00800 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073017D%20D%2000800",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -20978,10 +21174,11 @@
    "daysListed": 212,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.31,
-    "owner": "ADAMS FRANCES ANN",
-    "parcelId": "005 069    04601 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005069%20%20%20%2004601",
+    "deedAc": 4.81,
+    "owner": "BURNETT MICHAEL BRANDON",
+    "parcelId": "005 069    11500 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005069%20%20%20%2011500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -21064,10 +21261,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.84,
-    "owner": "GHRAIRI WISAM FAWWAZ BACHAY",
-    "parcelId": "045 037    01601 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045037%20%20%20%2001601",
+    "deedAc": 5.0,
+    "owner": "STAPLETON GABRIEL CHARLES & HUNTER BUNCH",
+    "parcelId": "045 037    01609 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045037%20%20%20%2001609",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -21145,10 +21343,11 @@
    "daysListed": 1,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "JENKINS ROBERT & CHRISTINE",
     "parcelId": "045 069    01406 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045069%20%20%20%2001406",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -21226,10 +21425,11 @@
    "daysListed": 43,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "DICKENS LORENDA JEAN & PAMELA",
     "parcelId": "073 026D D 00701 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073026D%20D%2000701",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -21312,10 +21512,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 13,
-    "owner": "REAVES RONALD W.",
-    "parcelId": "001 073    07104 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007104",
+    "deedAc": 1.38,
+    "owner": "GUILLEMET BOBBY",
+    "parcelId": "001 073    07109 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007109",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -21478,10 +21679,11 @@
    "daysListed": 121,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WHITAKER JANET LYNN",
     "parcelId": "073 046L A 00400 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046L%20A%2000400",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -21644,10 +21846,11 @@
    "daysListed": 184,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "NOBILE KNIGHTS CONSTRUCTION SERVICES INC",
-    "parcelId": "073 066J A 00400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2000400",
+    "deedAc": 0.48,
+    "owner": "BICONDOVA MARLENE",
+    "parcelId": "073 066J A 00300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -21731,7 +21934,14 @@
    "_convV": 3,
    "daysListed": 224,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 4.54,
+    "owner": "COOPER ZACHERY ALLEN",
+    "parcelId": "001 073    17300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2017300",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf191758193",
@@ -21893,6 +22103,7 @@
     "owner": "ORAN MELTON L",
     "parcelId": "053 073    04802 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053073%20%20%20%2004802",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -21964,10 +22175,11 @@
    "daysListed": 103,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "AYERS HASKEL ETAL",
-    "parcelId": "007 119G A 01100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119G%20A%2001100",
+    "deedAc": 0.46,
+    "owner": "TOBERGTE ASHLEY R ETVIR JOHN",
+    "parcelId": "007 119G C 02700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119G%20C%2002700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -22047,7 +22259,14 @@
    "driveRoad": 48.4,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 2.31,
+    "owner": "BENAVIDES RONALD VILLALOBOS &",
+    "parcelId": "078 052A A 01100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078052A%20A%2001100",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z2066835863",
@@ -22373,10 +22592,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "FAHR ANNE MARIE DR",
     "parcelId": "078 043L A 02600 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078043L%20A%2002600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -22457,10 +22677,11 @@
    "daysListed": 36,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0.29,
-    "owner": "JONES DARLENE",
-    "parcelId": "029 024    04200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029024%20%20%20%2004200",
+    "deedAc": 2.08,
+    "owner": "LANE MICHAEL S &",
+    "parcelId": "029 024    03800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029024%20%20%20%2003800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -22535,10 +22756,11 @@
    "daysListed": 103,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "AYERS HASKEL ETAL",
-    "parcelId": "007 119G A 01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119G%20A%2001000",
+    "deedAc": 0.42,
+    "owner": "KAPPLE KOLTON R",
+    "parcelId": "007 119G A 02700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119G%20A%2002700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -22623,10 +22845,11 @@
    "daysListed": 72,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0.4,
-    "owner": "CHESNUTT SAVANNAH B ET AL",
-    "parcelId": "073 058G F 01300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073058G%20F%2001300",
+    "deedAc": 1.13,
+    "owner": "COX KATHRYN J",
+    "parcelId": "073 058G F 00502 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073058G%20F%2000502",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -22702,10 +22925,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "PRINCIPE RICHARD A &",
     "parcelId": "078 054    01001 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078054%20%20%20%2001001",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -22788,10 +23012,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MORALEZ LUIS R & NORA",
-    "parcelId": "078 104    06500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078104%20%20%20%2006500",
+    "deedAc": 2.26,
+    "owner": "PAMSCO GROUP INC",
+    "parcelId": "078 104    01400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078104%20%20%20%2001400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -22950,10 +23175,11 @@
    "daysListed": 12,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WEBSTER KRISTOPHER G",
     "parcelId": "062 008M A 02700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062008M%20A%2002700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -23119,10 +23345,11 @@
    "daysListed": 132,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "DALTON ANTHONY Q",
-    "parcelId": "029 034A D 00100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029034A%20D%2000100",
+    "deedAc": 0.38,
+    "owner": "CORMAN DEBRA",
+    "parcelId": "029 024P A 02901 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029024P%20A%2002901",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -23280,10 +23507,11 @@
    "daysListed": 218,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "HATCHER ROBERT DEAN JR & DIANA SIMPSON",
-    "parcelId": "073 015J C 01300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073015J%20C%2001300",
+    "deedAc": 0.5,
+    "owner": "NASH JAMES MICHAEL & JODI",
+    "parcelId": "073 015J C 01304 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073015J%20C%2001304",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -23454,10 +23682,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MEANS LARRY D &",
     "parcelId": "007 095    02600 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007095%20%20%20%2002600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -23627,7 +23856,14 @@
    "driveRoad": 55.1,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 3.03,
+    "owner": "MUCKEY TIFFANY K",
+    "parcelId": "045 071    01547 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045071%20%20%20%2001547",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf119072105",
@@ -23703,10 +23939,11 @@
    "daysListed": 229,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BURKE ANTHONY & SHERRI",
-    "parcelId": "029 054G C 01300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029054G%20C%2001300",
+    "deedAc": 0.47,
+    "owner": "DAVIS JACK E",
+    "parcelId": "029 054    02800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029054%20%20%20%2002800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -23791,10 +24028,11 @@
    "daysListed": 55,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "GIBSON ROBERT &",
-    "parcelId": "078 058    19400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078058%20%20%20%2019400",
+    "deedAc": 1.83,
+    "owner": "WARD CORY LEE & VALERIE ANNE",
+    "parcelId": "078 058    12801 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078058%20%20%20%2012801",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -23875,10 +24113,11 @@
    "daysListed": 163,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MULLINS RANDALL & LUANNE",
     "parcelId": "073 058    03101 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073058%20%20%20%2003101",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -24040,6 +24279,7 @@
     "owner": "WERNER CINDY K & MICHAEL",
     "parcelId": "078 116    18201 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2018201",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -24125,6 +24365,7 @@
     "owner": "JOHNSTON CLAYTON E &",
     "parcelId": "078 104    08411 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078104%20%20%20%2008411",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -24207,10 +24448,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "VU EMILY",
-    "parcelId": "073 027L B 03900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073027L%20B%2003900",
+    "deedAc": 0.45,
+    "owner": "GILBERT MICHAEL P & REBEKAH K",
+    "parcelId": "073 027L A 01300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073027L%20A%2001300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -24377,10 +24619,11 @@
    "daysListed": 463,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0.56,
-    "owner": "RAMOS GARY T",
-    "parcelId": "005 037L A 02700 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005037L%20A%2002700",
+    "deedAc": 1.64,
+    "owner": "STEPHENSON WILLIAM B & BETH A",
+    "parcelId": "005 037L A 02500 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005037L%20A%2002500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -24627,10 +24870,11 @@
    "daysListed": 103,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "AYERS HASKEL ETAL",
-    "parcelId": "007 119G A 00700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119G%20A%2000700",
+    "deedAc": 0.33,
+    "owner": "MARLOW DONALD RAY",
+    "parcelId": "007 119G A 00400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119G%20A%2000400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -24794,10 +25038,11 @@
    "daysListed": 446,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "GREER SHEILA",
-    "parcelId": "007 084I A 00302 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007084I%20A%2000302",
+    "deedAc": 1.47,
+    "owner": "ROGERS JEANETTE",
+    "parcelId": "007 084I A 02600 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007084I%20A%2002600",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -24878,7 +25123,14 @@
    "_convV": 3,
    "daysListed": 140,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.65,
+    "owner": "SHETLEY ZECHARIAH T",
+    "parcelId": "007 118    07300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007118%20%20%20%2007300",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z462631309",
@@ -24952,10 +25204,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.59,
-    "owner": "KEATHLEY CHARLES T",
-    "parcelId": "001 088A C 00600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001088A%20C%2000600",
+    "deedAc": 0.65,
+    "owner": "MCGEE GERALD",
+    "parcelId": "001 088A C 00200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001088A%20C%2000200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -25032,10 +25285,11 @@
    "daysListed": 248,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 2,
-    "owner": "COLAMARINO JOHN ETUX DONNA",
-    "parcelId": "062 023    00704 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062023%20%20%20%2000704",
+    "deedAc": 4.15,
+    "owner": "LOGES MCKENNA GRACE",
+    "parcelId": "062 023    01301 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062023%20%20%20%2001301",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -25118,10 +25372,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.78,
-    "owner": "REAGAN AUDREY",
-    "parcelId": "078 103    01717 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078103%20%20%20%2001717",
+    "deedAc": 3.49,
+    "owner": "BENSON DENNIS & TRACY",
+    "parcelId": "078 103    02000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078103%20%20%20%2002000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -25210,6 +25465,7 @@
     "owner": "PATEL KANCHAN",
     "parcelId": "001 008L A 00100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001008L%20A%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -25289,7 +25545,14 @@
    "_convV": 3,
    "daysListed": 109,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.41,
+    "owner": "MARTINEZ GREGORY ETUX ADRIANA JARAMILLO",
+    "parcelId": "062 034    09137 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062034%20%20%20%2009137",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z462473636",
@@ -25368,6 +25631,7 @@
     "owner": "KANG YOON W ETUX MI JUNG",
     "parcelId": "053 005    05000 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053005%20%20%20%2005000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -25539,10 +25803,11 @@
    "daysListed": 15,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "JONES DWAYNE K",
     "parcelId": "045 023    03802 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045023%20%20%20%2003802",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -25709,10 +25974,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2,
-    "owner": "PERDOMO JOSE & ARGENTINA",
-    "parcelId": "078 117    20217 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117%20%20%20%2020217",
+    "deedAc": 1.0,
+    "owner": "MIDDLETON LEANN ROBERTS",
+    "parcelId": "078 117    20211 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117%20%20%20%2020211",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -25795,10 +26061,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "DOCKS AT CANEY CREEK ASSOCIATION INC",
-    "parcelId": "073 066J A 00800 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2000800",
+    "deedAc": 0.48,
+    "owner": "BICONDOVA MARLENE",
+    "parcelId": "073 066J A 00300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -25966,10 +26233,11 @@
    "daysListed": 495,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0.64,
-    "owner": "BOLTON JOHN S",
-    "parcelId": "087 056C C 00700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087056C%20C%2000700",
+    "deedAc": 1.22,
+    "owner": "LAMB CONNIE D",
+    "parcelId": "087 056C C 01200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087056C%20C%2001200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -26136,10 +26404,11 @@
    "daysListed": 28,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "KURTBYEDINOV MIDAT",
     "parcelId": "073 065    05509 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073065%20%20%20%2005509",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -26309,10 +26578,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WESTER CECILY",
-    "parcelId": "073 054D B 01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073054D%20B%2001000",
+    "deedAc": 0.42,
+    "owner": "WRIGHT TONEY & DEBRA",
+    "parcelId": "073 054E B 00901 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073054E%20B%2000901",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -26395,10 +26665,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "FARM OF THE SMOKIES ESTATES LLC",
     "parcelId": "005 020    02300 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005020%20%20%20%2002300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -26481,10 +26752,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.74,
+    "deedAc": 1.32,
     "owner": "TRINITY HOLDINGS LLC",
-    "parcelId": "045 027N A 04200 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045027N%20A%2004200",
+    "parcelId": "045 027N A 04300 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045027N%20A%2004300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -26735,10 +27007,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "BAGDON PETER P JR & BIRUTE A",
     "parcelId": "078 117    06401 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117%20%20%20%2006401",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -26820,7 +27093,14 @@
    "driveRoad": 47.6,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.03,
+    "owner": "TRINITY HOLDINGS LLC",
+    "parcelId": "045 027N A 03900 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045027N%20A%2003900",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z464380904",
@@ -26901,10 +27181,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 1.61,
+    "deedAc": 1.0,
     "owner": "GUILLEMET BOBBY",
-    "parcelId": "001 073    07105 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007105",
+    "parcelId": "001 073    07110 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007110",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -26982,10 +27263,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "VINSON HASKELL W II",
     "parcelId": "078 028L A 00300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078028L%20A%2000300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -27068,7 +27350,14 @@
    "_convV": 3,
    "daysListed": 76,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.99,
+    "owner": "PATEL KEVINKUMAR & PATEL SUNIL",
+    "parcelId": "045 046O D 00500 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045046O%20D%2000500",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf103871248",
@@ -27147,10 +27436,11 @@
    "daysListed": 67,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "HAMMEL GAVIN & COLBY",
     "parcelId": "073 061    00304 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073061%20%20%20%2000304",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -27232,10 +27522,11 @@
    "daysListed": 69,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "SWANN JAMES D &",
     "parcelId": "045 068O A 02700 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045068O%20A%2002700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -27317,7 +27608,14 @@
    "driveRoad": 54.7,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.82,
+    "owner": "DAUGHERTY WILLIS S. JR",
+    "parcelId": "087 042    15700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087042%20%20%20%2015700",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z2059361567",
@@ -27635,7 +27933,14 @@
    "driveRoad": 51.6,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.9,
+    "owner": "SEWARD DAVID B & ELIZABETH",
+    "parcelId": "029 032B A 06600 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029032B%20A%2006600",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z81158116",
@@ -27802,10 +28107,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "JJSPI INC",
     "parcelId": "078 107O A 02100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107O%20A%2002100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -28149,10 +28455,11 @@
    "daysListed": 72,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WILLETT DWIGHT HAYNES & MA",
     "parcelId": "073 059    04708 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073059%20%20%20%2004708",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -28319,10 +28626,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 4,
+    "deedAc": 4.0,
     "owner": "PRICE JAMES B & ANNE A",
     "parcelId": "078 126I E 01300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078126I%20E%2001300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -28406,10 +28714,11 @@
    "daysListed": 85,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WHALEY MICHAEL D",
     "parcelId": "045 069N A 00200 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045069N%20A%2000200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -28484,10 +28793,11 @@
    "daysListed": 118,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "KREN JONATHAN A & GAYLE J",
     "parcelId": "045 069N A 00100 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045069N%20A%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -28572,10 +28882,11 @@
    "daysListed": 40,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MAGILL BRIAN AND MISTY",
-    "parcelId": "073 017D D 01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073017D%20D%2001000",
+    "deedAc": 0.34,
+    "owner": "MANNING REBECCA ERIN",
+    "parcelId": "073 017D F 00200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073017D%20F%2000200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -28746,10 +29057,11 @@
    "daysListed": 17,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 4.01,
-    "owner": "MOORE DAVID W.",
-    "parcelId": "001 097    08506 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001097%20%20%20%2008506",
+    "deedAc": 2.07,
+    "owner": "SKEES DOUGLAS A.",
+    "parcelId": "001 097    08504 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001097%20%20%20%2008504",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -29006,10 +29318,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "YARBROUGH DANIEL",
     "parcelId": "062 024H A 01000 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062024H%20A%2001000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -29259,10 +29572,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "HOWSE RONALD S & CAROLE S",
     "parcelId": "078 103N F 03900 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078103N%20F%2003900",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -29345,10 +29659,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 3.17,
+    "deedAc": 2.24,
     "owner": "VERLESS OGLE PROPERTIES LLC",
-    "parcelId": "078 116    14101 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2014101",
+    "parcelId": "078 116    14100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2014100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -29602,7 +29917,14 @@
    "driveRoad": 39.2,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 2.65,
+    "owner": "BERGER CAROLINE M & JOSEPH M",
+    "parcelId": "005 069    26408 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005069%20%20%20%2026408",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf192895764",
@@ -29763,10 +30085,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "COOPER GREGORY & CAROLE",
-    "parcelId": "073 066J A 00700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2000700",
+    "deedAc": 0.48,
+    "owner": "BICONDOVA MARLENE",
+    "parcelId": "073 066J A 00300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -29934,10 +30257,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 3.17,
+    "deedAc": 2.24,
     "owner": "VERLESS OGLE PROPERTIES LLC",
-    "parcelId": "078 116    14101 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2014101",
+    "parcelId": "078 116    14100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2014100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -30196,6 +30520,7 @@
     "owner": "LUYSTER DAVID J",
     "parcelId": "078 081B A 01300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078081B%20A%2001300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -30270,10 +30595,11 @@
    "daysListed": 16,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "LOY MITCHELL &",
     "parcelId": "007 077G B 03300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007077G%20B%2003300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -30433,10 +30759,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "DELEON SANDRA & AGUILAR RUBEN",
     "parcelId": "045 008P D 01000 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045008P%20D%2001000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -30525,6 +30852,7 @@
     "owner": "SMITH PHILLIP M & MICHELE L",
     "parcelId": "045 022L A 00100 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045022L%20A%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -30679,10 +31007,11 @@
    "daysListed": 103,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "HOLMES PHILLIP",
-    "parcelId": "001 030P A 01600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001030P%20A%2001600",
+    "deedAc": 0.31,
+    "owner": "ELKINS VIRGINIA K",
+    "parcelId": "001 030P A 02300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001030P%20A%2002300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -30841,10 +31170,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "RUTHERFORD SHERRIE DIANE N &",
-    "parcelId": "078 105    00404 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078105%20%20%20%2000404",
+    "deedAc": 1.77,
+    "owner": "HUGHES BOBBY C JR TRUSTEE",
+    "parcelId": "078 105    00419 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078105%20%20%20%2000419",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -31007,10 +31337,11 @@
    "daysListed": 188,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "RITCHEY JAMES H & JANICE D",
     "parcelId": "005 078    08300 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005078%20%20%20%2008300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -31256,10 +31587,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BOLSTER MICHAEL S",
-    "parcelId": "073 066J A 01800 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2001800",
+    "deedAc": 1.0,
+    "owner": "HOBBY GLEN T JR & CHEN PING",
+    "parcelId": "073 066J A 02200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2002200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -31505,10 +31837,11 @@
    "daysListed": 180,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "PATRIOT HILLS GOLF CLUB",
-    "parcelId": "045 057    00100 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045057%20%20%20%2000100",
+    "deedAc": 1.15,
+    "owner": "HEADLEY CHRIS & KRISTEL",
+    "parcelId": "045 046P A 00300 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045046P%20A%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -31583,10 +31916,11 @@
    "daysListed": 294,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "PATRIOT HILLS GOLF CLUB",
-    "parcelId": "045 057    00100 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045057%20%20%20%2000100",
+    "deedAc": 1.15,
+    "owner": "HEADLEY CHRIS & KRISTEL",
+    "parcelId": "045 046P A 00300 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045046P%20A%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -31671,10 +32005,11 @@
    "daysListed": 218,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.12,
-    "owner": "HAUGEN STUARD R & GLENNA M",
-    "parcelId": "045 090    01908 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045090%20%20%20%2001908",
+    "deedAc": 2.41,
+    "owner": "GODSPEED ENTERPRISE LLC",
+    "parcelId": "045 090    01906 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045090%20%20%20%2001906",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -31753,6 +32088,7 @@
     "owner": "PETERSEN MARK & PATRICIA",
     "parcelId": "045 090    02105 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045090%20%20%20%2002105",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -32000,10 +32336,11 @@
    "daysListed": 747,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "KNOWLES TODD",
-    "parcelId": "053 041C A 02300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053041C%20A%2002300",
+    "deedAc": 0.46,
+    "owner": "LOUDON UTILITIES",
+    "parcelId": "053 041    01401 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053041%20%20%20%2001401",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -32248,6 +32585,7 @@
     "owner": "HILL RICHARD D",
     "parcelId": "005 056    14806 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005056%20%20%20%2014806",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -32583,10 +32921,11 @@
    "daysListed": 308,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 5,
+    "deedAc": 5.0,
     "owner": "RANGEL RAUL",
     "parcelId": "053 060    00202 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053060%20%20%20%2000202",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -32827,10 +33166,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 1.61,
+    "deedAc": 1.0,
     "owner": "GUILLEMET BOBBY",
-    "parcelId": "001 073    07105 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007105",
+    "parcelId": "001 073    07110 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001073%20%20%20%2007110",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -32990,10 +33330,11 @@
    "daysListed": 10,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 4,
+    "deedAc": 4.0,
     "owner": "OUVRY RYAN & ROBERT BRUTON",
     "parcelId": "065 122    00209 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/065122%20%20%20%2000209",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -33075,10 +33416,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 28.85,
-    "owner": "TRIPOLI MICHAEL DUDLEY",
-    "parcelId": "001 084    01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001084%20%20%20%2001000",
+    "deedAc": 1.22,
+    "owner": "DAVIS JACK A",
+    "parcelId": "001 084    02001 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001084%20%20%20%2002001",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -33325,10 +33667,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.23,
-    "owner": "RAE KIT & TERESA P",
-    "parcelId": "078 013O A 06700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078013O%20A%2006700",
+    "deedAc": 1.33,
+    "owner": "PATEL KIRANBHAI B",
+    "parcelId": "078 013O A 06800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078013O%20A%2006800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -33410,7 +33753,14 @@
    "driveRoad": 47.3,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.99,
+    "owner": "TRINITY HOLDINGS LLC",
+    "parcelId": "045 027N A 05600 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045027N%20A%2005600",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf163446626",
@@ -33571,10 +33921,11 @@
    "daysListed": 40,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 46.5,
-    "owner": "GIFFIN JAMES LUTHER &",
-    "parcelId": "005 077    00700 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005077%20%20%20%2000700",
+    "deedAc": 1.49,
+    "owner": "HAVEN DEVELOPMENTS LLC",
+    "parcelId": "005 077    06209 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005077%20%20%20%2006209",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -33657,10 +34008,11 @@
    "daysListed": 69,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "GRIFFITH SANDRA & TROY",
     "parcelId": "045 068O A 02800 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045068O%20A%2002800",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -33912,6 +34264,7 @@
     "owner": "MORROW SAMANTHA D & JUSTIN R",
     "parcelId": "029 023    00105 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029023%20%20%20%2000105",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -33994,10 +34347,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.92,
-    "owner": "KARWAN SUKHENDER KUMAR &",
-    "parcelId": "045 083I A 05000 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045083I%20A%2005000",
+    "deedAc": 1.33,
+    "owner": "JOHNSTON RESIDENTIAL PROPERTIES LLLP",
+    "parcelId": "045 083I A 06100 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045083I%20A%2006100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -34333,10 +34687,11 @@
    "daysListed": 47,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WALLACE JOSEPH",
-    "parcelId": "053 033N B 01300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053033N%20B%2001300",
+    "deedAc": 0.69,
+    "owner": "NORMAN THOMAS E III",
+    "parcelId": "053 033N B 00900 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053033N%20B%2000900",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -34828,10 +35183,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.68,
-    "owner": "ROONEY LAND DEVELOPMENT LLC",
-    "parcelId": "053 031D G 01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031D%20G%2001000",
+    "deedAc": 1.04,
+    "owner": "PERALTA ROLAND GRAVE DE ETUX",
+    "parcelId": "053 031D D 00100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031D%20D%2000100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -34993,10 +35349,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "ATCHLEY BILL",
     "parcelId": "078 107P B 01700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107P%20B%2001700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -35081,10 +35438,11 @@
    "daysListed": 15,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 2.52,
-    "owner": "ELLIS BRENT & JENNIFER",
-    "parcelId": "078 005    06206 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078005%20%20%20%2006206",
+    "deedAc": 0.93,
+    "owner": "CTS HOLDINGS LLC",
+    "parcelId": "078 005    06527 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078005%20%20%20%2006527",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -35167,10 +35525,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.88,
-    "owner": "BAIRD JOHNNY",
-    "parcelId": "007 119    12500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119%20%20%20%2012500",
+    "deedAc": 0.36,
+    "owner": "ROSE CHARLES E JR ETUX",
+    "parcelId": "007 119O A 01800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119O%20A%2001800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -35414,10 +35773,11 @@
    "daysListed": 44,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "WEISKITTEL ROLAND",
     "parcelId": "007 120M B 01700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007120M%20B%2001700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -35988,10 +36348,11 @@
    "daysListed": 39,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "NORRIS MELISSA &",
-    "parcelId": "078 013F A 01500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078013F%20A%2001500",
+    "deedAc": 0.86,
+    "owner": "ROWE STEPHANIE J",
+    "parcelId": "078 013F A 01301 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078013F%20A%2001301",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -36399,6 +36760,7 @@
     "owner": "BLAIR STEPHEN ETUX",
     "parcelId": "053 044    05900 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053044%20%20%20%2005900",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -36646,7 +37008,14 @@
    "driveRoad": 47.8,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.44,
+    "owner": "HUFFAKER DUSTIN RANDALL & KACIE E",
+    "parcelId": "078 074    03401 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078074%20%20%20%2003401",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z461395670",
@@ -37068,10 +37437,11 @@
    "daysListed": 133,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "BINGERT ANTHONY J & BINGERT BERTHANN E",
     "parcelId": "045 033    12801 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045033%20%20%20%2012801",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -37228,10 +37598,11 @@
    "daysListed": 114,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "HORN JAMES D & TERESA A",
     "parcelId": "005 057D C 00700 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005057D%20C%2000700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -37316,10 +37687,11 @@
    "daysListed": 44,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "NAPIER MACK HOYT SR & ETALS",
     "parcelId": "029 054G B 00700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029054G%20B%2000700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -37402,10 +37774,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BARBERY FRAZIER",
-    "parcelId": "078 095C D 01200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078095C%20D%2001200",
+    "deedAc": 0.52,
+    "owner": "JENKINS STANLEY & TREICIA M",
+    "parcelId": "078 095F A 00400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078095F%20A%2000400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -37567,10 +37940,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "SMITH HEATHER L",
     "parcelId": "078 106M D 00200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078106M%20D%2000200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -37738,10 +38112,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SMITH ROBERT L",
-    "parcelId": "078 107I A 04200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107I%20A%2004200",
+    "deedAc": 0.46,
+    "owner": "HARTMAN JEFFREY B &",
+    "parcelId": "078 107I A 01400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107I%20A%2001400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -37993,10 +38368,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 3.49,
-    "owner": "BENSON DENNIS & TRACY",
-    "parcelId": "078 103    02000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078103%20%20%20%2002000",
+    "deedAc": 2.56,
+    "owner": "FLAMENT TAMARA & BRIAN",
+    "parcelId": "078 103    02014 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078103%20%20%20%2002014",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -38244,10 +38620,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 11.59,
-    "owner": "YOUR HOME AWAY FROM HOME LLC",
-    "parcelId": "078 094    10500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078094%20%20%20%2010500",
+    "deedAc": 2.12,
+    "owner": "ARTICA CONSTRUCTION INC",
+    "parcelId": "078 094    08005 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078094%20%20%20%2008005",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -38330,10 +38707,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 1.34,
-    "owner": "COREY SEAN ROBERT &",
-    "parcelId": "078 094I A 00600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078094I%20A%2000600",
+    "deedAc": 1.82,
+    "owner": "HAYES BUILDERS LLC",
+    "parcelId": "078 094I A 00100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078094I%20A%2000100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -38415,10 +38793,11 @@
    "daysListed": 35,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0.22,
-    "owner": "DONNELLY KEVIN ETUX CARLA",
-    "parcelId": "007 119O A 00900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119O%20A%2000900",
+    "deedAc": 0.55,
+    "owner": "PENHORWOOD MARK A",
+    "parcelId": "007 119O A 01100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119O%20A%2001100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -38572,7 +38951,14 @@
    "driveRoad": 47.6,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.76,
+    "owner": "TRINITY HOLDINGS LLC",
+    "parcelId": "045 027N A 07200 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045027N%20A%2007200",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf87563698",
@@ -38814,10 +39200,11 @@
    "daysListed": 196,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 12.5,
+    "deedAc": 0.77,
     "owner": "ACBC VENTURES LLC",
-    "parcelId": "062 055    03808 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062055%20%20%20%2003808",
+    "parcelId": "062 055    03804 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062055%20%20%20%2003804",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -38896,10 +39283,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "HAYNES TIFTON P OR",
-    "parcelId": "078 107J D 01300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107J%20D%2001300",
+    "deedAc": 0.72,
+    "owner": "AMEROSO MICHAEL",
+    "parcelId": "078 107N A 01400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107N%20A%2001400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -38984,10 +39372,11 @@
    "daysListed": 301,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "ATCHLEY CLAY S",
-    "parcelId": "045 028H E 03200 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045028H%20E%2003200",
+    "deedAc": 0.35,
+    "owner": "MCKINNEY CONNIE",
+    "parcelId": "045 028H E 01601 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045028H%20E%2001601",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -39230,10 +39619,11 @@
    "daysListed": 39,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "NORRIS MELISSA &",
-    "parcelId": "078 013F A 01600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078013F%20A%2001600",
+    "deedAc": 0.71,
+    "owner": "ROWE STEPHANIE J",
+    "parcelId": "078 013F A 01300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078013F%20A%2001300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -39967,10 +40357,11 @@
    "daysListed": 96,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "KENWORTHY JEFFERY M",
     "parcelId": "062 038A B 01600 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062038A%20B%2001600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -40372,7 +40763,14 @@
    "_convV": 3,
    "daysListed": 321,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.79,
+    "owner": "STINNETT ANTHONY HUNTER",
+    "parcelId": "073 057E B 00300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073057E%20B%2000300",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z464021688",
@@ -40451,10 +40849,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 3.09,
-    "owner": "BHULA HASMUKH & URMILA",
-    "parcelId": "078 037    06002 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078037%20%20%20%2006002",
+    "deedAc": 2.0,
+    "owner": "JENSEN BRIAN J",
+    "parcelId": "078 037    06001 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078037%20%20%20%2006001",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -40538,7 +40937,14 @@
    "_convV": 3,
    "daysListed": 82,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.1,
+    "owner": "NICELY JESSIE & TERRY",
+    "parcelId": "029 091    00901 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029091%20%20%20%2000901",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z81209309",
@@ -40623,6 +41029,7 @@
     "owner": "PAUL TRAVIS D ETUX",
     "parcelId": "062 023C E 01601 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062023C%20E%2001601",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -40869,10 +41276,11 @@
    "daysListed": 96,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WOODWARD JOHN H ETUX",
-    "parcelId": "062 038A B 03600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062038A%20B%2003600",
+    "deedAc": 0.34,
+    "owner": "DEVOE JAMES F II ETUX",
+    "parcelId": "062 038A B 05700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062038A%20B%2005700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -40944,10 +41352,11 @@
    "daysListed": 96,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WOODWARD JOHN H ETUX",
-    "parcelId": "062 038A B 03500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062038A%20B%2003500",
+    "deedAc": 0.34,
+    "owner": "DEVOE JAMES F II ETUX",
+    "parcelId": "062 038A B 05700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062038A%20B%2005700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -41030,10 +41439,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WESSEL RONALD E & SANDRA",
-    "parcelId": "073 066O A 00200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066O%20A%2000200",
+    "deedAc": 0.56,
+    "owner": "RAS FAMILY TRUST",
+    "parcelId": "073 066J A 03300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2003300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -41116,10 +41526,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "NEWMAN MISTY",
-    "parcelId": "007 119O A 00501 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119O%20A%2000501",
+    "deedAc": 0.55,
+    "owner": "PENHORWOOD MARK A",
+    "parcelId": "007 119O A 01100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007119O%20A%2001100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -41369,10 +41780,11 @@
    "daysListed": 230,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "CRONAN TONY PARNICK ET AL",
-    "parcelId": "073 046O D 00500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046O%20D%2000500",
+    "deedAc": 1.85,
+    "owner": "REALTY INCOME PROPERTIES",
+    "parcelId": "073 046O D 00400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046O%20D%2000400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -41620,6 +42032,7 @@
     "owner": "SMOKEY MTN RIDGE LLC",
     "parcelId": "078 104J B 00100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078104J%20B%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -41704,10 +42117,11 @@
    "daysListed": 14,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 63.33,
-    "owner": "CANNON JOHN EDWIN  TRUSTEE",
-    "parcelId": "078 016    01808 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078016%20%20%20%2001808",
+    "deedAc": 1.0,
+    "owner": "ROLLINS KIMBERLY D",
+    "parcelId": "078 016    00701 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078016%20%20%20%2000701",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -41942,10 +42356,11 @@
    "daysListed": 28,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0.9,
-    "owner": "BIRDSONG WENDELL E ETUX",
-    "parcelId": "007 103I B 02400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007103I%20B%2002400",
+    "deedAc": 0.37,
+    "owner": "CLEAR JERRY ETUX KAREN",
+    "parcelId": "007 103I B 01800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007103I%20B%2001800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -42608,10 +43023,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "TRUITT DIANE ONEIL",
-    "parcelId": "073 066J A 03600 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2003600",
+    "deedAc": 0.56,
+    "owner": "RAS FAMILY TRUST",
+    "parcelId": "073 066J A 03300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20A%2003300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -42692,10 +43108,11 @@
    "daysListed": 82,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "POE  GLADYS HANCE",
-    "parcelId": "045 084    03100 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045084%20%20%20%2003100",
+    "deedAc": 2.19,
+    "owner": "MUELLER JOHN E LE",
+    "parcelId": "045 083    02900 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045083%20%20%20%2002900",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -43026,10 +43443,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 82.9,
-    "owner": "BROOKS AMANDA TRUSTEE",
-    "parcelId": "053 070    05900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053070%20%20%20%2005900",
+    "deedAc": 0.5,
+    "owner": "DAVIS ROBERT C ETUX",
+    "parcelId": "053 070    05701 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053070%20%20%20%2005701",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -43794,10 +44212,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SHANBHAG GAJANAN R & PRAMILA    LE",
-    "parcelId": "078 126I D 00200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078126I%20D%2000200",
+    "deedAc": 1.0,
+    "owner": "MESURF LLC SERIES D",
+    "parcelId": "078 126I D 00700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078126I%20D%2000700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -43878,10 +44297,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "SCHMIDT LAWRENCE &",
     "parcelId": "078 106M E 01200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078106M%20E%2001200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -43959,10 +44379,11 @@
    "daysListed": 44,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 1.2,
-    "owner": "MURPHY CRAIG & MARCI",
-    "parcelId": "045 076    01800 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045076%20%20%20%2001800",
+    "deedAc": 0.5,
+    "owner": "BLACKBURN JOHN R &",
+    "parcelId": "045 068P A 02803 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045068P%20A%2002803",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -44269,10 +44690,11 @@
    "daysListed": 484,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "PIERCY MELODY D",
     "parcelId": "001 081L A 00702 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001081L%20A%2000702",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -44354,10 +44776,11 @@
    "daysListed": 904,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BUTLER ALONZO",
-    "parcelId": "062 056M C 01507 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062056M%20C%2001507",
+    "deedAc": 1.62,
+    "owner": "FRENCH JERRY DEAN",
+    "parcelId": "062 056M C 01500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062056M%20C%2001500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -44607,6 +45030,7 @@
     "owner": "TN NATIONAL LLC",
     "parcelId": "053 023    00100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053023%20%20%20%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -44688,7 +45112,14 @@
    "driveRoad": 47.2,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.64,
+    "owner": "TRINITY HOLDINGS LLC",
+    "parcelId": "045 027N A 05400 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045027N%20A%2005400",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf87148217",
@@ -45020,10 +45451,11 @@
    "daysListed": 77,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "VOW MANAGEMENT LLC",
     "parcelId": "073 058N H 01800 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073058N%20H%2001800",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -45101,7 +45533,14 @@
    "driveRoad": 57.2,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.27,
+    "owner": "LAUGHLIN ROBERT C JR ETUX",
+    "parcelId": "053 077C E 00800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053077C%20E%2000800",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf163367816",
@@ -45258,7 +45697,14 @@
    "driveRoad": 47.7,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.69,
+    "owner": "TRINITY HOLDINGS LLC",
+    "parcelId": "045 027N A 03500 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045027N%20A%2003500",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf204355026",
@@ -45761,10 +46207,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 1.81,
-    "owner": "MOORE BRADLEY J & NANCY C",
-    "parcelId": "073 067    04201 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073067%20%20%20%2004201",
+    "deedAc": 1.53,
+    "owner": "BURWINKLE THOMAS W",
+    "parcelId": "073 067    04400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073067%20%20%20%2004400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -46080,10 +46527,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 1.55,
-    "owner": "SMOKY MOUNTAIN RESORT PARTNERS",
-    "parcelId": "078 096A B 01800 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078096A%20B%2001800",
+    "deedAc": 0.52,
+    "owner": "TURTLE PROPERTIES LLC",
+    "parcelId": "078 096A B 01900 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078096A%20B%2001900",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -46233,10 +46681,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "DURHAM HEATHER A & JOSHUA A",
     "parcelId": "078 083H A 00300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078083H%20A%2000300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -46394,10 +46843,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "NLINE PROPERTIES LLC",
-    "parcelId": "078 107J E 01300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107J%20E%2001300",
+    "deedAc": 0.3,
+    "owner": "KLEVOS GEETIKA & ANDREW",
+    "parcelId": "078 107J B 02000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107J%20B%2002000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -46479,7 +46929,14 @@
    "driveRoad": 59.2,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.49,
+    "owner": "RIEKEN TIMOTHY PAUL & JILL LYNN",
+    "parcelId": "073 066O A 03300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066O%20A%2003300",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z464328839",
@@ -46560,10 +47017,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "HENDRICKSON BRIAN & JANAE",
     "parcelId": "073 028P A 02100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073028P%20A%2002100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -46813,10 +47271,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "GOOD KEVIN & KAREN GOOD",
-    "parcelId": "078 116    15934 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2015934",
+    "deedAc": 0.98,
+    "owner": "MMPD1 LLC",
+    "parcelId": "078 117I A 00110 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117I%20A%2000110",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -46895,10 +47354,11 @@
    "daysListed": 75,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "NUGENT HEATHER",
     "parcelId": "053 021N A 04300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053021N%20A%2004300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -47058,10 +47518,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "RUNNING WOLF ENTERPRISES LLC",
-    "parcelId": "078 107M D 00200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107M%20D%2000200",
+    "deedAc": 0.33,
+    "owner": "T1626 HOLDINGS LLC",
+    "parcelId": "078 107M D 02200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078107M%20D%2002200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -47322,10 +47783,11 @@
    "daysListed": 26,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "BLUEGREEN VACATIONS",
     "parcelId": "078 127    00100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078127%20%20%20%2000100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -47571,6 +48033,7 @@
     "owner": "WOODLAWN BAPTIST CHURCH",
     "parcelId": "053 002    06900 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053002%20%20%20%2006900",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -47648,10 +48111,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "HAMMEL GAVIN & COLBY",
     "parcelId": "073 061    00300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073061%20%20%20%2000300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -47733,10 +48197,11 @@
    "daysListed": 204,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0.55,
-    "owner": "HEDRICK ALLISON ALVAREZ & JIMMY DAVID JR",
-    "parcelId": "073 015I E 01700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073015I%20E%2001700",
+    "deedAc": 0.61,
+    "owner": "WALLACE LIVING TRUST",
+    "parcelId": "073 015I E 01600 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073015I%20E%2001600",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -47819,10 +48284,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SMALLEN J R ETUX",
-    "parcelId": "053 041I C 00100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053041I%20C%2000100",
+    "deedAc": 0.47,
+    "owner": "FRAY SCOTT E JR ETUX CHRISTA D",
+    "parcelId": "053 041I F 00300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053041I%20F%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -47900,7 +48366,14 @@
    "_convV": 3,
    "daysListed": 14,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.28,
+    "owner": "MORTON VICKIE A L/E",
+    "parcelId": "007 094F B 01200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007094F%20B%2001200",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z42477040",
@@ -47981,10 +48454,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SATTOROV SHUKRULLO & LATOFAT",
-    "parcelId": "078 027    02300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078027%20%20%20%2002300",
+    "deedAc": 0.96,
+    "owner": "HEARTLAND ANTIQUES &",
+    "parcelId": "078 027    01800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078027%20%20%20%2001800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -48066,10 +48540,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "GINTER MICHAELLIEN M",
     "parcelId": "078 127H D 01100 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078127H%20D%2001100",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -48326,10 +48801,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "PASTOR-GOMEZ VERONICA ARIELA &",
-    "parcelId": "078 116    18000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2018000",
+    "deedAc": 1.06,
+    "owner": "CHURCH BANNER BAPTIST",
+    "parcelId": "078 116    17500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2017500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -48489,10 +48965,11 @@
    "daysListed": 160,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 2,
+    "deedAc": 0.9,
     "owner": "TUCK JOHN T",
-    "parcelId": "053 050    07001 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053050%20%20%20%2007001",
+    "parcelId": "053 050    07002 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053050%20%20%20%2007002",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -48729,10 +49206,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "HALLMANN DEVELOPERS LLC",
-    "parcelId": "078 106M E 00700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078106M%20E%2000700",
+    "deedAc": 0.41,
+    "owner": "BRENNAN BRIAN P & MARY ELLEN",
+    "parcelId": "078 106M B 04600 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078106M%20B%2004600",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -48968,10 +49446,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "GOOD KEVIN & KAREN GOOD",
     "parcelId": "078 116    15934 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116%20%20%20%2015934",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -49224,7 +49703,14 @@
    "_convV": 3,
    "daysListed": 23,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.31,
+    "owner": "HEDTKE BRETT ETUX SUNNY",
+    "parcelId": "053 014    06702 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053014%20%20%20%2006702",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf163414147",
@@ -49389,10 +49875,11 @@
    "daysListed": 142,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "NICHOLAS ROBIN BLACKSTONE",
-    "parcelId": "053 027K A 00400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053027K%20A%2000400",
+    "deedAc": 0.77,
+    "owner": "SMITH LESLIE",
+    "parcelId": "053 027    07800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053027%20%20%20%2007800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -49469,10 +49956,11 @@
    "daysListed": 36,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "LAFOLLETTE COUNTRY CLUB",
-    "parcelId": "007 085    07000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007085%20%20%20%2007000",
+    "deedAc": 0.36,
+    "owner": "HICKMAN ANDREW LOGAN",
+    "parcelId": "007 085    07001 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007085%20%20%20%2007001",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -49553,7 +50041,14 @@
    "_convV": 3,
    "daysListed": 646,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.52,
+    "owner": "DUERDOTH DANNY & JULIE",
+    "parcelId": "029 042D B 03202 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/029042D%20B%2003202",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z2064413239",
@@ -49633,7 +50128,14 @@
    "driveRoad": 56.3,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.05,
+    "owner": "SHELTON RICHARD BART &",
+    "parcelId": "078 116C A 00800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078116C%20A%2000800",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf87491946",
@@ -49713,10 +50215,11 @@
    "daysListed": 34,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "JENNINGS CLIFF",
-    "parcelId": "007 094A B 02700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007094A%20B%2002700",
+    "deedAc": 0.3,
+    "owner": "PARRIS ANGELA F",
+    "parcelId": "007 094A B 03200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007094A%20B%2003200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -49876,10 +50379,11 @@
    "daysListed": 6,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "ROGERS CRYSTAL GAIL",
     "parcelId": "045 013O A 02000 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045013O%20A%2002000",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -50295,10 +50799,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "CORLEY GEORGE G III & MICHELE",
-    "parcelId": "073 066J B 01200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20B%2001200",
+    "deedAc": 0.44,
+    "owner": "PICCIRILLO DARREN W & SUSAN A",
+    "parcelId": "073 066J B 01001 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073066J%20B%2001001",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -50705,10 +51210,11 @@
    "daysListed": 39,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "AMADOR ELIA DELFINA CASTRO &",
-    "parcelId": "078 117L C 01100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117L%20C%2001100",
+    "deedAc": 0.7,
+    "owner": "LOWE STANLEY & JULIA",
+    "parcelId": "078 117M B 01800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117M%20B%2001800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -50874,10 +51380,11 @@
    "daysListed": 19,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "T V A",
-    "parcelId": "001 081    09001 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001081%20%20%20%2009001",
+    "deedAc": 0.3,
+    "owner": "DYE JOHN F",
+    "parcelId": "001 081E C 00701 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001081E%20C%2000701",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -51213,10 +51720,11 @@
    "daysListed": 141,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "CINNAMON AMBER",
     "parcelId": "007 120N B 01900 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007120N%20B%2001900",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -51378,10 +51886,11 @@
    "daysListed": 84,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "SCANDLYN LANCE & LORE",
     "parcelId": "073 018C A 00900 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073018C%20A%2000900",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -51464,10 +51973,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 261.43,
-    "owner": "BLACK LABEL LLC",
-    "parcelId": "078 037    02000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078037%20%20%20%2002000",
+    "deedAc": 0.36,
+    "owner": "KREINBROOK DUSTIN R &",
+    "parcelId": "078 037I B 06500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078037I%20B%2006500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -51550,10 +52060,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "DUPUY LARRY & TERRY",
-    "parcelId": "007 055K A 02300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007055K%20A%2002300",
+    "deedAc": 0.52,
+    "owner": "DUPUY LARRY C ETUX",
+    "parcelId": "007 055    04800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007055%20%20%20%2004800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -51803,10 +52314,11 @@
    "daysListed": 54,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MCDOWELL KYLE",
-    "parcelId": "001 018L A 01300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001018L%20A%2001300",
+    "deedAc": 0.12,
+    "owner": "DAUGHERTY GARY CHRISTOPHER",
+    "parcelId": "001 018L A 00201 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001018L%20A%2000201",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -52053,7 +52565,14 @@
    "driveRoad": 53.9,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.31,
+    "owner": "HORIZON TRUST FBO BEVERLY A COLEMAN IRA",
+    "parcelId": "062 029B B 06000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/062029B%20B%2006000",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z299822946",
@@ -52631,10 +53150,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BEAM HOMES LLC",
-    "parcelId": "053 034K A 02300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053034K%20A%2002300",
+    "deedAc": 0.36,
+    "owner": "GROSS R ALAN ETUX SUSAN",
+    "parcelId": "053 034K A 01600 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053034K%20A%2001600",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -52883,10 +53403,11 @@
    "daysListed": 41,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "OWINGS BRUCE",
-    "parcelId": "073 055A D 02800 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073055A%20D%2002800",
+    "deedAc": 0.58,
+    "owner": "JJPP INC",
+    "parcelId": "073 054D J 01700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073054D%20J%2001700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -52966,10 +53487,11 @@
    "daysListed": 49,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SCHRUBB PROPRIETIES LLC",
-    "parcelId": "053 020F B 01103 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053020F%20B%2001103",
+    "deedAc": 0.16,
+    "owner": "JMMCDANIEL PROPERTIES LLC",
+    "parcelId": "053 020F B 01500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053020F%20B%2001500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -53554,7 +54076,14 @@
    "driveRoad": 56.3,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 1.0,
+    "owner": "IVEY ANGELA LEIGH",
+    "parcelId": "087 042    14300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087042%20%20%20%2014300",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf124749110",
@@ -53637,10 +54166,11 @@
    "daysListed": 145,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SOLDATOV IGOR & OKSANA",
-    "parcelId": "045 069H B 00501 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045069H%20B%2000501",
+    "deedAc": 0.34,
+    "owner": "HODGE JAMES MICHAEL",
+    "parcelId": "045 069H B 00300 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045069H%20B%2000300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -53722,7 +54252,14 @@
    "driveRoad": 47.6,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.3,
+    "owner": "KREINBROOK DUSTIN R &",
+    "parcelId": "078 037I B 06700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078037I%20B%2006700",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z455122377",
@@ -54053,10 +54590,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 1.16,
-    "owner": "FOX RUN ASSOC",
-    "parcelId": "078 095C A 00700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078095C%20A%2000700",
+    "deedAc": 0.45,
+    "owner": "WANDIA MERCY &",
+    "parcelId": "078 095C E 05300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078095C%20E%2005300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -54219,10 +54757,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.85,
-    "owner": "4 AND 2 INVESTMENTS LLC",
-    "parcelId": "078 106    03700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078106%20%20%20%2003700",
+    "deedAc": 0.5,
+    "owner": "SPRING VALLEY PARTNERS GP",
+    "parcelId": "078 095    04801 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078095%20%20%20%2004801",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -54390,7 +54929,14 @@
    "driveRoad": 42.6,
    "driveReal": true,
    "hoaKnown": false,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.87,
+    "owner": "BURK JOHN P & TERESE M",
+    "parcelId": "045 076D B 00100 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045076D%20B%2000100",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf203501268",
@@ -54468,7 +55014,14 @@
    "_convV": 3,
    "daysListed": 49,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.28,
+    "owner": "LENOIR CITY COMPANY",
+    "parcelId": "053 020F B 02302 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053020F%20B%2002302",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf196812070",
@@ -54551,10 +55104,11 @@
    "daysListed": 21,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "HAMILTON CHARLES MICHAEL",
     "parcelId": "087 036    00102 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/087036%20%20%20%2000102",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -55041,10 +55595,11 @@
    "daysListed": 220,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "COLTON JONATHAN",
     "parcelId": "073 078E A 00700 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073078E%20A%2000700",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -55636,10 +56191,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "WILLIAMS CHRIS E",
-    "parcelId": "001 044A B 06200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001044A%20B%2006200",
+    "deedAc": 0.17,
+    "owner": "BAILEY MARTHA",
+    "parcelId": "001 044A A 02000 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001044A%20A%2002000",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -55890,10 +56446,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "TOPPER MARY M",
-    "parcelId": "078 127H D 02900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078127H%20D%2002900",
+    "deedAc": 0.36,
+    "owner": "MEARS KAROL H",
+    "parcelId": "078 127G A 00100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078127G%20A%2000100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -56049,10 +56606,11 @@
    "daysListed": 296,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "PISTOLE WILLIAM M & LEILANI",
     "parcelId": "073 057H A 02200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073057H%20A%2002200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -56389,10 +56947,11 @@
    "daysListed": 19,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "MCKEVITZ PETER",
-    "parcelId": "005 008L A 02800 000 2027",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005008L%20A%2002800",
+    "deedAc": 0.48,
+    "owner": "CHURCHMAN EDWARD A & KATHLEEN M",
+    "parcelId": "005 008    09904 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005008%20%20%20%2009904",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -56475,10 +57034,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "JLW PROPERTIES LP",
-    "parcelId": "078 124B A 03300 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078124B%20A%2003300",
+    "deedAc": 0.31,
+    "owner": "APPALACHIAN MOUNTAIN PROPERTIES LLC",
+    "parcelId": "078 124B A 03100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078124B%20A%2003100",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -56810,7 +57370,14 @@
    "_convV": 3,
    "daysListed": 140,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.62,
+    "owner": "LOOPE TRAVIS L",
+    "parcelId": "005 024    09700 000 2027",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/005024%20%20%20%2009700",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "rf105486434",
@@ -57628,10 +58195,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SUMMERSELL AUBREY F &",
-    "parcelId": "078 117    14900 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117%20%20%20%2014900",
+    "deedAc": 0.34,
+    "owner": "LEGAC LLC",
+    "parcelId": "078 117E H 00700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078117E%20H%2000700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -58037,10 +58605,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "MCGAHA SCOTT",
     "parcelId": "078 037E A 02900 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078037E%20A%2002900",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -58281,6 +58850,7 @@
     "owner": "GREGG BARBARA ANN",
     "parcelId": "045 071H A 01300 000 2027",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/045071H%20A%2001300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -59122,10 +59692,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "CAVENWOODS PROPERTIES LLC",
-    "parcelId": "073 046F A 01200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046F%20A%2001200",
+    "deedAc": 0.58,
+    "owner": "PATTERSON MARK ALAN",
+    "parcelId": "073 046F A 00802 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046F%20A%2000802",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -59546,10 +60117,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "OGLE-HOLUBEC LINDA",
-    "parcelId": "078 126M D 02400 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078126M%20D%2002400",
+    "deedAc": 0.55,
+    "owner": "WILL THOMAS J & LORA L",
+    "parcelId": "078 127P A 00400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078127P%20A%2000400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -60312,10 +60884,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.68,
-    "owner": "ROONEY LAND DEVELOPMENT LLC",
-    "parcelId": "053 031D G 01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031D%20G%2001000",
+    "deedAc": 0.21,
+    "owner": "YOUNG KEITH ETUX",
+    "parcelId": "053 031C E 00500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031C%20E%2000500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -60819,10 +61392,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "DEL CORRAL FRANSISCO",
     "parcelId": "078 085P A 08800 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078085P%20A%2008800",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -61568,10 +62142,11 @@
    "daysListed": 181,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "TARNOVETCHI DENIS &",
     "parcelId": "078 093E B 01300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078093E%20B%2001300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -62081,10 +62656,11 @@
    "daysListed": 119,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "SHEPHERD APRIL & SCOTT",
     "parcelId": "073 046E A 01300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073046E%20A%2001300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -62766,6 +63342,7 @@
     "owner": "SMOKY MEADOWS LLC",
     "parcelId": "078 072K D 00200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078072K%20D%2000200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -63020,10 +63597,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "BITTLE H E III",
     "parcelId": "001 107B A 04200 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/001107B%20A%2004200",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -63357,10 +63935,11 @@
    "daysListed": 42,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
+    "deedAc": null,
     "owner": "NANCE MELANIE",
     "parcelId": "007 085O E 02300 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/007085O%20E%2002300",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -63524,10 +64103,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "CHURCH CLAUDE & FRANKIE",
-    "parcelId": "078 118I A 00700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078118I%20A%2000700",
+    "deedAc": 0.34,
+    "owner": "HUDDLESTON REGINA",
+    "parcelId": "078 118I E 00200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078118I%20E%2000200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -64022,10 +64602,11 @@
    "daysListed": 0,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.72,
-    "owner": "SHIELDS BRUCE L &",
-    "parcelId": "078 071L D 16500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071L%20D%2016500",
+    "deedAc": 0.26,
+    "owner": "KYKER DONALD & DENISE",
+    "parcelId": "078 071L D 12200 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078071L%20D%2012200",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -64104,7 +64685,14 @@
    "_convV": 3,
    "daysListed": 43,
    "hoaKnown": true,
-   "parcel": {}
+   "parcel": {
+    "deedAc": 0.33,
+    "owner": "ARUNTHAMAKUN LADAWAN",
+    "parcelId": "078 018P B 05100 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078018P%20B%2005100",
+    "match": "acreage match",
+    "hasGeom": true
+   }
   },
   {
    "id": "z70525189",
@@ -65038,10 +65626,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "JONES BRENT C & CYNTHIA C",
-    "parcelId": "078 126B A 02700 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078126B%20A%2002700",
+    "deedAc": 0.28,
+    "owner": "HORIZON FIVE PROPERTIES LLC",
+    "parcelId": "078 126B B 04300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078126B%20B%2004300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -66303,10 +66892,11 @@
    "daysListed": 12,
    "hoaKnown": true,
    "parcel": {
-    "deedAc": 0,
-    "owner": "HOFFMAN SAMUEL C &",
-    "parcelId": "078 127I A 02200 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078127I%20A%2002200",
+    "deedAc": 0.24,
+    "owner": "STATHAM KEITH JAMES",
+    "parcelId": "078 127I A 02400 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078127I%20A%2002400",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -66549,10 +67139,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 2.95,
-    "owner": "TN NATIONAL LLC",
-    "parcelId": "053 031C J 00102 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031C%20J%2000102",
+    "deedAc": 0.13,
+    "owner": "BARDEN CHRISTOPHER ETUX",
+    "parcelId": "053 031C J 03500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031C%20J%2003500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -66635,10 +67226,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.68,
-    "owner": "ROONEY LAND DEVELOPMENT LLC",
-    "parcelId": "053 031D G 01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031D%20G%2001000",
+    "deedAc": 0.21,
+    "owner": "YOUNG KEITH ETUX",
+    "parcelId": "053 031C E 00500 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031C%20E%2000500",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -67057,10 +67649,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "BALL RAY & FAYE",
-    "parcelId": "078 049N H 00500 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078049N%20H%2000500",
+    "deedAc": 0.17,
+    "owner": "CATON 234 LLC",
+    "parcelId": "078 061C B 00700 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078061C%20B%2000700",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -67483,10 +68076,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SHERWOOD FOREST RESORT",
-    "parcelId": "078 105L B 00100 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078105L%20B%2000100",
+    "deedAc": 0.07,
+    "owner": "CITY OF PIGEON FORGE",
+    "parcelId": "078 105L B 00102 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078105L%20B%2000102",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -67830,6 +68424,7 @@
     "owner": "PERRY MITCHELL B & ERIN L",
     "parcelId": "073 108D B 00600 000 2026",
     "assessor": "https://tnmap.tn.gov/assessment/#/parcel/073108D%20B%2000600",
+    "match": "under the pin",
     "hasGeom": true
    }
   },
@@ -68075,10 +68670,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0.68,
-    "owner": "ROONEY LAND DEVELOPMENT LLC",
-    "parcelId": "053 031D G 01000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031D%20G%2001000",
+    "deedAc": 0.2,
+    "owner": "CHILL ADAM S ETUX NANCY T",
+    "parcelId": "053 031C E 01300 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/053031C%20E%2001300",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
@@ -68245,10 +68841,11 @@
    "driveReal": true,
    "hoaKnown": false,
    "parcel": {
-    "deedAc": 0,
-    "owner": "SCHMITT ANTHONY & LUCINDA",
-    "parcelId": "078 085P A 06000 000 2026",
-    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078085P%20A%2006000",
+    "deedAc": 0.17,
+    "owner": "MERRIWEATHER LLC",
+    "parcelId": "078 085P A 04800 000 2026",
+    "assessor": "https://tnmap.tn.gov/assessment/#/parcel/078085P%20A%2004800",
+    "match": "acreage match",
     "hasGeom": true
    }
   },
