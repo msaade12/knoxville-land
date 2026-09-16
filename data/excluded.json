@@ -9946,5 +9946,10 @@
   "slope": 20.5,
   "on": "2026-09-16",
   "town": "Maynardville"
+ },
+ "rf63013127": {
+  "reason": "HOA - owner confirmed",
+  "on": "2026-09-16",
+  "address": "0 Stepping Stone Dr, Sevierville"
  }
 }
