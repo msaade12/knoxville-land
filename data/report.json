@@ -1,91 +1,47 @@
 {
- "generated": "2026-09-16T18:43:04+00:00",
+ "generated": "2026-09-16T19:15:35+00:00",
  "date": "2026-09-16",
- "count": 818,
- "confirmed": 399,
- "new": [],
+ "count": 821,
+ "confirmed": 819,
+ "new": [
+  {
+   "id": "z41749358",
+   "acres": 0.41,
+   "price": 75000,
+   "ppa": 182927,
+   "town": "Tellico Plns",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/206-Oostanali-Way-Tellico-Plns-TN-37774/41749358_zpid/"
+  },
+  {
+   "id": "z214901759",
+   "acres": 0.26,
+   "price": 155000,
+   "ppa": 596154,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Hawks-Nest-Way-Sevierville-TN-37862/214901759_zpid/"
+  },
+  {
+   "id": "z2079420987",
+   "acres": 0.32,
+   "price": 150000,
+   "ppa": 468750,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-63-Twin-City-Way-Pigeon-Forge-TN-37863/2079420987_zpid/"
+  }
+ ],
  "priceCuts": [],
  "priceIncreases": [],
  "unconfirmed": [
   {
-   "id": "rf103868729",
-   "acres": 10.7,
-   "price": 70000,
-   "town": "Rockwood",
-   "county": "Roane",
-   "url": "https://www.redfin.com/TN/Rockwood/822-W-Bates-St-37854/home/103868729",
-   "missCount": 1
-  },
-  {
-   "id": "rf197723905",
-   "acres": 21.0,
-   "price": 159900,
-   "town": "Seymour",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Seymour/Reagan-Springs-Rd-37865/home/197723905",
-   "missCount": 1
-  },
-  {
-   "id": "rf104134276",
-   "acres": 11.4,
-   "price": 88000,
-   "town": "Sevierville",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Sevierville/Old-Hag-Hollow-Way-37876/home/104134276",
-   "missCount": 1
-  },
-  {
-   "id": "rf201260285",
-   "acres": 18.13,
-   "price": 149999,
-   "town": "Madisonville",
-   "county": "Monroe",
-   "url": "https://www.redfin.com/TN/Madisonville/6-Saffles-Ln-37354/home/201260285",
-   "missCount": 1
-  },
-  {
-   "id": "rf190890927",
-   "acres": 19.82,
-   "price": 199000,
-   "town": "Madisonville",
-   "county": "Monroe",
-   "url": "https://www.redfin.com/TN/Madisonville/3011-Ballplay-Rd-37354/home/190890927",
-   "missCount": 1
-  },
-  {
-   "id": "rf111031104",
-   "acres": 20.13,
-   "price": 207000,
-   "town": "Sevierville",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Sevierville/Mossy-Cove-Way-37876/home/111031104",
-   "missCount": 1
-  },
-  {
-   "id": "rf180598739",
-   "acres": 16.6,
-   "price": 175000,
-   "town": "Pittman Center",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Pittman-Center/Lot-24-Lakeshore-Ave-37876/home/180598739",
-   "missCount": 1
-  },
-  {
-   "id": "rf111323141",
-   "acres": 10.7,
-   "price": 150000,
-   "town": "Gatlinburg",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Gatlinburg/Branam-Hollow-Rd-37738/home/111323141",
-   "missCount": 1
-  },
-  {
-   "id": "rf197723800",
-   "acres": 13.87,
-   "price": 194900,
-   "town": "Sevierville",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Sevierville/Anderson-Way-37876/home/197723800",
+   "id": "z2054534632",
+   "acres": 14.0,
+   "price": 169900,
+   "town": "Heiskell",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-W-Bullrun-Valley-Dr-Heiskell-TN-37754/2054534632_zpid/",
    "missCount": 1
   },
   {
@@ -96,56 +52,3202 @@
    "county": "Morgan",
    "url": "https://www.redfin.com/TN/Harriman/222-Heritage-Hills-Rd-37748/home/200792177",
    "missCount": 1
-  },
-  {
-   "id": "rf111408250",
-   "acres": 14.0,
-   "price": 227000,
-   "town": "Sevierville",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Sevierville/873-Indian-Gap-Rd-37876/home/111408250",
-   "missCount": 1
-  },
-  {
-   "id": "rf195543606",
-   "acres": 12.0,
-   "price": 199969,
-   "town": "Maryville",
-   "county": "Blount",
-   "url": "https://www.redfin.com/TN/Maryville/4585-Crooked-Creek-Way-37803/home/195543606",
-   "missCount": 1
-  },
-  {
-   "id": "rf111340069",
-   "acres": 11.88,
-   "price": 200000,
-   "town": "Sevierville",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Sevierville/3910-Wilhite-Rd-37876/home/111340069",
-   "missCount": 1
-  },
-  {
-   "id": "rf63013127",
-   "acres": 13.84,
-   "price": 250000,
-   "town": "Sevierville",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Sevierville/Stepping-Stone-Dr-37862/home/63013127",
-   "missCount": 1
-  },
-  {
-   "id": "rf194042084",
-   "acres": 10.0,
-   "price": 250000,
-   "town": "Sevierville",
-   "county": "Sevier",
-   "url": "https://www.redfin.com/TN/Sevierville/340-Swadis-Dr-37876/home/194042084",
-   "missCount": 1
   }
  ],
  "retired": [],
  "gone": [],
- "tooFar": [],
+ "tooFar": [
+  {
+   "id": "z465328095",
+   "acres": 5.0,
+   "price": 49000,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/5-Oakwood-Rd-Walland-TN-37886/465328095_zpid/",
+   "drive": 52,
+   "shopMin": 27
+  },
+  {
+   "id": "z465231319",
+   "acres": 5.64,
+   "price": 67500,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/0-Walnut-Flats-Rd-LOT-1-Walland-TN-37886/465231319_zpid/",
+   "drive": 50,
+   "shopMin": 25
+  },
+  {
+   "id": "z465200119",
+   "acres": 5.1,
+   "price": 49900,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/4-Oakwood-Rd-Walland-TN-37886/465200119_zpid/",
+   "drive": 52,
+   "shopMin": 27
+  },
+  {
+   "id": "z2120333281",
+   "acres": 2.07,
+   "price": 114900,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/445-Chetola-Trl-LOT-106R-Townsend-TN-37882/2120333281_zpid/",
+   "drive": 43,
+   "shopMin": 18
+  },
+  {
+   "id": "z2066290366",
+   "acres": 0.87,
+   "price": 109900,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/407-Chetola-Trl-101-Townsend-TN-37882/2066290366_zpid/",
+   "drive": 44,
+   "shopMin": 19
+  },
+  {
+   "id": "z2053660938",
+   "acres": 0.5,
+   "price": 79900,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/267-Cobblestone-Dr-26-Townsend-TN-37882/2053660938_zpid/",
+   "drive": 54,
+   "shopMin": 29
+  },
+  {
+   "id": "z464497788",
+   "acres": 5.06,
+   "price": 250000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/6-Floyd-Walker-Rd-Maryville-TN-37801/464497788_zpid/",
+   "drive": 50,
+   "shopMin": 21
+  },
+  {
+   "id": "z450538403",
+   "acres": 5.08,
+   "price": 85000,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/0-Grouse-Top-Rd-LOT-3-Walland-TN-37886/450538403_zpid/",
+   "drive": 47,
+   "shopMin": 22
+  },
+  {
+   "id": "z463314672",
+   "acres": 0.1,
+   "price": 124000,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/LOT-159-Flamingo-Cir-Townsend-TN-37882/463314672_zpid/",
+   "drive": 45,
+   "shopMin": 20
+  },
+  {
+   "id": "z346542451",
+   "acres": 1.0,
+   "price": 170000,
+   "town": "Louisville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/3406-Lanyard-Ln-Louisville-TN-37777/346542451_zpid/",
+   "drive": 46,
+   "shopMin": 28
+  },
+  {
+   "id": "z462299786",
+   "acres": 0.95,
+   "price": 79900,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/914-Stonegate-Way-Townsend-TN-37882/462299786_zpid/",
+   "drive": 53,
+   "shopMin": 28
+  },
+  {
+   "id": "z81037422",
+   "acres": 2.87,
+   "price": 147500,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/442-Hawken-Dr-Walland-TN-37886/81037422_zpid/",
+   "drive": 53,
+   "shopMin": 27
+  },
+  {
+   "id": "z80994058",
+   "acres": 2.48,
+   "price": 120000,
+   "town": "Walland",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/514-Percussion-Ct-Walland-TN-37886/80994058_zpid/",
+   "drive": 53,
+   "shopMin": 27
+  },
+  {
+   "id": "z448787233",
+   "acres": 1.67,
+   "price": 225000,
+   "town": "Louisville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/3830-Lakeside-Estates-Way-Louisville-TN-37777/448787233_zpid/",
+   "drive": 46,
+   "shopMin": 28
+  },
+  {
+   "id": "z458017656",
+   "acres": 5.0,
+   "price": 244900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/LOT-32B-Chilhowee-Trl-Maryville-TN-37803/458017656_zpid/",
+   "drive": 50,
+   "shopMin": 27
+  },
+  {
+   "id": "z348258513",
+   "acres": 1.41,
+   "price": 110000,
+   "town": "Greenback",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/73-811-Sophie-Dr-Greenback-TN-37742/348258513_zpid/",
+   "drive": 48,
+   "shopMin": 19
+  },
+  {
+   "id": "z66926134",
+   "acres": 0.21,
+   "price": 199900,
+   "town": "Vonore",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/1681-Rarity-Bay-Pkwy-Vonore-TN-37885/66926134_zpid/",
+   "drive": 62,
+   "shopMin": 19
+  },
+  {
+   "id": "z66928129",
+   "acres": 0.21,
+   "price": 84900,
+   "town": "Vonore",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/220-Grandville-Ct-Vonore-TN-37885/66928129_zpid/",
+   "drive": 60,
+   "shopMin": 17
+  },
+  {
+   "id": "z66934623",
+   "acres": 0.36,
+   "price": 59900,
+   "town": "Vonore",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/220-Wildwing-Dr-Vonore-TN-37885/66934623_zpid/",
+   "drive": 60,
+   "shopMin": 17
+  },
+  {
+   "id": "z348257977",
+   "acres": 0.89,
+   "price": 96000,
+   "town": "Greenback",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/LOT-138-1214-Herbert-Dr-Greenback-TN-37742/348257977_zpid/",
+   "drive": 46,
+   "shopMin": 16
+  },
+  {
+   "id": "z81053739",
+   "acres": 2.04,
+   "price": 199000,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/Stone-Ridge-Dr-Andersonville-TN-37705/81053739_zpid/",
+   "drive": 37,
+   "shopMin": 17
+  },
+  {
+   "id": "z463951910",
+   "acres": 5.11,
+   "price": 153300,
+   "town": "Speedwell",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/0-Robert-Short-Lane-Braden-Rd-LOT-8-Speedwell-TN-37870/463951910_zpid/",
+   "drive": 73,
+   "shopMin": 33
+  },
+  {
+   "id": "z465182972",
+   "acres": 12.22,
+   "price": 134900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/11-Mountain-Way-LOT-A-B119-Sharps-Chapel-TN-37866/465182972_zpid/",
+   "drive": 65,
+   "shopMin": 30
+  },
+  {
+   "id": "z453315155",
+   "acres": 2.6,
+   "price": 245000,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/0-Shoreline-Vis-LOT-35-Sharps-Chapel-TN-37866/453315155_zpid/",
+   "drive": 57,
+   "shopMin": 23
+  },
+  {
+   "id": "z461656060",
+   "acres": 1.49,
+   "price": 27400,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/72-Pinnacle-Pointe-Way-Sharps-Chapel-TN-37866/461656060_zpid/",
+   "drive": 62,
+   "shopMin": 27
+  },
+  {
+   "id": "z461599326",
+   "acres": 0.68,
+   "price": 99900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/LOT-475-Shainas-Pl-Sharps-Chapel-TN-37866/461599326_zpid/",
+   "drive": 69,
+   "shopMin": 34
+  },
+  {
+   "id": "z453823615",
+   "acres": 0.59,
+   "price": 13000,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/736-Russell-Brothers-Rd-LOT-736-Sharps-Chapel-TN-37866/453823615_zpid/",
+   "drive": 71,
+   "shopMin": 36
+  },
+  {
+   "id": "z460788328",
+   "acres": 1.36,
+   "price": 35000,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/Pinnacle-Pointe-Way-Sharps-Chapel-TN-37866/460788328_zpid/",
+   "drive": 62,
+   "shopMin": 27
+  },
+  {
+   "id": "z450548038",
+   "acres": 0.77,
+   "price": 199000,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/0-Lawrence-Trl-Sharps-Chapel-TN-37866/450548038_zpid/",
+   "drive": 71,
+   "shopMin": 36
+  },
+  {
+   "id": "z440904280",
+   "acres": 0.89,
+   "price": 48900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/LOT-93-Swan-Song-Trl-Sharps-Chapel-TN-37866/440904280_zpid/",
+   "drive": 66,
+   "shopMin": 31
+  },
+  {
+   "id": "z465212284",
+   "acres": 56.8,
+   "price": 215000,
+   "town": "Thorn Hill",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/Highway-131-Thorn-Hill-TN-37881/465212284_zpid/",
+   "drive": 56,
+   "shopMin": 17
+  },
+  {
+   "id": "z463989387",
+   "acres": 3.33,
+   "price": 209000,
+   "town": "Rutledge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Holston-River-Dr-LOT-43-Rutledge-TN-37861/463989387_zpid/",
+   "drive": 43,
+   "shopMin": 24
+  },
+  {
+   "id": "z2072091292",
+   "acres": 0.58,
+   "price": 39990,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/41-Shiloh-Springs-Rd-LOT-41-Rutledge-TN-37861/2072091292_zpid/",
+   "drive": 49,
+   "shopMin": 22
+  },
+  {
+   "id": "z463761968",
+   "acres": 1.05,
+   "price": 59999,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/213-Washita-Ln-LOT-55-Rutledge-TN-37861/463761968_zpid/",
+   "drive": 45,
+   "shopMin": 18
+  },
+  {
+   "id": "z443997839",
+   "acres": 0.59,
+   "price": 79900,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/LOT-61-Whispering-Ct-Bean-Station-TN-37708/443997839_zpid/",
+   "drive": 45,
+   "shopMin": 16
+  },
+  {
+   "id": "z464261110",
+   "acres": 18.57,
+   "price": 149800,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/0-Volunteer-Rd-Rutledge-TN-37861/464261110_zpid/",
+   "drive": 39,
+   "shopMin": 20
+  },
+  {
+   "id": "z464017027",
+   "acres": 1.29,
+   "price": 95000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/69-Megans-Trl-Bean-Station-TN-37708/464017027_zpid/",
+   "drive": 55,
+   "shopMin": 17
+  },
+  {
+   "id": "z464852687",
+   "acres": 0.86,
+   "price": 29500,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/196-Woodstock-Dr-179-Rutledge-TN-37861/464852687_zpid/",
+   "drive": 47,
+   "shopMin": 21
+  },
+  {
+   "id": "z459889056",
+   "acres": 0.97,
+   "price": 59000,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/LOT-60-Mallard-Baye-Rutledge-TN-37861/459889056_zpid/",
+   "drive": 49,
+   "shopMin": 22
+  },
+  {
+   "id": "z456021216",
+   "acres": 1.52,
+   "price": 84900,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/Paradise-Mountain-Ln-LOT-2-Bean-Station-TN-37708/456021216_zpid/",
+   "drive": 54,
+   "shopMin": 16
+  },
+  {
+   "id": "z455399936",
+   "acres": 5.0,
+   "price": 49900,
+   "town": "Thorn Hill",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/Broken-Valley-Rd-Thorn-Hill-TN-37881/455399936_zpid/",
+   "drive": 62,
+   "shopMin": 20
+  },
+  {
+   "id": "z88875847",
+   "acres": 1.53,
+   "price": 25000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/475-Bayside-Blvd-Bean-Station-TN-37708/88875847_zpid/",
+   "drive": 45,
+   "shopMin": 16
+  },
+  {
+   "id": "z457484131",
+   "acres": 1.44,
+   "price": 109900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/220-Pheasant-Ct-Sevierville-TN-37876/457484131_zpid/",
+   "drive": 48,
+   "shopMin": 19
+  },
+  {
+   "id": "z464346266",
+   "acres": 1.07,
+   "price": 199000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/407-Jack-Potts-Dr-LOT-24-Dandridge-TN-37725/464346266_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z464303245",
+   "acres": 4.52,
+   "price": 149900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/103-Ridge-Line-Trl-Dandridge-TN-37725/464303245_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z345630834",
+   "acres": 1.81,
+   "price": 149900,
+   "town": "Sevierville",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-18-Bay-View-Point-Sevierville-TN-37876/345630834_zpid/",
+   "drive": 57,
+   "shopMin": 27
+  },
+  {
+   "id": "z463893412",
+   "acres": 1.34,
+   "price": 45000,
+   "town": "Sevierville",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-67-Grande-Vista-Dr-Sevierville-TN-37876/463893412_zpid/",
+   "drive": 56,
+   "shopMin": 26
+  },
+  {
+   "id": "z2071334213",
+   "acres": 0.98,
+   "price": 109900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-30-Stone-Shore-Way-Dandridge-TN-37725/2071334213_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z459883501",
+   "acres": 0.86,
+   "price": 33500,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/3278-Hillside-Pl-White-Pine-TN-37890/459883501_zpid/",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "z464163101",
+   "acres": 2.61,
+   "price": 189900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/2-Emerald-Pointe-Blvd-LOT-2-Dandridge-TN-37725/464163101_zpid/",
+   "drive": 56,
+   "shopMin": 26
+  },
+  {
+   "id": "z2064418655",
+   "acres": 0.34,
+   "price": 16500,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/3347-Mountain-View-Ln-White-Pine-TN-37890/2064418655_zpid/",
+   "drive": 55,
+   "shopMin": 19
+  },
+  {
+   "id": "z462955135",
+   "acres": 0.83,
+   "price": 99900,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/50-Sunset-Blvd-White-Pine-TN-37890/462955135_zpid/",
+   "drive": 59,
+   "shopMin": 24
+  },
+  {
+   "id": "z462917342",
+   "acres": 2.39,
+   "price": 79900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/100-Ridge-Line-Trl-Dandridge-TN-37725/462917342_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z462893482",
+   "acres": 1.56,
+   "price": 60000,
+   "town": "Sevierville",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-6-Windy-Cove-Way-Sevierville-TN-37876/462893482_zpid/",
+   "drive": 63,
+   "shopMin": 33
+  },
+  {
+   "id": "z439166402",
+   "acres": 0.83,
+   "price": 74900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-26-Stone-Shore-Way-Dandridge-TN-37725/439166402_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z439166433",
+   "acres": 1.16,
+   "price": 69900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-25-Stone-Bridge-Dr-Dandridge-TN-37725/439166433_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z457747094",
+   "acres": 0.99,
+   "price": 20000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-57-Fork-Horn-Trl-Dandridge-TN-37725/457747094_zpid/",
+   "drive": 52,
+   "shopMin": 20
+  },
+  {
+   "id": "z446946298",
+   "acres": 0.49,
+   "price": 29900,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-13-Back-9-Dr-White-Pine-TN-37890/446946298_zpid/",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "z402049017",
+   "acres": 1.44,
+   "price": 249000,
+   "town": "Sevierville",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/3986-Island-View-Rd-Sevierville-TN-37876/402049017_zpid/",
+   "drive": 67,
+   "shopMin": 38
+  },
+  {
+   "id": "z402049030",
+   "acres": 3.53,
+   "price": 55000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/1530-Waterside-Cove-Dr-Dandridge-TN-37725/402049030_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z440254147",
+   "acres": 2.06,
+   "price": 32900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-107-Turtle-Dove-Trl-Dandridge-TN-37725/440254147_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z447567724",
+   "acres": 1.24,
+   "price": 37900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-106-Turtle-Dove-Trl-Dandridge-TN-37725/447567724_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z461306963",
+   "acres": 2.41,
+   "price": 104900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/8-Woods-Ridge-Rd-Dandridge-TN-37725/461306963_zpid/",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "z439442212",
+   "acres": 1.22,
+   "price": 57500,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-79-Stone-Bridge-Dr-Dandridge-TN-37725/439442212_zpid/",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "z2056009624",
+   "acres": 1.67,
+   "price": 87500,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-78-Stone-Bridge-Dr-Dandridge-TN-37725/2056009624_zpid/",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "z2076601876",
+   "acres": 0.43,
+   "price": 79900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-10-Stone-Cove-Way-Dandridge-TN-37725/2076601876_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z352431957",
+   "acres": 0.44,
+   "price": 78900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-44-Stone-Harbor-Dr-Dandridge-TN-37725/352431957_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z2062388390",
+   "acres": 0.65,
+   "price": 79900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/9-Stone-Cove-Way-9-Dandridge-TN-37725/2062388390_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z2071649549",
+   "acres": 1.03,
+   "price": 99900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Turtle-Dove-Trl-Dandridge-TN-37725/2071649549_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z459603754",
+   "acres": 0.29,
+   "price": 19900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-43A-Mayflower-Ln-Dandridge-TN-37725/459603754_zpid/",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "z450613831",
+   "acres": 1.67,
+   "price": 35000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/Tranquility-Trl-Dandridge-TN-37725/450613831_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z458088979",
+   "acres": 1.71,
+   "price": 58000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-17-Scott-St-Sevierville-TN-37876/458088979_zpid/",
+   "drive": 63,
+   "shopMin": 33
+  },
+  {
+   "id": "z457940105",
+   "acres": 0.3,
+   "price": 15000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/Mountain-View-Ln-White-Pine-TN-37890/457940105_zpid/",
+   "drive": 55,
+   "shopMin": 19
+  },
+  {
+   "id": "z440254148",
+   "acres": 1.2,
+   "price": 85000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-75-Stone-Bridge-Dr-Dandridge-TN-37725/440254148_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z456943711",
+   "acres": 4.02,
+   "price": 129900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-23-Caywood-Rd-Dandridge-TN-37725/456943711_zpid/",
+   "drive": 50,
+   "shopMin": 19
+  },
+  {
+   "id": "z450606771",
+   "acres": 2.34,
+   "price": 29900,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/Fortunato-Dr-White-Pine-TN-37890/450606771_zpid/",
+   "drive": 48,
+   "shopMin": 18
+  },
+  {
+   "id": "z452307912",
+   "acres": 0.88,
+   "price": 99000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-27-Stone-Shore-Way-Dandridge-TN-37725/452307912_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z450895666",
+   "acres": 0.88,
+   "price": 57000,
+   "town": "Sevierville",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-23-Emerald-Pointe-Blvd-Sevierville-TN-37876/450895666_zpid/",
+   "drive": 57,
+   "shopMin": 27
+  },
+  {
+   "id": "z2062530185",
+   "acres": 3.85,
+   "price": 245000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/1147-Lakefront-Pl-White-Pine-TN-37890/2062530185_zpid/",
+   "drive": 56,
+   "shopMin": 21
+  },
+  {
+   "id": "z350471268",
+   "acres": 1.45,
+   "price": 150000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-37-McCorkle-Rd-White-Pine-TN-37890/350471268_zpid/",
+   "drive": 58,
+   "shopMin": 22
+  },
+  {
+   "id": "z2069741318",
+   "acres": 2.84,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-13R1-Pleasure-Rd-Sevierville-TN-37876/2069741318_zpid/",
+   "drive": 62,
+   "shopMin": 32
+  },
+  {
+   "id": "z447291754",
+   "acres": 0.91,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Par-5-00-Aaron-St-Sevierville-TN-37876/447291754_zpid/",
+   "drive": 65,
+   "shopMin": 35
+  },
+  {
+   "id": "z2059017701",
+   "acres": 1.32,
+   "price": 165000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-20-Scott-St-Sevierville-TN-37876/2059017701_zpid/",
+   "drive": 63,
+   "shopMin": 34
+  },
+  {
+   "id": "z2066823618",
+   "acres": 0.55,
+   "price": 129900,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-871-Tyler-Ct-White-Pine-TN-37890/2066823618_zpid/",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "z2058905316",
+   "acres": 0.67,
+   "price": 145000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/29-Tributary-Dr-Sevierville-TN-37876/2058905316_zpid/",
+   "drive": 36,
+   "shopMin": 19
+  },
+  {
+   "id": "z465184709",
+   "acres": 5.07,
+   "price": 39900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/12-Paint-Horse-Way-LOT-12-Sevierville-TN-37876/465184709_zpid/",
+   "drive": 60,
+   "shopMin": 30
+  },
+  {
+   "id": "z2064414081",
+   "acres": 1.94,
+   "price": 89000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/714-Pinnacle-Vista-Rd-LOT-28-Gatlinburg-TN-37738/2064414081_zpid/",
+   "drive": 64,
+   "shopMin": 16
+  },
+  {
+   "id": "z465094380",
+   "acres": 1.06,
+   "price": 58000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/28-Walden-Cove-Way-LOT-28-Sevierville-TN-37862/465094380_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z464013180",
+   "acres": 0.74,
+   "price": 92000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/3-Mountain-Ash-Way-LOT-3-Sevierville-TN-37876/464013180_zpid/",
+   "drive": 56,
+   "shopMin": 26
+  },
+  {
+   "id": "z42501862",
+   "acres": 1.28,
+   "price": 63000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Thissa-Way-Gatlinburg-TN-37738/42501862_zpid/",
+   "drive": 65,
+   "shopMin": 17
+  },
+  {
+   "id": "z465026943",
+   "acres": 0.31,
+   "price": 4500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/69-Sycamore-Dr-LOT-69-Sevierville-TN-37876/465026943_zpid/",
+   "drive": 57,
+   "shopMin": 26
+  },
+  {
+   "id": "z465026963",
+   "acres": 0.29,
+   "price": 16000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/88-Silverbell-Dr-LOT-88-Sevierville-TN-37876/465026963_zpid/",
+   "drive": 59,
+   "shopMin": 28
+  },
+  {
+   "id": "z465026966",
+   "acres": 0.44,
+   "price": 4500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1-Sycamore-Dr-LOT-1-Sevierville-TN-37876/465026966_zpid/",
+   "drive": 58,
+   "shopMin": 27
+  },
+  {
+   "id": "z463836933",
+   "acres": 0.32,
+   "price": 10000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/26-Black-Oak-Dr-LOT-26-Sevierville-TN-37876/463836933_zpid/",
+   "drive": 63,
+   "shopMin": 29
+  },
+  {
+   "id": "z465026962",
+   "acres": 0.4,
+   "price": 15000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/55-Butternut-Ln-LOT-55-Sevierville-TN-37876/465026962_zpid/",
+   "drive": 64,
+   "shopMin": 30
+  },
+  {
+   "id": "z463641384",
+   "acres": 0.33,
+   "price": 5000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/30-Butternut-Ln-LOT-30-Sevierville-TN-37876/463641384_zpid/",
+   "drive": 64,
+   "shopMin": 30
+  },
+  {
+   "id": "z464875516",
+   "acres": 0.4,
+   "price": 150000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4224-E-Pkwy-273-Gatlinburg-TN-37738/464875516_zpid/",
+   "drive": 62,
+   "shopMin": 14
+  },
+  {
+   "id": "z464864959",
+   "acres": 1.11,
+   "price": 13500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2324-Red-Maple-Ln-LOT-2324-Sevierville-TN-37876/464864959_zpid/",
+   "drive": 62,
+   "shopMin": 25
+  },
+  {
+   "id": "z2071766707",
+   "acres": 1.37,
+   "price": 145000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-13-Mountain-Dreams-Way-Sevierville-TN-37862/2071766707_zpid/",
+   "drive": 56,
+   "shopMin": 17
+  },
+  {
+   "id": "z464790928",
+   "acres": 0.52,
+   "price": 49000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/43-Shady-Oaks-Way-LOT-43-Sevierville-TN-37876/464790928_zpid/",
+   "drive": 52,
+   "shopMin": 22
+  },
+  {
+   "id": "z464790929",
+   "acres": 0.59,
+   "price": 49000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/42-Shady-Oaks-Way-LOT-42-Sevierville-TN-37876/464790929_zpid/",
+   "drive": 52,
+   "shopMin": 22
+  },
+  {
+   "id": "z464790431",
+   "acres": 1.09,
+   "price": 44900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/26-Shady-Oaks-Way-LOT-26-Sevierville-TN-37876/464790431_zpid/",
+   "drive": 52,
+   "shopMin": 22
+  },
+  {
+   "id": "z464790412",
+   "acres": 1.62,
+   "price": 44900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/25-Shady-Oaks-Way-LOT-25-Sevierville-TN-37876/464790412_zpid/",
+   "drive": 52,
+   "shopMin": 22
+  },
+  {
+   "id": "z464788566",
+   "acres": 0.79,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/10-Kristina-Way-LOT-10-Sevierville-TN-37862/464788566_zpid/",
+   "drive": 56,
+   "shopMin": 21
+  },
+  {
+   "id": "z464783610",
+   "acres": 2.34,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/9-Waldens-Creek-Rd-Sevierville-TN-37862/464783610_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z464242404",
+   "acres": 0.7,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/5-Waldens-Creek-Rd-Sevierville-TN-37862/464242404_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z345629109",
+   "acres": 1.0,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-2-Waldens-Creek-Rd-Sevierville-TN-37862/345629109_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z455811502",
+   "acres": 1.33,
+   "price": 119900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Moonside-Ln-Sevierville-TN-37876/455811502_zpid/",
+   "drive": 45,
+   "shopMin": 17
+  },
+  {
+   "id": "z464753531",
+   "acres": 0.87,
+   "price": 69000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/11-Jh-Headrick-Dr-LOT-11-R-Sevierville-TN-37862/464753531_zpid/",
+   "drive": 52,
+   "shopMin": 17
+  },
+  {
+   "id": "z464639271",
+   "acres": 0.67,
+   "price": 78000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/14-Boxwood-Ln-Sevierville-TN-37862/464639271_zpid/",
+   "drive": 51,
+   "shopMin": 16
+  },
+  {
+   "id": "z2067540313",
+   "acres": 0.47,
+   "price": 80000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-5-Stepping-Stone-Dr-Sevierville-TN-37862/2067540313_zpid/",
+   "drive": 52,
+   "shopMin": 19
+  },
+  {
+   "id": "z464430141",
+   "acres": 5.61,
+   "price": 75000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/5-61-Acre-Creek-Hollow-Way-Sevierville-TN-37876/464430141_zpid/",
+   "drive": 54,
+   "shopMin": 25
+  },
+  {
+   "id": "z439527963",
+   "acres": 1.02,
+   "price": 150000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Quail-Way-Sevierville-TN-37862/439527963_zpid/",
+   "drive": 52,
+   "shopMin": 17
+  },
+  {
+   "id": "z464389978",
+   "acres": 1.13,
+   "price": 90000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/10-John-Boy-Trl-Sevierville-TN-37862/464389978_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z465182994",
+   "acres": 1.03,
+   "price": 50000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/6-Emerald-Springs-Loop-LOT-6SEC20-Sevierville-TN-37862/465182994_zpid/",
+   "drive": 53,
+   "shopMin": 21
+  },
+  {
+   "id": "z465182999",
+   "acres": 2.02,
+   "price": 49900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/67-Balsam-Slopes-Rd-LOT-6AND7-Sevierville-TN-37862/465182999_zpid/",
+   "drive": 57,
+   "shopMin": 25
+  },
+  {
+   "id": "z464336696",
+   "acres": 2.95,
+   "price": 129900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Marian-Lake-Way-LOT-21-Sevierville-TN-37862/464336696_zpid/",
+   "drive": 53,
+   "shopMin": 18
+  },
+  {
+   "id": "z2054446938",
+   "acres": 0.18,
+   "price": 169999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-11-Sanctuary-Shores-Way-Sevierville-TN-37876/2054446938_zpid/",
+   "drive": 49,
+   "shopMin": 19
+  },
+  {
+   "id": "z464160483",
+   "acres": 1.51,
+   "price": 37900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/9-Stepping-Stone-Dr-LOT-9-Sevierville-TN-37862/464160483_zpid/",
+   "drive": 51,
+   "shopMin": 18
+  },
+  {
+   "id": "z464257544",
+   "acres": 0.82,
+   "price": 34999,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/11-Peace-Ln-LOT-11-Cosby-TN-37722/464257544_zpid/",
+   "drive": 56,
+   "shopMin": 21
+  },
+  {
+   "id": "z465203082",
+   "acres": 0.55,
+   "price": 34500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Fir-Dr-LOT-110-Sevierville-TN-37876/465203082_zpid/",
+   "drive": 49,
+   "shopMin": 19
+  },
+  {
+   "id": "z439344175",
+   "acres": 0.5,
+   "price": 37000,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-53-Hid-View-St-Pigeon-Forge-TN-37863/439344175_zpid/",
+   "drive": 55,
+   "shopMin": 16
+  },
+  {
+   "id": "z464153734",
+   "acres": 0.78,
+   "price": 64900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/28-Black-Walnut-Flats-Rd-Sevierville-TN-37862/464153734_zpid/",
+   "drive": 54,
+   "shopMin": 21
+  },
+  {
+   "id": "z464140020",
+   "acres": 0.66,
+   "price": 64900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/34-Black-Walnut-Flats-Rd-Sevierville-TN-37862/464140020_zpid/",
+   "drive": 53,
+   "shopMin": 21
+  },
+  {
+   "id": "z464115787",
+   "acres": 0.9,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/9-Balsam-Slopes-Rd-Sevierville-TN-37862/464115787_zpid/",
+   "drive": 56,
+   "shopMin": 24
+  },
+  {
+   "id": "z464114038",
+   "acres": 0.7,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4-Balsam-Slopes-Rd-Sevierville-TN-37862/464114038_zpid/",
+   "drive": 54,
+   "shopMin": 21
+  },
+  {
+   "id": "z2065327203",
+   "acres": 2.15,
+   "price": 60000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-3-Derrick-Rd-Sevierville-TN-37876/2065327203_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z464057754",
+   "acres": 0.42,
+   "price": 10000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/19-Ridge-View-Dr-LOT-19-Sevierville-TN-37876/464057754_zpid/",
+   "drive": 62,
+   "shopMin": 31
+  },
+  {
+   "id": "z463136441",
+   "acres": 0.67,
+   "price": 125000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2-Sunset-View-Rd-LOT-2-Sevierville-TN-37876/463136441_zpid/",
+   "drive": 60,
+   "shopMin": 30
+  },
+  {
+   "id": "z456346005",
+   "acres": 0.65,
+   "price": 24900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Emerald-Springs-Loop-LOT-8-Sevierville-TN-37862/456346005_zpid/",
+   "drive": 51,
+   "shopMin": 18
+  },
+  {
+   "id": "z464040653",
+   "acres": 0.87,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/14-Sugar-Maple-Loop-Rd-LOT-14-Sevierville-TN-37862/464040653_zpid/",
+   "drive": 53,
+   "shopMin": 21
+  },
+  {
+   "id": "z464040664",
+   "acres": 1.19,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/5-Sugar-Maple-Loop-Rd-LOT-5-Sevierville-TN-37862/464040664_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z464040666",
+   "acres": 0.86,
+   "price": 64900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/16-Black-Walnut-Flats-Rd-LOT-16-Sevierville-TN-37862/464040666_zpid/",
+   "drive": 54,
+   "shopMin": 22
+  },
+  {
+   "id": "z464395200",
+   "acres": 0.55,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/24-Sugar-Maple-Loop-Rd-LOT-24-Sevierville-TN-37862/464395200_zpid/",
+   "drive": 52,
+   "shopMin": 20
+  },
+  {
+   "id": "z463633330",
+   "acres": 1.48,
+   "price": 79900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/15-Emerald-Springs-Loop-LOT-15-Sevierville-TN-37862/463633330_zpid/",
+   "drive": 52,
+   "shopMin": 19
+  },
+  {
+   "id": "z2064121797",
+   "acres": 0.91,
+   "price": 130000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-4-River-Birch-Way-Sevierville-TN-37862/2064121797_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z464013210",
+   "acres": 2.71,
+   "price": 198000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/18-Hikers-Path-Ln-LOT-18R-Sevierville-TN-37862/464013210_zpid/",
+   "drive": 56,
+   "shopMin": 21
+  },
+  {
+   "id": "z464013190",
+   "acres": 0.39,
+   "price": 55000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/17-Deer-Path-Ln-LOT-17-Gatlinburg-TN-37738/464013190_zpid/",
+   "drive": 65,
+   "shopMin": 17
+  },
+  {
+   "id": "z463833974",
+   "acres": 2.67,
+   "price": 143000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-71-E-Redtail-Rd-Sevierville-TN-37862/463833974_zpid/",
+   "drive": 65,
+   "shopMin": 30
+  },
+  {
+   "id": "z463833171",
+   "acres": 1.21,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/123-Long-Rifle-Rd-LOT-123-Sevierville-TN-37862/463833171_zpid/",
+   "drive": 60,
+   "shopMin": 32
+  },
+  {
+   "id": "z463832835",
+   "acres": 0.79,
+   "price": 69000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/52-Mary-Alice-Way-52-Sevierville-TN-37876/463832835_zpid/",
+   "drive": 46,
+   "shopMin": 17
+  },
+  {
+   "id": "z2079506045",
+   "acres": 1.0,
+   "price": 64900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-1-Black-Walnut-Flats-Rd-Sevierville-TN-37862/2079506045_zpid/",
+   "drive": 52,
+   "shopMin": 19
+  },
+  {
+   "id": "z463781529",
+   "acres": 0.82,
+   "price": 58500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1011-Chestnut-Ridge-Ct-LOT-10-11-Sevierville-TN-37876/463781529_zpid/",
+   "drive": 61,
+   "shopMin": 29
+  },
+  {
+   "id": "z452759459",
+   "acres": 2.62,
+   "price": 166999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1038-Clingmans-Vw-Sevierville-TN-37876/452759459_zpid/",
+   "drive": 61,
+   "shopMin": 27
+  },
+  {
+   "id": "z463742945",
+   "acres": 1.25,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/28-Sugar-Maple-Loop-Rd-Sevierville-TN-37862/463742945_zpid/",
+   "drive": 53,
+   "shopMin": 21
+  },
+  {
+   "id": "z463952680",
+   "acres": 0.75,
+   "price": 42900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/14-Sunset-Rd-LOT-14-Sevierville-TN-37862/463952680_zpid/",
+   "drive": 49,
+   "shopMin": 16
+  },
+  {
+   "id": "z440210030",
+   "acres": 0.58,
+   "price": 45900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-8-Sunset-Rd-Sevierville-TN-37862/440210030_zpid/",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "z464040671",
+   "acres": 0.64,
+   "price": 42900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2509-Sunset-Dr-LOT-7-Sevierville-TN-37862/464040671_zpid/",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "z463923467",
+   "acres": 1.52,
+   "price": 49900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/10-Sunset-Rd-LOT-10-Sevierville-TN-37862/463923467_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z464040675",
+   "acres": 0.48,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/12-Stepping-Stone-Dr-LOT-12-Sevierville-TN-37862/464040675_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z2067540295",
+   "acres": 1.49,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-6-Stepping-Stone-Dr-Sevierville-TN-37862/2067540295_zpid/",
+   "drive": 49,
+   "shopMin": 16
+  },
+  {
+   "id": "z463730797",
+   "acres": 0.69,
+   "price": 69900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/17-Ridgeland-Cir-Sevierville-TN-37862/463730797_zpid/",
+   "drive": 52,
+   "shopMin": 20
+  },
+  {
+   "id": "z463728286",
+   "acres": 0.4,
+   "price": 18000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/23-Alpine-Dr-LOT-23-Sevierville-TN-37876/463728286_zpid/",
+   "drive": 64,
+   "shopMin": 25
+  },
+  {
+   "id": "z461737003",
+   "acres": 1.6,
+   "price": 64900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4-Overholt-Trl-LOT-4-Sevierville-TN-37862/461737003_zpid/",
+   "drive": 57,
+   "shopMin": 24
+  },
+  {
+   "id": "z463914110",
+   "acres": 0.6,
+   "price": 64900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1-Overholt-Trl-1-Sevierville-TN-37862/463914110_zpid/",
+   "drive": 58,
+   "shopMin": 25
+  },
+  {
+   "id": "z463702197",
+   "acres": 2.93,
+   "price": 89900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-11-Balsam-Slopes-Rd-Sevierville-TN-37862/463702197_zpid/",
+   "drive": 56,
+   "shopMin": 24
+  },
+  {
+   "id": "z464040669",
+   "acres": 1.07,
+   "price": 45900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/25-Meadow-View-Rd-LOT-25-Sevierville-TN-37862/464040669_zpid/",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "z464040673",
+   "acres": 1.14,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/16-High-Top-Loop-LOT-16-Sevierville-TN-37862/464040673_zpid/",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "z464040661",
+   "acres": 1.01,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/8-Balsam-Slopes-Rd-LOT-8-Sevierville-TN-37862/464040661_zpid/",
+   "drive": 56,
+   "shopMin": 24
+  },
+  {
+   "id": "z464040655",
+   "acres": 1.36,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/3-Balsam-Slopes-Rd-LOT-3-Sevierville-TN-37862/464040655_zpid/",
+   "drive": 56,
+   "shopMin": 23
+  },
+  {
+   "id": "z2062549798",
+   "acres": 0.55,
+   "price": 105900,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-64-Vixen-Run-Gatlinburg-TN-37738/2062549798_zpid/",
+   "drive": 67,
+   "shopMin": 19
+  },
+  {
+   "id": "z440210426",
+   "acres": 1.38,
+   "price": 69000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-57-Mary-Alice-Way-Sevierville-TN-37876/440210426_zpid/",
+   "drive": 46,
+   "shopMin": 17
+  },
+  {
+   "id": "z2056546582",
+   "acres": 8.06,
+   "price": 199000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-4-Deer-Ridge-Ln-Sevierville-TN-37876/2056546582_zpid/",
+   "drive": 55,
+   "shopMin": 17
+  },
+  {
+   "id": "z463501088",
+   "acres": 0.55,
+   "price": 49900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-7-Burchfiel-Way-Sevierville-TN-37876/463501088_zpid/",
+   "drive": 55,
+   "shopMin": 25
+  },
+  {
+   "id": "z348330064",
+   "acres": 1.5,
+   "price": 89000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-23-Walden-Ridge-Rd-Sevierville-TN-37862/348330064_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z399789773",
+   "acres": 1.83,
+   "price": 150000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/62-Pinnacle-Vista-Rd-Gatlinburg-TN-37738/399789773_zpid/",
+   "drive": 63,
+   "shopMin": 15
+  },
+  {
+   "id": "z463354192",
+   "acres": 0.25,
+   "price": 7500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-23-Meadows-Dr-Sevierville-TN-37876/463354192_zpid/",
+   "drive": 61,
+   "shopMin": 31
+  },
+  {
+   "id": "z463382161",
+   "acres": 0.53,
+   "price": 7500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-22-Meadows-Dr-Sevierville-TN-37876/463382161_zpid/",
+   "drive": 61,
+   "shopMin": 31
+  },
+  {
+   "id": "z2067465906",
+   "acres": 0.77,
+   "price": 70000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-22-Penelope-Ln-Sevierville-TN-37876/2067465906_zpid/",
+   "drive": 46,
+   "shopMin": 16
+  },
+  {
+   "id": "z457344019",
+   "acres": 3.83,
+   "price": 185000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Sharp-Rd-Sevierville-TN-37876/457344019_zpid/",
+   "drive": 47,
+   "shopMin": 17
+  },
+  {
+   "id": "z463135715",
+   "acres": 0.49,
+   "price": 20000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/137-Elm-Way-LOT-137-Sevierville-TN-37876/463135715_zpid/",
+   "drive": 49,
+   "shopMin": 20
+  },
+  {
+   "id": "z461671299",
+   "acres": 7.24,
+   "price": 249900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Sims-Rd-Sevierville-TN-37876/461671299_zpid/",
+   "drive": 47,
+   "shopMin": 17
+  },
+  {
+   "id": "z463000597",
+   "acres": 0.6,
+   "price": 17000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-20-Sunset-Dr-Sevierville-TN-37876/463000597_zpid/",
+   "drive": 60,
+   "shopMin": 28
+  },
+  {
+   "id": "z446856364",
+   "acres": 0.95,
+   "price": 169900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1306-Morning-Dove-Way-Sevierville-TN-37862/446856364_zpid/",
+   "drive": 56,
+   "shopMin": 17
+  },
+  {
+   "id": "z202564540",
+   "acres": 5.18,
+   "price": 172500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2405-Deep-Spring-Ln-Sevierville-TN-37862/202564540_zpid/",
+   "drive": 61,
+   "shopMin": 26
+  },
+  {
+   "id": "z350928734",
+   "acres": 0.57,
+   "price": 26000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-6-Wildcat-Ridge-Rd-Sevierville-TN-37862/350928734_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z214908340",
+   "acres": 0.35,
+   "price": 77500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/3278-Emerald-Springs-Loop-Sevierville-TN-37862/214908340_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z439683664",
+   "acres": 0.65,
+   "price": 29800,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-8-Emerald-Springs-Loop-Sevierville-TN-37862/439683664_zpid/",
+   "drive": 51,
+   "shopMin": 18
+  },
+  {
+   "id": "z462795244",
+   "acres": 0.3,
+   "price": 12000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Aintree-Dr-LOT-23-Sevierville-TN-37876/462795244_zpid/",
+   "drive": 60,
+   "shopMin": 28
+  },
+  {
+   "id": "z462794745",
+   "acres": 0.37,
+   "price": 12000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-10-Aintree-Dr-Sevierville-TN-37876/462794745_zpid/",
+   "drive": 60,
+   "shopMin": 28
+  },
+  {
+   "id": "z462775826",
+   "acres": 0.3,
+   "price": 24900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Swan-Saddle-Sevierville-TN-37876/462775826_zpid/",
+   "drive": 60,
+   "shopMin": 27
+  },
+  {
+   "id": "z2057942530",
+   "acres": 1.28,
+   "price": 139500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1430-Mountain-Dreams-Way-Sevierville-TN-37862/2057942530_zpid/",
+   "drive": 55,
+   "shopMin": 16
+  },
+  {
+   "id": "z462630791",
+   "acres": 1.26,
+   "price": 39900,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-15-Peace-Ln-Cosby-TN-37722/462630791_zpid/",
+   "drive": 57,
+   "shopMin": 21
+  },
+  {
+   "id": "z462630640",
+   "acres": 0.74,
+   "price": 34999,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-10-Rail-Hill-Ln-Cosby-TN-37722/462630640_zpid/",
+   "drive": 57,
+   "shopMin": 21
+  },
+  {
+   "id": "z462630642",
+   "acres": 0.9,
+   "price": 34999,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-13-Peace-Ln-10-Cosby-TN-37722/462630642_zpid/",
+   "drive": 57,
+   "shopMin": 21
+  },
+  {
+   "id": "z462630643",
+   "acres": 1.31,
+   "price": 34999,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-14-Peace-Ln-Cosby-TN-37722/462630643_zpid/",
+   "drive": 57,
+   "shopMin": 21
+  },
+  {
+   "id": "z439425417",
+   "acres": 0.89,
+   "price": 37500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-16-Meadow-View-Rd-Sevierville-TN-37862/439425417_zpid/",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "z462517244",
+   "acres": 5.05,
+   "price": 99900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Bryant-Hollow-Way-66-LOT-3-032-00-Sevierville-TN-37876/462517244_zpid/",
+   "drive": 57,
+   "shopMin": 28
+  },
+  {
+   "id": "z462517218",
+   "acres": 5.25,
+   "price": 99900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Bryant-Hollow-Way-LOT-4-Sevierville-TN-37876/462517218_zpid/",
+   "drive": 57,
+   "shopMin": 28
+  },
+  {
+   "id": "z2076606873",
+   "acres": 1.54,
+   "price": 69000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-50-Mary-Alice-Way-Sevierville-TN-37876/2076606873_zpid/",
+   "drive": 46,
+   "shopMin": 17
+  },
+  {
+   "id": "z2064240265",
+   "acres": 1.07,
+   "price": 194000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-6-John-Spears-Way-Sevierville-TN-37876/2064240265_zpid/",
+   "drive": 36,
+   "shopMin": 19
+  },
+  {
+   "id": "z42506050",
+   "acres": 0.93,
+   "price": 225000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2759-Hatcher-Mountain-Rd-Sevierville-TN-37862/42506050_zpid/",
+   "drive": 51,
+   "shopMin": 17
+  },
+  {
+   "id": "z446730365",
+   "acres": 3.12,
+   "price": 139900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-2122-Walden-Cove-Way-Sevierville-TN-37862/446730365_zpid/",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "z439527436",
+   "acres": 1.18,
+   "price": 219000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/154-Summit-Trails-Dr-Sevierville-TN-37862/439527436_zpid/",
+   "drive": 47,
+   "shopMin": 17
+  },
+  {
+   "id": "z455400158",
+   "acres": 5.3,
+   "price": 189900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Sunset-Rd-Sevierville-TN-37862/455400158_zpid/",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "z461831873",
+   "acres": 0.76,
+   "price": 60000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Dove-View-Rd-LOT-13-Sevierville-TN-37862/461831873_zpid/",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "z461634933",
+   "acres": 0.42,
+   "price": 75000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-11-Perry-Circle-Ln-Sevierville-TN-37862/461634933_zpid/",
+   "drive": 55,
+   "shopMin": 20
+  },
+  {
+   "id": "z2069649629",
+   "acres": 4.01,
+   "price": 79999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-12-Whetstone-Rd-Sevierville-TN-37862/2069649629_zpid/",
+   "drive": 61,
+   "shopMin": 26
+  },
+  {
+   "id": "z2076604111",
+   "acres": 0.96,
+   "price": 49900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-9-Walden-Flats-Way-Sevierville-TN-37862/2076604111_zpid/",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "z2067923705",
+   "acres": 2.98,
+   "price": 99900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-Township-Road-1-Sevierville-TN-37876/2067923705_zpid/",
+   "drive": 53,
+   "shopMin": 24
+  },
+  {
+   "id": "z440596457",
+   "acres": 0.86,
+   "price": 109000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Mountain-Ash-Way-Sevierville-TN-37876/440596457_zpid/",
+   "drive": 56,
+   "shopMin": 26
+  },
+  {
+   "id": "z461185424",
+   "acres": 10.0,
+   "price": 146000,
+   "town": "Cosby",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Bogard-Rd-Cosby-TN-37722/461185424_zpid/",
+   "drive": 58,
+   "shopMin": 21
+  },
+  {
+   "id": "z461177667",
+   "acres": 3.52,
+   "price": 170000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-2B-Spurling-Rd-Sevierville-TN-37862/461177667_zpid/",
+   "drive": 54,
+   "shopMin": 20
+  },
+  {
+   "id": "z447745339",
+   "acres": 3.08,
+   "price": 195000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Phase-B-Crown-Cir-Sevierville-TN-37862/447745339_zpid/",
+   "drive": 52,
+   "shopMin": 20
+  },
+  {
+   "id": "z439934181",
+   "acres": 0.24,
+   "price": 17900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/13-Villa-Ridge-Pl-Sevierville-TN-37862/439934181_zpid/",
+   "drive": 52,
+   "shopMin": 20
+  },
+  {
+   "id": "z460977645",
+   "acres": 0.37,
+   "price": 28500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Swann-Saddle-Sevierville-TN-37876/460977645_zpid/",
+   "drive": 60,
+   "shopMin": 27
+  },
+  {
+   "id": "z439527395",
+   "acres": 0.26,
+   "price": 28500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-12-Swann-Saddle-Rd-Sevierville-TN-37876/439527395_zpid/",
+   "drive": 60,
+   "shopMin": 27
+  },
+  {
+   "id": "z2056318004",
+   "acres": 1.35,
+   "price": 99500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1423-Mountain-Dreams-Way-Sevierville-TN-37862/2056318004_zpid/",
+   "drive": 55,
+   "shopMin": 16
+  },
+  {
+   "id": "z2065135587",
+   "acres": 0.34,
+   "price": 15900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-5-Swann-Saddle-Rd-Sevierville-TN-37876/2065135587_zpid/",
+   "drive": 60,
+   "shopMin": 27
+  },
+  {
+   "id": "z444572522",
+   "acres": 5.82,
+   "price": 89000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/60-Long-Hunter-Ln-Sevierville-TN-37862/444572522_zpid/",
+   "drive": 54,
+   "shopMin": 28
+  },
+  {
+   "id": "z214824917",
+   "acres": 1.75,
+   "price": 80000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Autumn-Ridge-Way-Sevierville-TN-37876/214824917_zpid/",
+   "drive": 50,
+   "shopMin": 20
+  },
+  {
+   "id": "z214908439",
+   "acres": 0.44,
+   "price": 45800,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/N-Clear-Fork-Rd-Sevierville-TN-37862/214908439_zpid/",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "z2071974625",
+   "acres": 2.92,
+   "price": 70000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-23-Alpine-Ridge-Way-Sevierville-TN-37876/2071974625_zpid/",
+   "drive": 57,
+   "shopMin": 27
+  },
+  {
+   "id": "z2071945445",
+   "acres": 0.88,
+   "price": 145000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-79-Whetstone-Rd-Sevierville-TN-37862/2071945445_zpid/",
+   "drive": 61,
+   "shopMin": 31
+  },
+  {
+   "id": "z2067072028",
+   "acres": 3.08,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-64-E-Redtail-Rd-Sevierville-TN-37862/2067072028_zpid/",
+   "drive": 64,
+   "shopMin": 29
+  },
+  {
+   "id": "z42502705",
+   "acres": 0.4,
+   "price": 89000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/3143-Sourwood-Way-Sevierville-TN-37862/42502705_zpid/",
+   "drive": 51,
+   "shopMin": 16
+  },
+  {
+   "id": "z459791758",
+   "acres": 1.27,
+   "price": 98500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2644-Flat-Creek-Blvd-E-Sevierville-TN-37876/459791758_zpid/",
+   "drive": 49,
+   "shopMin": 20
+  },
+  {
+   "id": "z81461625",
+   "acres": 0.73,
+   "price": 105000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/815-Red-Fox-Trl-Gatlinburg-TN-37738/81461625_zpid/",
+   "drive": 69,
+   "shopMin": 20
+  },
+  {
+   "id": "z459428456",
+   "acres": 0.74,
+   "price": 79500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Sugar-Maple-Loop-Rd-LOT-1-Sevierville-TN-37862/459428456_zpid/",
+   "drive": 51,
+   "shopMin": 18
+  },
+  {
+   "id": "z352449416",
+   "acres": 0.38,
+   "price": 6000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-34-Alpine-Dr-Sevierville-TN-37876/352449416_zpid/",
+   "drive": 62,
+   "shopMin": 25
+  },
+  {
+   "id": "z2075637666",
+   "acres": 0.54,
+   "price": 27000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-20-Meadow-View-Rd-Sevierville-TN-37862/2075637666_zpid/",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "z2065413024",
+   "acres": 5.43,
+   "price": 135000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-6-Deep-Spring-Ln-Sevierville-TN-37862/2065413024_zpid/",
+   "drive": 61,
+   "shopMin": 26
+  },
+  {
+   "id": "z464430323",
+   "acres": 6.02,
+   "price": 75000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/6-Acres-Creek-Hollow-Way-Sevierville-TN-37876/464430323_zpid/",
+   "drive": 54,
+   "shopMin": 25
+  },
+  {
+   "id": "z463784652",
+   "acres": 0.1,
+   "price": 79900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2954-Legacy-Vista-Dr-LOT-33-Sevierville-TN-37876/463784652_zpid/",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "z2071768968",
+   "acres": 0.44,
+   "price": 119900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-86-Blue-Herring-Way-Sevierville-TN-37876/2071768968_zpid/",
+   "drive": 48,
+   "shopMin": 18
+  },
+  {
+   "id": "z2056043572",
+   "acres": 1.19,
+   "price": 115999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-180-E-Jones-Creek-Ln-Sevierville-TN-37862/2056043572_zpid/",
+   "drive": 68,
+   "shopMin": 33
+  },
+  {
+   "id": "z2061753703",
+   "acres": 0.51,
+   "price": 115000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-21-Westover-Dr-Sevierville-TN-37862/2061753703_zpid/",
+   "drive": 53,
+   "shopMin": 18
+  },
+  {
+   "id": "z2072150963",
+   "acres": 1.28,
+   "price": 105000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-13-Lexy-Ln-Sevierville-TN-37862/2072150963_zpid/",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "z450616073",
+   "acres": 1.61,
+   "price": 79999,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Angie-Ln-Gatlinburg-TN-37738/450616073_zpid/",
+   "drive": 65,
+   "shopMin": 17
+  },
+  {
+   "id": "z453300525",
+   "acres": 1.11,
+   "price": 75000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2808-Grist-Mill-Ln-Sevierville-TN-37862/453300525_zpid/",
+   "drive": 61,
+   "shopMin": 32
+  },
+  {
+   "id": "z452589640",
+   "acres": 0.24,
+   "price": 10000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-27-Black-Oak-Dr-Sevierville-TN-37876/452589640_zpid/",
+   "drive": 63,
+   "shopMin": 28
+  },
+  {
+   "id": "z2079789162",
+   "acres": 0.67,
+   "price": 25000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-33-Black-Walnut-Flats-Rd-Sevierville-TN-37862/2079789162_zpid/",
+   "drive": 53,
+   "shopMin": 21
+  },
+  {
+   "id": "z449861311",
+   "acres": 2.74,
+   "price": 149500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1532-Mountain-Dreams-Way-Sevierville-TN-37862/449861311_zpid/",
+   "drive": 56,
+   "shopMin": 17
+  },
+  {
+   "id": "z439554670",
+   "acres": 0.24,
+   "price": 14900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-25-Alpine-Dr-Sevierville-TN-37876/439554670_zpid/",
+   "drive": 65,
+   "shopMin": 27
+  },
+  {
+   "id": "z449345568",
+   "acres": 0.24,
+   "price": 15000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-10-Black-Oak-Dr-Sevierville-TN-37876/449345568_zpid/",
+   "drive": 62,
+   "shopMin": 28
+  },
+  {
+   "id": "z2065409313",
+   "acres": 5.42,
+   "price": 229900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2A-Ravens-Den-Way-Sevierville-TN-37862/2065409313_zpid/",
+   "drive": 58,
+   "shopMin": 23
+  },
+  {
+   "id": "z465235914",
+   "acres": 0.93,
+   "price": 69000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Marble-Blf-Kingston-TN-37763/465235914_zpid/",
+   "drive": 55,
+   "shopMin": 32
+  },
+  {
+   "id": "z459885922",
+   "acres": 0.59,
+   "price": 19900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/234-Majestic-View-Dr-LOT-658-Rockwood-TN-37854/459885922_zpid/",
+   "drive": 66,
+   "shopMin": 29
+  },
+  {
+   "id": "z90223354",
+   "acres": 0.69,
+   "price": 40000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/378-Walking-Horse-Trl-Rockwood-TN-37854/90223354_zpid/",
+   "drive": 63,
+   "shopMin": 26
+  },
+  {
+   "id": "z448471108",
+   "acres": 1.22,
+   "price": 75000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-Flint-Ridge-Rd-Rockwood-TN-37854/448471108_zpid/",
+   "drive": 62,
+   "shopMin": 19
+  },
+  {
+   "id": "z461182139",
+   "acres": 2.01,
+   "price": 35000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/434-Hidden-Oaks-Rd-Rockwood-TN-37854/461182139_zpid/",
+   "drive": 61,
+   "shopMin": 18
+  },
+  {
+   "id": "z2054487075",
+   "acres": 5.82,
+   "price": 99000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-22-Twin-Feathers-Dr-Rockwood-TN-37854/2054487075_zpid/",
+   "drive": 65,
+   "shopMin": 22
+  },
+  {
+   "id": "z464126994",
+   "acres": 1.27,
+   "price": 80000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/393-W-Mountain-Dr-LOT-393-Rockwood-TN-37854/464126994_zpid/",
+   "drive": 65,
+   "shopMin": 27
+  },
+  {
+   "id": "z463683575",
+   "acres": 2.04,
+   "price": 130000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/50-Melea-Ln-Kingston-TN-37763/463683575_zpid/",
+   "drive": 60,
+   "shopMin": 30
+  },
+  {
+   "id": "z2077239502",
+   "acres": 1.89,
+   "price": 100000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-32-Melea-Ln-Kingston-TN-37763/2077239502_zpid/",
+   "drive": 61,
+   "shopMin": 31
+  },
+  {
+   "id": "z463358068",
+   "acres": 1.7,
+   "price": 175000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/2223-Phillips-Dr-Rockwood-TN-37854/463358068_zpid/",
+   "drive": 72,
+   "shopMin": 29
+  },
+  {
+   "id": "z42056888",
+   "acres": 2.2,
+   "price": 39900,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/228-Black-Hawk-Dr-Ten-Mile-TN-37880/42056888_zpid/",
+   "drive": 72,
+   "shopMin": 39
+  },
+  {
+   "id": "z90227142",
+   "acres": 0.64,
+   "price": 39900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/275-W-Shore-Dr-Rockwood-TN-37854/90227142_zpid/",
+   "drive": 64,
+   "shopMin": 27
+  },
+  {
+   "id": "z462335627",
+   "acres": 0.66,
+   "price": 135000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-E-Shore-Dr-LOT-101-Rockwood-TN-37854/462335627_zpid/",
+   "drive": 66,
+   "shopMin": 28
+  },
+  {
+   "id": "z2056577684",
+   "acres": 4.85,
+   "price": 48900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/228-Crystal-Springs-Rd-LOT-228-Rockwood-TN-37854/2056577684_zpid/",
+   "drive": 63,
+   "shopMin": 20
+  },
+  {
+   "id": "z463398788",
+   "acres": 1.46,
+   "price": 13000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Crystal-Springs-Rd-Rockwood-TN-37854/463398788_zpid/",
+   "drive": 61,
+   "shopMin": 17
+  },
+  {
+   "id": "z461157160",
+   "acres": 2.15,
+   "price": 35000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-435-Hidden-Oaks-Rd-Rockwood-TN-37854/461157160_zpid/",
+   "drive": 61,
+   "shopMin": 18
+  },
+  {
+   "id": "z450616631",
+   "acres": 1.18,
+   "price": 70000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/E-Shore-Dr-Rockwood-TN-37854/450616631_zpid/",
+   "drive": 67,
+   "shopMin": 29
+  },
+  {
+   "id": "z456111012",
+   "acres": 0.6,
+   "price": 49900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-Eagle-Point-Dr-LOT-8-Rockwood-TN-37854/456111012_zpid/",
+   "drive": 64,
+   "shopMin": 20
+  },
+  {
+   "id": "z2105512375",
+   "acres": 0.74,
+   "price": 39900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Star-Ln-Rockwood-TN-37854/2105512375_zpid/",
+   "drive": 67,
+   "shopMin": 29
+  },
+  {
+   "id": "z458969467",
+   "acres": 0.51,
+   "price": 129900,
+   "town": "Kingston",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/35-Lakeshore-Vista-Dr-LOT-35-Kingston-TN-37763/458969467_zpid/",
+   "drive": 58,
+   "shopMin": 36
+  },
+  {
+   "id": "z455511558",
+   "acres": 1.85,
+   "price": 30000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-Emerald-Pointe-Cir-LOT-2-Rockwood-TN-37854/455511558_zpid/",
+   "drive": 63,
+   "shopMin": 26
+  },
+  {
+   "id": "z455653687",
+   "acres": 0.95,
+   "price": 50000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-Emerald-Pointe-Cir-LOT-11-Rockwood-TN-37854/455653687_zpid/",
+   "drive": 65,
+   "shopMin": 27
+  },
+  {
+   "id": "z444572966",
+   "acres": 0.8,
+   "price": 19900,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-2-Indian-Shadows-Dr-Ten-Mile-TN-37880/444572966_zpid/",
+   "drive": 68,
+   "shopMin": 35
+  },
+  {
+   "id": "z90208742",
+   "acres": 1.8,
+   "price": 55000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/371-Walking-Horse-Trl-Rockwood-TN-37854/90208742_zpid/",
+   "drive": 64,
+   "shopMin": 26
+  },
+  {
+   "id": "z90226316",
+   "acres": 1.8,
+   "price": 40000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/369-Walking-Horse-Trl-Rockwood-TN-37854/90226316_zpid/",
+   "drive": 64,
+   "shopMin": 26
+  },
+  {
+   "id": "z450616022",
+   "acres": 3.17,
+   "price": 150000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/W-Mountain-Dr-Rockwood-TN-37854/450616022_zpid/",
+   "drive": 63,
+   "shopMin": 25
+  },
+  {
+   "id": "z450616049",
+   "acres": 1.46,
+   "price": 20000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Water-View-Dr-Rockwood-TN-37854/450616049_zpid/",
+   "drive": 63,
+   "shopMin": 25
+  },
+  {
+   "id": "z2109200153",
+   "acres": 0.85,
+   "price": 25000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Eagle-Ridge-Dr-Rockwood-TN-37854/2109200153_zpid/",
+   "drive": 65,
+   "shopMin": 27
+  },
+  {
+   "id": "z2070566533",
+   "acres": 0.98,
+   "price": 48900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-383-Thief-Neck-Dr-Rockwood-TN-37854/2070566533_zpid/",
+   "drive": 65,
+   "shopMin": 27
+  },
+  {
+   "id": "z2067923551",
+   "acres": 1.2,
+   "price": 25000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Crystal-Springs-Rd-LOT-209-Rockwood-TN-37854/2067923551_zpid/",
+   "drive": 65,
+   "shopMin": 21
+  },
+  {
+   "id": "z443278115",
+   "acres": 17.2,
+   "price": 125000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Ironsburg-Rd-Tellico-Plains-TN-37385/443278115_zpid/",
+   "drive": 92,
+   "shopMin": 37
+  },
+  {
+   "id": "z465136954",
+   "acres": 5.06,
+   "price": 89000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/109-Cherokee-Path-LOT-109-Tellico-Plains-TN-37385/465136954_zpid/",
+   "drive": 84,
+   "shopMin": 29
+  },
+  {
+   "id": "z465064317",
+   "acres": 5.03,
+   "price": 99000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Three-Point-Rd-LOT-41-Madisonville-TN-37354/465064317_zpid/",
+   "drive": 83,
+   "shopMin": 29
+  },
+  {
+   "id": "z464272155",
+   "acres": 5.0,
+   "price": 155000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/9-Winding-Trl-LOT-9-Madisonville-TN-37354/464272155_zpid/",
+   "drive": 81,
+   "shopMin": 39
+  },
+  {
+   "id": "z464272157",
+   "acres": 28.33,
+   "price": 207475,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Shaddon-Rd-LOT-2-Tellico-Plains-TN-37385/464272157_zpid/",
+   "drive": 76,
+   "shopMin": 21
+  },
+  {
+   "id": "z464182297",
+   "acres": 5.0,
+   "price": 149990,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/157-Quarry-Creek-Rd-LOT-5-Tellico-Plains-TN-37385/464182297_zpid/",
+   "drive": 74,
+   "shopMin": 19
+  },
+  {
+   "id": "z463922568",
+   "acres": 21.33,
+   "price": 245295,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/5-Old-Furnace-Rd-LOT-5-Tellico-Plains-TN-37385/463922568_zpid/",
+   "drive": 84,
+   "shopMin": 29
+  },
+  {
+   "id": "z439558212",
+   "acres": 0.88,
+   "price": 84000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Bear-Ln-Tellico-Plains-TN-37385/439558212_zpid/",
+   "drive": 73,
+   "shopMin": 18
+  },
+  {
+   "id": "z463643099",
+   "acres": 0.92,
+   "price": 69900,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/16-Copper-Still-Way-LOT-16-Madisonville-TN-37354/463643099_zpid/",
+   "drive": 82,
+   "shopMin": 28
+  },
+  {
+   "id": "z463354413",
+   "acres": 23.64,
+   "price": 172300,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/Shaddon-Rd-LOT-1-Tellico-Plains-TN-37385/463354413_zpid/",
+   "drive": 75,
+   "shopMin": 20
+  },
+  {
+   "id": "z463224031",
+   "acres": 8.1,
+   "price": 129600,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/LOT-6-Old-Furnace-Rd-Tellico-Plains-TN-37385/463224031_zpid/",
+   "drive": 87,
+   "shopMin": 32
+  },
+  {
+   "id": "z463268944",
+   "acres": 8.09,
+   "price": 129350,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/1-Old-Furnace-Rd-Tellico-Plains-TN-37385/463268944_zpid/",
+   "drive": 88,
+   "shopMin": 33
+  },
+  {
+   "id": "z463223603",
+   "acres": 21.69,
+   "price": 249435,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/4-Old-Furnace-Rd-LOT-4-Tellico-Plains-TN-37385/463223603_zpid/",
+   "drive": 84,
+   "shopMin": 29
+  },
+  {
+   "id": "z462949343",
+   "acres": 5.01,
+   "price": 90180,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Coker-Creek-Trl-LOT-9-Tellico-Plains-TN-37385/462949343_zpid/",
+   "drive": 86,
+   "shopMin": 31
+  },
+  {
+   "id": "z462948399",
+   "acres": 5.81,
+   "price": 104580,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Coker-Creek-Trl-LOT-1-Tellico-Plains-TN-37385/462948399_zpid/",
+   "drive": 86,
+   "shopMin": 30
+  },
+  {
+   "id": "z458309014",
+   "acres": 10.68,
+   "price": 169900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/138-Bowater-Rd-Tellico-Plains-TN-37385/458309014_zpid/",
+   "drive": 84,
+   "shopMin": 29
+  },
+  {
+   "id": "z462666540",
+   "acres": 15.12,
+   "price": 230000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/Three-Point-Rd-3-004-03-Vonore-TN-37885/462666540_zpid/",
+   "drive": 67,
+   "shopMin": 25
+  },
+  {
+   "id": "z462507693",
+   "acres": 5.0,
+   "price": 89900,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/87-Overlook-Dr-Madisonville-TN-37354/462507693_zpid/",
+   "drive": 78,
+   "shopMin": 36
+  },
+  {
+   "id": "z462428918",
+   "acres": 1.54,
+   "price": 175000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/LOT-36-Thunder-Rd-Vonore-TN-37885/462428918_zpid/",
+   "drive": 54,
+   "shopMin": 18
+  },
+  {
+   "id": "z462379484",
+   "acres": 2.72,
+   "price": 44999,
+   "town": "Coker Creek",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Old-Hickory-Ln-Coker-Creek-TN-37314/462379484_zpid/",
+   "drive": 92,
+   "shopMin": 37
+  },
+  {
+   "id": "z462015958",
+   "acres": 5.29,
+   "price": 89900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/Payne-Rd-Tellico-Plains-TN-37385/462015958_zpid/",
+   "drive": 79,
+   "shopMin": 23
+  },
+  {
+   "id": "z461993249",
+   "acres": 5.56,
+   "price": 155000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/8-Winding-Trl-Madisonville-TN-37354/461993249_zpid/",
+   "drive": 72,
+   "shopMin": 31
+  },
+  {
+   "id": "z346484659",
+   "acres": 2.56,
+   "price": 112000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/748-Laurel-Lake-Cir-Madisonville-TN-37354/346484659_zpid/",
+   "drive": 76,
+   "shopMin": 21
+  },
+  {
+   "id": "z2057956707",
+   "acres": 5.29,
+   "price": 65000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/LOT-36-Bullet-Mountain-Dr-Tellico-Plains-TN-37385/2057956707_zpid/",
+   "drive": 76,
+   "shopMin": 26
+  },
+  {
+   "id": "z444572477",
+   "acres": 4.07,
+   "price": 64900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/LOT-2-Unicoi-Church-Rd-Tellico-Plains-TN-37385/444572477_zpid/",
+   "drive": 76,
+   "shopMin": 20
+  },
+  {
+   "id": "z456897520",
+   "acres": 6.0,
+   "price": 169000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/Tree-Top-Ln-Tellico-Plains-TN-37385/456897520_zpid/",
+   "drive": 77,
+   "shopMin": 28
+  },
+  {
+   "id": "z346483888",
+   "acres": 5.52,
+   "price": 135000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/292-Cody-Ln-Madisonville-TN-37354/346483888_zpid/",
+   "drive": 67,
+   "shopMin": 14
+  },
+  {
+   "id": "z450155405",
+   "acres": 6.25,
+   "price": 99000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/111-Cherokee-Path-Tellico-Plains-TN-37385/450155405_zpid/",
+   "drive": 86,
+   "shopMin": 30
+  },
+  {
+   "id": "z2064341405",
+   "acres": 0.38,
+   "price": 130000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/264-Rafter-Rd-Tellico-Plains-TN-37385/2064341405_zpid/",
+   "drive": 75,
+   "shopMin": 20
+  },
+  {
+   "id": "z442082230",
+   "acres": 5.0,
+   "price": 69000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/101-Cherokee-Path-Tellico-Plains-TN-37385/442082230_zpid/",
+   "drive": 84,
+   "shopMin": 29
+  },
+  {
+   "id": "z465033112",
+   "acres": 1.04,
+   "price": 8900,
+   "town": "Speedwell",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/2-Saddleridge-Dr-Speedwell-TN-37870/465033112_zpid/",
+   "drive": 70,
+   "shopMin": 31
+  },
+  {
+   "id": "z464355179",
+   "acres": 1.42,
+   "price": 75000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/44-Old-Hearth-Dr-La-Follette-TN-37766/464355179_zpid/",
+   "drive": 66,
+   "shopMin": 26
+  },
+  {
+   "id": "z463845160",
+   "acres": 1.03,
+   "price": 18000,
+   "town": "Speedwell",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Saddleridge-Dr-Speedwell-TN-37870/463845160_zpid/",
+   "drive": 75,
+   "shopMin": 35
+  },
+  {
+   "id": "z461954278",
+   "acres": 0.93,
+   "price": 12500,
+   "town": "Speedwell",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/LOT-60-Saddleridge-Dr-Speedwell-TN-37870/461954278_zpid/",
+   "drive": 73,
+   "shopMin": 34
+  },
+  {
+   "id": "z442033295",
+   "acres": 0.7,
+   "price": 99000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/LOT-30-Sam-Maria-Way-La-Follette-TN-37766/442033295_zpid/",
+   "drive": 77,
+   "shopMin": 38
+  },
+  {
+   "id": "z460926349",
+   "acres": 1.08,
+   "price": 35000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Poplar-Dr-58-La-Follette-TN-37766/460926349_zpid/",
+   "drive": 66,
+   "shopMin": 26
+  },
+  {
+   "id": "z460327703",
+   "acres": 1.43,
+   "price": 19999,
+   "town": "Speedwell",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/0-Saddleridge-Dr-Speedwell-TN-37870/460327703_zpid/",
+   "drive": 71,
+   "shopMin": 32
+  },
+  {
+   "id": "z459854441",
+   "acres": 0.41,
+   "price": 21900,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Hickory-Way-La-Follette-TN-37766/459854441_zpid/",
+   "drive": 68,
+   "shopMin": 28
+  },
+  {
+   "id": "z2053231578",
+   "acres": 0.45,
+   "price": 25000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/516-Cedar-Gate-Ln-La-Follette-TN-37766/2053231578_zpid/",
+   "drive": 68,
+   "shopMin": 29
+  },
+  {
+   "id": "z457909631",
+   "acres": 3.05,
+   "price": 80000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Pinnacle-Ln-Lafollette-TN-37766/457909631_zpid/",
+   "drive": 74,
+   "shopMin": 35
+  },
+  {
+   "id": "z450615842",
+   "acres": 0.5,
+   "price": 139000,
+   "town": "Speedwell",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Wagon-Ln-Speedwell-TN-37870/450615842_zpid/",
+   "drive": 58,
+   "shopMin": 19
+  },
+  {
+   "id": "z2067519405",
+   "acres": 1.68,
+   "price": 45000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/LOT-65-Pinnacle-Ln-La-Follette-TN-37766/2067519405_zpid/",
+   "drive": 74,
+   "shopMin": 35
+  },
+  {
+   "id": "z2067923788",
+   "acres": 1.37,
+   "price": 45000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/LOT-64-Pinnacle-Ln-La-Follette-TN-37766/2067923788_zpid/",
+   "drive": 74,
+   "shopMin": 35
+  },
+  {
+   "id": "z450616376",
+   "acres": 0.53,
+   "price": 30000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Deer-Pond-Cir-Lafollette-TN-37766/450616376_zpid/",
+   "drive": 83,
+   "shopMin": 44
+  },
+  {
+   "id": "z2062603641",
+   "acres": 0.63,
+   "price": 40000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/LOT-37-Pinnacle-Ln-La-Follette-TN-37766/2062603641_zpid/",
+   "drive": 75,
+   "shopMin": 36
+  },
+  {
+   "id": "z465024790",
+   "acres": 17.9,
+   "price": 185000,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/145-Black-Bear-Ln-LOT-69-Sunbright-TN-37872/465024790_zpid/",
+   "drive": 77,
+   "shopMin": 33
+  },
+  {
+   "id": "z2057511926",
+   "acres": 10.7,
+   "price": 99000,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/9745-Morgan-County-Hwy-Sunbright-TN-37872/2057511926_zpid/",
+   "drive": 70,
+   "shopMin": 24
+  },
+  {
+   "id": "z459016050",
+   "acres": 19.81,
+   "price": 134900,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/318-Rhodas-Way-LOT-18-Sunbright-TN-37872/459016050_zpid/",
+   "drive": 74,
+   "shopMin": 30
+  },
+  {
+   "id": "z461197968",
+   "acres": 15.43,
+   "price": 159900,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/674-Rhodas-Way-LOT-21-Sunbright-TN-37872/461197968_zpid/",
+   "drive": 75,
+   "shopMin": 30
+  },
+  {
+   "id": "z463805239",
+   "acres": 7.44,
+   "price": 66900,
+   "town": "Deer Lodge",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/White-Creek-Dr-Deer-Lodge-TN-37726/463805239_zpid/",
+   "drive": 75,
+   "shopMin": 37
+  },
+  {
+   "id": "z462682305",
+   "acres": 22.48,
+   "price": 173800,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/0-Black-Bear-Ln-LOT-68-Sunbright-TN-37872/462682305_zpid/",
+   "drive": 76,
+   "shopMin": 39
+  },
+  {
+   "id": "z460617419",
+   "acres": 25.44,
+   "price": 227700,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/TRACT-Eight-Boone-Ln-Sunbright-TN-37872/460617419_zpid/",
+   "drive": 65,
+   "shopMin": 30
+  },
+  {
+   "id": "z457490358",
+   "acres": 10.77,
+   "price": 104500,
+   "town": "Deer Lodge",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/Valerie-Dr-Deer-Lodge-TN-37726/457490358_zpid/",
+   "drive": 77,
+   "shopMin": 33
+  }
+ ],
  "tooSteep": [
   {
    "id": "z42538353",
