@@ -239,7 +239,16 @@ input[type=range]{width:100%;accent-color:var(--accent);margin:3px 0}
   transition:transform .12s;
 }
 .pin.approx{border-style:dashed;border-color:rgba(255,255,255,.8)}
-.pin.isnew{box-shadow:0 0 0 3px var(--new),0 1px 4px rgba(0,0,0,.45)}
+.pin.isnew{box-shadow:0 0 0 3px var(--new),0 1px 4px rgba(0,0,0,.45);animation:pulse 1.6s ease-out infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 3px var(--new),0 0 0 0 rgba(201,162,39,.75)}
+                 100%{box-shadow:0 0 0 3px var(--new),0 0 0 16px rgba(201,162,39,0)}}
+.pinflag{
+  position:absolute;left:50%;transform:translateX(-50%);top:-16px;
+  font:700 9px/1 "IBM Plex Sans",sans-serif;letter-spacing:.06em;color:#2A2208;
+  background:var(--new);padding:2px 5px;border-radius:4px;white-space:nowrap;
+  box-shadow:0 1px 2px rgba(0,0,0,.4);pointer-events:none;
+}
+.pinwrap{position:relative}
 .pin.hot{transform:scale(1.22);z-index:1000!important}
 .pin.dim{opacity:.85}
 
@@ -292,7 +301,9 @@ body.light-map .maplabel{color:#2f3f3a;text-shadow:0 0 3px #fff,0 0 6px #fff}
 .legend summary::-webkit-details-marker{display:none}
 .legend summary>span:first-child::after{content:" ▾";color:var(--ink-3)}
 .legend[open] summary>span:first-child::after{content:" ▴"}
-.lg-ctl{margin-left:auto;display:flex;gap:3px}
+.legend{position:absolute}  /* already absolute; anchor for the controls */
+.lg-ctl{position:absolute;top:5px;right:6px;display:flex;gap:3px;z-index:2}
+.legend summary{padding-right:64px}
 .lg-ctl button{
   width:22px;height:22px;border:1px solid var(--line-2);border-radius:6px;background:#fff;
   color:var(--ink-3);cursor:pointer;font-size:14px;line-height:1;padding:0;

@@ -344,8 +344,9 @@ function makeIcon(t) {
   const ink = t.bandIdx === 2 ? '#2A2208' : '#fff';
   return L.divIcon({
     className: '',
-    html: `<div class="${cls.join(' ')}" data-id="${t.id}" style="width:${d}px;height:${d}px;
-           background:${t.color};color:${ink};font-size:${d < 34 ? 11 : 13}px">${t.drive}</div>`,
+    html: `<div class="pinwrap"><div class="${cls.join(' ')}" data-id="${t.id}" style="width:${d}px;height:${d}px;
+           background:${t.color};color:${ink};font-size:${d < 34 ? 11 : 13}px">${t.drive}</div>${
+           isNew(t) ? '<span class="pinflag">NEW</span>' : ''}</div>`,
     iconSize: [d, d], iconAnchor: [d / 2, d / 2], popupAnchor: [0, -d / 2],
   });
 }
