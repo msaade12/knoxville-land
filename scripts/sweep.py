@@ -725,12 +725,15 @@ def merge_zillow(found, prev, excluded, polys, stores):
     Redfin export stopped returning, or (c) is a listing Redfin never had."""
     import zillow
     upgraded, revived, added = 0, 0, 0
+    covered = set()          # counties Zillow answered completely this run
     for name in COUNTIES:
         try:
-            rows = zillow.fetch_county(name, MAX_PRICE, int(MIN_ACRES * 43560))
+            rows, complete = zillow.fetch_county(name, MAX_PRICE, int(MIN_ACRES * 43560))
         except Exception as e:                       # noqa: BLE001
             log(f"  ! zillow {name}: {e}")
             continue
+        if complete:
+            covered.add(name)
         for z in rows:
             if z["price"] > MAX_PRICE or z["acres"] < MIN_ACRES:
                 continue
@@ -794,7 +797,8 @@ def merge_zillow(found, prev, excluded, polys, stores):
             added += 1
         time.sleep(2.0)
     log(f"zillow: {upgraded} tracts placed on parcel, {revived} revived, "
-        f"{added} only on Zillow")
+        f"{added} only on Zillow | counties fully covered: {len(covered)}/12")
+    return covered
 
 
 
@@ -1012,10 +1016,11 @@ def main():
         return 2
 
     # ---- second source ---------------------------------------------------
+    zillow_covered = set()
     if os.environ.get("SWEEP_SKIP_ZILLOW"):
         log("zillow: skipped (SWEEP_SKIP_ZILLOW set)")
     else:
-        merge_zillow(found, prev, excluded, polys, stores)
+        zillow_covered = merge_zillow(found, prev, excluded, polys, stores)
 
     # ---- merge with the archive -----------------------------------------
     # Redfin's CSV export carries the notice "some MLS listings are not
@@ -1069,12 +1074,12 @@ def main():
 
     # ---- tracts the sweep did not return --------------------------------
     stale, retired, rejected = [], [], []
-    skip_z = bool(os.environ.get("SWEEP_SKIP_ZILLOW"))
     for tid, old in prev.items():
         if tid in found:
             continue
-        if skip_z and old.get("source") == "Zillow":
-            # Zillow wasn't consulted this run, so its absence means nothing.
+        if old.get("source") == "Zillow" and old.get("county") not in zillow_covered:
+            # Zillow was skipped, or rate-limited us for this county: the
+            # listing's absence means nothing. Carry it forward untouched.
             found[tid] = dict(old)
             continue
         if tid in returned:

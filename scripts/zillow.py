@@ -156,14 +156,25 @@ def to_tract(card):
 
 
 def fetch_county(name, max_price, min_lot_sqft=4356):
-    """All live land listings Zillow shows for a county, under max_price."""
+    """All live land listings Zillow shows for a county, under max_price.
+    Returns (rows, complete): complete is False if any page failed, so the
+    caller must not treat a listing's absence as meaning anything."""
     slug = COUNTY_SLUGS[name]
-    seen, rows, total = set(), [], None
+    seen, rows, total, complete = set(), [], None, True
     for page in range(1, MAX_PAGES + 1):
-        try:
-            html = _get(_url(slug, page, max_price, min_lot_sqft))
-        except Exception as e:                       # noqa: BLE001
-            log(f"  zillow {name} p{page}: stopped ({getattr(e, 'code', e)})")
+        html = None
+        for attempt in range(3):
+            try:
+                html = _get(_url(slug, page, max_price, min_lot_sqft))
+                break
+            except Exception as e:                   # noqa: BLE001
+                code = getattr(e, "code", None)
+                if attempt == 2:
+                    log(f"  zillow {name} p{page}: gave up ({code or e})")
+                else:
+                    time.sleep(45 if code == 429 else 8)
+        if html is None:
+            complete = False
             break
         cards, tot = _listings(html)
         total = total or tot
@@ -180,13 +191,14 @@ def fetch_county(name, max_price, min_lot_sqft=4356):
             break
         time.sleep(PAGE_PAUSE)
     log(f"  zillow {name:<10} {len(rows):>4} live land listings"
-        f"{'' if total is None else f' of {total} reported'}")
-    return rows
+        f"{'' if total is None else f' of {total} reported'}"
+        f"{'' if complete else '  (INCOMPLETE)'}")
+    return rows, complete
 
 
 if __name__ == "__main__":
     county = sys.argv[1] if len(sys.argv) > 1 else "Morgan"
-    rows = fetch_county(county, 250_000)
+    rows, ok = fetch_county(county, 250_000)
     for r in rows[:8]:
         print(f"  {r['acres']:>7} ac  ${r['price']:>8,}  {r['town']:<15} {r['address'][:34]:<34} "
               f"({r['lat']}, {r['lon']})  photo={'y' if r['photo'] else '-'}")
