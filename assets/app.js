@@ -973,7 +973,22 @@ async function boot() {
     `${state.tracts.length - unver} verified` + (unver ? ` · ${unver} approx pin` : '') +
     (nNew ? ` · ${nNew} new` : '');
 
-  if (window.matchMedia('(max-width:860px)').matches) $('#legend').open = false;
+  // legend: minimize / remove / restore, remembered per browser
+  {
+    const lg = $('#legend'), restore = $('#lgRestore');
+    let pref = null;
+    try { pref = localStorage.getItem('kls-legend'); } catch {}
+    if (pref === 'closed') { lg.hidden = true; restore.hidden = false; }
+    else if (pref === 'min' || (pref === null && window.matchMedia('(max-width:860px)').matches)) lg.open = false;
+    const save = v => { try { localStorage.setItem('kls-legend', v); } catch {} };
+    lg.addEventListener('toggle', () => save(lg.open ? 'open' : 'min'));
+    $('#lgMin').addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); lg.open = false; save('min'); });
+    $('#lgClose').addEventListener('click', e => {
+      e.preventDefault(); e.stopPropagation();
+      lg.hidden = true; restore.hidden = false; save('closed');
+    });
+    restore.addEventListener('click', () => { lg.hidden = false; lg.open = true; restore.hidden = true; save('open'); });
+  }
 
   wire();
   loadChanges();

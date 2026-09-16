@@ -121,7 +121,12 @@
     </div>
 
     <details class="legend" id="legend" open>
-      <summary>Legend</summary>
+      <summary><span>Legend</span>
+        <span class="lg-ctl">
+          <button type="button" id="lgMin" title="Minimize">–</button>
+          <button type="button" id="lgClose" title="Remove the legend">×</button>
+        </span>
+      </summary>
       <div class="legend-body">
         <div class="lg-scale" id="lgBands"></div>
         <ul class="lg-notes">
@@ -138,6 +143,7 @@
         </ul>
       </div>
     </details>
+    <button class="lg-restore" id="lgRestore" hidden title="Show the legend">Legend</button>
   </div>
 </main>
 
