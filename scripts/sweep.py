@@ -76,7 +76,7 @@ EXCLUDE_HOA = True
 # Hard limits on routed road time. Applied only when the figure is a real
 # routed one (never to a straight-line estimate), and remembered in
 # data/excluded.json so the tract is not routed again every morning.
-PAGE_FETCH_CAP = 20     # listing pages per run - Redfin blocks bursts
+PAGE_FETCH_CAP = int(os.environ.get("PAGE_FETCH_CAP", "20"))  # Redfin blocks bursts
 PAGE_FETCH_PAUSE = 5.0  # seconds between them
 
 MAX_DRIVE_MIN = 60      # to downtown Knoxville
@@ -263,7 +263,8 @@ def _osrm_table(sources, dests, tries=4):
 
 def add_drive_times(tracts, batch=99):
     """Real minutes to Knoxville for tracts that only have the estimate."""
-    todo = [t for t in tracts if not t.get("driveReal") and t.get("lat") is not None]
+    todo = [t for t in tracts if not t.get("driveReal")
+            and t.get("lat") is not None and t.get("geo") == "parcel"]
     if not todo:
         return 0
     log(f"knoxville routing needed: {len(todo)}")
@@ -287,7 +288,8 @@ def add_shop_times(tracts, anchors, cap=100):
     """Real minutes to the nearest anchor store, batched to stay under OSRM's
     coordinate limit: each request carries a set of tracts plus the union of
     their nearest candidate stores."""
-    todo = [t for t in tracts if t.get("shopMin") is None and t.get("lat") is not None]
+    todo = [t for t in tracts if t.get("shopMin") is None
+            and t.get("lat") is not None and t.get("geo") == "parcel"]
     if not todo or not anchors:
         return 0
     log(f"shopping routing needed: {len(todo)}")
@@ -332,6 +334,198 @@ def add_shop_times(tracts, anchors, cap=100):
     return done
 
 
+# ----------------------------------------------------------- convenience ---
+
+def load_json(name, default):
+    path = os.path.join(DATA, name)
+    if not os.path.exists(path):
+        return default
+    with open(path) as f:
+        return json.load(f)
+
+
+def _within(lat, lon, pts, miles):
+    """Points of `pts` within a straight-line radius, nearest first."""
+    dl = miles / 69.0
+    out = []
+    for p in pts:
+        if abs(p["lat"] - lat) > dl or abs(p["lon"] - lon) > dl * 1.3:
+            continue
+        d = haversine_mi((lat, lon), (p["lat"], p["lon"]))
+        if d <= miles:
+            out.append((d, p))
+    out.sort(key=lambda x: x[0])
+    return out
+
+
+def nearest_town(lat, lon, towns):
+    """Closest named place, preferring somewhere with people in it: a town
+    beats a village at the same distance, and a village 3 mi off beats a
+    city 30 mi off. Returns (town, miles)."""
+    best, bestscore = None, 1e9
+    # a real town first: 1,500 people or more (or tagged city/town) within 25
+    # miles; only if there is none does a village or hamlet count
+    real = [t for t in towns if (t.get("pop") or 0) >= 1500 or t.get("kind") in ("city", "town")]
+    pool = [t for t in real if haversine_mi((lat, lon), (t["lat"], t["lon"])) <= 25] or towns
+    for t in pool:
+        d = haversine_mi((lat, lon), (t["lat"], t["lon"]))
+        if d > 25:
+            continue
+        # a place with more people is 'closer' for this purpose
+        pop = t.get("pop") or 200
+        score = d / (1 + math.log10(pop) / 2)
+        if score < bestscore:
+            best, bestscore = t, score
+    if not best:
+        return None, None
+    return best, round(haversine_mi((lat, lon), (best["lat"], best["lon"])), 1)
+
+
+def convenience(t, towns, pois):
+    """A 1-5 rating of everyday convenience, and the facts behind it.
+    Counts are straight-line, so they say what is *around*, not the drive."""
+    lat, lon = t["lat"], t["lon"]
+    town, tmi = nearest_town(lat, lon, towns)
+    near10 = _within(lat, lon, pois, 10)
+    near5 = [(d, p) for d, p in near10 if d <= 5]
+    kinds10 = {}
+    for d, p in near10:
+        kinds10.setdefault(p["k"], []).append(d)
+    def n(k, lst=near10):
+        return sum(1 for d, p in lst if p["k"] == k)
+    def nearest(k):
+        ds = kinds10.get(k)
+        return round(ds[0], 1) if ds else None
+    facts = {
+        "townName": town["n"] if town else None,
+        "townPop": town.get("pop") if town else None,
+        "townKind": town.get("kind") if town else None,
+        "townMi": tmi,
+        "hospitalMi": min([x for x in (nearest("hospital"),) if x] or [None]) if nearest("hospital") else None,
+        "clinicMi": nearest("clinic") or nearest("doctors"),
+        "pharmacyMi": nearest("pharmacy"),
+        "hardwareMi": nearest("hardware") or nearest("doityourself"),
+        "farmMi": nearest("farm"),
+        "fuelMi": nearest("fuel"),
+        "restaurants10": n("restaurant") + n("fast_food") + n("cafe"),
+        "schools10": n("school"),
+        "fuel5": n("fuel", near5),
+    }
+    # --- score: shopping is the anchor, then health, then everyday errands.
+    # Graded finely because the list is already filtered to decent shopping;
+    # the stars have to separate "5 minutes from a Walmart and a hospital"
+    # from "15 minutes from anything".
+    pts = 0.0
+    sm = t.get("shopMin")
+    if sm is not None:
+        pts += 2.0 if sm <= 5 else 1.5 if sm <= 10 else 1.0 if sm <= 15 else 0.4 if sm <= 25 else 0
+    pm = facts["pharmacyMi"]
+    if pm is not None:
+        pts += 1.0 if pm <= 3 else 0.6 if pm <= 8 else 0.3
+    hm = facts["hospitalMi"]
+    if hm is not None:
+        pts += 1.0 if hm <= 10 else 0.5
+    elif facts["clinicMi"] is not None and facts["clinicMi"] <= 8:
+        pts += 0.4
+    hw = facts["hardwareMi"] if facts["hardwareMi"] is not None else facts["farmMi"]
+    if hw is not None:
+        pts += 0.5 if hw <= 8 else 0.25
+    fm = facts["fuelMi"]
+    if fm is not None:
+        pts += 0.5 if fm <= 3 else 0.25
+    r = facts["restaurants10"]
+    pts += 1.0 if r >= 40 else 0.7 if r >= 15 else 0.4 if r >= 5 else 0.15 if r >= 1 else 0
+    if facts["schools10"] >= 3:
+        pts += 0.3
+    score = max(1, min(5, int(round(pts / 6.3 * 5))))
+    facts["convenience"] = score
+    facts["convenienceLabel"] = {1: "remote", 2: "quiet", 3: "workable",
+                                 4: "convenient", 5: "very convenient"}[score]
+    return facts
+
+
+CONV_VERSION = 3
+
+
+def add_convenience(tracts, towns, pois):
+    if not towns:
+        return 0
+    todo = [t for t in tracts if t.get("geo") == "parcel"
+            and (t.get("convenience") is None or t.get("shopMin") != t.get("_convShop")
+                 or t.get("_convV") != CONV_VERSION)]
+    for t in todo:
+        t.update(convenience(t, towns, pois))
+        t["_convShop"] = t.get("shopMin")
+        t["_convV"] = CONV_VERSION
+    return len(todo)
+
+
+# ------------------------------------------------------------------ flood ---
+
+NFHL = ("https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query"
+        "?geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects"
+        "&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF&returnGeometry=false&f=json&geometry=")
+FLOOD_PAUSE = 0.6
+FLOOD_CAP = int(os.environ.get("FLOOD_CAP", "150"))   # per run; FEMA is slow
+
+
+def flood_at(lat, lon, tries=3):
+    """FEMA flood zone at a point. Returns (class, zone, subtype) or None on
+    failure. class: 'sfha' (100-yr floodplain), 'x500' (moderate), 'none'."""
+    url = NFHL + f"{lon:.6f},{lat:.6f}"
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=40) as r:
+                d = json.load(r)
+            if "error" in d:
+                raise RuntimeError(d["error"].get("message", "error"))
+            feats = d.get("features") or []
+            if not feats:
+                return ("none", "", "")           # unmapped or outside any zone
+            zone = sub = ""
+            cls = "none"
+            for f in feats:
+                a = f["attributes"]
+                z, st, sf = (a.get("FLD_ZONE") or ""), (a.get("ZONE_SUBTY") or ""), a.get("SFHA_TF")
+                if sf == "T":
+                    return ("sfha", z, st)
+                if z == "X" and "0.2" in st.upper():
+                    cls, zone, sub = "x500", z, st
+                elif cls == "none":
+                    zone, sub = z, st
+            return (cls, zone, sub)
+        except Exception as e:                               # noqa: BLE001
+            if attempt == tries - 1:
+                log(f"  ! nfhl failed at {lat},{lon}: {e}")
+                return None
+            time.sleep(3 * (attempt + 1))
+
+
+def add_flood(tracts):
+    """Fill the FEMA flood class on located tracts that don't have it."""
+    todo = [t for t in tracts if t.get("flood") is None
+            and t.get("lat") is not None and t.get("geo") == "parcel"]
+    if not todo:
+        return 0
+    log(f"flood lookups needed: {len(todo)} (doing up to {FLOOD_CAP})")
+    done, streak = 0, 0
+    for t in todo[:FLOOD_CAP]:
+        r = flood_at(t["lat"], t["lon"])
+        if r is None:
+            streak += 1                # one bad point: leave it unset, move on
+            if streak >= 5:
+                log("  nfhl: five failures running - service down, stopping")
+                break
+            continue
+        streak = 0
+        t["flood"], t["floodZone"], t["floodSub"] = r
+        done += 1
+        time.sleep(FLOOD_PAUSE)
+    log(f"flood lookups done: {done}/{len(todo)}")
+    return done
+
+
 # ---------------------------------------------------------------- terrain ---
 
 def _slope_grid(lat, lon):
@@ -369,8 +563,8 @@ def _slope_deg(z):
 
 def add_terrain(tracts, batch=50):
     """Fill slope/elev/relief on tracts that don't have it yet."""
-    todo = [t for t in tracts
-            if t.get("slope") is None and t.get("lat") is not None]
+    todo = [t for t in tracts if t.get("slope") is None
+            and t.get("lat") is not None and t.get("geo") == "parcel"]
     if not todo:
         return 0
     log(f"terrain lookups needed: {len(todo)}")
@@ -492,6 +686,7 @@ def row_to_tract(r, polys, stores=()):
         "hoa": hoa or 0,
         "domSource": num(r.get("DAYS ON MARKET"), int),
         "source": (r.get("SOURCE") or "Redfin").strip(),
+        "geo": "parcel",
     }, polys, stores)
 
 
@@ -519,8 +714,9 @@ def finish_tract(t, polys, stores):
 def same_parcel(a, b):
     """The dedupe rule: one parcel syndicated to two sites shows the same
     price and (to a tenth of an acre) the same size in the same county."""
+    tol = max(0.06, 0.02 * max(a["acres"], b["acres"]))
     return (a["price"] == b["price"] and a.get("county") == b.get("county")
-            and abs(a["acres"] - b["acres"]) <= 0.06)
+            and abs(a["acres"] - b["acres"]) <= tol)
 
 
 def merge_zillow(found, prev, excluded, polys, stores):
@@ -546,14 +742,14 @@ def merge_zillow(found, prev, excluded, polys, stores):
                 "zip": z["zip"], "url": z["url"], "photo": z["photo"],
                 "lat": z["lat"], "lon": z["lon"], "hoa": z.get("hoa") or 0,
                 "domSource": z.get("dom"), "source": "Zillow",
-                "gallery": z.get("gallery") or [],
+                "gallery": z.get("gallery") or [], "geo": "parcel",
             }, polys, stores)
             if not zt or zt["id"] in excluded:
                 continue
             # (a) same parcel already in this run's set
             hit = next((t for t in found.values() if same_parcel(t, zt)), None)
             if hit:
-                if hit.get("geo") != "parcel":
+                if hit.get("geo") != "parcel" and not hit.get("coordSource"):
                     hit["lat"], hit["lon"] = zt["lat"], zt["lon"]
                     hit["geo"] = "parcel"
                     hit["coordSource"] = "Zillow"
@@ -816,7 +1012,10 @@ def main():
         return 2
 
     # ---- second source ---------------------------------------------------
-    merge_zillow(found, prev, excluded, polys, stores)
+    if os.environ.get("SWEEP_SKIP_ZILLOW"):
+        log("zillow: skipped (SWEEP_SKIP_ZILLOW set)")
+    else:
+        merge_zillow(found, prev, excluded, polys, stores)
 
     # ---- merge with the archive -----------------------------------------
     # Redfin's CSV export carries the notice "some MLS listings are not
@@ -858,7 +1057,7 @@ def main():
             if old.get("baseline"):
                 t["baseline"] = True
             # Terrain and routing never change and cost API calls - carry them.
-            for k in ("gallery", "imgs",
+            for k in ("gallery", "imgs", "flood", "floodZone", "floodSub",
                       "slope", "elev", "relief", "shopRoad",
                       "shopMin", "shopName", "shopCity", "shopMi", "driveRoad"):
                 if old.get(k) is not None:
@@ -870,8 +1069,13 @@ def main():
 
     # ---- tracts the sweep did not return --------------------------------
     stale, retired, rejected = [], [], []
+    skip_z = bool(os.environ.get("SWEEP_SKIP_ZILLOW"))
     for tid, old in prev.items():
         if tid in found:
+            continue
+        if skip_z and old.get("source") == "Zillow":
+            # Zillow wasn't consulted this run, so its absence means nothing.
+            found[tid] = dict(old)
             continue
         if tid in returned:
             # Redfin still lists it, but it no longer meets the criteria
@@ -950,6 +1154,14 @@ def main():
         new_ids = [i for i in new_ids if i not in dropped]
         cuts = [c for c in cuts if c["id"] not in dropped]
         bumps = [b for b in bumps if b["id"] not in dropped]
+
+    # ---- flood: FEMA zone at the pin --------------------------------------
+    add_flood(list(found.values()))
+
+    # ---- nearest town and everyday convenience (local data, recomputed) ----
+    n = add_convenience(list(found.values()),
+                        load_json("towns.json", []), load_json("pois.json", []))
+    log(f"convenience computed: {n}")
 
     # ---- photos: only look up the ones we don't have ---------------------
     need = [t for t in found.values() if not t.get("photo")]

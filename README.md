@@ -167,6 +167,22 @@ on the fringe of a town, not deep in the hollows with a country store as the onl
 unavailable. Both were captured once from OpenStreetMap; anchor town names were filled from
 Nominatim.
 
+## Flood zones (FEMA)
+
+Two things come from FEMA's **National Flood Hazard Layer**, the official source:
+
+- **A map overlay** — the *Flood zones* button draws NFHL layer 28 live from
+  `hazards.fema.gov` as transparent tiles over any basemap. Blue is the 100-year floodplain
+  (zones A/AE), orange the 500-year / moderate area, purple the floodway.
+- **A per-tract flag** — the sweep queries the same layer at each located pin and stores
+  `flood` (`sfha` = inside a Special Flood Hazard Area, `x500` = moderate, `none`) with the
+  zone code. Tracts in an SFHA carry a *flood zone* tag and can be filtered out with
+  **No flood zone**. Looked up once, carried forward; a single failed point is skipped and
+  retried next run rather than stalling the pass.
+
+It is the zone *at the pin*. A 40-acre tract can have a creek bottom in a flood zone and a
+building site well out of it — the overlay is there so you can look.
+
 ## Terrain
 
 Every tract carries `slope` (degrees), `elev` (metres) and `relief`, computed from
@@ -184,9 +200,11 @@ is only called for genuinely new tracts.
 A tract is **verified** when it is on a real parcel coordinate and Redfin's export returned
 it this run. The site shows only verified tracts by default ("Verified only"). The rest —
 inherited from the original archive on town-centre pins, or missing from the export — are
-**awaiting page check**: each run reads up to 12 listing pages (Redfin blocks bursts) and
-either places the tract on its real parcel, or confirms from the page's MLS status that it
-is gone. Nothing on a town-centre pin is ever judged on distance.
+**approx pin**: shown at the town centre, tagged *approx pin*, with **no** drive, shopping
+or terrain figures — those would be measured from the wrong spot. Nothing on a town-centre
+pin is routed, surveyed, or judged on distance. Each run tries to place them: first from
+Zillow (matched by county, price and acreage), then from up to 20 Redfin listing pages
+(Redfin serves a bot challenge to bursts, so this is slow and often yields nothing).
 
 ## What gets dropped, and why
 

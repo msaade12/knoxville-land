@@ -180,7 +180,7 @@ const setSyncState = (msg, ok) => {
 
 /* ────────────────────────────────── map ──────────────────────────────── */
 
-let map, markerLayer, countyLayer, ringLayer, baseLayers = {}, currentBase;
+let map, markerLayer, countyLayer, ringLayer, floodLayer, baseLayers = {}, currentBase;
 
 function initMap() {
   map = L.map('map', {
@@ -215,14 +215,13 @@ function initMap() {
   [[13, '15 min'], [26, '30 min'], [38, '45 min']].forEach(([mi, label]) => {
     L.circle(KNOX, {
       radius: mi * 1609.34, fill: false, color: '#fff', weight: 1.4,
-      opacity: .55, dashArray: '5 7', interactive: false,
+      opacity: .55, dashArray: '5 7', interactive: false, className: 'ring',
     }).addTo(ringLayer);
     L.marker([KNOX[0] + (mi * 1609.34) / 111320, KNOX[1]], {
       interactive: false,
       icon: L.divIcon({
         className: '',
-        html: `<span style="font:600 10px/1 'IBM Plex Mono',monospace;color:#fff;
-               text-shadow:0 1px 3px rgba(0,0,0,.85);white-space:nowrap">${label}</span>`,
+        html: `<span class="maplabel ring-label">${label}</span>`,
         iconSize: [46, 12], iconAnchor: [23, 6],
       }),
     }).addTo(ringLayer);
@@ -232,13 +231,34 @@ function initMap() {
     interactive: false,
     icon: L.divIcon({
       className: '',
-      html: `<span style="font:600 12px/1 Bitter,Georgia,serif;color:#fff;
-             text-shadow:0 1px 4px rgba(0,0,0,.9)">Knoxville</span>`,
+      html: `<span class="maplabel city-label">Knoxville</span>`,
       iconSize: [70, 14], iconAnchor: [35, 7],
     }),
   }).addTo(map);
 
   markerLayer = L.layerGroup().addTo(map);
+
+  // FEMA National Flood Hazard Layer, drawn per tile from the official
+  // dynamic map service (layer 28 = flood hazard zones). Web-Mercator bbox
+  // in, transparent PNG out - no plugin needed.
+  const Nfhl = L.TileLayer.extend({
+    getTileUrl(c) {
+      const n = 2 ** c.z, R = 20037508.342789244;
+      const x0 = -R + (c.x / n) * 2 * R, x1 = -R + ((c.x + 1) / n) * 2 * R;
+      const y1 = R - (c.y / n) * 2 * R, y0 = R - ((c.y + 1) / n) * 2 * R;
+      return 'https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/export'
+        + `?bbox=${x0},${y0},${x1},${y1}&bboxSR=3857&imageSR=3857&size=256,256`
+        + '&layers=show:28&transparent=true&format=png32&f=image';
+    },
+  });
+  floodLayer = new Nfhl('', { opacity: .55, minZoom: 9, maxZoom: 18, pane: 'shadowPane',
+    attribution: 'Flood zones: FEMA NFHL' });
+  $('#floodToggle').addEventListener('click', e => {
+    const on = !map.hasLayer(floodLayer);
+    if (on) floodLayer.addTo(map); else map.removeLayer(floodLayer);
+    e.currentTarget.classList.toggle('on', on);
+    $('#floodKey').hidden = !on;
+  });
 
   $$('#basemaps button').forEach(b => b.addEventListener('click', () => {
     $$('#basemaps button').forEach(x => x.classList.toggle('on', x === b));
@@ -247,7 +267,18 @@ function initMap() {
     currentBase.bringToBack();
     const imagery = b.dataset.base === 'imagery';
     if (imagery) map.__labels.addTo(map); else map.removeLayer(map.__labels);
+    setOverlayTheme(imagery ? 'dark' : 'light');
   }));
+}
+
+/** White overlays read on satellite imagery; ink ones on the light basemaps. */
+function setOverlayTheme(theme) {
+  const ink = theme === 'light' ? '#2f3f3a' : '#fff';
+  document.body.classList.toggle('light-map', theme === 'light');
+  ringLayer.eachLayer(l => l.setStyle && l.setStyle({ color: ink, opacity: theme === 'light' ? .75 : .55 }));
+  if (countyLayer) countyLayer.setStyle(f => f.properties.t === 1
+    ? { color: ink, weight: 1.5, opacity: theme === 'light' ? .55 : .65, fill: false }
+    : { color: ink, weight: .6, opacity: theme === 'light' ? .25 : .22, fill: false });
 }
 
 function loadCounties() {
@@ -269,6 +300,7 @@ function makeIcon(t) {
   const cls = ['pin'];
   if (t.geo !== 'parcel') cls.push('approx');
   if (isNew(t)) cls.push('isnew');
+  else if (priceCut(t) && recentCut(t)) cls.push('iscut');
   const ink = t.bandIdx === 2 ? '#2A2208' : '#fff';
   return L.divIcon({
     className: '',
@@ -289,11 +321,29 @@ const pics = t => {
 };
 
 /** Nearest real shopping: routed time to an anchor store, else the old estimate. */
-const shop = t => t.shopMin != null
+const located = t => t.geo === 'parcel';
+const shop = t => !located(t) ? null : t.shopMin != null
   ? { min: t.shopMin, mi: t.shopMi, to: t.shopName + (t.shopCity ? ', ' + t.shopCity : ''), real: true }
   : t.groceryMin != null
     ? { min: t.groceryMin, mi: t.groceryMi, to: t.groceryName, real: false }
     : null;
+
+const stars = n => '★'.repeat(n) + '☆'.repeat(5 - n);
+const fmtPop = n => n == null ? '' : n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + 'k' : String(n);
+const miTxt = (label, mi) => mi == null ? null : `${label} ${mi} mi`;
+
+/** The convenience facts as one readable line. */
+function convenienceLine(t) {
+  const bits = [
+    t.shopMin != null ? `shopping ${t.shopMin} min` : null,
+    miTxt('pharmacy', t.pharmacyMi),
+    t.hospitalMi != null ? `hospital ${t.hospitalMi} mi` : miTxt('clinic', t.clinicMi),
+    miTxt('hardware', t.hardwareMi) || miTxt('farm supply', t.farmMi),
+    miTxt('fuel', t.fuelMi),
+    t.restaurants10 != null ? `${t.restaurants10} restaurants within 10 mi` : null,
+  ].filter(Boolean);
+  return bits.join(' · ');
+}
 
 /** Plain-language terrain from the averaged hillside slope. */
 const terrain = s => s == null ? null
@@ -302,6 +352,10 @@ const terrain = s => s == null ? null
   : s < 10 ? 'rolling'
   : s < 15 ? 'hilly'
   : 'steep';
+const recentCut = t => {
+  const h = t.priceHistory || [];
+  return h.length > 1 && daysAgo(h[h.length - 1].date) <= NEW_DAYS;
+};
 const priceCut = t => {
   const h = t.priceHistory || [];
   return h.length > 1 && h[h.length - 1].price < h[0].price;
@@ -329,13 +383,17 @@ function popupHtml(t) {
       <div class="pop-addr">${esc(t.address)}</div>
       <div class="pop-grid">
         <div><b>${fmt$(t.ppa)}</b><span>per acre</span></div>
+        ${!located(t) ? `<div style="grid-column:1/-1"><b>Not located yet</b><span>pin is at the town centre — drive, shopping and terrain unknown until the parcel is found</span></div>` : `
         <div><b>${t.drive} min</b><span>to Knoxville${t.driveReal ? ' by road' : ', estimated'}</span></div>
         <div><b>${t.daysListed ?? '–'}</b><span>days listed</span></div>
         <div><b>${t.geo === 'parcel' ? 'Parcel' : 'Town'}</b><span>pin accuracy</span></div>
+        ${t.townName ? `<div style="grid-column:1/-1"><b>Nearest town: ${esc(t.townName)}</b><span>${esc(t.townKind || 'place')}, pop. ${t.townPop != null ? t.townPop.toLocaleString('en-US') : 'n/a'} · ${t.townMi} mi</span></div>` : ''}
+        ${t.convenience ? `<div style="grid-column:1/-1"><b>Convenience ${stars(t.convenience)} ${esc(t.convenienceLabel)}</b><span>${esc(convenienceLine(t))}</span></div>` : ''}
+        ${t.flood ? `<div style="grid-column:1/-1"><b>${t.flood === 'sfha' ? 'In a FEMA flood zone' : t.flood === 'x500' ? 'FEMA 500-year zone' : 'Outside FEMA flood zones'}</b><span>${esc(t.floodZone || '')}${t.floodSub ? ' — ' + esc(t.floodSub.toLowerCase()) : ''} · at the pin, per NFHL</span></div>` : ''}
         ${t.slope != null ? `<div><b>${terrain(t.slope)}</b><span>${t.slope}° slope${
           t.elev != null ? `, ${Math.round(t.elev * 3.281)} ft` : ''}</span></div>` : ''}
         ${shop(t) ? `<div style="grid-column:1/-1"><b>${shop(t).min} min to ${esc(shop(t).to)}</b>
-          <span>nearest real shopping, ${shop(t).real ? 'by road' : 'estimated'} (${shop(t).mi} mi)</span></div>` : ''}
+          <span>nearest real shopping, ${shop(t).real ? 'by road' : 'estimated'} (${shop(t).mi} mi)</span></div>` : ''}`}
       </div>
       <div class="pop-actions">
         <a class="primary" href="${esc(t.url)}" target="_blank" rel="noopener">Listing</a>
@@ -357,10 +415,13 @@ function cardHtml(t) {
     priceCut(t) ? `<span class="tag cut">price cut</span>` : '',
     t.status !== 'active' ? '<span class="tag unconf">unconfirmed</span>' : '',
     t.geo !== 'parcel' ? '<span class="tag unconf" title="Placed at the town centre — exact parcel not yet located">approx pin</span>' : '',
-    `<span class="tag">${t.drive} min</span>`,
+    located(t) ? `<span class="tag">${t.drive} min</span>` : '',
+    t.convenience ? `<span class="tag conv" title="${esc(t.convenienceLabel)} — ${esc(convenienceLine(t))}">${stars(t.convenience)}</span>` : '',
     shop(t)
       ? `<span class="tag groc" title="to ${esc(shop(t).to)}">${shop(t).min} min shops</span>` : '',
-    t.slope != null
+    t.flood === 'sfha' ? '<span class="tag flood" title="FEMA: inside the 100-year floodplain (Special Flood Hazard Area)">flood zone</span>'
+      : t.flood === 'x500' ? '<span class="tag flood2" title="FEMA: 500-year floodplain / moderate hazard">500-yr flood</span>' : '',
+    located(t) && t.slope != null
       ? `<span class="tag terr" title="${t.slope}° average slope">${terrain(t.slope)}</span>` : '',
     `<span class="tag">${t.daysListed ?? '–'}d listed</span>`,
   ].join('');
@@ -374,7 +435,8 @@ function cardHtml(t) {
           <span class="cppa" style="background:${t.color};${t.bandIdx === 2 ? 'color:#2A2208' : ''}">${fmt$(t.ppa)}/ac</span>
           <span class="cprice">${fmt$(t.price)}</span>
         </div>
-        <div class="cwhere">${esc(t.town)}, ${esc(t.county)} County</div>
+        <div class="cwhere">${esc(t.town)}, ${esc(t.county)} County${
+        t.townName ? ` <span class="pop">· ${esc(t.townName)} ${fmtPop(t.townPop) ? `(pop. ${fmtPop(t.townPop)})` : ''} ${t.townMi} mi</span>` : ''}</div>
         <div class="caddr">${esc(t.address)}</div>
         <div class="cmeta">${tags}</div>
       </div>
@@ -396,6 +458,7 @@ function currentFilters() {
     onlyCut: $('#fCut').checked,
     onlyPhoto: $('#fPhoto').checked,
     onlyConfirmed: $('#fConfirmed').checked,
+    noFlood: $('#fFlood').checked,
     q: $('#search').value.trim().toLowerCase(),
   };
 }
@@ -404,7 +467,7 @@ function apply() {
   const f = currentFilters();
   let rows = state.tracts.filter(t => {
     if (!state.showHidden && isHidden(t.id)) return false;
-    if (t.drive > f.drive) return false;
+    if (located(t) && t.drive > f.drive) return false;      // unknown is not "too far"
     { const sh = shop(t); if (sh && sh.min > f.groc) return false; }
     if (t.price > f.price) return false;
     if (t.acres < f.acres) return false;
@@ -413,6 +476,7 @@ function apply() {
     if (f.onlyCut && !priceCut(t)) return false;
     if (f.onlyPhoto && !t.img) return false;
     if (f.onlyConfirmed && (t.status !== 'active' || t.geo !== 'parcel')) return false;
+    if (f.noFlood && t.flood === 'sfha') return false;
     if (f.q) {
       const hay = `${t.town} ${t.county} ${t.address} ${t.zip || ''}`.toLowerCase();
       if (!hay.includes(f.q)) return false;
@@ -427,6 +491,7 @@ function apply() {
     acres: (a, b) => b.acres - a.acres,
     drive: (a, b) => a.drive - b.drive,
     new: (a, b) => String(b.firstSeen).localeCompare(String(a.firstSeen)) || a.ppa - b.ppa,
+    conv: (a, b) => (b.convenience || 0) - (a.convenience || 0) || (a.shopMin ?? 99) - (b.shopMin ?? 99),
   }[f.sort];
   rows.sort(cmp);
   state.view = rows;
@@ -554,6 +619,41 @@ const stepLightbox = d => {
 };
 const closeLightbox = () => { $('#lightbox').hidden = true; };
 
+/* ─────────────────────────────── changes ─────────────────────────────── */
+
+function renderChanges(r) {
+  const body = $('#chBody');
+  if (!r) { body.innerHTML = '<p class="quiet">No run report yet.</p>'; return; }
+  const when = new Date(r.generated);
+  $('#chWhen').textContent = `Last run ${when.toLocaleString('en-US',
+    { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })} · next run every morning ~7:15 ET`;
+  const row = (x, why, go) => `<li>${go ? `<span class="go" data-go="${x.id}">` : ''}${x.acres} ac · ${fmt$(x.price)} · ${esc(x.town)}${go ? '</span>' : ''}
+      ${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">↗</a>` : ''}
+      <span class="why">${why || ''}</span></li>`;
+  const sec = (title, items, f) => items && items.length
+    ? `<h3>${title} (${items.length})</h3><ul>${items.map(f).join('')}</ul>` : '';
+  let html = '';
+  html += sec('New listings', r.new, x => row(x, fmt$(Math.round(x.price / x.acres)) + '/ac', true));
+  html += sec('Price cuts', r.priceCuts, x => row(x, `${fmt$(x.from)} → ${fmt$(x.to)}`, true));
+  html += sec('Price increases', r.priceIncreases, x => row(x, `${fmt$(x.from)} → ${fmt$(x.to)}`, true));
+  html += sec('Gone — sold or withdrawn', r.gone, x => row(x, x.status));
+  html += sec('Dropped — too far by road', r.tooFar, x => row(x, `Knoxville ${x.drive} min · shops ${x.shopMin} min`));
+  html += sec('Dropped — too steep', r.tooSteep, x => row(x, `${x.slope}°`));
+  html += sec('Dropped — no longer meets criteria', r.rejected, x => row(x, ''));
+  html += sec('Not returned this run (kept, unconfirmed)', r.unconfirmed, x => row(x, `${x.missCount}/3 misses`, true));
+  html += sec('Retired after 3 misses', r.retired, x => row(x, ''));
+  body.innerHTML = html || `<p class="quiet">Nothing changed on ${r.date}. A quiet day.</p>`;
+  const n = (r.new?.length || 0) + (r.priceCuts?.length || 0) + (r.gone?.length || 0);
+  const b = $('#changesN'); b.hidden = !n; b.textContent = n;
+}
+
+async function loadChanges() {
+  try {
+    const r = await fetch(`data/report.json?t=${Date.now()}`, { cache: 'no-store' });
+    renderChanges(r.ok ? await r.json() : null);
+  } catch { renderChanges(null); }
+}
+
 /* ──────────────────────────────── hides ──────────────────────────────── */
 
 function toggleHide(id) {
@@ -578,7 +678,7 @@ function setView(v) {
 
 function wire() {
   ['#fDrive', '#fPrice', '#fAcres', '#fCounty', '#fSort',
-   '#fNew', '#fCut', '#fPhoto', '#fConfirmed', '#fGroc'].forEach(sel =>
+   '#fNew', '#fCut', '#fPhoto', '#fConfirmed', '#fGroc', '#fFlood'].forEach(sel =>
     $(sel).addEventListener('input', () => { syncOutputs(); apply(); }));
 
   let searchTimer;
@@ -599,7 +699,7 @@ function wire() {
     $('#fGroc').value = 15;
     $('#fCounty').value = ''; $('#fSort').value = 'ppa';
     $('#fNew').checked = false; $('#fCut').checked = false;
-    $('#fPhoto').checked = false; $('#fConfirmed').checked = false;
+    $('#fPhoto').checked = false; $('#fConfirmed').checked = false; $('#fFlood').checked = false;
     $('#search').value = '';
     syncOutputs(); apply();
   });
@@ -664,6 +764,18 @@ function wire() {
     const open = f.style.display !== 'none';
     f.style.display = open ? 'none' : '';
     e.target.setAttribute('aria-expanded', String(!open));
+  });
+
+  // changes drawer
+  $('#changesBtn').addEventListener('click', () => { $('#changes').hidden = !$('#changes').hidden; });
+  $('#chClose').addEventListener('click', () => { $('#changes').hidden = true; });
+  $('#chBody').addEventListener('click', e => {
+    const g = e.target.closest('[data-go]');
+    if (!g) return;
+    if (!state.markers.get(g.dataset.go)) {           // it may be filtered out - widen
+      $('#fNew').checked = false; $('#fConfirmed').checked = false; apply();
+    }
+    focusTract(g.dataset.go);
   });
 
   // sync dialog
@@ -750,14 +862,18 @@ async function boot() {
   const conf = state.tracts.filter(t => t.status === 'active').length;
   const nNew = state.tracts.filter(isNew).length;
   const unver = state.tracts.length - state.tracts.filter(t => t.status === 'active' && t.geo === 'parcel').length;
-  $('#tagline').textContent =
-    `${state.tracts.length - unver} verified` + (unver ? ` · ${unver} awaiting page check` : '') +
-    (nNew ? ` · ${nNew} new` : '') +
-    ` · swept ${data.date || '—'}`;
+  const upd = data.generated ? new Date(data.generated) : null;
+  const updTxt = upd && !Number.isNaN(upd)
+    ? `Updated ${upd.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}`
+    : `Updated ${data.date || '—'}`;
+  $('#tagline').textContent = `${updTxt} · ` +
+    `${state.tracts.length - unver} verified` + (unver ? ` · ${unver} approx pin` : '') +
+    (nNew ? ` · ${nNew} new` : '');
 
   if (window.matchMedia('(max-width:860px)').matches) $('#legend').open = false;
 
   wire();
+  loadChanges();
   syncOutputs();
   apply();
 

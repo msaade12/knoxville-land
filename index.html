@@ -26,6 +26,7 @@
       <input id="search" type="search" placeholder="Search town, county, address…" autocomplete="off" aria-label="Search listings">
     </div>
     <button class="btn ghost" id="filterToggle" aria-expanded="false">Filters</button>
+    <button class="btn ghost" id="changesBtn" title="What the last daily run changed">Changes <span class="badge" id="changesN" hidden></span></button>
     <button class="btn ghost" id="syncBtn" title="Sync hidden listings across devices">Sync</button>
     <div class="viewswitch" role="tablist" aria-label="View">
       <button id="tabList" role="tab" aria-selected="false">List</button>
@@ -69,6 +70,7 @@
           <option value="acres">Acreage — large to small</option>
           <option value="drive">Drive time — nearest</option>
           <option value="new">Newest first</option>
+          <option value="conv">Convenience — best first</option>
         </select>
       </div>
       <div class="checks">
@@ -76,6 +78,7 @@
         <label><input type="checkbox" id="fCut"> Price cut</label>
         <label><input type="checkbox" id="fPhoto"> Has photo</label>
         <label><input type="checkbox" id="fConfirmed"> Verified only</label>
+        <label><input type="checkbox" id="fFlood"> No flood zone</label>
       </div>
       <div class="hidebar">
         <span id="hideCount">0 hidden</span>
@@ -104,6 +107,13 @@
       <button data-base="street">Streets</button>
       <button data-base="plain">Plain</button>
     </div>
+    <button class="floodbtn" id="floodToggle" title="FEMA National Flood Hazard Layer">Flood zones</button>
+    <div class="floodkey" id="floodKey" hidden>
+      <span><i style="background:#7fa7d9"></i> 100-yr floodplain (A / AE)</span>
+      <span><i style="background:#f4c48a"></i> 500-yr / moderate (X shaded)</span>
+      <span><i style="background:#c99ad4"></i> Floodway</span>
+      <span class="src">Source: FEMA NFHL, live</span>
+    </div>
 
     <details class="legend" id="legend" open>
       <summary>Legend</summary>
@@ -112,6 +122,7 @@
         <ul class="lg-notes">
           <li><b>Number in pin</b> = road minutes to downtown Knoxville.</li>
           <li><b>Pin size</b> = acreage.</li>
+          <li><b>Gold ring</b> = new since the last run · <b>orange ring</b> = price cut.</li>
           <li><b>Shopping</b> = real road time to the nearest Walmart, Kroger, Food City,
               Ingles, Publix, ALDI or Target — a real town, not a country store.</li>
           <li>Terrain is the average slope of the hillside around the pin. Anything
@@ -124,6 +135,16 @@
     </details>
   </div>
 </main>
+
+<!-- ───────────────────────── changes drawer ───────────────────────── -->
+<aside class="drawer" id="changes" hidden>
+  <header>
+    <h2>What changed</h2>
+    <p id="chWhen"></p>
+    <button class="btn tiny ghost" id="chClose">Close</button>
+  </header>
+  <div class="drawer-body" id="chBody"></div>
+</aside>
 
 <!-- ───────────────────────── photo lightbox ───────────────────────── -->
 <div class="lightbox" id="lightbox" hidden>
