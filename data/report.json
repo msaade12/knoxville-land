@@ -1,30 +1,12 @@
 {
- "generated": "2026-09-16T17:22:13+00:00",
+ "generated": "2026-09-16T17:42:24+00:00",
  "date": "2026-09-16",
- "count": 48,
- "confirmed": 18,
+ "count": 428,
+ "confirmed": 399,
  "new": [],
  "priceCuts": [],
  "priceIncreases": [],
  "unconfirmed": [
-  {
-   "id": "rf63023739",
-   "acres": 100.0,
-   "price": 240000,
-   "town": "LaFollette",
-   "county": "Campbell",
-   "url": "https://www.redfin.com/TN/La-Follette/Lick-Creek-Ln-37766/home/63023739",
-   "missCount": 1
-  },
-  {
-   "id": "rf201527108",
-   "acres": 44.31,
-   "price": 184900,
-   "town": "Sharps Chapel",
-   "county": "Union",
-   "url": "https://www.redfin.com/TN/Sharps-Chapel/1-Lay-Hollow-Rd-37866/home/201527108",
-   "missCount": 1
-  },
   {
    "id": "rf103868729",
    "acres": 10.7,
@@ -57,7 +39,7 @@
    "acres": 30.07,
    "price": 220000,
    "town": "Cosby",
-   "county": "Sevier",
+   "county": "Cocke",
    "url": "https://www.redfin.com/TN/Cosby/Boomer-Way-37722/home/197624421",
    "missCount": 1
   },
@@ -300,24 +282,2954 @@
  "gone": [],
  "tooFar": [
   {
-   "id": "rf63023739",
-   "acres": 100.0,
-   "price": 240000,
-   "town": "LaFollette",
-   "county": "Campbell",
-   "url": "https://www.redfin.com/TN/La-Follette/Lick-Creek-Ln-37766/home/63023739",
-   "drive": 57,
+   "id": "rf111179478",
+   "acres": 0.77,
+   "price": 72000,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Seymour/Bobbie-Jean-Ln-37865/home/111179478",
+   "drive": 33,
+   "shopMin": 16
+  },
+  {
+   "id": "rf87194282",
+   "acres": 1.3,
+   "price": 50000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/2508-Denton-Hayes-Rd-37803/home/87194282",
+   "drive": 41,
+   "shopMin": 18
+  },
+  {
+   "id": "rf87166961",
+   "acres": 1.16,
+   "price": 74900,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Townsend/Old-Cades-Cove-Rd-37882/home/87166961",
+   "drive": 52,
+   "shopMin": 27
+  },
+  {
+   "id": "rf87194875",
+   "acres": 1.0,
+   "price": 29900,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/Happy-Valley-Rd-37878/home/87194875",
+   "drive": 58,
+   "shopMin": 35
+  },
+  {
+   "id": "rf87173530",
+   "acres": 1.51,
+   "price": 93500,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Walland/227-Black-Powder-Ct-37886/home/87173530",
+   "drive": 51,
+   "shopMin": 26
+  },
+  {
+   "id": "rf199409402",
+   "acres": 0.81,
+   "price": 99000,
+   "town": "Louisville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Louisville/4125-Gravelly-Hills-Rd-37777/home/199409402",
+   "drive": 46,
+   "shopMin": 26
+  },
+  {
+   "id": "rf205228610",
+   "acres": 5.04,
+   "price": 202000,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Walland/Tract-2R-3-Cold-Springs-Rd-37886/home/205228610",
+   "drive": 41,
+   "shopMin": 16
+  },
+  {
+   "id": "rf184935475",
+   "acres": 1.61,
+   "price": 115000,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Townsend/120-Greystone-Way-37882/home/184935475",
+   "drive": 54,
+   "shopMin": 29
+  },
+  {
+   "id": "rf202197923",
+   "acres": 0.77,
+   "price": 44900,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/Bear-Rd-37878/unit-3/home/202197923",
+   "drive": 56,
+   "shopMin": 33
+  },
+  {
+   "id": "rf87173413",
+   "acres": 1.47,
+   "price": 85000,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/Flats-Rd-37878/home/87173413",
+   "drive": 54,
+   "shopMin": 31
+  },
+  {
+   "id": "rf204556075",
+   "acres": 5.1,
+   "price": 250000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/Lot-5-Floyd-Walker-Rd-37801/home/204556075",
+   "drive": 50,
+   "shopMin": 21
+  },
+  {
+   "id": "rf204557789",
+   "acres": 5.06,
+   "price": 250000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/Lot-6-Floyd-Walker-Rd-37801/home/204557789",
+   "drive": 50,
+   "shopMin": 21
+  },
+  {
+   "id": "rf87169287",
+   "acres": 5.78,
+   "price": 235000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/Tomotley-Rd-37801/home/87169287",
+   "drive": 53,
+   "shopMin": 24
+  },
+  {
+   "id": "rf195458706",
+   "acres": 5.25,
+   "price": 229900,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Townsend/1011-Carrs-Creek-Rd-37882/home/195458706",
+   "drive": 52,
+   "shopMin": 27
+  },
+  {
+   "id": "rf202601967",
+   "acres": 0.85,
+   "price": 104000,
+   "town": "Greenback",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Greenback/5087-Gregory-Rd-37742/home/202601967",
+   "drive": 48,
+   "shopMin": 19
+  },
+  {
+   "id": "rf87194577",
+   "acres": 0.38,
+   "price": 35000,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/S-Peterson-Rd-37878/home/87194577",
+   "drive": 52,
+   "shopMin": 29
+  },
+  {
+   "id": "rf87194713",
+   "acres": 8.27,
+   "price": 165000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/1919-Reagan-Mill-Rd-37803/home/87194713",
+   "drive": 46,
+   "shopMin": 16
+  },
+  {
+   "id": "rf202249708",
+   "acres": 5.0,
+   "price": 195000,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Townsend/Lot-1-Carrs-Creek-Rd-37882/home/202249708",
+   "drive": 63,
+   "shopMin": 38
+  },
+  {
+   "id": "rf202143465",
+   "acres": 0.55,
+   "price": 32900,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/5941-Bobcat-Trl-37878/home/202143465",
+   "drive": 56,
+   "shopMin": 33
+  },
+  {
+   "id": "rf62881734",
+   "acres": 3.0,
+   "price": 59900,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Townsend/Wears-Valley-Rd-37882/home/62881734",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "rf87166653",
+   "acres": 2.0,
+   "price": 205000,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Townsend/Dry-Valley-Rd-37882/home/87166653",
+   "drive": 51,
+   "shopMin": 26
+  },
+  {
+   "id": "rf201108747",
+   "acres": 2.0,
+   "price": 160000,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/6871-Holiday-Dr-37878/home/201108747",
+   "drive": 53,
+   "shopMin": 30
+  },
+  {
+   "id": "rf87191552",
+   "acres": 5.0,
+   "price": 159900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/819-Jama-Way-37803/home/87191552",
+   "drive": 41,
+   "shopMin": 18
+  },
+  {
+   "id": "rf87166116",
+   "acres": 1.7,
+   "price": 69900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/Mel-Hall-Rd-37803/home/87166116",
+   "drive": 44,
+   "shopMin": 21
+  },
+  {
+   "id": "rf189633896",
+   "acres": 5.55,
+   "price": 210000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/Mel-Hall-Rd-37803/home/189633896",
+   "drive": 47,
+   "shopMin": 24
+  },
+  {
+   "id": "rf195795989",
+   "acres": 2.88,
+   "price": 130000,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Walland/1008-Blair-Loop-37886/home/195795989",
+   "drive": 42,
+   "shopMin": 18
+  },
+  {
+   "id": "rf87195053",
+   "acres": 5.47,
+   "price": 125000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/4705-Emert-Williams-Rd-37803/home/87195053",
+   "drive": 47,
+   "shopMin": 18
+  },
+  {
+   "id": "rf194342749",
+   "acres": 9.93,
+   "price": 219900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/3419-Boone-Docks-Way-37803/home/194342749",
+   "drive": 46,
+   "shopMin": 19
+  },
+  {
+   "id": "rf87193858",
+   "acres": 0.48,
+   "price": 165000,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/6163-Sandy-Stand-Rd-37878/home/87193858",
+   "drive": 56,
+   "shopMin": 33
+  },
+  {
+   "id": "rf87194658",
+   "acres": 5.63,
+   "price": 199900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/3766-Eagle-Ridge-Rd-37803/home/87194658",
+   "drive": 48,
+   "shopMin": 25
+  },
+  {
+   "id": "rf188608594",
+   "acres": 0.49,
+   "price": 200000,
+   "town": "Townsend",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Townsend/7018-E-Lamar-Alexander-Pkwy-37882/home/188608594",
+   "drive": 42,
    "shopMin": 17
   },
   {
-   "id": "rf201527108",
-   "acres": 44.31,
-   "price": 184900,
+   "id": "rf87174386",
+   "acres": 0.99,
+   "price": 114900,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Walland/W-Millers-Cove-Rd-37886/home/87174386",
+   "drive": 46,
+   "shopMin": 21
+  },
+  {
+   "id": "rf198699297",
+   "acres": 0.16,
+   "price": 10000,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/0-16-Acres-S-Lindsey-St-37878/home/198699297",
+   "drive": 55,
+   "shopMin": 32
+  },
+  {
+   "id": "rf196903577",
+   "acres": 5.05,
+   "price": 249900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Maryville/1404-Trigonia-Rd-37801/home/196903577",
+   "drive": 53,
+   "shopMin": 22
+  },
+  {
+   "id": "rf199458510",
+   "acres": 1.0,
+   "price": 27500,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Walland/E-Millers-Cove-Rd-37886/home/199458510",
+   "drive": 41,
+   "shopMin": 17
+  },
+  {
+   "id": "rf87195128",
+   "acres": 0.5,
+   "price": 8999,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/Cherokee-Cir-37878/home/87195128",
+   "drive": 57,
+   "shopMin": 27
+  },
+  {
+   "id": "rf87174313",
+   "acres": 2.03,
+   "price": 150000,
+   "town": "Tallassee",
+   "county": "Blount",
+   "url": "https://www.redfin.com/TN/Tallassee/5696-Abrams-View-Way-37878/home/87174313",
+   "drive": 52,
+   "shopMin": 27
+  },
+  {
+   "id": "rf183722691",
+   "acres": 0.27,
+   "price": 209000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.redfin.com/TN/Loudon/313-17th-Dr-37774/home/183722691",
+   "drive": 46,
+   "shopMin": 16
+  },
+  {
+   "id": "rf87570527",
+   "acres": 4.96,
+   "price": 155000,
+   "town": "Heiskell",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Heiskell/2544-Hinds-Creek-Rd-37754/home/87570527",
+   "drive": 33,
+   "shopMin": 20
+  },
+  {
+   "id": "rf87567863",
+   "acres": 2.04,
+   "price": 199000,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Andersonville/Stone-Ridge-Dr-37705/home/87567863",
+   "drive": 37,
+   "shopMin": 17
+  },
+  {
+   "id": "rf201929314",
+   "acres": 4.51,
+   "price": 199900,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Andersonville/138-Stooksbury-Ln-37705/home/201929314",
+   "drive": 40,
+   "shopMin": 20
+  },
+  {
+   "id": "rf87567769",
+   "acres": 1.7,
+   "price": 38900,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Andersonville/Fox-Hollow-Ln-37705/home/87567769",
+   "drive": 41,
+   "shopMin": 20
+  },
+  {
+   "id": "rf189133625",
+   "acres": 1.08,
+   "price": 224900,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Andersonville/Hagaman-Ln-37705/home/189133625",
+   "drive": 51,
+   "shopMin": 31
+  },
+  {
+   "id": "rf106207720",
+   "acres": 1.05,
+   "price": 144900,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Andersonville/Harbour-Club-Pl-37705/home/106207720",
+   "drive": 48,
+   "shopMin": 28
+  },
+  {
+   "id": "rf87567321",
+   "acres": 5.25,
+   "price": 221500,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Andersonville/Mill-Creek-Rd-37705/home/87567321",
+   "drive": 42,
+   "shopMin": 22
+  },
+  {
+   "id": "rf190895790",
+   "acres": 6.22,
+   "price": 241500,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.redfin.com/TN/Andersonville/Tract-1-Mill-Creek-Rd-37705/home/190895790",
+   "drive": 37,
+   "shopMin": 17
+  },
+  {
+   "id": "rf87921055",
+   "acres": 0.52,
+   "price": 70500,
    "town": "Sharps Chapel",
    "county": "Union",
-   "url": "https://www.redfin.com/TN/Sharps-Chapel/1-Lay-Hollow-Rd-37866/home/201527108",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Dove-Ct-37866/home/87921055",
+   "drive": 69,
+   "shopMin": 35
+  },
+  {
+   "id": "rf191567241",
+   "acres": 0.82,
+   "price": 82900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Waterfront-Knl-37866/home/191567241",
    "drive": 56,
    "shopMin": 21
+  },
+  {
+   "id": "rf103000290",
+   "acres": 0.55,
+   "price": 19900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Bass-Haven-Dr-37866/home/103000290",
+   "drive": 61,
+   "shopMin": 27
+  },
+  {
+   "id": "rf87918128",
+   "acres": 5.0,
+   "price": 150000,
+   "town": "Andersonville",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Andersonville/Dark-Hollow-Rd-N-37705/home/87918128",
+   "drive": 37,
+   "shopMin": 17
+  },
+  {
+   "id": "rf204356592",
+   "acres": 0.23,
+   "price": 79900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Lot-28-Waterfront-KNL-37866/home/204356592",
+   "drive": 67,
+   "shopMin": 33
+  },
+  {
+   "id": "rf202647047",
+   "acres": 2.6,
+   "price": 245000,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Lot-35-Shoreline-VIS-37866/home/202647047",
+   "drive": 57,
+   "shopMin": 23
+  },
+  {
+   "id": "rf202380675",
+   "acres": 5.07,
+   "price": 99900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Maynardville/Graves-Hollow-Rd-37807/unit-1/home/202380675",
+   "drive": 42,
+   "shopMin": 17
+  },
+  {
+   "id": "rf87921768",
+   "acres": 0.94,
+   "price": 249900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Big-Valley-Rd-37866/home/87921768",
+   "drive": 63,
+   "shopMin": 28
+  },
+  {
+   "id": "rf102098245",
+   "acres": 0.73,
+   "price": 99900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Maynardville/109-Justin-Ln-37807/home/102098245",
+   "drive": 41,
+   "shopMin": 20
+  },
+  {
+   "id": "rf62986988",
+   "acres": 1.9,
+   "price": 199900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/148-Beech-Grove-Loop-37866/home/62986988",
+   "drive": 68,
+   "shopMin": 34
+  },
+  {
+   "id": "rf62964205",
+   "acres": 5.03,
+   "price": 69900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Walker-Rd-37866/home/62964205",
+   "drive": 60,
+   "shopMin": 25
+  },
+  {
+   "id": "rf189522005",
+   "acres": 0.8,
+   "price": 92000,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Unknown-37866/home/189522005",
+   "drive": 56,
+   "shopMin": 21
+  },
+  {
+   "id": "rf200715074",
+   "acres": 0.93,
+   "price": 225000,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Lot-24-Waterfront-37866/home/200715074",
+   "drive": 56,
+   "shopMin": 21
+  },
+  {
+   "id": "rf103000467",
+   "acres": 0.24,
+   "price": 28500,
+   "town": "Speedwell",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Speedwell/Straight-Branch-Rd-37870/home/103000467",
+   "drive": 73,
+   "shopMin": 34
+  },
+  {
+   "id": "rf144728020",
+   "acres": 4.8,
+   "price": 89900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Maynardville/18-Overton-Rd-37807/home/144728020",
+   "drive": 60,
+   "shopMin": 25
+  },
+  {
+   "id": "rf62890911",
+   "acres": 0.34,
+   "price": 37900,
+   "town": "Sharps Chapel",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Sharps-Chapel/Tanglewood-Rd-37866/home/62890911",
+   "drive": 64,
+   "shopMin": 30
+  },
+  {
+   "id": "rf87920917",
+   "acres": 5.02,
+   "price": 250000,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Maynardville/River-Ridge-Rd-37807/home/87920917",
+   "drive": 61,
+   "shopMin": 27
+  },
+  {
+   "id": "rf103001052",
+   "acres": 1.1,
+   "price": 195000,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Maynardville/S-Cove-Rd-37807/home/103001052",
+   "drive": 50,
+   "shopMin": 16
+  },
+  {
+   "id": "rf191074268",
+   "acres": 0.89,
+   "price": 79900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.redfin.com/TN/Maynardville/na-Waterfront-KNL-37807/home/191074268",
+   "drive": 57,
+   "shopMin": 23
+  },
+  {
+   "id": "rf184560032",
+   "acres": 0.49,
+   "price": 69900,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/Lot-2-Masters-Ln-37708/home/184560032",
+   "drive": 42,
+   "shopMin": 17
+  },
+  {
+   "id": "rf182527404",
+   "acres": 1.05,
+   "price": 44900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/Lot-1-Holston-River-Dr-37861/home/182527404",
+   "drive": 40,
+   "shopMin": 21
+  },
+  {
+   "id": "rf62987765",
+   "acres": 0.77,
+   "price": 100000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/Unknown-37708/home/62987765",
+   "drive": 44,
+   "shopMin": 17
+  },
+  {
+   "id": "rf204704364",
+   "acres": 4.43,
+   "price": 79900,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/8-03-Highway-25-E-37708/home/204704364",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "rf204662774",
+   "acres": 3.33,
+   "price": 209000,
+   "town": "Rutledge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Rutledge/TBD-Holston-River-Dr-37861/home/204662774",
+   "drive": 43,
+   "shopMin": 24
+  },
+  {
+   "id": "rf119017513",
+   "acres": 3.24,
+   "price": 95000,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/Highway-92-37861/home/119017513",
+   "drive": 36,
+   "shopMin": 17
+  },
+  {
+   "id": "rf184317792",
+   "acres": 1.29,
+   "price": 95000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/Megans-Trl-37708/home/184317792",
+   "drive": 55,
+   "shopMin": 17
+  },
+  {
+   "id": "rf203210231",
+   "acres": 1.29,
+   "price": 95000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/69-Megans-Trl-37708/unit-69/home/203210231",
+   "drive": 54,
+   "shopMin": 16
+  },
+  {
+   "id": "rf203210220",
+   "acres": 1.29,
+   "price": 95000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/69-Megans-Trl-37708/home/203210220",
+   "drive": 54,
+   "shopMin": 16
+  },
+  {
+   "id": "rf203207745",
+   "acres": 1.06,
+   "price": 139900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/2150-New-Corinth-Rd-37861/home/203207745",
+   "drive": 40,
+   "shopMin": 21
+  },
+  {
+   "id": "rf203141643",
+   "acres": 1.0,
+   "price": 59000,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/1-Doc-Hill-Rd-37861/unit-049-010/home/203141643",
+   "drive": 39,
+   "shopMin": 20
+  },
+  {
+   "id": "rf119001815",
+   "acres": 3.13,
+   "price": 60000,
+   "town": "Thorn Hill",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Thorn-Hill/801-Old-Highway-25-E-37881/home/119001815",
+   "drive": 53,
+   "shopMin": 18
+  },
+  {
+   "id": "rf201694327",
+   "acres": 0.34,
+   "price": 42500,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/32-Ernie-Roberts-Rd-37861/home/201694327",
+   "drive": 46,
+   "shopMin": 21
+  },
+  {
+   "id": "rf184561770",
+   "acres": 2.27,
+   "price": 199900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/44-Holston-River-Dr-37861/home/184561770",
+   "drive": 38,
+   "shopMin": 19
+  },
+  {
+   "id": "rf184560082",
+   "acres": 1.83,
+   "price": 55000,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/4-Rocky-Branch-Rd-37861/home/184560082",
+   "drive": 37,
+   "shopMin": 18
+  },
+  {
+   "id": "rf200528288",
+   "acres": 1.46,
+   "price": 54900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/768-Greenlee-Rd-37861/home/200528288",
+   "drive": 47,
+   "shopMin": 22
+  },
+  {
+   "id": "rf200552909",
+   "acres": 1.05,
+   "price": 62500,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/Rolling-Hls-37861/home/200552909",
+   "drive": 46,
+   "shopMin": 19
+  },
+  {
+   "id": "rf192510147",
+   "acres": 0.79,
+   "price": 39900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/8-Water-Way-Dr-37861/home/192510147",
+   "drive": 46,
+   "shopMin": 20
+  },
+  {
+   "id": "rf199625134",
+   "acres": 2.0,
+   "price": 25000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Bean-Station/TBD-Highway-25-E-37708/home/199625134",
+   "drive": 55,
+   "shopMin": 22
+  },
+  {
+   "id": "rf174609252",
+   "acres": 0.57,
+   "price": 34500,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/199-Woodstock-Dr-37861/home/174609252",
+   "drive": 47,
+   "shopMin": 20
+  },
+  {
+   "id": "rf119075466",
+   "acres": 5.0,
+   "price": 49900,
+   "town": "Thorn Hill",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Thorn-Hill/Broken-Valley-Rd-37881/home/119075466",
+   "drive": 58,
+   "shopMin": 16
+  },
+  {
+   "id": "rf118980283",
+   "acres": 1.94,
+   "price": 49900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/Silent-Ln-37861/home/118980283",
+   "drive": 36,
+   "shopMin": 17
+  },
+  {
+   "id": "rf119107499",
+   "acres": 2.0,
+   "price": 39900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.redfin.com/TN/Rutledge/Deerridge-Dr-37861/home/119107499",
+   "drive": 43,
+   "shopMin": 22
+  },
+  {
+   "id": "rf124522053",
+   "acres": 7.62,
+   "price": 219000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Last-Chance-Rd-37725/home/124522053",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "rf124671402",
+   "acres": 0.42,
+   "price": 49900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Iron-Gate-Dr-37890/home/124671402",
+   "drive": 50,
+   "shopMin": 21
+  },
+  {
+   "id": "rf124531347",
+   "acres": 5.32,
+   "price": 225000,
+   "town": "Sevierville",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Sevierville/Foxfire-Way-37876/home/124531347",
+   "drive": 65,
+   "shopMin": 35
+  },
+  {
+   "id": "rf182030729",
+   "acres": 0.81,
+   "price": 199900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/534-Bonnevista-Dr-37890/home/182030729",
+   "drive": 56,
+   "shopMin": 21
+  },
+  {
+   "id": "rf204479512",
+   "acres": 2.33,
+   "price": 57500,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Tbd-Mossy-Hollow-RD-37890/home/204479512",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "rf203579787",
+   "acres": 0.41,
+   "price": 23000,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Lot-926-Stone-Way-Pl-37890/home/203579787",
+   "drive": 52,
+   "shopMin": 22
+  },
+  {
+   "id": "rf191059079",
+   "acres": 2.84,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-13R1-Pleasure-Rd-37876/home/191059079",
+   "drive": 61,
+   "shopMin": 32
+  },
+  {
+   "id": "rf124554489",
+   "acres": 1.38,
+   "price": 109000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/1393-Lake-Front-Dr-37725/home/124554489",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "rf179595770",
+   "acres": 0.67,
+   "price": 125000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-2-Sunset-View-Rd-37876/home/179595770",
+   "drive": 60,
+   "shopMin": 30
+  },
+  {
+   "id": "rf182525021",
+   "acres": 0.45,
+   "price": 79900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/30-Back-9-Dr-37890/home/182525021",
+   "drive": 52,
+   "shopMin": 17
+  },
+  {
+   "id": "rf193688131",
+   "acres": 0.41,
+   "price": 16700,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Lot-1031-Meadow-CT-37890/home/193688131",
+   "drive": 55,
+   "shopMin": 20
+  },
+  {
+   "id": "rf194847161",
+   "acres": 0.45,
+   "price": 44999,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Lot-37-Lake-Vista-Dr-37890/home/194847161",
+   "drive": 58,
+   "shopMin": 22
+  },
+  {
+   "id": "rf198808786",
+   "acres": 0.99,
+   "price": 20000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Lot-57-Fork-Horn-Trl-37725/home/198808786",
+   "drive": 52,
+   "shopMin": 20
+  },
+  {
+   "id": "rf198004325",
+   "acres": 2.52,
+   "price": 169000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Pheasant-Ct-37876/home/198004325",
+   "drive": 48,
+   "shopMin": 18
+  },
+  {
+   "id": "rf201007958",
+   "acres": 2.41,
+   "price": 104900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Tract-8-Woods-Ridge-Rd-37725/home/201007958",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "rf201102572",
+   "acres": 0.57,
+   "price": 8000,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/N-Center-Ridge-PL-37890/home/201102572",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "rf124714903",
+   "acres": 1.18,
+   "price": 75000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Turtle-Dove-Trl-37725/home/124714903",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "rf194805053",
+   "acres": 1.24,
+   "price": 37900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Lot-106-Turtle-Dove-Trl-37725/home/194805053",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf124550959",
+   "acres": 2.41,
+   "price": 104900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Woods-Ridge-Rd-37725/home/124550959",
+   "drive": 52,
+   "shopMin": 20
+  },
+  {
+   "id": "rf174668149",
+   "acres": 0.43,
+   "price": 79900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Lot-10-Stone-Cove-WAY-37725/home/174668149",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "rf194665958",
+   "acres": 1.63,
+   "price": 156900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Lot-135-W-Point-DR-37725/home/194665958",
+   "drive": 50,
+   "shopMin": 17
+  },
+  {
+   "id": "rf124597518",
+   "acres": 0.63,
+   "price": 69900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Mountain-View-Ln-37890/home/124597518",
+   "drive": 54,
+   "shopMin": 18
+  },
+  {
+   "id": "rf200785020",
+   "acres": 0.32,
+   "price": 15000,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Lot-937-Stone-Way-Pl-37890/home/200785020",
+   "drive": 52,
+   "shopMin": 21
+  },
+  {
+   "id": "rf200544289",
+   "acres": 0.29,
+   "price": 19900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Lot-43-44-Mayflower-Ln-37725/home/200544289",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "rf62898277",
+   "acres": 1.03,
+   "price": 99900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Turtle-Dove-Trl-37725/home/62898277",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf198200841",
+   "acres": 4.02,
+   "price": 129900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Lot-23-Caywood-Rd-37725/home/198200841",
+   "drive": 52,
+   "shopMin": 21
+  },
+  {
+   "id": "rf199956682",
+   "acres": 0.29,
+   "price": 19900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/Lot-43A-Mayflower-Ln-37725/home/199956682",
+   "drive": 50,
+   "shopMin": 18
+  },
+  {
+   "id": "rf199591507",
+   "acres": 0.47,
+   "price": 19900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Lot-845-Stone-Way-Pl-37890/home/199591507",
+   "drive": 52,
+   "shopMin": 21
+  },
+  {
+   "id": "rf199482775",
+   "acres": 3.95,
+   "price": 149900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/lot-27-Caywood-Rd-37725/home/199482775",
+   "drive": 53,
+   "shopMin": 21
+  },
+  {
+   "id": "rf198978407",
+   "acres": 1.71,
+   "price": 58000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-17-Scott-St-37876/home/198978407",
+   "drive": 63,
+   "shopMin": 33
+  },
+  {
+   "id": "rf124568531",
+   "acres": 0.3,
+   "price": 15000,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Mountain-View-Ln-37890/home/124568531",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "rf124454001",
+   "acres": 2.11,
+   "price": 179900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Dandridge/2763-Spiral-Dr-37725/home/124454001",
+   "drive": 47,
+   "shopMin": 17
+  },
+  {
+   "id": "rf196122408",
+   "acres": 2.34,
+   "price": 29900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/5-Lots-Fortunato-Dr-37890/home/196122408",
+   "drive": 48,
+   "shopMin": 18
+  },
+  {
+   "id": "rf124430569",
+   "acres": 0.4,
+   "price": 19900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Iron-Gate-Dr-37890/home/124430569",
+   "drive": 51,
+   "shopMin": 20
+  },
+  {
+   "id": "rf191059196",
+   "acres": 1.45,
+   "price": 150000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/White-Pine/Lot-37-McCorkle-Rd-37890/home/191059196",
+   "drive": 58,
+   "shopMin": 22
+  },
+  {
+   "id": "rf190551569",
+   "acres": 0.91,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Par-005-00-Aaron-St-37876/home/190551569",
+   "drive": 65,
+   "shopMin": 35
+  },
+  {
+   "id": "rf184513727",
+   "acres": 1.32,
+   "price": 165000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-20-Scott-St-37876/home/184513727",
+   "drive": 63,
+   "shopMin": 34
+  },
+  {
+   "id": "rf182522816",
+   "acres": 0.55,
+   "price": 129900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Lot-871-Tyler-CT-37890/home/182522816",
+   "drive": 52,
+   "shopMin": 22
+  },
+  {
+   "id": "rf199463562",
+   "acres": 0.55,
+   "price": 129900,
+   "town": "Baneberry",
+   "county": "Jefferson",
+   "url": "https://www.redfin.com/TN/Baneberry/Tyler-CT-37890/home/199463562",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "rf205503335",
+   "acres": 1.89,
+   "price": 30000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/4143-Lumber-Jack-Way-37876/home/205503335",
+   "drive": 54,
+   "shopMin": 24
+  },
+  {
+   "id": "rf173957558",
+   "acres": 1.0,
+   "price": 119900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-5-McCleary-Rd-37876/home/173957558",
+   "drive": 35,
+   "shopMin": 18
+  },
+  {
+   "id": "rf204725950",
+   "acres": 0.86,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-12-Waldens-Creek-Rd-37862/home/204725950",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204725938",
+   "acres": 2.43,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-11-Waldens-Creek-Rd-37862/home/204725938",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204725911",
+   "acres": 2.29,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-10-Waldens-Creek-Rd-37862/home/204725911",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204725902",
+   "acres": 2.34,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-9-Waldens-Creek-Rd-37862/home/204725902",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204725293",
+   "acres": 0.88,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-8-Waldens-Creek-Rd-37862/home/204725293",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204725232",
+   "acres": 0.72,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-7-Waldens-Creek-Rd-37862/home/204725232",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204725187",
+   "acres": 0.78,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-6-Waldens-Creek-Rd-37862/home/204725187",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204724933",
+   "acres": 0.7,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-5-Waldens-Creek-Rd-37862/home/204724933",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204724932",
+   "acres": 1.12,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-4-Waldens-Creek-Rd-37862/home/204724932",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204723975",
+   "acres": 1.05,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-3-Waldens-Creek-Rd-37862/home/204723975",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf182525548",
+   "acres": 1.0,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-2-Waldens-Creek-Rd-37862/home/182525548",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf204723269",
+   "acres": 0.92,
+   "price": 199900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-1-Waldens-Creek-Rd-37862/home/204723269",
+   "drive": 48,
+   "shopMin": 16
+  },
+  {
+   "id": "rf184695951",
+   "acres": 2.45,
+   "price": 57500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-3D-Coy-Rhea-Way-37876/home/184695951",
+   "drive": 65,
+   "shopMin": 34
+  },
+  {
+   "id": "rf204703067",
+   "acres": 0.87,
+   "price": 69000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-11-R-JH-Headrick-Dr-37862/home/204703067",
+   "drive": 52,
+   "shopMin": 17
+  },
+  {
+   "id": "rf111234253",
+   "acres": 0.87,
+   "price": 69000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Headrick-Dr-37862/home/111234253",
+   "drive": 52,
+   "shopMin": 18
+  },
+  {
+   "id": "rf204643517",
+   "acres": 3.18,
+   "price": 155000,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Seymour/1940-Roy-Lee-Way-37865/home/204643517",
+   "drive": 38,
+   "shopMin": 20
+  },
+  {
+   "id": "rf111127859",
+   "acres": 3.67,
+   "price": 60000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Suttons-Rd-37876/home/111127859",
+   "drive": 60,
+   "shopMin": 27
+  },
+  {
+   "id": "rf204624731",
+   "acres": 0.67,
+   "price": 78000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-14-Boxwood-Ln-37862/home/204624731",
+   "drive": 51,
+   "shopMin": 16
+  },
+  {
+   "id": "rf111333849",
+   "acres": 2.0,
+   "price": 30000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/4264-Blalock-Hollow-Rd-37876/home/111333849",
+   "drive": 54,
+   "shopMin": 22
+  },
+  {
+   "id": "rf204471848",
+   "acres": 5.61,
+   "price": 75000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/5-61-Acre-Creek-Hollow-Way-37876/home/204471848",
+   "drive": 54,
+   "shopMin": 25
+  },
+  {
+   "id": "rf111311357",
+   "acres": 5.86,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/S-Clear-Fork-Rd-37862/home/111311357",
+   "drive": 54,
+   "shopMin": 19
+  },
+  {
+   "id": "rf190332469",
+   "acres": 1.13,
+   "price": 90000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/Lot-10-John-Boy-Trl-37862/home/190332469",
+   "drive": 49,
+   "shopMin": 17
+  },
+  {
+   "id": "rf111093351",
+   "acres": 0.73,
+   "price": 1,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Sevierville/3730-Clayton-Way-37876/home/111093351",
+   "drive": 51,
+   "shopMin": 21
+  },
+  {
+   "id": "rf172591954",
+   "acres": 2.15,
+   "price": 60000,
+   "town": "Pittman Center",
+   "county": "Sevier",
+   "url": "https://www.redfin.com/TN/Pittman-Center/Lot-3-Derrick-Rd-37876/home/172591954",
+   "drive": 51,
+   "shopMin": 19
+  },
+  {
+   "id": "rf87529837",
+   "acres": 4.33,
+   "price": 65000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Emerald-Pointe-Cir-37854/home/87529837",
+   "drive": 63,
+   "shopMin": 26
+  },
+  {
+   "id": "rf184113881",
+   "acres": 6.8,
+   "price": 148000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/674-Paint-Rock-Rd-37763/home/184113881",
+   "drive": 53,
+   "shopMin": 23
+  },
+  {
+   "id": "rf204445746",
+   "acres": 0.48,
+   "price": 189950,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Brigadoon-Dr-37854/unit-43/home/204445746",
+   "drive": 63,
+   "shopMin": 19
+  },
+  {
+   "id": "rf87527628",
+   "acres": 1.0,
+   "price": 40000,
+   "town": "Loudon",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Loudon/Cave-Creek-Rd-37774/home/87527628",
+   "drive": 39,
+   "shopMin": 17
+  },
+  {
+   "id": "rf195078737",
+   "acres": 0.58,
+   "price": 18000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/106-Meadow-Ln-37854/home/195078737",
+   "drive": 53,
+   "shopMin": 16
+  },
+  {
+   "id": "rf62970737",
+   "acres": 2.26,
+   "price": 89900,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/163-Highland-Reserve-Way-37763/home/62970737",
+   "drive": 54,
+   "shopMin": 20
+  },
+  {
+   "id": "rf203359950",
+   "acres": 0.59,
+   "price": 8500,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/White-St-37854/unit-31/home/203359950",
+   "drive": 66,
+   "shopMin": 22
+  },
+  {
+   "id": "rf87527865",
+   "acres": 0.38,
+   "price": 15000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Lake-Overlook-Dr-37854/home/87527865",
+   "drive": 65,
+   "shopMin": 21
+  },
+  {
+   "id": "rf87527866",
+   "acres": 0.6,
+   "price": 15000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Lake-Overlook-Dr-37854/home/87527866",
+   "drive": 65,
+   "shopMin": 21
+  },
+  {
+   "id": "rf62965217",
+   "acres": 0.98,
+   "price": 30000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Lake-Overlook-Dr-37854/home/62965217",
+   "drive": 65,
+   "shopMin": 22
+  },
+  {
+   "id": "rf104310122",
+   "acres": 1.05,
+   "price": 37500,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Flint-Ridge-Rd-37854/home/104310122",
+   "drive": 62,
+   "shopMin": 19
+  },
+  {
+   "id": "rf185116284",
+   "acres": 1.02,
+   "price": 55000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/5th-St-37763/home/185116284",
+   "drive": 60,
+   "shopMin": 30
+  },
+  {
+   "id": "rf173633235",
+   "acres": 1.89,
+   "price": 100000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/Lot-32-Melea-Ln-37763/home/173633235",
+   "drive": 61,
+   "shopMin": 31
+  },
+  {
+   "id": "rf103874082",
+   "acres": 0.64,
+   "price": 44900,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/Ledgerwood-Dr-37763/home/103874082",
+   "drive": 57,
+   "shopMin": 35
+  },
+  {
+   "id": "rf202322695",
+   "acres": 1.7,
+   "price": 175000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/22-23-Phillips-Dr-37854/home/202322695",
+   "drive": 72,
+   "shopMin": 29
+  },
+  {
+   "id": "rf202120284",
+   "acres": 0.77,
+   "price": 19000,
+   "town": "Decatur",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Decatur/The-Gates-Dr-37322/unit-44/home/202120284",
+   "drive": 53,
+   "shopMin": 20
+  },
+  {
+   "id": "rf103874366",
+   "acres": 1.0,
+   "price": 114900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Anna-Laura-Ln-37854/home/103874366",
+   "drive": 72,
+   "shopMin": 29
+  },
+  {
+   "id": "rf103861532",
+   "acres": 0.93,
+   "price": 25990,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/Melea-Ln-37763/home/103861532",
+   "drive": 59,
+   "shopMin": 29
+  },
+  {
+   "id": "rf87529610",
+   "acres": 1.61,
+   "price": 29900,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/Evergreen-Cv-37763/home/87529610",
+   "drive": 59,
+   "shopMin": 29
+  },
+  {
+   "id": "rf103862041",
+   "acres": 1.13,
+   "price": 115000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/147-Highland-Reserve-Way-37763/home/103862041",
+   "drive": 53,
+   "shopMin": 20
+  },
+  {
+   "id": "rf104309726",
+   "acres": 0.56,
+   "price": 150000,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Ten-Mile/160-Cherokee-Cir-37880/home/104309726",
+   "drive": 72,
+   "shopMin": 38
+  },
+  {
+   "id": "rf201103129",
+   "acres": 2.54,
+   "price": 35000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Hidden-Oaks-Rd-37854/unit-444/home/201103129",
+   "drive": 61,
+   "shopMin": 18
+  },
+  {
+   "id": "rf201103091",
+   "acres": 1.75,
+   "price": 90000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/40-Eerie-Pt-37854/unit-40/home/201103091",
+   "drive": 66,
+   "shopMin": 23
+  },
+  {
+   "id": "rf201103077",
+   "acres": 1.81,
+   "price": 90000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/39-Eerie-Pt-37854/unit-39/home/201103077",
+   "drive": 66,
+   "shopMin": 23
+  },
+  {
+   "id": "rf201103046",
+   "acres": 3.56,
+   "price": 180000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Eerie-Pt-37854/unit-39-40/home/201103046",
+   "drive": 66,
+   "shopMin": 22
+  },
+  {
+   "id": "rf200944662",
+   "acres": 2.15,
+   "price": 35000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Lot-435-Hidden-Oaks-Rd-37854/home/200944662",
+   "drive": 61,
+   "shopMin": 18
+  },
+  {
+   "id": "rf200944652",
+   "acres": 2.01,
+   "price": 35000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Lot-434-Hidden-Oaks-Rd-37854/home/200944652",
+   "drive": 61,
+   "shopMin": 18
+  },
+  {
+   "id": "rf103861810",
+   "acres": 0.68,
+   "price": 39900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/Bay-Shore-Dr-37854/home/103861810",
+   "drive": 63,
+   "shopMin": 25
+  },
+  {
+   "id": "rf87529780",
+   "acres": 1.01,
+   "price": 39500,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/210-E-Shore-Dr-37854/home/87529780",
+   "drive": 66,
+   "shopMin": 28
+  },
+  {
+   "id": "rf87530773",
+   "acres": 0.96,
+   "price": 69999,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/332-Enclave-Way-37763/home/87530773",
+   "drive": 56,
+   "shopMin": 23
+  },
+  {
+   "id": "rf103874170",
+   "acres": 0.49,
+   "price": 89900,
+   "town": "Loudon",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Loudon/114-Pinecrest-Dr-37774/home/103874170",
+   "drive": 43,
+   "shopMin": 22
+  },
+  {
+   "id": "rf103874169",
+   "acres": 0.49,
+   "price": 69900,
+   "town": "Loudon",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Loudon/110-Pinecrest-Dr-37774/home/103874169",
+   "drive": 43,
+   "shopMin": 22
+  },
+  {
+   "id": "rf198852243",
+   "acres": 1.0,
+   "price": 119900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Harriman/lots-1112-Osprey-Way-37748/home/198852243",
+   "drive": 53,
+   "shopMin": 16
+  },
+  {
+   "id": "rf195333685",
+   "acres": 1.34,
+   "price": 115000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/42-Eerie-Pt-37854/home/195333685",
+   "drive": 66,
+   "shopMin": 23
+  },
+  {
+   "id": "rf171515551",
+   "acres": 0.8,
+   "price": 19900,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Ten-Mile/Lot-2-Indian-Shadows-Dr-37880/home/171515551",
+   "drive": 68,
+   "shopMin": 35
+  },
+  {
+   "id": "rf103861545",
+   "acres": 2.1,
+   "price": 70000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Kingston/Melea-Ln-37763/home/103861545",
+   "drive": 61,
+   "shopMin": 31
+  },
+  {
+   "id": "rf62970704",
+   "acres": 0.8,
+   "price": 28900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Rockwood/374-Walking-Horse-Trl-37854/home/62970704",
+   "drive": 63,
+   "shopMin": 26
+  },
+  {
+   "id": "rf87946876",
+   "acres": 0.42,
+   "price": 39150,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Ten-Mile/108-Treasure-Tree-Rd-37880/home/87946876",
+   "drive": 66,
+   "shopMin": 33
+  },
+  {
+   "id": "rf87946646",
+   "acres": 0.43,
+   "price": 27450,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Ten-Mile/107-Treasure-Tree-Rd-37880/home/87946646",
+   "drive": 66,
+   "shopMin": 33
+  },
+  {
+   "id": "rf101288343",
+   "acres": 0.67,
+   "price": 35100,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Ten-Mile/103-Halfmoon-Shores-Dr-37880/home/101288343",
+   "drive": 62,
+   "shopMin": 29
+  },
+  {
+   "id": "rf103875528",
+   "acres": 0.46,
+   "price": 12330,
+   "town": "Ten Mile",
+   "county": "Roane",
+   "url": "https://www.redfin.com/TN/Ten-Mile/102-Half-Moon-Shores-Dr-37880/home/103875528",
+   "drive": 63,
+   "shopMin": 29
+  },
+  {
+   "id": "rf62832674",
+   "acres": 2.72,
+   "price": 49900,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/Old-Citico-Rd-37885/home/62832674",
+   "drive": 66,
+   "shopMin": 30
+  },
+  {
+   "id": "rf203471280",
+   "acres": 5.0,
+   "price": 149990,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/157-Quarry-Creek-Rd-37385/unit-6/home/203471280",
+   "drive": 75,
+   "shopMin": 20
+  },
+  {
+   "id": "rf203460528",
+   "acres": 5.0,
+   "price": 149990,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/157-Quarry-Creek-Rd-37385/unit-5/home/203460528",
+   "drive": 75,
+   "shopMin": 20
+  },
+  {
+   "id": "rf203302011",
+   "acres": 5.0,
+   "price": 149800,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/157-Quarry-Creek-Rd-37385/unit-1-4/home/203302011",
+   "drive": 75,
+   "shopMin": 20
+  },
+  {
+   "id": "rf103365324",
+   "acres": 4.75,
+   "price": 99000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/Old-Citico-Rd-37885/home/103365324",
+   "drive": 65,
+   "shopMin": 29
+  },
+  {
+   "id": "rf203214890",
+   "acres": 5.0,
+   "price": 149990,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/157-Quarry-Creek-Rd-37385/unit-4/home/203214890",
+   "drive": 75,
+   "shopMin": 20
+  },
+  {
+   "id": "rf103359373",
+   "acres": 4.29,
+   "price": 199000,
+   "town": "Sweetwater",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Sweetwater/108-Unaka-Vw-37874/home/103359373",
+   "drive": 69,
+   "shopMin": 16
+  },
+  {
+   "id": "rf202402985",
+   "acres": 4.75,
+   "price": 139900,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Madisonville/1035-Green-Rd-37354/home/202402985",
+   "drive": 61,
+   "shopMin": 7
+  },
+  {
+   "id": "rf103362164",
+   "acres": 5.53,
+   "price": 90000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/Three-Point-Rd-37885/home/103362164",
+   "drive": 81,
+   "shopMin": 39
+  },
+  {
+   "id": "rf202247153",
+   "acres": 8.1,
+   "price": 129600,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Lot-6-Old-Furnace-Rd-37385/home/202247153",
+   "drive": 87,
+   "shopMin": 32
+  },
+  {
+   "id": "rf202246492",
+   "acres": 8.09,
+   "price": 129350,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Lot-1-Old-Furnace-Rd-37385/home/202246492",
+   "drive": 88,
+   "shopMin": 33
+  },
+  {
+   "id": "rf194649801",
+   "acres": 5.0,
+   "price": 89900,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/4-Three-Point-Rd-37885/home/194649801",
+   "drive": 67,
+   "shopMin": 23
+  },
+  {
+   "id": "rf87501318",
+   "acres": 5.13,
+   "price": 92340,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Unknown-37385/home/87501318",
+   "drive": 84,
+   "shopMin": 29
+  },
+  {
+   "id": "rf204535850",
+   "acres": 5.81,
+   "price": 104580,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/0-Coker-Creek-LN-37385/home/204535850",
+   "drive": 85,
+   "shopMin": 29
+  },
+  {
+   "id": "rf202104297",
+   "acres": 6.06,
+   "price": 105000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/32-Cty-Road-731-37385/home/202104297",
+   "drive": 76,
+   "shopMin": 21
+  },
+  {
+   "id": "rf87499709",
+   "acres": 8.87,
+   "price": 70960,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/McSpadden-Rd-37885/home/87499709",
+   "drive": 78,
+   "shopMin": 42
+  },
+  {
+   "id": "rf87504413",
+   "acres": 1.0,
+   "price": 89900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/180-Mountain-Rd-37385/home/87504413",
+   "drive": 89,
+   "shopMin": 28
+  },
+  {
+   "id": "rf103365375",
+   "acres": 5.22,
+   "price": 125000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/380-Seng-Garden-Rd-37385/home/103365375",
+   "drive": 90,
+   "shopMin": 35
+  },
+  {
+   "id": "rf104711611",
+   "acres": 2.0,
+   "price": 70000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/215-Citico-Rd-37885/home/104711611",
+   "drive": 59,
+   "shopMin": 22
+  },
+  {
+   "id": "rf104757384",
+   "acres": 0.45,
+   "price": 100000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/Mount-Pleasant-Rd-37885/home/104757384",
+   "drive": 105,
+   "shopMin": 68
+  },
+  {
+   "id": "rf103363473",
+   "acres": 2.5,
+   "price": 199000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/8609-New-Highway-68-37385/home/103363473",
+   "drive": 69,
+   "shopMin": 13
+  },
+  {
+   "id": "rf197401474",
+   "acres": 5.29,
+   "price": 89900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Payne-Rd-37385/home/197401474",
+   "drive": 78,
+   "shopMin": 23
+  },
+  {
+   "id": "rf103365824",
+   "acres": 1.38,
+   "price": 149000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/Volunteer-Ln-37885/home/103365824",
+   "drive": 53,
+   "shopMin": 17
+  },
+  {
+   "id": "rf199554649",
+   "acres": 5.0,
+   "price": 88900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/265-JD-Farm-Rd-37385/home/199554649",
+   "drive": 69,
+   "shopMin": 14
+  },
+  {
+   "id": "rf200323323",
+   "acres": 2.71,
+   "price": 44999,
+   "town": "Coker Creek",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Coker-Creek/Old-Hickory-RD-37385/home/200323323",
+   "drive": 83,
+   "shopMin": 27
+  },
+  {
+   "id": "rf102131381",
+   "acres": 5.5,
+   "price": 125000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Forest-Vw-37385/home/102131381",
+   "drive": 82,
+   "shopMin": 27
+  },
+  {
+   "id": "rf198276706",
+   "acres": 5.1,
+   "price": 145000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/Lot-104-Pineview-LN-37885/home/198276706",
+   "drive": 79,
+   "shopMin": 37
+  },
+  {
+   "id": "rf199913533",
+   "acres": 5.64,
+   "price": 80000,
+   "town": "Reliance",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Reliance/Undisclosed-address-37369/home/199913533",
+   "drive": 87,
+   "shopMin": 26
+  },
+  {
+   "id": "rf102120189",
+   "acres": 4.1,
+   "price": 64900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/LOT-3-Unicoi-Church-Rd-37385/home/102120189",
+   "drive": 75,
+   "shopMin": 20
+  },
+  {
+   "id": "rf102117271",
+   "acres": 4.07,
+   "price": 64900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/LOT-2-Unicoi-Church-Rd-37385/home/102117271",
+   "drive": 76,
+   "shopMin": 20
+  },
+  {
+   "id": "rf87503076",
+   "acres": 5.82,
+   "price": 74900,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Tellico-Plains/Smithfield-Rd-37385/home/87503076",
+   "drive": 86,
+   "shopMin": 31
+  },
+  {
+   "id": "rf183935254",
+   "acres": 2.21,
+   "price": 101000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Vonore/McSpadden-Rd-37885/home/183935254",
+   "drive": 78,
+   "shopMin": 42
+  },
+  {
+   "id": "rf197401370",
+   "acres": 1.9,
+   "price": 145250,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.redfin.com/TN/Madisonville/Tellico-Camp-Rd-37354/home/197401370",
+   "drive": 73,
+   "shopMin": 19
+  },
+  {
+   "id": "rf195552497",
+   "acres": 5.02,
+   "price": 85000,
+   "town": "Pioneer",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Pioneer/150-Timber-Oaks-Ln-37847/home/195552497",
+   "drive": 76,
+   "shopMin": 47
+  },
+  {
+   "id": "rf104554657",
+   "acres": 3.73,
+   "price": 150000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Mariner-Point-Rd-37766/home/104554657",
+   "drive": 63,
+   "shopMin": 24
+  },
+  {
+   "id": "rf63024034",
+   "acres": 1.2,
+   "price": 14900,
+   "town": "Pioneer",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Pioneer/Lonesome-Mountain-Ln-37847/home/63024034",
+   "drive": 73,
+   "shopMin": 44
+  },
+  {
+   "id": "rf204631991",
+   "acres": 0.84,
+   "price": 98500,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/910-Big-Pine-Pt-37766/home/204631991",
+   "drive": 77,
+   "shopMin": 38
+  },
+  {
+   "id": "rf204357248",
+   "acres": 1.42,
+   "price": 75000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-44-Old-Hearth-37766/home/204357248",
+   "drive": 66,
+   "shopMin": 26
+  },
+  {
+   "id": "rf104532888",
+   "acres": 2.6,
+   "price": 150000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Rainbow-View-Rd-37766/home/104532888",
+   "drive": 63,
+   "shopMin": 24
+  },
+  {
+   "id": "rf203569868",
+   "acres": 0.3,
+   "price": 24990,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/598-N-Two-Rivers-Ln-37766/home/203569868",
+   "drive": 68,
+   "shopMin": 29
+  },
+  {
+   "id": "rf194600745",
+   "acres": 5.0,
+   "price": 139900,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Tract-1-E-Dogwood-Trl-37766/home/194600745",
+   "drive": 64,
+   "shopMin": 24
+  },
+  {
+   "id": "rf104528415",
+   "acres": 0.57,
+   "price": 198000,
+   "town": "Caryville",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Caryville/Hiawatha-Dr-37714/home/104528415",
+   "drive": 48,
+   "shopMin": 18
+  },
+  {
+   "id": "rf87495511",
+   "acres": 0.69,
+   "price": 29500,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Grantsboro-Rd-37766/home/87495511",
+   "drive": 57,
+   "shopMin": 18
+  },
+  {
+   "id": "rf202401335",
+   "acres": 1.75,
+   "price": 149900,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/1454-Alder-Springs-Rd-37766/home/202401335",
+   "drive": 74,
+   "shopMin": 34
+  },
+  {
+   "id": "rf104528648",
+   "acres": 1.26,
+   "price": 75000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Cove-Pointe-Rd-37766/home/104528648",
+   "drive": 70,
+   "shopMin": 31
+  },
+  {
+   "id": "rf179543416",
+   "acres": 0.5,
+   "price": 29900,
+   "town": "Morley",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Morley/123-Hilty-Head-37766/home/179543416",
+   "drive": 82,
+   "shopMin": 43
+  },
+  {
+   "id": "rf104527039",
+   "acres": 2.4,
+   "price": 199900,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Big-Creek-Rd-37766/home/104527039",
+   "drive": 67,
+   "shopMin": 28
+  },
+  {
+   "id": "rf201925420",
+   "acres": 5.02,
+   "price": 120000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/549-Defender-Rd-37766/home/201925420",
+   "drive": 62,
+   "shopMin": 22
+  },
+  {
+   "id": "rf201892838",
+   "acres": 6.3,
+   "price": 99999,
+   "town": "Newcomb",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Newcomb/3134-Tennessee-297-37819/home/201892838",
+   "drive": 68,
+   "shopMin": 21
+  },
+  {
+   "id": "rf104527628",
+   "acres": 0.59,
+   "price": 19900,
+   "town": "Jacksboro",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jacksboro/Yoakum-Hollow-Rd-37757/home/104527628",
+   "drive": 68,
+   "shopMin": 31
+  },
+  {
+   "id": "rf87495351",
+   "acres": 0.23,
+   "price": 33500,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/1023-Stinking-Creek-Rd-37766/home/87495351",
+   "drive": 62,
+   "shopMin": 22
+  },
+  {
+   "id": "rf201843868",
+   "acres": 9.0,
+   "price": 79900,
+   "town": "Caryville",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Caryville/Stoney-Fork-Rd-37714/unit-141-02000/home/201843868",
+   "drive": 66,
+   "shopMin": 42
+  },
+  {
+   "id": "rf201792784",
+   "acres": 1.09,
+   "price": 82500,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/lots-A-B-Alder-Springs-Rd-37766/home/201792784",
+   "drive": 71,
+   "shopMin": 31
+  },
+  {
+   "id": "rf62953094",
+   "acres": 0.67,
+   "price": 40000,
+   "town": "Jacksboro",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jacksboro/Pine-Hollow-Rd-37757/home/62953094",
+   "drive": 62,
+   "shopMin": 25
+  },
+  {
+   "id": "rf201721266",
+   "acres": 0.12,
+   "price": 20000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/lot-43-Old-Hearth-37766/unit-43/home/201721266",
+   "drive": 66,
+   "shopMin": 27
+  },
+  {
+   "id": "rf104539744",
+   "acres": 0.11,
+   "price": 18000,
+   "town": "Caryville",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Caryville/White-Oak-Ln-37714/home/104539744",
+   "drive": 39,
+   "shopMin": 19
+  },
+  {
+   "id": "rf87497439",
+   "acres": 0.5,
+   "price": 49900,
+   "town": "Jacksboro",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jacksboro/Pine-Hollow-Rd-37757/home/87497439",
+   "drive": 62,
+   "shopMin": 26
+  },
+  {
+   "id": "rf175930691",
+   "acres": 0.43,
+   "price": 170000,
+   "town": "Jacksboro",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jacksboro/44-Hiwassee-Dr-37757/home/175930691",
+   "drive": 62,
+   "shopMin": 25
+  },
+  {
+   "id": "rf109624324",
+   "acres": 1.05,
+   "price": 57000,
+   "town": "Jacksboro",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jacksboro/Hiwassee-View-Dr-37757/home/109624324",
+   "drive": 70,
+   "shopMin": 33
+  },
+  {
+   "id": "rf104539983",
+   "acres": 0.71,
+   "price": 36000,
+   "town": "Jacksboro",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jacksboro/Hiwassee-View-Dr-37757/home/104539983",
+   "drive": 72,
+   "shopMin": 35
+  },
+  {
+   "id": "rf104529069",
+   "acres": 0.88,
+   "price": 79900,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/E-Dogwood-Trl-37766/home/104529069",
+   "drive": 65,
+   "shopMin": 26
+  },
+  {
+   "id": "rf201471112",
+   "acres": 2.4,
+   "price": 85000,
+   "town": "Duff",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Duff/7063-U-S-25W-37729/home/201471112",
+   "drive": 59,
+   "shopMin": 19
+  },
+  {
+   "id": "rf175928030",
+   "acres": 8.4,
+   "price": 219900,
+   "town": "Duff",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Duff/217-Saw-Mill-Ln-37729/home/175928030",
+   "drive": 66,
+   "shopMin": 21
+  },
+  {
+   "id": "rf104529512",
+   "acres": 0.72,
+   "price": 25900,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Shanghai-Landing-Ln-37766/home/104529512",
+   "drive": 67,
+   "shopMin": 27
+  },
+  {
+   "id": "rf104532519",
+   "acres": 0.36,
+   "price": 105000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Suncrest-Cv-37766/home/104532519",
+   "drive": 68,
+   "shopMin": 28
+  },
+  {
+   "id": "rf104530281",
+   "acres": 5.0,
+   "price": 200000,
+   "town": "Pioneer",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Pioneer/Racoon-Ln-37847/home/104530281",
+   "drive": 59,
+   "shopMin": 30
+  },
+  {
+   "id": "rf144026844",
+   "acres": 1.06,
+   "price": 13000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/125-Old-Hearth-37766/home/144026844",
+   "drive": 65,
+   "shopMin": 25
+  },
+  {
+   "id": "rf87490179",
+   "acres": 0.98,
+   "price": 30000,
+   "town": "Jellico",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jellico/Ashley-Ln-37762/home/87490179",
+   "drive": 63,
+   "shopMin": 16
+  },
+  {
+   "id": "rf62957729",
+   "acres": 2.3,
+   "price": 78000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/689-Ivey-Hollow-Rd-37766/home/62957729",
+   "drive": 56,
+   "shopMin": 17
+  },
+  {
+   "id": "rf196236158",
+   "acres": 2.46,
+   "price": 140000,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/48-Bucks-and-Doe-Ln-37766/home/196236158",
+   "drive": 80,
+   "shopMin": 41
+  },
+  {
+   "id": "rf195659681",
+   "acres": 7.2,
+   "price": 39500,
+   "town": "Duff",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Duff/8472-Highway-25-W-N-37729/home/195659681",
+   "drive": 66,
+   "shopMin": 19
+  },
+  {
+   "id": "rf109624543",
+   "acres": 0.48,
+   "price": 34999,
+   "town": "Jacksboro",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Jacksboro/Auxier-Dr-37757/home/109624543",
+   "drive": 63,
+   "shopMin": 26
+  },
+  {
+   "id": "rf104525735",
+   "acres": 1.29,
+   "price": 29900,
+   "town": "Speedwell",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Speedwell/Harness-Ln-37870/home/104525735",
+   "drive": 75,
+   "shopMin": 36
+  },
+  {
+   "id": "rf104530943",
+   "acres": 0.47,
+   "price": 159900,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/La-Follette/Big-Creek-Ln-37766/home/104530943",
+   "drive": 69,
+   "shopMin": 29
+  },
+  {
+   "id": "rf188933508",
+   "acres": 5.12,
+   "price": 223101,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-3-Chapman-Rd-37766/home/188933508",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf188933578",
+   "acres": 5.14,
+   "price": 229709,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot10-Chapman-Rd-37766/home/188933578",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf188933541",
+   "acres": 5.14,
+   "price": 239332,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-9-Chapman-Rd-37766/home/188933541",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf188933529",
+   "acres": 5.12,
+   "price": 225230,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-6-Chapman-Rd-37766/home/188933529",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf188933528",
+   "acres": 5.12,
+   "price": 219924,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-5-Chapman-Rd-37766/home/188933528",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf188933522",
+   "acres": 5.14,
+   "price": 219123,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-2-Chapman-Rd-37766/home/188933522",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf188933520",
+   "acres": 5.0,
+   "price": 232143,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-4-Chapman-Rd-37766/home/188933520",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf188933494",
+   "acres": 5.14,
+   "price": 223945,
+   "town": "Lafollette",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/LaFollette/Lot-1-Chapman-Rd-37766/home/188933494",
+   "drive": 70,
+   "shopMin": 30
+  },
+  {
+   "id": "rf200234929",
+   "acres": 2.0,
+   "price": 50000,
+   "town": "Speedwell",
+   "county": "Campbell",
+   "url": "https://www.redfin.com/TN/Speedwell/92-Lot-Saddle-Ridge-Dr-37870/home/200234929",
+   "drive": 71,
+   "shopMin": 32
+  },
+  {
+   "id": "rf205504132",
+   "acres": 1.83,
+   "price": 45000,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/Lot-2-Bk-H-Ravenwood-Dr-37887/home/205504132",
+   "drive": 55,
+   "shopMin": 21
+  },
+  {
+   "id": "rf205503456",
+   "acres": 9.02,
+   "price": 124900,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/Lot-6-Bk-I-Ravenwood-Dr-37887/home/205503456",
+   "drive": 55,
+   "shopMin": 21
+  },
+  {
+   "id": "rf205503232",
+   "acres": 7.67,
+   "price": 149900,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/Lot-5-Bk-I-Ravenwood-Dr-37887/home/205503232",
+   "drive": 55,
+   "shopMin": 21
+  },
+  {
+   "id": "rf205502878",
+   "acres": 5.59,
+   "price": 124900,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/Lot-4-Bk-I-Ravenwood-Dr-37887/home/205502878",
+   "drive": 55,
+   "shopMin": 21
+  },
+  {
+   "id": "rf205502246",
+   "acres": 1.56,
+   "price": 29900,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/Lot-2-Bk-I-Ravenwood-Dr-37887/home/205502246",
+   "drive": 55,
+   "shopMin": 21
+  },
+  {
+   "id": "rf205407188",
+   "acres": 3.32,
+   "price": 35000,
+   "town": "Lancing",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Lancing/0-Morgan-Co-HWY-37770/home/205407188",
+   "drive": 58,
+   "shopMin": 23
+  },
+  {
+   "id": "rf62917029",
+   "acres": 1.0,
+   "price": 48500,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/1085-Catoosa-Rd-37887/home/62917029",
+   "drive": 66,
+   "shopMin": 31
+  },
+  {
+   "id": "rf205280361",
+   "acres": 7.1,
+   "price": 42150,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/Lot9-Mill-Creek-Rd-37872/unit-026-00919/home/205280361",
+   "drive": 67,
+   "shopMin": 31
+  },
+  {
+   "id": "rf205271004",
+   "acres": 8.49,
+   "price": 50385,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/Lot7-Mill-Creek-Rd-37872/unit-026-00919/home/205271004",
+   "drive": 67,
+   "shopMin": 31
+  },
+  {
+   "id": "rf105452412",
+   "acres": 1.77,
+   "price": 39900,
+   "town": "Deer Lodge",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Deer-Lodge/Twin-Bridge-Rd-37726/home/105452412",
+   "drive": 74,
+   "shopMin": 39
+  },
+  {
+   "id": "rf203580650",
+   "acres": 3.82,
+   "price": 86700,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/1478-Catoosa-Rd-37887/home/203580650",
+   "drive": 71,
+   "shopMin": 36
+  },
+  {
+   "id": "rf87534953",
+   "acres": 7.63,
+   "price": 170000,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/Coon-Hollow-Rd-37872/home/87534953",
+   "drive": 80,
+   "shopMin": 42
+  },
+  {
+   "id": "rf203581289",
+   "acres": 9.22,
+   "price": 115250,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/Lot-1-Burrville-Rd-37872/home/203581289",
+   "drive": 73,
+   "shopMin": 36
+  },
+  {
+   "id": "rf201105132",
+   "acres": 9.0,
+   "price": 125000,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/140-Old-Highway-27-37872/home/201105132",
+   "drive": 64,
+   "shopMin": 29
+  },
+  {
+   "id": "rf189435477",
+   "acres": 7.3,
+   "price": 70000,
+   "town": "Sunbright",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Sunbright/US-Highway-27-37872/home/189435477",
+   "drive": 69,
+   "shopMin": 26
+  },
+  {
+   "id": "rf62937585",
+   "acres": 2.45,
+   "price": 27500,
+   "town": "Wartburg",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Wartburg/Catoosa-Rd-37887/home/62937585",
+   "drive": 57,
+   "shopMin": 22
+  },
+  {
+   "id": "rf147178928",
+   "acres": 8.35,
+   "price": 59900,
+   "town": "Deer Lodge",
+   "county": "Morgan",
+   "url": "https://www.redfin.com/TN/Deer-Lodge/Anthony-Rd-37726/home/147178928",
+   "drive": 85,
+   "shopMin": 34
+  },
+  {
+   "id": "rf197624421",
+   "acres": 30.07,
+   "price": 220000,
+   "town": "Cosby",
+   "county": "Cocke",
+   "url": "https://www.redfin.com/TN/Cosby/Boomer-Way-37722/home/197624421",
+   "drive": 64,
+   "shopMin": 18
   }
  ],
  "tooSteep": [],

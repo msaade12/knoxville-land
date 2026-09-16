@@ -11,11 +11,19 @@ Swept from Redfin every morning, mapped, and published free on GitHub Pages.
 
 Every day at 11:15 UTC (~6:15am Central) a GitHub Action runs `scripts/sweep.py`, which:
 
-1. Pulls active vacant-land listings from Redfin's CSV export for 12 counties.
+1. Pulls active vacant-land listings from **two sources**: Redfin's CSV export for the
+   12 counties, then Zillow's county land pages (`scripts/zillow.py`). Zillow's page
+   embeds every listing's coordinates and photo carousel, so no per-listing fetch is
+   needed. The two are matched as one parcel when county, price and acreage (±0.06)
+   agree: Zillow then supplies coordinates for a Redfin tract we only knew to the town,
+   revives an archived tract Redfin's export dropped, or — if Redfin never had it — adds
+   it with a `z…` id. Redfin's export omits whole MLS boards (Sevier County came back with
+   3 of 16); Zillow fills that gap.
 2. Filters to the criteria: 10+ acres, ≤ $250k, ACTIVE, no building square footage.
 3. Assigns each parcel to a county by point-in-polygon against `data/counties.json`.
 4. Diffs against the previous run — what's new, what changed price, what vanished.
-5. Downloads any photo it doesn't already have into `photos/`.
+5. Finds each listing's photo on Redfin's CDN straight from its MLS number (no page
+   fetch — Redfin serves a bot challenge to page bursts) and downloads it into `photos/`.
 6. Commits `data/tracts.json`, `data/report.json` and any new photos.
 
 The commit republishes the site. The whole run takes about 15 seconds. `lastSeen` is
@@ -30,7 +38,7 @@ A written summary of each run lands in the **Actions** tab, under the run's Summ
 | Rule | Value |
 |---|---|
 | Counties | Knox, Blount, Loudon, Anderson, Union, Grainger, Jefferson, Sevier, Roane, Monroe, Campbell, Morgan |
-| Acreage | 10 acres minimum |
+| Acreage | Collected from 0.1 acre so the slider can go that low; the site defaults to 10 |
 | Price | $250,000 maximum |
 | Status | Active only |
 | Type | Vacant land — anything with a listed building square footage is dropped |
@@ -106,6 +114,7 @@ data/anchors.json       174 anchor stores (Walmart, Kroger, Food City…) — wh
 data/stores.json        301 supermarkets of any kind — fallback when routing is unavailable
 photos/rf*.webp         one photo per listing, served same-origin
 scripts/sweep.py        the daily sweep — stdlib only, no dependencies
+scripts/zillow.py       Zillow county search: coordinates, status, photo carousel
 scripts/report.py       renders report.json as Markdown for the Actions summary
 .github/workflows/daily.yml
 ```
@@ -197,9 +206,13 @@ The sweep distinguishes three very different things:
 
 ## Known gaps
 
-- **Redfin only.** LandSearch, LandWatch, Land.com, Craigslist FSBO and the auction
-  houses are not swept. Owner-financing and by-owner flags came from those sources, so
-  those filters are not on the site.
+- **Redfin + Zillow only.** LandSearch, LandWatch, Land.com and LandsOfAmerica all
+  return 403 to non-browser requests; Redfin's listing pages serve a bot challenge to
+  anything beyond one request per session; Redfin's detail APIs are 403. Craigslist FSBO
+  and the auction houses are not swept. Owner-financing and by-owner flags came from
+  those sources, so those filters are not on the site.
+- **Galleries are hotlinked.** A Zillow-matched tract shows its whole carousel in the
+  viewer, served from `photos.zillowstatic.com`; only the primary photo is committed.
 - **Photos are one per listing.** Redfin's CDN serves the same image at every photo index
   for these land listings, so there is no gallery to pull.
 - **No parcel boundaries.** Redfin gives a point, not a polygon.

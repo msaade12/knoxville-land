@@ -280,6 +280,14 @@ function makeIcon(t) {
 
 const isNew = t => !t.baseline && daysAgo(t.firstSeen) <= NEW_DAYS;
 
+/** Every local picture we hold for a tract - the gallery, else the one photo. */
+const pics = t => {
+  if (t.imgs && t.imgs.length) return t.imgs;
+  const g = (t.gallery || []).filter(Boolean);
+  if (g.length) return t.img ? [t.img, ...g.slice(1)] : g;   // local primary first
+  return t.img ? [t.img] : [];
+};
+
 /** Nearest real shopping: routed time to an anchor store, else the old estimate. */
 const shop = t => t.shopMin != null
   ? { min: t.shopMin, mi: t.shopMi, to: t.shopName + (t.shopCity ? ', ' + t.shopCity : ''), real: true }
@@ -341,12 +349,14 @@ function popupHtml(t) {
 
 function cardHtml(t) {
   const thumb = t.img
-    ? `<img class="thumb" src="${esc(t.img)}" alt="" loading="lazy" decoding="async">`
+    ? `<span class="thumbwrap"><img class="thumb" src="${esc(t.img)}" alt="" loading="lazy" decoding="async">${
+        pics(t).length > 1 ? `<span class="thumbn">${pics(t).length} photos</span>` : ''}</span>`
     : `<div class="thumb empty">no<br>photo</div>`;
   const tags = [
     isNew(t) ? '<span class="tag new">new</span>' : '',
     priceCut(t) ? `<span class="tag cut">price cut</span>` : '',
     t.status !== 'active' ? '<span class="tag unconf">unconfirmed</span>' : '',
+    t.geo !== 'parcel' ? '<span class="tag unconf" title="Placed at the town centre — exact parcel not yet located">approx pin</span>' : '',
     `<span class="tag">${t.drive} min</span>`,
     shop(t)
       ? `<span class="tag groc" title="to ${esc(shop(t).to)}">${shop(t).min} min shops</span>` : '',
@@ -512,8 +522,9 @@ function focusTract(id) {
 /* ─────────────────────────────── lightbox ────────────────────────────── */
 
 function openLightbox(id) {
-  const list = state.view.filter(t => t.img);
-  const i = list.findIndex(t => t.id === id);
+  const list = [];
+  state.view.forEach(t => pics(t).forEach((src, k) => list.push({ t, src, k, n: pics(t).length })));
+  const i = list.findIndex(e => e.t.id === id);
   if (i < 0) return;
   state.lb = { list, i };
   paintLightbox();
@@ -521,15 +532,17 @@ function openLightbox(id) {
 }
 
 function paintLightbox() {
-  const t = state.lb.list[state.lb.i];
-  if (!t) return;
-  $('#lbImg').src = t.img;
+  const e = state.lb.list[state.lb.i];
+  if (!e) return;
+  const t = e.t;
+  $('#lbImg').src = e.src;
   $('#lbImg').alt = `${t.acres} acres in ${t.town}, ${t.county} County`;
   $('#lbCap').innerHTML =
     `<b>${t.acres} ac · ${fmt$(t.price)}</b> · ${fmt$(t.ppa)}/ac<br>
      ${esc(t.address)} — ${esc(t.town)}, ${esc(t.county)} County ·
      ${t.drive} min from Knoxville<br>
      <a href="${esc(t.url)}" target="_blank" rel="noopener">Open listing ↗</a>
+     ${e.n > 1 ? `&nbsp;·&nbsp; photo ${e.k + 1} of ${e.n}` : ''}
      &nbsp;·&nbsp; ${state.lb.i + 1} of ${state.lb.list.length}`;
 }
 
@@ -586,7 +599,7 @@ function wire() {
     $('#fGroc').value = 15;
     $('#fCounty').value = ''; $('#fSort').value = 'ppa';
     $('#fNew').checked = false; $('#fCut').checked = false;
-    $('#fPhoto').checked = false; $('#fConfirmed').checked = true;
+    $('#fPhoto').checked = false; $('#fConfirmed').checked = false;
     $('#search').value = '';
     syncOutputs(); apply();
   });
@@ -682,7 +695,7 @@ function wire() {
 function syncOutputs() {
   $('#oDrive').textContent = $('#fDrive').value + ' min';
   $('#oPrice').textContent = fmtK(+$('#fPrice').value);
-  $('#oAcres').textContent = $('#fAcres').value;
+  $('#oAcres').textContent = (+$('#fAcres').value).toString();
   $('#oGroc').textContent = $('#fGroc').value + ' min';
 }
 

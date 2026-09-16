@@ -298,5 +298,1775 @@
   "detail": "21 min to Food City, Maynardville City Limits",
   "on": "2026-09-16",
   "town": "Sharps Chapel"
+ },
+ "rf111179478": {
+  "reason": "too far",
+  "detail": "16 min to Food City, Sevier",
+  "on": "2026-09-16",
+  "town": "Seymour"
+ },
+ "rf87194282": {
+  "reason": "too far",
+  "detail": "18 min to Kroger, Alcoa",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf87166961": {
+  "reason": "too far",
+  "detail": "27 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf87194875": {
+  "reason": "too far",
+  "detail": "35 min to Kroger, Alcoa",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf87173530": {
+  "reason": "too far",
+  "detail": "26 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Walland"
+ },
+ "rf199409402": {
+  "reason": "too far",
+  "detail": "26 min to ALDI, Alcoa",
+  "on": "2026-09-16",
+  "town": "Louisville"
+ },
+ "rf205228610": {
+  "reason": "too far",
+  "detail": "16 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Walland"
+ },
+ "rf184935475": {
+  "reason": "too far",
+  "detail": "29 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf202197923": {
+  "reason": "too far",
+  "detail": "33 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf87173413": {
+  "reason": "too far",
+  "detail": "31 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf204556075": {
+  "reason": "too far",
+  "detail": "21 min to Walmart, Maryville",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf204557789": {
+  "reason": "too far",
+  "detail": "21 min to Walmart, Maryville",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf87169287": {
+  "reason": "too far",
+  "detail": "24 min to Walmart, Madisonville",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf195458706": {
+  "reason": "too far",
+  "detail": "27 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf202601967": {
+  "reason": "too far",
+  "detail": "19 min to Walmart, Maryville",
+  "on": "2026-09-16",
+  "town": "Greenback"
+ },
+ "rf87194577": {
+  "reason": "too far",
+  "detail": "29 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf87194713": {
+  "reason": "too far",
+  "detail": "16 min to Walmart, Maryville",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf202249708": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf202143465": {
+  "reason": "too far",
+  "detail": "33 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf62881734": {
+  "reason": "too far",
+  "detail": "19 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf87166653": {
+  "reason": "too far",
+  "detail": "26 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf201108747": {
+  "reason": "too far",
+  "detail": "30 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf87191552": {
+  "reason": "too far",
+  "detail": "18 min to Kroger, Alcoa",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf87166116": {
+  "reason": "too far",
+  "detail": "21 min to Kroger, Alcoa",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf189633896": {
+  "reason": "too far",
+  "detail": "24 min to Kroger, Alcoa",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf195795989": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Walland"
+ },
+ "rf87195053": {
+  "reason": "too far",
+  "detail": "18 min to Walmart, Maryville",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf194342749": {
+  "reason": "too far",
+  "detail": "19 min to Walmart, Maryville",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf87193858": {
+  "reason": "too far",
+  "detail": "33 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf87194658": {
+  "reason": "too far",
+  "detail": "25 min to Kroger, Alcoa",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf188608594": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Townsend"
+ },
+ "rf87174386": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Walland"
+ },
+ "rf198699297": {
+  "reason": "too far",
+  "detail": "32 min to Kroger, Alcoa",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf196903577": {
+  "reason": "too far",
+  "detail": "22 min to Walmart, Madisonville",
+  "on": "2026-09-16",
+  "town": "Maryville"
+ },
+ "rf199458510": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Walland"
+ },
+ "rf87195128": {
+  "reason": "too far",
+  "detail": "27 min to Walmart, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf87174313": {
+  "reason": "too far",
+  "detail": "27 min to Food City, Maryville",
+  "on": "2026-09-16",
+  "town": "Tallassee"
+ },
+ "rf183722691": {
+  "reason": "too far",
+  "detail": "16 min to Food City, Loudon",
+  "on": "2026-09-16",
+  "town": "Loudon"
+ },
+ "rf87570527": {
+  "reason": "too far",
+  "detail": "20 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Heiskell"
+ },
+ "rf87567863": {
+  "reason": "too far",
+  "detail": "17 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf201929314": {
+  "reason": "too far",
+  "detail": "20 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf87567769": {
+  "reason": "too far",
+  "detail": "20 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf189133625": {
+  "reason": "too far",
+  "detail": "31 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf106207720": {
+  "reason": "too far",
+  "detail": "28 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf87567321": {
+  "reason": "too far",
+  "detail": "22 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf190895790": {
+  "reason": "too far",
+  "detail": "17 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf87921055": {
+  "reason": "too far",
+  "detail": "69 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf191567241": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf103000290": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf87918128": {
+  "reason": "too far",
+  "detail": "17 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Andersonville"
+ },
+ "rf204356592": {
+  "reason": "too far",
+  "detail": "67 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf202647047": {
+  "reason": "too far",
+  "detail": "23 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf202380675": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Maynardville"
+ },
+ "rf87921768": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf102098245": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Maynardville"
+ },
+ "rf62986988": {
+  "reason": "too far",
+  "detail": "68 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf62964205": {
+  "reason": "too far",
+  "detail": "25 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf189522005": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf200715074": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf103000467": {
+  "reason": "too far",
+  "detail": "73 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Speedwell"
+ },
+ "rf144728020": {
+  "reason": "too far",
+  "detail": "25 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Maynardville"
+ },
+ "rf62890911": {
+  "reason": "too far",
+  "detail": "64 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sharps Chapel"
+ },
+ "rf87920917": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Maynardville"
+ },
+ "rf103001052": {
+  "reason": "too far",
+  "detail": "16 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Maynardville"
+ },
+ "rf191074268": {
+  "reason": "too far",
+  "detail": "23 min to Food City, Maynardville City Limits",
+  "on": "2026-09-16",
+  "town": "Maynardville"
+ },
+ "rf184560032": {
+  "reason": "too far",
+  "detail": "17 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ },
+ "rf182527404": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf62987765": {
+  "reason": "too far",
+  "detail": "17 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ },
+ "rf204704364": {
+  "reason": "too far",
+  "detail": "17 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ },
+ "rf204662774": {
+  "reason": "too far",
+  "detail": "24 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf119017513": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf184317792": {
+  "reason": "too far",
+  "detail": "17 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ },
+ "rf203210231": {
+  "reason": "too far",
+  "detail": "16 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ },
+ "rf203210220": {
+  "reason": "too far",
+  "detail": "16 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ },
+ "rf203207745": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf203141643": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf119001815": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Tazewell",
+  "on": "2026-09-16",
+  "town": "Thorn Hill"
+ },
+ "rf201694327": {
+  "reason": "too far",
+  "detail": "21 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf184561770": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf184560082": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf200528288": {
+  "reason": "too far",
+  "detail": "22 min to Food City, Jefferson City",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf200552909": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Jefferson City",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf192510147": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Jefferson City",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf199625134": {
+  "reason": "too far",
+  "detail": "22 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Bean Station"
+ },
+ "rf174609252": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Jefferson City",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf119075466": {
+  "reason": "too far",
+  "detail": "16 min to Food City, Tazewell",
+  "on": "2026-09-16",
+  "town": "Thorn Hill"
+ },
+ "rf118980283": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Blaine",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf119107499": {
+  "reason": "too far",
+  "detail": "22 min to Ingles, Morristown",
+  "on": "2026-09-16",
+  "town": "Rutledge"
+ },
+ "rf124522053": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf124671402": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf124531347": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf182030729": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf204479512": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf203579787": {
+  "reason": "too far",
+  "detail": "22 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf191059079": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf124554489": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Dandridge",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf179595770": {
+  "reason": "too far",
+  "detail": "30 min to Aldi, Sevierville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf182525021": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf193688131": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf194847161": {
+  "reason": "too far",
+  "detail": "22 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf198808786": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf198004325": {
+  "reason": "too far",
+  "detail": "18 min to Aldi, Sevierville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf201007958": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Dandridge",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf201102572": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf124714903": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf194805053": {
+  "reason": "too far",
+  "detail": "16 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf124550959": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Dandridge",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf174668149": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf194665958": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf124597518": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf200785020": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf200544289": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Dandridge",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf62898277": {
+  "reason": "too far",
+  "detail": "16 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf198200841": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf199956682": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Dandridge",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf199591507": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf199482775": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf198978407": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf124568531": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf124454001": {
+  "reason": "too far",
+  "detail": "17 min to Food City, Dandridge",
+  "on": "2026-09-16",
+  "town": "Dandridge"
+ },
+ "rf196122408": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Dandridge",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf124430569": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf191059196": {
+  "reason": "too far",
+  "detail": "22 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "White Pine"
+ },
+ "rf190551569": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf184513727": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf182522816": {
+  "reason": "too far",
+  "detail": "22 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf199463562": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Baneberry"
+ },
+ "rf205503335": {
+  "reason": "too far",
+  "detail": "24 min to Aldi, Sevierville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf173957558": {
+  "reason": "too far",
+  "detail": "18 min to Food City, Sevier",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204725950": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204725938": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204725911": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204725902": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204725293": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204725232": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204725187": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204724933": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204724932": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204723975": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf182525548": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204723269": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf184695951": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204703067": {
+  "reason": "too far",
+  "detail": "17 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf111234253": {
+  "reason": "too far",
+  "detail": "18 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204643517": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Sevier",
+  "on": "2026-09-16",
+  "town": "Seymour"
+ },
+ "rf111127859": {
+  "reason": "too far",
+  "detail": "27 min to Walmart, Newport",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204624731": {
+  "reason": "too far",
+  "detail": "16 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf111333849": {
+  "reason": "too far",
+  "detail": "22 min to Walmart, Newport",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf204471848": {
+  "reason": "too far",
+  "detail": "25 min to Aldi, Sevierville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf111311357": {
+  "reason": "too far",
+  "detail": "19 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf190332469": {
+  "reason": "too far",
+  "detail": "17 min to Publix, Pigeon Forge",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf111093351": {
+  "reason": "too far",
+  "detail": "21 min to Aldi, Sevierville",
+  "on": "2026-09-16",
+  "town": "Sevierville"
+ },
+ "rf172591954": {
+  "reason": "too far",
+  "detail": "19 min to Food City, Newport",
+  "on": "2026-09-16",
+  "town": "Pittman Center"
+ },
+ "rf87529837": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf184113881": {
+  "reason": "too far",
+  "detail": "23 min to Food City, Loudon",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf204445746": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf87527628": {
+  "reason": "too far",
+  "detail": "17 min to Walmart, Lenoir City",
+  "on": "2026-09-16",
+  "town": "Loudon"
+ },
+ "rf195078737": {
+  "reason": "too far",
+  "detail": "16 min to Kroger, Harriman",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf62970737": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Kingston",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf203359950": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf87527865": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf87527866": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf62965217": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf104310122": {
+  "reason": "too far",
+  "detail": "62 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf185116284": {
+  "reason": "too far",
+  "detail": "30 min to Food City, Loudon",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf173633235": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf103874082": {
+  "reason": "too far",
+  "detail": "35 min to Walmart, Lenoir City",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf202322695": {
+  "reason": "too far",
+  "detail": "72 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf202120284": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Kingston",
+  "on": "2026-09-16",
+  "town": "Decatur"
+ },
+ "rf103874366": {
+  "reason": "too far",
+  "detail": "72 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf103861532": {
+  "reason": "too far",
+  "detail": "29 min to Food City, Loudon",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf87529610": {
+  "reason": "too far",
+  "detail": "29 min to Food City, Loudon",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf103862041": {
+  "reason": "too far",
+  "detail": "20 min to Food City, Kingston",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf104309726": {
+  "reason": "too far",
+  "detail": "72 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Ten Mile"
+ },
+ "rf201103129": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf201103091": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf201103077": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf201103046": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf200944662": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf200944652": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf103861810": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf87529780": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf87530773": {
+  "reason": "too far",
+  "detail": "23 min to Food City, Kingston",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf103874170": {
+  "reason": "too far",
+  "detail": "22 min to Walmart, Lenoir City",
+  "on": "2026-09-16",
+  "town": "Loudon"
+ },
+ "rf103874169": {
+  "reason": "too far",
+  "detail": "22 min to Walmart, Lenoir City",
+  "on": "2026-09-16",
+  "town": "Loudon"
+ },
+ "rf198852243": {
+  "reason": "too far",
+  "detail": "16 min to Kroger, Harriman",
+  "on": "2026-09-16",
+  "town": "Harriman"
+ },
+ "rf195333685": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf171515551": {
+  "reason": "too far",
+  "detail": "68 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Ten Mile"
+ },
+ "rf103861545": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Kingston"
+ },
+ "rf62970704": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Rockwood"
+ },
+ "rf87946876": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Ten Mile"
+ },
+ "rf87946646": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Ten Mile"
+ },
+ "rf101288343": {
+  "reason": "too far",
+  "detail": "62 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Ten Mile"
+ },
+ "rf103875528": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Ten Mile"
+ },
+ "rf62832674": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf203471280": {
+  "reason": "too far",
+  "detail": "75 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf203460528": {
+  "reason": "too far",
+  "detail": "75 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf203302011": {
+  "reason": "too far",
+  "detail": "75 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf103365324": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf203214890": {
+  "reason": "too far",
+  "detail": "75 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf103359373": {
+  "reason": "too far",
+  "detail": "69 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sweetwater"
+ },
+ "rf202402985": {
+  "reason": "too far",
+  "detail": "61 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Madisonville"
+ },
+ "rf103362164": {
+  "reason": "too far",
+  "detail": "81 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf202247153": {
+  "reason": "too far",
+  "detail": "87 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf202246492": {
+  "reason": "too far",
+  "detail": "88 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf194649801": {
+  "reason": "too far",
+  "detail": "67 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf87501318": {
+  "reason": "too far",
+  "detail": "84 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf204535850": {
+  "reason": "too far",
+  "detail": "85 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf202104297": {
+  "reason": "too far",
+  "detail": "76 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf87499709": {
+  "reason": "too far",
+  "detail": "78 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf87504413": {
+  "reason": "too far",
+  "detail": "89 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf103365375": {
+  "reason": "too far",
+  "detail": "90 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf104711611": {
+  "reason": "too far",
+  "detail": "22 min to Walmart, Madisonville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf104757384": {
+  "reason": "too far",
+  "detail": "105 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf103363473": {
+  "reason": "too far",
+  "detail": "69 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf197401474": {
+  "reason": "too far",
+  "detail": "78 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf103365824": {
+  "reason": "too far",
+  "detail": "17 min to Walmart, Madisonville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf199554649": {
+  "reason": "too far",
+  "detail": "69 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf200323323": {
+  "reason": "too far",
+  "detail": "83 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Coker Creek"
+ },
+ "rf102131381": {
+  "reason": "too far",
+  "detail": "82 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf198276706": {
+  "reason": "too far",
+  "detail": "79 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf199913533": {
+  "reason": "too far",
+  "detail": "87 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Reliance"
+ },
+ "rf102120189": {
+  "reason": "too far",
+  "detail": "75 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf102117271": {
+  "reason": "too far",
+  "detail": "76 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf87503076": {
+  "reason": "too far",
+  "detail": "86 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Tellico Plains"
+ },
+ "rf183935254": {
+  "reason": "too far",
+  "detail": "78 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Vonore"
+ },
+ "rf197401370": {
+  "reason": "too far",
+  "detail": "73 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Madisonville"
+ },
+ "rf195552497": {
+  "reason": "too far",
+  "detail": "76 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Pioneer"
+ },
+ "rf104554657": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf63024034": {
+  "reason": "too far",
+  "detail": "73 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Pioneer"
+ },
+ "rf204631991": {
+  "reason": "too far",
+  "detail": "77 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf204357248": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf104532888": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf203569868": {
+  "reason": "too far",
+  "detail": "68 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf194600745": {
+  "reason": "too far",
+  "detail": "64 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf104528415": {
+  "reason": "too far",
+  "detail": "18 min to Walmart, Jacksboro",
+  "on": "2026-09-16",
+  "town": "Caryville"
+ },
+ "rf87495511": {
+  "reason": "too far",
+  "detail": "18 min to Food City, La Follette",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf202401335": {
+  "reason": "too far",
+  "detail": "74 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf104528648": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf179543416": {
+  "reason": "too far",
+  "detail": "82 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Morley"
+ },
+ "rf104527039": {
+  "reason": "too far",
+  "detail": "67 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf201925420": {
+  "reason": "too far",
+  "detail": "62 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf201892838": {
+  "reason": "too far",
+  "detail": "68 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Newcomb"
+ },
+ "rf104527628": {
+  "reason": "too far",
+  "detail": "68 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jacksboro"
+ },
+ "rf87495351": {
+  "reason": "too far",
+  "detail": "62 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf201843868": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Caryville"
+ },
+ "rf201792784": {
+  "reason": "too far",
+  "detail": "71 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf62953094": {
+  "reason": "too far",
+  "detail": "62 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jacksboro"
+ },
+ "rf201721266": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf104539744": {
+  "reason": "too far",
+  "detail": "19 min to Walmart, Clinton",
+  "on": "2026-09-16",
+  "town": "Caryville"
+ },
+ "rf87497439": {
+  "reason": "too far",
+  "detail": "62 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jacksboro"
+ },
+ "rf175930691": {
+  "reason": "too far",
+  "detail": "62 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jacksboro"
+ },
+ "rf109624324": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jacksboro"
+ },
+ "rf104539983": {
+  "reason": "too far",
+  "detail": "72 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jacksboro"
+ },
+ "rf104529069": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf201471112": {
+  "reason": "too far",
+  "detail": "19 min to Food City, La Follette",
+  "on": "2026-09-16",
+  "town": "Duff"
+ },
+ "rf175928030": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Duff"
+ },
+ "rf104529512": {
+  "reason": "too far",
+  "detail": "67 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf104532519": {
+  "reason": "too far",
+  "detail": "68 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf104530281": {
+  "reason": "too far",
+  "detail": "30 min to Walmart, Jacksboro",
+  "on": "2026-09-16",
+  "town": "Pioneer"
+ },
+ "rf144026844": {
+  "reason": "too far",
+  "detail": "65 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf87490179": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jellico"
+ },
+ "rf62957729": {
+  "reason": "too far",
+  "detail": "17 min to Food City, La Follette",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf196236158": {
+  "reason": "too far",
+  "detail": "80 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf195659681": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Duff"
+ },
+ "rf109624543": {
+  "reason": "too far",
+  "detail": "63 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Jacksboro"
+ },
+ "rf104525735": {
+  "reason": "too far",
+  "detail": "75 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Speedwell"
+ },
+ "rf104530943": {
+  "reason": "too far",
+  "detail": "69 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "La Follette"
+ },
+ "rf188933508": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf188933578": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf188933541": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf188933529": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf188933528": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf188933522": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf188933520": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf188933494": {
+  "reason": "too far",
+  "detail": "70 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Lafollette"
+ },
+ "rf200234929": {
+  "reason": "too far",
+  "detail": "71 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Speedwell"
+ },
+ "rf205504132": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Harriman",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf205503456": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Harriman",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf205503232": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Harriman",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf205502878": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Harriman",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf205502246": {
+  "reason": "too far",
+  "detail": "21 min to Food City, Harriman",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf205407188": {
+  "reason": "too far",
+  "detail": "23 min to Food City, Harriman",
+  "on": "2026-09-16",
+  "town": "Lancing"
+ },
+ "rf62917029": {
+  "reason": "too far",
+  "detail": "66 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf205280361": {
+  "reason": "too far",
+  "detail": "67 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sunbright"
+ },
+ "rf205271004": {
+  "reason": "too far",
+  "detail": "67 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sunbright"
+ },
+ "rf105452412": {
+  "reason": "too far",
+  "detail": "74 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Deer Lodge"
+ },
+ "rf203580650": {
+  "reason": "too far",
+  "detail": "71 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf87534953": {
+  "reason": "too far",
+  "detail": "80 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sunbright"
+ },
+ "rf203581289": {
+  "reason": "too far",
+  "detail": "73 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sunbright"
+ },
+ "rf201105132": {
+  "reason": "too far",
+  "detail": "64 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sunbright"
+ },
+ "rf189435477": {
+  "reason": "too far",
+  "detail": "69 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Sunbright"
+ },
+ "rf62937585": {
+  "reason": "too far",
+  "detail": "22 min to Food City, Harriman",
+  "on": "2026-09-16",
+  "town": "Wartburg"
+ },
+ "rf147178928": {
+  "reason": "too far",
+  "detail": "85 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Deer Lodge"
+ },
+ "rf197624421": {
+  "reason": "too far",
+  "detail": "64 min to Knoxville",
+  "on": "2026-09-16",
+  "town": "Cosby"
  }
 }

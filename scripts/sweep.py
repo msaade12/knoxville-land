@@ -39,7 +39,7 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 # ---------------------------------------------------------------- criteria ---
 
 MAX_PRICE = 250_000
-MIN_ACRES = 10.0
+MIN_ACRES = 0.1
 SQFT_PER_ACRE = 43_560.0
 
 # Redfin region ids for the 12 in-scope counties.
@@ -76,8 +76,8 @@ EXCLUDE_HOA = True
 # Hard limits on routed road time. Applied only when the figure is a real
 # routed one (never to a straight-line estimate), and remembered in
 # data/excluded.json so the tract is not routed again every morning.
-PAGE_FETCH_CAP = 12     # listing pages per run - Redfin blocks bursts
-PAGE_FETCH_PAUSE = 4.0  # seconds between them
+PAGE_FETCH_CAP = 20     # listing pages per run - Redfin blocks bursts
+PAGE_FETCH_PAUSE = 5.0  # seconds between them
 
 MAX_DRIVE_MIN = 60      # to downtown Knoxville
 MAX_SHOP_MIN = 15       # to the nearest anchor store
@@ -477,42 +477,129 @@ def row_to_tract(r, polys, stores=()):
     if DWELLING_RE.search(r.get("ADDRESS") or ""):
         return None
 
-    county = county_for(lat, lon, polys)
-    if county not in COUNTIES:
-        return None
-
-    miles = haversine_mi(KNOXVILLE, (lat, lon))
-    gmi, gmin, gname = nearest_store(lat, lon, stores)
-    ppa = int(round(price / acres))
-    band = next(i for i, (hi, _, _) in enumerate(BANDS) if ppa < hi)
-
-    return {
+    return finish_tract({
         "id": "rf" + m.group(1),
         "mls": (r.get("MLS#") or "").strip() or None,
         "acres": acres,
         "price": price,
-        "ppa": ppa,
         "address": (r.get("ADDRESS") or "").strip(),
         "town": (r.get("CITY") or "").strip(),
-        "county": county,
         "zip": (r.get("ZIP OR POSTAL CODE") or "").strip(),
         "url": url,
         "photo": None,
         "lat": round(lat, 6),
         "lon": round(lon, 6),
-        "miles": round(miles, 1),
-        "drive": max(5, int(round(miles * DRIVE_FACTOR))),
         "hoa": hoa or 0,
-        "groceryMi": gmi,
-        "groceryMin": gmin,
-        "groceryName": gname,
         "domSource": num(r.get("DAYS ON MARKET"), int),
         "source": (r.get("SOURCE") or "Redfin").strip(),
-        "status": "active",
-        "bandIdx": band,
-        "color": BANDS[band][2],
-        "bandLabel": BANDS[band][1],
-    }
+    }, polys, stores)
+
+
+def finish_tract(t, polys, stores):
+    """County, distances, price band - everything derived from lat/lon/price.
+    Returns None if the point falls outside the 12 counties."""
+    lat, lon = t["lat"], t["lon"]
+    county = county_for(lat, lon, polys)
+    if county not in COUNTIES:
+        return None
+    miles = haversine_mi(KNOXVILLE, (lat, lon))
+    gmi, gmin, gname = nearest_store(lat, lon, stores)
+    ppa = int(round(t["price"] / t["acres"]))
+    band = next(i for i, (hi, _, _) in enumerate(BANDS) if ppa < hi)
+    t.update({
+        "county": county, "ppa": ppa, "miles": round(miles, 1),
+        "drive": max(5, int(round(miles * DRIVE_FACTOR))),
+        "groceryMi": gmi, "groceryMin": gmin, "groceryName": gname,
+        "status": "active", "bandIdx": band,
+        "color": BANDS[band][2], "bandLabel": BANDS[band][1],
+    })
+    return t
+
+
+def same_parcel(a, b):
+    """The dedupe rule: one parcel syndicated to two sites shows the same
+    price and (to a tenth of an acre) the same size in the same county."""
+    return (a["price"] == b["price"] and a.get("county") == b.get("county")
+            and abs(a["acres"] - b["acres"]) <= 0.06)
+
+
+def merge_zillow(found, prev, excluded, polys, stores):
+    """Second source. A Zillow listing either (a) puts a Redfin tract we only
+    knew to the town onto its real parcel, (b) revives an archived tract the
+    Redfin export stopped returning, or (c) is a listing Redfin never had."""
+    import zillow
+    upgraded, revived, added = 0, 0, 0
+    for name in COUNTIES:
+        try:
+            rows = zillow.fetch_county(name, MAX_PRICE, int(MIN_ACRES * 43560))
+        except Exception as e:                       # noqa: BLE001
+            log(f"  ! zillow {name}: {e}")
+            continue
+        for z in rows:
+            if z["price"] > MAX_PRICE or z["acres"] < MIN_ACRES:
+                continue
+            if EXCLUDE_HOA and z.get("hoa"):
+                continue
+            zt = finish_tract({
+                "id": "z" + z["zpid"], "mls": None, "acres": z["acres"],
+                "price": z["price"], "address": z["address"], "town": z["town"],
+                "zip": z["zip"], "url": z["url"], "photo": z["photo"],
+                "lat": z["lat"], "lon": z["lon"], "hoa": z.get("hoa") or 0,
+                "domSource": z.get("dom"), "source": "Zillow",
+                "gallery": z.get("gallery") or [],
+            }, polys, stores)
+            if not zt or zt["id"] in excluded:
+                continue
+            # (a) same parcel already in this run's set
+            hit = next((t for t in found.values() if same_parcel(t, zt)), None)
+            if hit:
+                if hit.get("geo") != "parcel":
+                    hit["lat"], hit["lon"] = zt["lat"], zt["lon"]
+                    hit["geo"] = "parcel"
+                    hit["coordSource"] = "Zillow"
+                    hit["status"] = "active"
+                    hit["missCount"] = 0
+                    hit.pop("missDate", None)
+                    for k in ("driveReal", "driveRoad", "shopMin", "shopRoad",
+                              "shopName", "shopCity", "shopMi",
+                              "slope", "elev", "relief"):
+                        hit.pop(k, None)
+                    hit["miles"], hit["drive"] = zt["miles"], zt["drive"]
+                    upgraded += 1
+                if not hit.get("photo") and zt.get("photo"):
+                    hit["photo"] = zt["photo"]
+                if zt.get("gallery") and not hit.get("gallery"):
+                    hit["gallery"] = zt["gallery"]
+                continue
+            # (b) an archived tract Redfin's export dropped
+            old = next((p for pid, p in prev.items() if pid not in found
+                        and pid not in excluded and same_parcel(p, zt)), None)
+            if old:
+                t = dict(old)
+                t.update({k: zt[k] for k in ("lat", "lon", "miles", "drive",
+                                              "groceryMi", "groceryMin",
+                                              "groceryName", "county")})
+                t["geo"], t["coordSource"] = "parcel", "Zillow"
+                t["status"], t["missCount"] = "active", 0
+                t.pop("missDate", None)
+                for k in ("driveReal", "driveRoad", "shopMin", "shopRoad",
+                          "shopName", "shopCity", "shopMi",
+                          "slope", "elev", "relief"):
+                    t.pop(k, None)
+                if not t.get("photo"):
+                    t["photo"] = zt.get("photo")
+                if zt.get("gallery"):
+                    t["gallery"] = zt["gallery"]
+                found[t["id"]] = t
+                revived += 1
+                continue
+            # (c) genuinely new to us
+            found[zt["id"]] = zt
+            added += 1
+        time.sleep(2.0)
+    log(f"zillow: {upgraded} tracts placed on parcel, {revived} revived, "
+        f"{added} only on Zillow")
+
 
 
 # ------------------------------------------------------ listing-page check ---
@@ -542,8 +629,9 @@ def refine_from_pages(found, polys, today):
     - a tract Redfin's export stopped returning gets its status read off the
       page, so 'unconfirmed' resolves the same day instead of after 3 misses.
     Returns the list of tracts confirmed gone."""
-    todo = [t for t in found.values()
-            if t.get("geo") != "parcel" or t.get("status") == "unconfirmed"]
+    todo = sorted([t for t in found.values()
+                   if t.get("geo") != "parcel" or t.get("status") == "unconfirmed"],
+                  key=lambda t: t.get("drive", 999))
     if not todo:
         return []
     log(f"listing pages to check: {len(todo)}")
@@ -592,8 +680,29 @@ def refine_from_pages(found, polys, today):
 OG_RE = re.compile(r'<meta property="og:image" content="([^"]+)"')
 
 
+# Redfin photo-set ids seen so far for these MLS boards. The primary photo
+# lives at a URL derivable from the MLS number, so no page fetch is needed.
+PHOTO_MARKETS = ("177", "255", "145")
+
+
+def _head_ok(url):
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return r.status == 200
+    except Exception:                                    # noqa: BLE001
+        return False
+
+
 def find_photo(t):
-    html = fetch(t["url"], tries=2, timeout=30)
+    mls = t.get("mls") or ""
+    if mls.isdigit():
+        for mk in PHOTO_MARKETS:
+            u = (f"https://ssl.cdn-redfin.com/photo/{mk}/islphoto/{mls[-3:]}"
+                 f"/genIslnoResize.{mls}_0.webp")
+            if _head_ok(u):
+                return t["id"], u
+    html = fetch(t["url"], tries=1, timeout=30)
     if not html:
         return t["id"], None
     m = OG_RE.search(html)
@@ -608,6 +717,28 @@ def find_photo(t):
 def ext_for(url):
     e = os.path.splitext(url.split("?")[0])[1].lower()
     return e if e in (".jpg", ".jpeg", ".png", ".webp") else ".jpg"
+
+
+def download_gallery(t):
+    urls = [u for u in (t.get("gallery") or []) if u]
+    if not urls:
+        return 0
+    have = t.get("imgs") or []
+    if len(have) >= len(urls):
+        return 0
+    out = []
+    for i, u in enumerate(urls):
+        local = os.path.join(PHOTOS, f"{t['id']}_{i}{ext_for(u)}")
+        if os.path.exists(local) and os.path.getsize(local) > 2000:
+            out.append("photos/" + os.path.basename(local))
+            continue
+        raw = fetch(u, tries=1, timeout=30, binary=True)
+        if raw and len(raw) > 2000:
+            with open(local, "wb") as f:
+                f.write(raw)
+            out.append("photos/" + os.path.basename(local))
+    t["imgs"] = out
+    return len(out)
 
 
 def download_photo(t):
@@ -684,6 +815,9 @@ def main():
         log("FATAL: swept zero tracts - refusing to overwrite the archive.")
         return 2
 
+    # ---- second source ---------------------------------------------------
+    merge_zillow(found, prev, excluded, polys, stores)
+
     # ---- merge with the archive -----------------------------------------
     # Redfin's CSV export carries the notice "some MLS listings are not
     # included in the download", and we have confirmed it omits listings that
@@ -693,7 +827,7 @@ def main():
     new_ids, cuts, bumps = [], [], []
     for tid, t in found.items():
         old = prev.get(tid)
-        t["geo"] = "parcel"          # real Redfin parcel coordinates
+        t.setdefault("geo", "parcel")   # Redfin CSV rows carry parcel coords
         t["missCount"] = 0
         t.pop("missDate", None)
         t["status"] = "active"
@@ -724,7 +858,8 @@ def main():
             if old.get("baseline"):
                 t["baseline"] = True
             # Terrain and routing never change and cost API calls - carry them.
-            for k in ("slope", "elev", "relief", "shopRoad",
+            for k in ("gallery", "imgs",
+                      "slope", "elev", "relief", "shopRoad",
                       "shopMin", "shopName", "shopCity", "shopMi", "driveRoad"):
                 if old.get(k) is not None:
                     t[k] = old[k]
@@ -831,6 +966,9 @@ def main():
         with ThreadPoolExecutor(6) as ex:
             got = sum(1 for ok in ex.map(download_photo, todl) if ok)
         log(f"photos downloaded: {got}/{len(todl)}")
+    # Galleries are hotlinked from Zillow's CDN rather than committed - eight
+    # 768px frames per listing would add ~100 MB to the repo. The primary
+    # photo is always stored locally, so a card never goes blank.
     else:
         # still resolve img paths for anything already on disk
         for t in found.values():
