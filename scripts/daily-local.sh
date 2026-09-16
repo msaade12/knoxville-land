@@ -6,6 +6,13 @@ set -eu
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 cd "$(dirname "$0")/.."
 mkdir -p logs
+# Runs at 7:00, and also at login (RunAtLoad) - but only once per day, so a
+# Mac that was powered off at 7:00 catches up when it is next switched on.
+STAMP="logs/last-run.date"
+if [ "${1:-}" != "--force" ] && [ -f "$STAMP" ] && [ "$(cat "$STAMP")" = "$(date +%F)" ]; then
+  exit 0
+fi
+date +%F > "$STAMP"
 {
   echo "=== $(date '+%Y-%m-%d %H:%M') ==="
   git pull -q --rebase --autostash origin main || { echo "pull failed"; exit 1; }

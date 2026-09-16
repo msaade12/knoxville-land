@@ -11,6 +11,7 @@ cat > "$PLIST" <<PL
   <key>Label</key><string>com.knoxville-land.daily</string>
   <key>ProgramArguments</key><array><string>/bin/zsh</string><string>$REPO/scripts/daily-local.sh</string></array>
   <key>StartCalendarInterval</key><dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>0</integer></dict>
+  <key>RunAtLoad</key><true/>
   <key>StandardOutPath</key><string>$REPO/logs/launchd.out</string>
   <key>StandardErrorPath</key><string>$REPO/logs/launchd.err</string>
 </dict></plist>
