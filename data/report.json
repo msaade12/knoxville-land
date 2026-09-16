@@ -1,12 +1,30 @@
 {
- "generated": "2026-09-16T18:24:12+00:00",
+ "generated": "2026-09-16T18:43:04+00:00",
  "date": "2026-09-16",
- "count": 819,
- "confirmed": 804,
+ "count": 818,
+ "confirmed": 399,
  "new": [],
  "priceCuts": [],
  "priceIncreases": [],
  "unconfirmed": [
+  {
+   "id": "z463956569",
+   "acres": 20.0,
+   "price": 100000,
+   "town": "Lake City",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/Vowell-Mountain-Ln-Lake-City-TN-37769/463956569_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2076284688",
+   "acres": 38.54,
+   "price": 200000,
+   "town": "Thorn Hill",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/605-Bullen-Valley-Rd-Thorn-Hill-TN-37881/2076284688_zpid/",
+   "missCount": 1
+  },
   {
    "id": "rf103868729",
    "acres": 10.7,
@@ -14,6 +32,15 @@
    "town": "Rockwood",
    "county": "Roane",
    "url": "https://www.redfin.com/TN/Rockwood/822-W-Bates-St-37854/home/103868729",
+   "missCount": 1
+  },
+  {
+   "id": "z464827871",
+   "acres": 10.48,
+   "price": 69900,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Shiloh-Church-Rd-Seymour-TN-37865/464827871_zpid/",
    "missCount": 1
   },
   {
@@ -44,6 +71,24 @@
    "missCount": 1
   },
   {
+   "id": "z464462138",
+   "acres": 8.2,
+   "price": 75000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-E-Wheeler-St-LOT-2-3P-Rockwood-TN-37854/464462138_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81271646",
+   "acres": 3.91,
+   "price": 39000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/309-Caney-View-Dr-Harriman-TN-37748/81271646_zpid/",
+   "missCount": 1
+  },
+  {
    "id": "rf190890927",
    "acres": 19.82,
    "price": 199000,
@@ -71,6 +116,69 @@
    "missCount": 1
   },
   {
+   "id": "z457723182",
+   "acres": 6.68,
+   "price": 79900,
+   "town": "Lake City",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/Strong-Hollow-Ln-Lake-City-TN-37769/457723182_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464040606",
+   "acres": 6.62,
+   "price": 80000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/46-Feld-Wynde-Close-Way-LOT-46-Sevierville-TN-37862/464040606_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2054534632",
+   "acres": 14.0,
+   "price": 169900,
+   "town": "Heiskell",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-W-Bullrun-Valley-Dr-Heiskell-TN-37754/2054534632_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463911286",
+   "acres": 6.98,
+   "price": 89900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Ashe-Cabin-Hollow-Rd-Harriman-TN-37748/463911286_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462900836",
+   "acres": 10.0,
+   "price": 129900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/TRACT-2-Graves-Hollow-Rd-Maynardville-TN-37807/462900836_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2065316396",
+   "acres": 5.88,
+   "price": 79400,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Stony-Point-Rd-Knoxville-TN-37914/2065316396_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z457942360",
+   "acres": 3.66,
+   "price": 50000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/47-Tranquility-Trl-LOT-47-Dandridge-TN-37725/457942360_zpid/",
+   "missCount": 1
+  },
+  {
    "id": "rf111323141",
    "acres": 10.7,
    "price": 150000,
@@ -89,6 +197,33 @@
    "missCount": 1
   },
   {
+   "id": "z456266126",
+   "acres": 14.1,
+   "price": 211500,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-26-Airport-Rd-Rockwood-TN-37854/456266126_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463762911",
+   "acres": 8.69,
+   "price": 132500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Amis-Way-LOT-5-Sevierville-TN-37876/463762911_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z460918185",
+   "acres": 14.41,
+   "price": 220000,
+   "town": "Harriman",
+   "county": "Morgan",
+   "url": "https://www.zillow.com/homedetails/222-Heritage-Hills-Rd-Harriman-TN-37748/460918185_zpid/",
+   "missCount": 1
+  },
+  {
    "id": "rf200792177",
    "acres": 14.41,
    "price": 220000,
@@ -98,12 +233,30 @@
    "missCount": 1
   },
   {
+   "id": "z333894426",
+   "acres": 5.05,
+   "price": 79900,
+   "town": "Loudon",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/4521-Huffine-Rd-Loudon-TN-37774/333894426_zpid/",
+   "missCount": 1
+  },
+  {
    "id": "rf111408250",
    "acres": 14.0,
    "price": 227000,
    "town": "Sevierville",
    "county": "Sevier",
    "url": "https://www.redfin.com/TN/Sevierville/873-Indian-Gap-Rd-37876/home/111408250",
+   "missCount": 1
+  },
+  {
+   "id": "z439166765",
+   "acres": 7.69,
+   "price": 125000,
+   "town": "Tellico Plains",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/6915-Highway-360-Tellico-Plains-TN-37385/439166765_zpid/",
    "missCount": 1
   },
   {
@@ -125,12 +278,156 @@
    "missCount": 1
   },
   {
+   "id": "z2065335573",
+   "acres": 5.03,
+   "price": 85000,
+   "town": "Kodak",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Alex-Bales-Rd-Kodak-TN-37764/2065335573_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461175586",
+   "acres": 5.03,
+   "price": 85000,
+   "town": "Kodak",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Alex-Bales-Rd-LOT-1-Kodak-TN-37764/461175586_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z457601238",
+   "acres": 2.71,
+   "price": 45999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/3537-Mountain-Top-Ln-Sevierville-TN-37876/457601238_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81245781",
+   "acres": 1.82,
+   "price": 31999,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/316-Caney-View-Dr-Harriman-TN-37748/81245781_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z460845484",
+   "acres": 1.92,
+   "price": 34000,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/Bayside-Blvd-LOT-35-Bean-Station-TN-37708/460845484_zpid/",
+   "missCount": 1
+  },
+  {
    "id": "rf63013127",
    "acres": 13.84,
    "price": 250000,
    "town": "Sevierville",
    "county": "Sevier",
    "url": "https://www.redfin.com/TN/Sevierville/Stepping-Stone-Dr-37862/home/63013127",
+   "missCount": 1
+  },
+  {
+   "id": "z450616020",
+   "acres": 6.55,
+   "price": 125000,
+   "town": "Oak Ridge",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Glassboro-Dr-Oak-Ridge-TN-37830/450616020_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465026950",
+   "acres": 8.0,
+   "price": 160000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Fox-Hunters-Ln-Sevierville-TN-37876/465026950_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42039480",
+   "acres": 2.98,
+   "price": 60000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/195-Sherwood-Ln-Harriman-TN-37748/42039480_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464155783",
+   "acres": 7.9,
+   "price": 159900,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/429-Trails-End-Rd-Walland-TN-37886/464155783_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465026971",
+   "acres": 7.36,
+   "price": 165000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/736-Panther-Creek-Rd-Sevierville-TN-37876/465026971_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2053018511",
+   "acres": 5.01,
+   "price": 115000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Rifle-Range-Dr-Knoxville-TN-37918/2053018511_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2077091421",
+   "acres": 6.3,
+   "price": 145000,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/N-Cunningham-Rd-Seymour-TN-37865/2077091421_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z450364683",
+   "acres": 3.01,
+   "price": 70000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Hobe-Maples-Way-Sevierville-TN-37876/450364683_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465182984",
+   "acres": 6.36,
+   "price": 150000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Briggs-Rd-LOT-58BA03300-Dandridge-TN-37725/465182984_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241899",
+   "acres": 9.11,
+   "price": 219000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Jones-Cove-Rd-LOT-PO6-Sevierville-TN-37876/465241899_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81212484",
+   "acres": 1.43,
+   "price": 34900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/310-Caney-View-Dr-Harriman-TN-37748/81212484_zpid/",
    "missCount": 1
   },
   {
@@ -141,12 +438,3370 @@
    "county": "Sevier",
    "url": "https://www.redfin.com/TN/Sevierville/340-Swadis-Dr-37876/home/194042084",
    "missCount": 1
+  },
+  {
+   "id": "z2088993004",
+   "acres": 5.17,
+   "price": 129900,
+   "town": "Walland",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/331-Chestnut-Ridge-Rd-LOT-15-Walland-TN-37886/2088993004_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z247153271",
+   "acres": 2.82,
+   "price": 75000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/9109-Pickens-Gap-Rd-Knoxville-TN-37920/247153271_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z349896139",
+   "acres": 6.65,
+   "price": 177000,
+   "town": "Luttrell",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/233-Highway-370-Luttrell-TN-37779/349896139_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464057750",
+   "acres": 6.5,
+   "price": 175000,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1-Chapman-Hwy-LOT-1-Seymour-TN-37865/464057750_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z456792753",
+   "acres": 5.16,
+   "price": 139000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Muddy-Creek-Rd-LOT-1-Dandridge-TN-37725/456792753_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464310437",
+   "acres": 1.09,
+   "price": 29900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/Gregory-Ln-51H-B-005-00-Maynardville-TN-37807/464310437_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42491786",
+   "acres": 6.15,
+   "price": 169990,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1316-River-Divide-Rd-Sevierville-TN-37862/42491786_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463344542",
+   "acres": 0.85,
+   "price": 23850,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/S-Sudenny-Ln-La-Follette-TN-37766/463344542_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z456795257",
+   "acres": 8.8,
+   "price": 249000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Holston-Dr-Knoxville-TN-37914/456795257_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463829539",
+   "acres": 1.4,
+   "price": 39900,
+   "town": "Rutledge",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/6-Scenic-Vw-Rutledge-TN-37861/463829539_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42479994",
+   "acres": 2.0,
+   "price": 57000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1059-Kellum-Creek-Rd-Sevierville-TN-37876/42479994_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463535186",
+   "acres": 4.75,
+   "price": 139900,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/1035-Green-Rd-Madisonville-TN-37354/463535186_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462201625",
+   "acres": 6.94,
+   "price": 210000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Paradise-Ridge-Dr-Sevierville-TN-37862/462201625_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464492880",
+   "acres": 5.88,
+   "price": 179000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/3-Kellum-Creek-Rd-LOT-3-Sevierville-TN-37876/464492880_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464750891",
+   "acres": 0.9,
+   "price": 27500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1304-Balsam-Cir-Sevierville-TN-37876/464750891_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z450615938",
+   "acres": 1.14,
+   "price": 34900,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Northbridge-Close-Kingston-TN-37763/450615938_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z459724895",
+   "acres": 0.56,
+   "price": 17500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/20-21-Linwood-Ct-Sevierville-TN-37876/459724895_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462316929",
+   "acres": 1.73,
+   "price": 54900,
+   "town": "Sweetwater",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Elm-St-LOT-19-Sweetwater-TN-37874/462316929_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464072116",
+   "acres": 1.5,
+   "price": 49500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/15-S-Boogertown-Rd-Sevierville-TN-37876/464072116_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42050593",
+   "acres": 0.78,
+   "price": 25999,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/1530-Post-Oak-Valley-Rd-Rockwood-TN-37854/42050593_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465203087",
+   "acres": 1.59,
+   "price": 55000,
+   "town": "Kodak",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/24-Bentwood-Dr-LOT-24-Kodak-TN-37764/465203087_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z460345702",
+   "acres": 1.0,
+   "price": 35000,
+   "town": "Powell",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/0-Moore-Ln-Powell-TN-37849/460345702_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465064303",
+   "acres": 7.09,
+   "price": 249900,
+   "town": "Talbott",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Summerset-Dr-LOT-24-Talbott-TN-37877/465064303_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z444611421",
+   "acres": 2.49,
+   "price": 87900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-78-Harbor-Ln-Dandridge-TN-37725/444611421_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465315296",
+   "acres": 6.42,
+   "price": 227500,
+   "town": "Mascot",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Hudson-Rd-Mascot-TN-37806/465315296_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2076603962",
+   "acres": 0.54,
+   "price": 19900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-15-Linwood-Ct-Sevierville-TN-37876/2076603962_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z458188554",
+   "acres": 5.23,
+   "price": 195000,
+   "town": "Greenback",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/Highway-95-N-LOT-3-Greenback-TN-37742/458188554_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464783741",
+   "acres": 5.26,
+   "price": 199000,
+   "town": "Seymour",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/1903-Tree-Tops-Ln-Seymour-TN-37865/464783741_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z349187387",
+   "acres": 3.0,
+   "price": 115000,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Caney-Creek-Rd-Pigeon-Forge-TN-37863/349187387_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465064300",
+   "acres": 5.19,
+   "price": 199900,
+   "town": "Talbott",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Summerset-Dr-LOT-19-Talbott-TN-37877/465064300_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463989890",
+   "acres": 6.14,
+   "price": 239850,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/234-Sulpher-Springs-Way-Sevierville-TN-37862/463989890_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2063443712",
+   "acres": 2.94,
+   "price": 115000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Providence-Hills-Rd-Sevierville-TN-37876/2063443712_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z453905049",
+   "acres": 2.54,
+   "price": 99900,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Wilderness-Dr-LOT-2R-Vonore-TN-37885/453905049_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2068414051",
+   "acres": 3.8,
+   "price": 156200,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Dudley-Dr-Sevierville-TN-37876/2068414051_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463758038",
+   "acres": 0.94,
+   "price": 39500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Dogwood-Dr-LOT-5-Sevierville-TN-37876/463758038_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z350951113",
+   "acres": 5.25,
+   "price": 221500,
+   "town": "Andersonville",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/TRACT-2-Mill-Creek-Rd-Andersonville-TN-37705/350951113_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464380900",
+   "acres": 1.6,
+   "price": 69000,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/126-Pleasant-View-Loop-Rd-LOT-1-Clinton-TN-37716/464380900_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z458188656",
+   "acres": 5.21,
+   "price": 239900,
+   "town": "Greenback",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/Highway-95-N-LOT-4-Greenback-TN-37742/458188656_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463536952",
+   "acres": 3.03,
+   "price": 139900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/0-Pearly-Anthony-Rd-Maryville-TN-37803/463536952_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464238655",
+   "acres": 4.0,
+   "price": 184900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1628-Valley-Rd-LOT-3-Sevierville-TN-37862/464238655_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42046793",
+   "acres": 1.11,
+   "price": 52000,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/128-Twin-Oaks-Dr-Rockwood-TN-37854/42046793_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465026952",
+   "acres": 2.13,
+   "price": 99900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Woodland-Creek-Rd-LOT-18-Dandridge-TN-37725/465026952_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465240742",
+   "acres": 2.87,
+   "price": 135000,
+   "town": "Kodak",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/56-Blue-Byrd-Ln-LOT-56-Kodak-TN-37764/465240742_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463944287",
+   "acres": 2.96,
+   "price": 139900,
+   "town": "Kodak",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/53-Kenneth-Overlook-LOT-53-Kodak-TN-37764/463944287_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455765883",
+   "acres": 1.25,
+   "price": 59900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/62-63-Docks-Of-The-Bay-Dr-Harriman-TN-37748/455765883_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2065397326",
+   "acres": 0.52,
+   "price": 25000,
+   "town": "Sevierville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/5-6-Swann-Saddle-Rd-Sevierville-TN-37876/2065397326_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463239665",
+   "acres": 1.75,
+   "price": 85000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-Davis-Hollow-Rd-Harriman-TN-37748/463239665_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z247046261",
+   "acres": 5.1,
+   "price": 250000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/411-Travellers-Way-Lenoir-City-TN-37771/247046261_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z348163817",
+   "acres": 0.61,
+   "price": 30000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/34-Indigo-Bunting-Dr-Harriman-TN-37748/348163817_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461095632",
+   "acres": 4.64,
+   "price": 229900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-5-E-Deerwood-Dr-Dandridge-TN-37725/461095632_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464431308",
+   "acres": 2.42,
+   "price": 120000,
+   "town": "Blaine",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/Park-View-Dr-Blaine-TN-37709/464431308_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465089059",
+   "acres": 5.0,
+   "price": 249900,
+   "town": "Talbott",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Summerset-Dr-LOT-13-Talbott-TN-37877/465089059_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464380903",
+   "acres": 1.38,
+   "price": 69000,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/122-Pleasant-View-Loop-Rd-LOT-2-Clinton-TN-37716/464380903_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42491661",
+   "acres": 0.97,
+   "price": 50000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2313-High-View-Rd-Sevierville-TN-37876/42491661_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463633331",
+   "acres": 2.31,
+   "price": 123999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/11-Bryce-View-Ln-LOT-11-Sevierville-TN-37876/463633331_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2066835863",
+   "acres": 0.65,
+   "price": 34900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-63-Docks-Of-The-Bay-Dr-Harriman-TN-37748/2066835863_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465026944",
+   "acres": 0.37,
+   "price": 20000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Clingmans-Vw-LOT-18-Sevierville-TN-37876/465026944_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455200874",
+   "acres": 0.22,
+   "price": 12000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Alpine-Dr-Sevierville-TN-37876/455200874_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z457056475",
+   "acres": 2.2,
+   "price": 120000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Hidden-Hollow-Way-Sevierville-TN-37862/457056475_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462049895",
+   "acres": 3.39,
+   "price": 185000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Waldens-Creek-Rd-Sevierville-TN-37862/462049895_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z441775425",
+   "acres": 3.61,
+   "price": 199000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/150-Hidden-Trace-Way-LOT-5-Maryville-TN-37803/441775425_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z40883413",
+   "acres": 1.5,
+   "price": 85000,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/646-Old-Long-Hollow-Rd-La-Follette-TN-37766/40883413_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z449657571",
+   "acres": 3.03,
+   "price": 175000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/74-Clear-Point-Trl-Dandridge-TN-37725/449657571_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465240751",
+   "acres": 3.01,
+   "price": 179000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Little-Smoky-Rd-LOT-0-Gatlinburg-TN-37738/465240751_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42502491",
+   "acres": 4.18,
+   "price": 250000,
+   "town": "SEVIERVILLE",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Castle-Rise-Way-Sevierville-TN-37862/42502491_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z450110001",
+   "acres": 0.45,
+   "price": 27000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/33-Indigo-Bunting-Dr-Harriman-TN-37748/450110001_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462416083",
+   "acres": 0.83,
+   "price": 50000,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/0-Skyline-Dr-Clinton-TN-37716/462416083_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41747949",
+   "acres": 1.32,
+   "price": 80000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/131-Sasa-Way-Loudon-TN-37774/41747949_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461132764",
+   "acres": 1.56,
+   "price": 94900,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/Montview-Rd-Lenoir-City-TN-37771/461132764_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462631309",
+   "acres": 0.64,
+   "price": 39500,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/Orchard-Knob-Rd-Clinton-TN-37716/462631309_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464244166",
+   "acres": 3.21,
+   "price": 200000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/31-Sulpher-Springs-Way-LOT-31-Sevierville-TN-37862/464244166_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462473636",
+   "acres": 3.51,
+   "price": 225000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/61886150-White-Wing-Rd-Lenoir-City-TN-37771/462473636_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464805703",
+   "acres": 1.54,
+   "price": 99900,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-1-Pine-Meadows-Dr-White-Pine-TN-37890/464805703_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z439555158",
+   "acres": 1.0,
+   "price": 65000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Autumn-Ln-Gatlinburg-TN-37738/439555158_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z460652305",
+   "acres": 0.5,
+   "price": 32500,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/73-Creekside-Dr-Harriman-TN-37748/460652305_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2075107284",
+   "acres": 0.55,
+   "price": 36000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/108-Docks-Of-The-Bay-Dr-Harriman-TN-37748/2075107284_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463369222",
+   "acres": 1.13,
+   "price": 75000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/LOT-15-Overlook-Way-Vonore-TN-37885/463369222_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42044444",
+   "acres": 0.43,
+   "price": 28999,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/501-Martin-Luther-King-Jr-Dr-D-Rockwood-TN-37854/42044444_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z443833688",
+   "acres": 1.03,
+   "price": 69900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/623-Farm-Of-The-Smokies-Way-Maryville-TN-37804/443833688_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352464681",
+   "acres": 1.32,
+   "price": 90000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/43-Pine-Meadows-Dr-White-Pine-TN-37890/352464681_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z458458569",
+   "acres": 1.6,
+   "price": 109500,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/1016-Northbridge-Close-Kingston-TN-37763/458458569_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z450723344",
+   "acres": 3.49,
+   "price": 239900,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Cartertown-Rd-Gatlinburg-TN-37738/450723344_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352433300",
+   "acres": 1.03,
+   "price": 71000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/39-Meadow-Vista-Way-White-Pine-TN-37890/352433300_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464380904",
+   "acres": 1.0,
+   "price": 69000,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/118-Pleasant-View-Loop-Rd-LOT-3-Clinton-TN-37716/464380904_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463758040",
+   "acres": 0.36,
+   "price": 25000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4-Coveside-Way-LOT-4-Sevierville-TN-37876/463758040_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z103843618",
+   "acres": 1.82,
+   "price": 129900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/548-Hickory-Pointe-Ln-Maynardville-TN-37807/103843618_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2059361567",
+   "acres": 2.45,
+   "price": 174900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/142-Arbor-Ln-LOT-142-Dandridge-TN-37725/2059361567_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2063136722",
+   "acres": 0.9,
+   "price": 64900,
+   "town": "Bean Station",
+   "county": "Grainger",
+   "url": "https://www.zillow.com/homedetails/LOT-66-Bayside-Blvd-Bean-Station-TN-37708/2063136722_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81158116",
+   "acres": 2.04,
+   "price": 149000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2399-Old-Dogwood-Trl-Loudon-TN-37774/81158116_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z214907076",
+   "acres": 1.71,
+   "price": 125000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1921-Battle-Top-Rd-Sevierville-TN-37876/214907076_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352436280",
+   "acres": 0.96,
+   "price": 71000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/84-Meadow-Vista-Way-White-Pine-TN-37890/352436280_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465064298",
+   "acres": 2.09,
+   "price": 155000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-The-Battery-LOT-161-Kingston-TN-37763/465064298_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241911",
+   "acres": 2.0,
+   "price": 149000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1440-Laurel-Rd-LOT-2-Gatlinburg-TN-37738/465241911_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464020405",
+   "acres": 1.83,
+   "price": 140000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/238-Buckhorn-Rd-LOT-1R-Gatlinburg-TN-37738/464020405_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2061450494",
+   "acres": 2.57,
+   "price": 199000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/141-Overlook-Way-Vonore-TN-37885/2061450494_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2072309268",
+   "acres": 1.29,
+   "price": 100000,
+   "town": "Sweetwater",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Kinzalow-Dr-Sweetwater-TN-37874/2072309268_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81128590",
+   "acres": 2.14,
+   "price": 168500,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/145-Old-Farm-Rd-Lenoir-City-TN-37771/81128590_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464324038",
+   "acres": 0.63,
+   "price": 49900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4-Headrick-Lead-Rd-Sevierville-TN-37862/464324038_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42507076",
+   "acres": 2.24,
+   "price": 177900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/520-Verless-Ogle-Rd-Sevierville-TN-37876/42507076_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81154095",
+   "acres": 1.76,
+   "price": 139900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/1003-Fair-Meadow-Dr-Dandridge-TN-37725/81154095_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463248368",
+   "acres": 0.69,
+   "price": 54900,
+   "town": "La Follette",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Shoreline-Cir-La-Follette-TN-37766/463248368_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z453025991",
+   "acres": 2.57,
+   "price": 205000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/2897-Norcross-Rd-Maryville-TN-37803/453025991_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z457622071",
+   "acres": 0.5,
+   "price": 39999,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/74-Creekside-Dr-Harriman-TN-37748/457622071_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241897",
+   "acres": 2.24,
+   "price": 180000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/520-Verless-Ogle-Rd-LOT-1-Sevierville-TN-37876/465241897_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2066835844",
+   "acres": 0.68,
+   "price": 54900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-65-Docks-Of-The-Bay-Dr-Harriman-TN-37748/2066835844_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z460893831",
+   "acres": 1.1,
+   "price": 89000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/E-Crestview-Dr-LOT-1-Madisonville-TN-37354/460893831_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464165042",
+   "acres": 0.21,
+   "price": 17000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/11-Bluff-Mountain-Rd-LOT-11-Sevierville-TN-37876/464165042_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464823453",
+   "acres": 2.02,
+   "price": 164900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/Lots-11-12-Cherokee-Dr-Dandridge-TN-37725/464823453_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464396761",
+   "acres": 2.75,
+   "price": 225000,
+   "town": "Talbott",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-Willow-Garden-Cir-Talbott-TN-37877/464396761_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z351800526",
+   "acres": 0.58,
+   "price": 48000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/529-Deep-Hollow-Ct-Gatlinburg-TN-37738/351800526_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42502788",
+   "acres": 1.9,
+   "price": 159500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1146-Pine-Mountain-Rd-Sevierville-TN-37862/42502788_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z67660444",
+   "acres": 0.94,
+   "price": 79900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/104-Blue-Heron-Blf-Harriman-TN-37748/67660444_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463881193",
+   "acres": 2.09,
+   "price": 177900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/27-Trace-Way-LOT-27-Sevierville-TN-37862/463881193_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z450616601",
+   "acres": 0.58,
+   "price": 49900,
+   "town": "Maryville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/Cherokee-Dr-Maryville-TN-37801/450616601_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z460905462",
+   "acres": 1.72,
+   "price": 150000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/1820-Pear-Wood-Dr-Knoxville-TN-37920/460905462_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2057943316",
+   "acres": 0.34,
+   "price": 29800,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/148-White-Hawk-Dr-Vonore-TN-37885/2057943316_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464380901",
+   "acres": 1.0,
+   "price": 89000,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/114-Pleasant-View-Loop-Rd-LOT-4-Clinton-TN-37716/464380901_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465087513",
+   "acres": 1.4,
+   "price": 125000,
+   "town": "Oliver Springs",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/Cove-Ln-Oliver-Springs-TN-37840/465087513_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465265757",
+   "acres": 0.89,
+   "price": 79900,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-Falcon-Trl-LOT-101-Vonore-TN-37885/465265757_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2098822283",
+   "acres": 1.0,
+   "price": 90000,
+   "town": "Kodak",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/2601-Clyde-Ed-Rd-Kodak-TN-37764/2098822283_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463761187",
+   "acres": 1.33,
+   "price": 120000,
+   "town": "Kodak",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/68-Southview-Cir-LOT-68-Kodak-TN-37764/463761187_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352433531",
+   "acres": 0.99,
+   "price": 90000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/56-Meadow-Vista-Way-White-Pine-TN-37890/352433531_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2065798470",
+   "acres": 1.33,
+   "price": 125000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-61-Riverbend-Dr-Dandridge-TN-37725/2065798470_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465182979",
+   "acres": 1.43,
+   "price": 135000,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2329-Louisiana-Ct-LOT-802011-Seymour-TN-37865/465182979_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464057878",
+   "acres": 1.37,
+   "price": 129900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/67-Sunset-Harbor-Dr-Dandridge-TN-37725/464057878_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81144780",
+   "acres": 0.63,
+   "price": 60000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/390-Flora-Dr-Lenoir-City-TN-37771/81144780_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z318405601",
+   "acres": 2.57,
+   "price": 244900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/780-Waterside-Dr-Dandridge-TN-37725/318405601_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z344993786",
+   "acres": 1.04,
+   "price": 99900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2501-Old-Dogwood-Trl-Loudon-TN-37774/344993786_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463758044",
+   "acres": 0.41,
+   "price": 39500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/706-School-House-Gap-Rd-HOUSE-GAP-Sevierville-TN-37876/463758044_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2069783507",
+   "acres": 0.36,
+   "price": 34900,
+   "town": "Caryville",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/LOT-14-Foxwood-Dr-Caryville-TN-37714/2069783507_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z90073155",
+   "acres": 1.51,
+   "price": 149000,
+   "town": "Louisville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/3336-Preserve-Point-Louisville-TN-37777/90073155_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z337820868",
+   "acres": 1.87,
+   "price": 185000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/651-Mars-Hill-Rd-Knoxville-TN-37923/337820868_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463438139",
+   "acres": 1.0,
+   "price": 99000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/144-Red-Wing-Dr-Vonore-TN-37885/463438139_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464125519",
+   "acres": 0.96,
+   "price": 95999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1090-Sharp-Hollow-Rd-Sevierville-TN-37862/464125519_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463534517",
+   "acres": 0.63,
+   "price": 63000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Summertime-Ln-Knoxville-TN-37938/463534517_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41752070",
+   "acres": 0.3,
+   "price": 30000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/349-Dudala-Way-Loudon-TN-37774/41752070_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464057913",
+   "acres": 0.5,
+   "price": 50000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/36-Mountain-Dr-LOT-36-Sevierville-TN-37876/464057913_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461395670",
+   "acres": 1.65,
+   "price": 165000,
+   "town": "Lenoir City",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-Copenhaver-Rd-Lenoir-City-TN-37771/461395670_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461184438",
+   "acres": 0.64,
+   "price": 64000,
+   "town": "Madisonville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/0-E-Crestview-Dr-LOT-2-Madisonville-TN-37354/461184438_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2058112277",
+   "acres": 0.99,
+   "price": 99550,
+   "town": "Loudon",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/915-Eagle-Nest-Dr-Loudon-TN-37774/2058112277_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241876",
+   "acres": 0.54,
+   "price": 55000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/11-Red-Bone-Way-LOT-11AE-Sevierville-TN-37876/465241876_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462752160",
+   "acres": 0.98,
+   "price": 100000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-36-Burning-Oaks-Dr-Sevierville-TN-37876/462752160_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z460341482",
+   "acres": 0.45,
+   "price": 46000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Lakeview-Dr-LOT-304-Sevierville-TN-37876/460341482_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464072061",
+   "acres": 0.37,
+   "price": 38000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/177-Tsali-Dr-LOT-177B-Sevierville-TN-37876/464072061_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465026951",
+   "acres": 1.07,
+   "price": 110000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/615-Green-Hill-Rd-LOT-2R-2-Dandridge-TN-37725/465026951_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463784284",
+   "acres": 1.36,
+   "price": 139900,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/13-Rupert-Dr-LOT-13-Dandridge-TN-37725/463784284_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464783721",
+   "acres": 2.43,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/11-Waldens-Creek-Rd-Sevierville-TN-37862/464783721_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352433720",
+   "acres": 0.69,
+   "price": 71000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-71-Ridge-St-White-Pine-TN-37890/352433720_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2078092510",
+   "acres": 2.12,
+   "price": 219000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-6-Pine-Mountain-Way-Sevierville-TN-37862/2078092510_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463919614",
+   "acres": 1.82,
+   "price": 189900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/5-Falcon-View-Way-LOT-5A-Sevierville-TN-37862/463919614_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352433926",
+   "acres": 0.77,
+   "price": 80500,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-72-Ridge-St-White-Pine-TN-37890/352433926_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2054915350",
+   "acres": 0.42,
+   "price": 45000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1272-Raymond-Hollow-Rd-Sevierville-TN-37876/2054915350_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42506866",
+   "acres": 2.03,
+   "price": 225000,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4304-Bruce-Ogle-Way-Pigeon-Forge-TN-37863/42506866_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2066391561",
+   "acres": 0.45,
+   "price": 49900,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/7180-Jubilee-Ct-29R-Knoxville-TN-37918/2066391561_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241912",
+   "acres": 1.26,
+   "price": 139900,
+   "town": "Kodak",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/5-Rock-House-Rd-LOT-4-Kodak-TN-37764/465241912_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2058111828",
+   "acres": 0.9,
+   "price": 99999,
+   "town": "Loudon",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/917-Eagle-Nest-Dr-Loudon-TN-37774/2058111828_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464021688",
+   "acres": 2.0,
+   "price": 229000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Pheasant-Ridge-Rd-LOT-6-Sevierville-TN-37876/464021688_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81209309",
+   "acres": 1.57,
+   "price": 180000,
+   "town": "Sweetwater",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/1008-N-Main-St-Sweetwater-TN-37874/81209309_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352435404",
+   "acres": 0.7,
+   "price": 80500,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/36-Meadow-Vista-Way-White-Pine-TN-37890/352435404_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81186113",
+   "acres": 1.13,
+   "price": 130000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/560-River-Rd-Loudon-TN-37774/81186113_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464837071",
+   "acres": 0.56,
+   "price": 65000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/1-Serenity-Dr-LOT-51-Harriman-TN-37748/464837071_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465254009",
+   "acres": 0.56,
+   "price": 65000,
+   "town": "Caryville",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/Foxwood-Dr-Caryville-TN-37714/465254009_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2067924031",
+   "acres": 0.53,
+   "price": 63000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/772-Wood-Duck-Dr-LOT-137-Vonore-TN-37885/2067924031_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464167447",
+   "acres": 0.5,
+   "price": 59900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/56-Smoky-Ridge-Way-LOT-56-Sevierville-TN-37862/464167447_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2089672000",
+   "acres": 0.9,
+   "price": 109900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/590-River-Rd-LOT-19-Loudon-TN-37774/2089672000_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463728287",
+   "acres": 1.17,
+   "price": 144999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/54-Riversong-Ridge-Way-LOT-54-Sevierville-TN-37876/463728287_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66926175",
+   "acres": 0.4,
+   "price": 49900,
+   "town": "Vonore",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/150-Wildwing-Dr-Vonore-TN-37885/66926175_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464683001",
+   "acres": 0.56,
+   "price": 69900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Serenity-Dr-LOT-10-Harriman-TN-37748/464683001_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463571937",
+   "acres": 0.63,
+   "price": 79000,
+   "town": "Greenback",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/1055-Houston-Springs-Rd-LOT-16-Greenback-TN-37742/463571937_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463776076",
+   "acres": 0.67,
+   "price": 84900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/916-Carter-Springs-Dr-LOT-22-Maryville-TN-37801/463776076_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464348861",
+   "acres": 1.18,
+   "price": 149900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Patterson-Lead-Way-LOT-2A-Sevierville-TN-37876/464348861_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z348257978",
+   "acres": 0.75,
+   "price": 96000,
+   "town": "Greenback",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/LOT-140-1222-Herbert-Dr-Greenback-TN-37742/348257978_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81243782",
+   "acres": 0.38,
+   "price": 49000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/105-Red-Hawk-Dr-Vonore-TN-37885/81243782_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81302932",
+   "acres": 0.67,
+   "price": 87000,
+   "town": "Oak Ridge",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/104-Duncanberry-Ct-Oak-Ridge-TN-37830/81302932_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463551705",
+   "acres": 0.95,
+   "price": 125000,
+   "town": "Kodak",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/11-Bentwood-Dr-LOT-11-Kodak-TN-37764/463551705_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2054864042",
+   "acres": 0.34,
+   "price": 45000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/109-Red-Hawk-Dr-Vonore-TN-37885/2054864042_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z458372853",
+   "acres": 0.49,
+   "price": 65000,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Chapman-View-Dr-Seymour-TN-37865/458372853_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352470889",
+   "acres": 0.71,
+   "price": 95000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/9-Meadow-Vista-Way-White-Pine-TN-37890/352470889_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2058920114",
+   "acres": 1.12,
+   "price": 150000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Twin-Oaks-Rd-39-Gatlinburg-TN-37738/2058920114_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465027443",
+   "acres": 0.24,
+   "price": 32500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/334-Ridgefield-Dr-LOT-334-Sevierville-TN-37876/465027443_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2054243012",
+   "acres": 0.61,
+   "price": 84500,
+   "town": "Oak Ridge",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/130-Black-Oak-Dr-40-Oak-Ridge-TN-37830/2054243012_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463775430",
+   "acres": 1.25,
+   "price": 175000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/147-Summit-View-Dr-Loudon-TN-37774/463775430_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352436115",
+   "acres": 0.64,
+   "price": 90000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/54-Pine-Meadows-Dr-White-Pine-TN-37890/352436115_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z80988808",
+   "acres": 0.99,
+   "price": 140000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/617-Davis-Acres-Dr-Maryville-TN-37804/80988808_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241891",
+   "acres": 0.59,
+   "price": 85000,
+   "town": "Seymour",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1840-Alabama-St-LOT-20-Seymour-TN-37865/465241891_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2114751924",
+   "acres": 0.27,
+   "price": 39000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/100-Odali-Ln-Loudon-TN-37774/2114751924_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z352434326",
+   "acres": 0.69,
+   "price": 99900,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/76-Meadow-Rose-Dr-White-Pine-TN-37890/352434326_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z459645177",
+   "acres": 1.05,
+   "price": 154900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/203-Flip-Flop-Way-LOT-32-Loudon-TN-37774/459645177_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2076603885",
+   "acres": 1.34,
+   "price": 199000,
+   "town": "Loudon",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/76-Twin-Lakes-Dr-Loudon-TN-37774/2076603885_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81219066",
+   "acres": 0.39,
+   "price": 58000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/630-Sandpiper-Dr-Vonore-TN-37885/81219066_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41744491",
+   "acres": 0.45,
+   "price": 67000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/313-Skiatook-Cir-Loudon-TN-37774/41744491_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81309954",
+   "acres": 1.44,
+   "price": 215000,
+   "town": "Kingston",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/183-Tanasi-Trl-Kingston-TN-37763/81309954_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66951597",
+   "acres": 0.32,
+   "price": 48900,
+   "town": "Vonore",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/215-Watercrest-Dr-Vonore-TN-37885/66951597_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463784650",
+   "acres": 0.52,
+   "price": 79900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Blackthorn-Trl-LOT-19R-Sevierville-TN-37876/463784650_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463781523",
+   "acres": 0.4,
+   "price": 62900,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/28-River-Bank-Rd-LOT-28-Pigeon-Forge-TN-37863/463781523_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462578740",
+   "acres": 0.25,
+   "price": 39900,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/9316-Sway-Branch-Ln-Knoxville-TN-37922/462578740_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464238657",
+   "acres": 0.25,
+   "price": 39900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1461-Ridgehigh-Pass-LOT-1461A-Sevierville-TN-37876/464238657_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2059290222",
+   "acres": 0.5,
+   "price": 79900,
+   "town": "Rockwood",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/81-Eternity-Pass-Rockwood-TN-37854/2059290222_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464328839",
+   "acres": 0.31,
+   "price": 49900,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/0-Sportsman-Club-Rd-Harriman-TN-37748/464328839_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81449326",
+   "acres": 0.79,
+   "price": 129900,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/823-Kings-Way-Gatlinburg-TN-37738/81449326_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464893993",
+   "acres": 1.21,
+   "price": 199900,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/6100-Bell-Estates-Way-LOT-2-Knoxville-TN-37938/464893993_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464155800",
+   "acres": 0.35,
+   "price": 57900,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/947953-Powdermill-Rd-LOT-1413-Gatlinburg-TN-37738/464155800_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464162458",
+   "acres": 0.59,
+   "price": 99000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/135-Wild-Heron-Way-LOT-135-Sevierville-TN-37862/464162458_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42049716",
+   "acres": 0.5,
+   "price": 84000,
+   "town": "Lenoir City",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/3140-Buttermilk-Rd-W-Lenoir-City-TN-37771/42049716_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41746490",
+   "acres": 0.53,
+   "price": 89900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/537-Bob-White-Dr-Loudon-TN-37774/41746490_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42477040",
+   "acres": 1.0,
+   "price": 170000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1483-Catlettsburg-Rd-Sevierville-TN-37876/42477040_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42512755",
+   "acres": 1.01,
+   "price": 175000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/837-Clabo-Loop-Gatlinburg-TN-37738/42512755_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81177459",
+   "acres": 0.57,
+   "price": 99000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/599-River-Rd-Loudon-TN-37774/81177459_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42507192",
+   "acres": 0.88,
+   "price": 155000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/127-Beech-Branch-Rd-Gatlinburg-TN-37738/42507192_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42538353",
+   "acres": 1.1,
+   "price": 195000,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/S-Cove-Rd-Maynardville-TN-37807/42538353_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2079202953",
+   "acres": 0.73,
+   "price": 130000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/2209-Viewcrest-Ln-Knoxville-TN-37932/2079202953_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463135185",
+   "acres": 0.25,
+   "price": 45000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/339-Ridgefield-Dr-LOT-339-Sevierville-TN-37876/463135185_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463833173",
+   "acres": 0.71,
+   "price": 129900,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/823-Kings-Way-LOT-31B-Gatlinburg-TN-37738/463833173_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z439165624",
+   "acres": 0.92,
+   "price": 169000,
+   "town": "White Pine",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-16-Waterwood-Ct-White-Pine-TN-37890/439165624_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z459506072",
+   "acres": 1.06,
+   "price": 195000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/122-Fawn-Ct-Loudon-TN-37774/459506072_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2064413239",
+   "acres": 1.05,
+   "price": 203000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/361-Oakwood-Dr-LOT-18-Sevierville-TN-37876/2064413239_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461827036",
+   "acres": 1.07,
+   "price": 215000,
+   "town": "Knoxville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/3953-3957-Shipwatch-Ln-Knoxville-TN-37920/461827036_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41890759",
+   "acres": 0.47,
+   "price": 94900,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/765-Wood-Duck-Dr-Vonore-TN-37885/41890759_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41750712",
+   "acres": 0.27,
+   "price": 54900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/109-Chanusi-Way-Loudon-TN-37774/41750712_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z90070082",
+   "acres": 0.61,
+   "price": 125000,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/828-Brookshire-Blvd-Maryville-TN-37803/90070082_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2070498802",
+   "acres": 0.46,
+   "price": 95000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-23-Serenity-Dr-Harriman-TN-37748/2070498802_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2079307477",
+   "acres": 0.5,
+   "price": 105000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/2221-Viewcrest-Ln-Knoxville-TN-37932/2079307477_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41752084",
+   "acres": 0.27,
+   "price": 57900,
+   "town": "Tellico Plns",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/348-Dudala-Way-Tellico-Plns-TN-37774/41752084_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2066651417",
+   "acres": 0.6,
+   "price": 129900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/LOT-105-Poplar-Grove-Rd-Maryville-TN-37804/2066651417_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z450611518",
+   "acres": 0.55,
+   "price": 120000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/Serenity-Dr-Harriman-TN-37748/450611518_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70274800",
+   "acres": 0.91,
+   "price": 199900,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/227-Emma-Ross-Ln-Maryville-TN-37803/70274800_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41751913",
+   "acres": 0.25,
+   "price": 55000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/302-Elohi-Trce-Loudon-TN-37774/41751913_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z459957335",
+   "acres": 0.36,
+   "price": 79500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-65-Wingspan-Dr-Sevierville-TN-37876/459957335_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z457093483",
+   "acres": 0.52,
+   "price": 114900,
+   "town": "Duff",
+   "county": "Campbell",
+   "url": "https://www.zillow.com/homedetails/30-Mount-Clouds-Trl-Duff-TN-37729/457093483_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z458613520",
+   "acres": 1.0,
+   "price": 225000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Par-202-03-Autumn-Ln-Gatlinburg-TN-37738/458613520_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41750057",
+   "acres": 0.42,
+   "price": 95000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/103-Amega-Ln-Loudon-TN-37774/41750057_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41748979",
+   "acres": 0.53,
+   "price": 120000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/101-Oonoga-Way-Loudon-TN-37774/41748979_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463076282",
+   "acres": 0.31,
+   "price": 70500,
+   "town": "Maryville",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/Tomahawk-Trl-Maryville-TN-37801/463076282_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z299822946",
+   "acres": 0.24,
+   "price": 55000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/3309-Pilkay-Rd-Knoxville-TN-37919/299822946_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2057125190",
+   "acres": 0.65,
+   "price": 149999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/LOT-20-Alley-Ln-Sevierville-TN-37876/2057125190_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81003619",
+   "acres": 0.65,
+   "price": 150000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/503-S-Edington-Rd-Knoxville-TN-37920/81003619_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122385",
+   "acres": 0.69,
+   "price": 159900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/149-Lake-Life-Way-Loudon-TN-37774/455122385_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41744492",
+   "acres": 0.36,
+   "price": 85000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/312-Skiatook-Cir-Loudon-TN-37774/41744492_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122136",
+   "acres": 0.74,
+   "price": 175000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/145-Purple-Iris-Pl-Loudon-TN-37774/455122136_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2075432613",
+   "acres": 0.83,
+   "price": 199999,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/LOT-31-Majestic-Cir-Dandridge-TN-37725/2075432613_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z440921847",
+   "acres": 0.49,
+   "price": 120000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/LOT-93-Serenity-Dr-Harriman-TN-37748/440921847_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461012998",
+   "acres": 0.34,
+   "price": 83500,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/211-Chestnut-Ln-LOT-127-Loudon-TN-37774/461012998_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2078557339",
+   "acres": 1.0,
+   "price": 249900,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/LOT-18-Crown-Hl-Maynardville-TN-37807/2078557339_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465242399",
+   "acres": 0.3,
+   "price": 76000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Wingspan-67-Sevierville-TN-37862/465242399_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122377",
+   "acres": 0.67,
+   "price": 169900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/184-Lake-Life-Way-Loudon-TN-37774/455122377_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81284274",
+   "acres": 0.39,
+   "price": 99000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/116-Parkside-Dr-Vonore-TN-37885/81284274_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2064342001",
+   "acres": 0.47,
+   "price": 119999,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Walker-Trl-Sevierville-TN-37876/2064342001_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463578715",
+   "acres": 0.62,
+   "price": 159900,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/201-Cherry-Laurel-Dr-201-Pigeon-Forge-TN-37863/463578715_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41890780",
+   "acres": 0.54,
+   "price": 139900,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/600-Wood-Duck-Dr-Vonore-TN-37885/41890780_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464190514",
+   "acres": 0.87,
+   "price": 229000,
+   "town": "Dandridge",
+   "county": "Jefferson",
+   "url": "https://www.zillow.com/homedetails/0-David-Swann-Dr-LOT-76D-Dandridge-TN-37725/464190514_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81145610",
+   "acres": 0.51,
+   "price": 140000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2148-Old-Dogwood-Trl-Loudon-TN-37774/81145610_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41749394",
+   "acres": 0.27,
+   "price": 75000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/204-Kawatuska-Ln-Loudon-TN-37774/41749394_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z459641597",
+   "acres": 0.35,
+   "price": 99000,
+   "town": "Oak Ridge",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/162-Forest-Creek-Pkwy-LOT-82-Oak-Ridge-TN-37830/459641597_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122347",
+   "acres": 0.6,
+   "price": 169900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/326-Flip-Flop-Way-Loudon-TN-37774/455122347_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455121621",
+   "acres": 0.27,
+   "price": 77000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/512-Mockingbird-Ln-Loudon-TN-37774/455121621_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z442034297",
+   "acres": 0.34,
+   "price": 99000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/121-Purple-Iris-Pl-Loudon-TN-37774/442034297_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461987108",
+   "acres": 0.75,
+   "price": 219900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/145-Canopy-Trail-Ln-Loudon-TN-37774/461987108_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463743652",
+   "acres": 0.17,
+   "price": 49900,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/LOT-73R-Millstone-Cir-A-Clinton-TN-37716/463743652_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461742616",
+   "acres": 0.51,
+   "price": 149900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2085-Old-Dogwood-Trl-LOT-9-Loudon-TN-37774/461742616_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z459413619",
+   "acres": 0.34,
+   "price": 100000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2-Ellis-Ogle-Rd-LOT-2-Gatlinburg-TN-37738/459413619_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461143302",
+   "acres": 0.22,
+   "price": 65000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Truslow-St-Knoxville-TN-37915/461143302_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461304683",
+   "acres": 0.67,
+   "price": 199900,
+   "town": "Louisville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/Newport-Park-Way-Louisville-TN-37777/461304683_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464346268",
+   "acres": 0.33,
+   "price": 99000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/6-Covemont-Ln-LOT-6-Sevierville-TN-37862/464346268_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z448978650",
+   "acres": 0.73,
+   "price": 220000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/4802-Old-Dogwood-Trl-Loudon-TN-37774/448978650_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81013969",
+   "acres": 0.33,
+   "price": 99500,
+   "town": "Maryville",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/1012-Saint-Johns-Dr-Maryville-TN-37801/81013969_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41752190",
+   "acres": 0.23,
+   "price": 70000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/103-Noya-Way-Loudon-TN-37774/41752190_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81149590",
+   "acres": 0.21,
+   "price": 65000,
+   "town": "Tellico Plns",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/143-Daleyuhski-Way-Tellico-Plns-TN-37774/81149590_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465240741",
+   "acres": 0.5,
+   "price": 155000,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/449-Troy-Dr-LOT-0-Pigeon-Forge-TN-37863/465240741_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2065715195",
+   "acres": 0.27,
+   "price": 85000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/1215-SW-Navy-Dr-Knoxville-TN-37920/2065715195_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455862752",
+   "acres": 0.53,
+   "price": 169500,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/325-Laurel-Ridge-Ln-Knoxville-TN-37922/455862752_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122337",
+   "acres": 0.62,
+   "price": 200000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/289-Flip-Flop-Way-Loudon-TN-37774/455122337_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463766623",
+   "acres": 0.17,
+   "price": 54900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4-Hideaway-Ridge-Cir-LOT-4-Sevierville-TN-37862/463766623_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81190478",
+   "acres": 0.21,
+   "price": 67900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/942-Blackrock-Run-Loudon-TN-37774/81190478_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464228273",
+   "acres": 0.34,
+   "price": 109999,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Proffitt-Rd-LOT-G-Gatlinburg-TN-37738/464228273_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41666281",
+   "acres": 0.17,
+   "price": 55000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/3812-Reagan-Ave-Knoxville-TN-37919/41666281_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z214822144",
+   "acres": 0.42,
+   "price": 135900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1312-Rippling-Waters-Cir-Sevierville-TN-37876/214822144_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241898",
+   "acres": 0.49,
+   "price": 160000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2908-Old-Dogwood-Trl-LOT-43-Loudon-TN-37774/465241898_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z456796918",
+   "acres": 0.16,
+   "price": 52500,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/2739-Wilson-Ave-LOT-96-Knoxville-TN-37914/456796918_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463853501",
+   "acres": 0.38,
+   "price": 125000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/0-Longspur-Trl-LOT-24-Sevierville-TN-37876/463853501_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2072086593",
+   "acres": 0.47,
+   "price": 155000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/467-Laurel-Ridge-Ln-Knoxville-TN-37922/2072086593_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z344993795",
+   "acres": 0.53,
+   "price": 180000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/1004-Old-Dogwood-Trl-Loudon-TN-37774/344993795_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81171370",
+   "acres": 0.35,
+   "price": 121540,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/419-Hawks-Bnd-Loudon-TN-37774/81171370_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z434151256",
+   "acres": 0.53,
+   "price": 189000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2929-Chestnut-Ln-Loudon-TN-37774/434151256_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2064413069",
+   "acres": 0.46,
+   "price": 164500,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/639-Kristis-Pl-LOT-0-Gatlinburg-TN-37738/2064413069_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41748991",
+   "acres": 0.33,
+   "price": 119999,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/177-Oonoga-Way-Loudon-TN-37774/41748991_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81281525",
+   "acres": 0.3,
+   "price": 109900,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/219-Osprey-Cir-Vonore-TN-37885/81281525_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461906010",
+   "acres": 0.27,
+   "price": 99000,
+   "town": "Oak Ridge",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/Claremont-Rd-Oak-Ridge-TN-37830/461906010_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42041948",
+   "acres": 0.68,
+   "price": 250000,
+   "town": "Harriman",
+   "county": "Roane",
+   "url": "https://www.zillow.com/homedetails/2212-Roane-State-Hwy-Harriman-TN-37748/42041948_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2079328537",
+   "acres": 0.54,
+   "price": 199900,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/12309-Conner-Springs-Ln-Knoxville-TN-37932/2079328537_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66934476",
+   "acres": 0.49,
+   "price": 185000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/210-Beacon-Ct-Lenoir-City-TN-37772/66934476_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455942498",
+   "acres": 0.46,
+   "price": 175000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/222-Hammock-Ct-LOT-27-Loudon-TN-37774/455942498_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z90208942",
+   "acres": 0.26,
+   "price": 99000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/3574-Persimmon-Rdg-Loudon-TN-37774/90208942_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z42511934",
+   "acres": 0.59,
+   "price": 225000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/628-Loop-Rd-Gatlinburg-TN-37738/42511934_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z464658736",
+   "acres": 0.35,
+   "price": 135000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/1315-Garrett-Dr-Gatlinburg-TN-37738/464658736_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81123800",
+   "acres": 0.27,
+   "price": 105000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/104-Tuhdegwa-Way-Loudon-TN-37774/81123800_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465026937",
+   "acres": 0.19,
+   "price": 75000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/15-Saddleback-Way-LOT-15-Sevierville-TN-37862/465026937_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463027879",
+   "acres": 0.63,
+   "price": 250000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Deane-Hill-Dr-LOT-47-Sevierville-TN-37862/463027879_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2081780484",
+   "acres": 0.39,
+   "price": 159900,
+   "town": "Vonore",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/151-Gold-Finch-Ln-Vonore-TN-37885/2081780484_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2060139865",
+   "acres": 0.29,
+   "price": 119900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/578-Mockingbird-Ln-Loudon-TN-37774/2060139865_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66590479",
+   "acres": 0.21,
+   "price": 89750,
+   "town": "Oak Ridge",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/11-Royal-Troon-Cir-Oak-Ridge-TN-37830/66590479_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81187090",
+   "acres": 0.22,
+   "price": 95000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/1479-Black-Cove-Ln-Loudon-TN-37774/81187090_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2129285037",
+   "acres": 0.39,
+   "price": 169500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2109-Paradise-View-Way-135-Sevierville-TN-37876/2129285037_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122169",
+   "acres": 0.4,
+   "price": 174253,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/455-Firefly-Dr-Loudon-TN-37774/455122169_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2079677090",
+   "acres": 0.19,
+   "price": 82900,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/0-Fox-Rd-Knoxville-TN-37922/2079677090_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41752112",
+   "acres": 0.22,
+   "price": 100000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/324-Dudala-Point-Loudon-TN-37774/41752112_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463241067",
+   "acres": 0.33,
+   "price": 150000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/415-Wood-Duck-Dr-LOT-67-Vonore-TN-37885/463241067_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461310437",
+   "acres": 0.46,
+   "price": 210000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/4080-Old-Dogwood-Trl-Loudon-TN-37774/461310437_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122166",
+   "acres": 0.43,
+   "price": 199000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/551-Firefly-Dr-Loudon-TN-37774/455122166_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455100366",
+   "acres": 0.4,
+   "price": 189800,
+   "town": "Vonore",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/30-Pineberry-Ct-Vonore-TN-37885/455100366_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z344993765",
+   "acres": 0.24,
+   "price": 115000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/1000-Eagle-Point-Dr-Loudon-TN-37774/344993765_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81137222",
+   "acres": 0.27,
+   "price": 129900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/402-Shawnee-Pl-Loudon-TN-37774/81137222_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41752240",
+   "acres": 0.3,
+   "price": 145000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/184-Noya-Way-Loudon-TN-37774/41752240_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z458013257",
+   "acres": 0.34,
+   "price": 165000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/545-Johnson-Ln-UNIT-D-Gatlinburg-TN-37738/458013257_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z41751261",
+   "acres": 0.24,
+   "price": 120000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/103-Dudala-Way-Loudon-TN-37774/41751261_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122055",
+   "acres": 0.32,
+   "price": 161800,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2258-Chestnut-Ln-Loudon-TN-37774/455122055_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z454630201",
+   "acres": 0.29,
+   "price": 150000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2817-Chestnut-Ln-Loudon-TN-37774/454630201_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70524645",
+   "acres": 0.26,
+   "price": 135000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/397-Old-Barn-Ln-Loudon-TN-37774/70524645_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70524621",
+   "acres": 0.34,
+   "price": 178000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2532-Persimmon-Rdg-Loudon-TN-37774/70524621_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81110635",
+   "acres": 0.21,
+   "price": 110000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/529-Black-Cove-Ln-Loudon-TN-37774/81110635_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z461091030",
+   "acres": 0.2,
+   "price": 104900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/967-Black-Cove-Ln-LOT-10-Loudon-TN-37774/461091030_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463776810",
+   "acres": 0.24,
+   "price": 126500,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/3-Bullwinkle-Way-LOT-3-Sevierville-TN-37862/463776810_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2054960536",
+   "acres": 0.35,
+   "price": 185000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/709-Mockingbird-Ln-Loudon-TN-37774/2054960536_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z111163083",
+   "acres": 0.28,
+   "price": 148900,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/231-Waters-Edge-Way-Lenoir-City-TN-37771/111163083_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z90217147",
+   "acres": 0.11,
+   "price": 59900,
+   "town": "Oak Ridge",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/166-Harbour-Pointe-Ln-Oak-Ridge-TN-37830/90217147_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122186",
+   "acres": 0.3,
+   "price": 164000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/417-Ladybug-Ln-Loudon-TN-37774/455122186_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81127107",
+   "acres": 0.18,
+   "price": 99000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/419-Wildcat-Run-Dr-Loudon-TN-37774/81127107_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z448019923",
+   "acres": 0.15,
+   "price": 83500,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/1848-Black-Bear-Cir-Loudon-TN-37774/448019923_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2058485713",
+   "acres": 0.38,
+   "price": 215000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/385-Navigator-Dr-Lenoir-City-TN-37772/2058485713_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81447248",
+   "acres": 0.3,
+   "price": 170000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/204-Zoder-Dr-Gatlinburg-TN-37738/81447248_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66904430",
+   "acres": 0.14,
+   "price": 79750,
+   "town": "Oak Ridge",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/47-Royal-Troon-Cir-Oak-Ridge-TN-37830/66904430_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z381497119",
+   "acres": 0.38,
+   "price": 219000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/987-Mockingbird-Ln-Loudon-TN-37774/381497119_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70525189",
+   "acres": 0.36,
+   "price": 225000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/611-Starboard-Dr-Lenoir-City-TN-37772/70525189_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z444459425",
+   "acres": 0.35,
+   "price": 219000,
+   "town": "Alcoa",
+   "county": "Blount",
+   "url": "https://www.zillow.com/homedetails/104-Halifax-Ct-Alcoa-TN-37701/444459425_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z214905508",
+   "acres": 0.22,
+   "price": 140000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/Breezey-Ridge-Dr-Sevierville-TN-37876/214905508_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z346485122",
+   "acres": 0.39,
+   "price": 249000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/517-Navigator-Dr-Lenoir-City-TN-37772/346485122_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z462825632",
+   "acres": 0.17,
+   "price": 109000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/562-Charleston-Lgt-Loudon-TN-37774/462825632_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70525216",
+   "acres": 0.38,
+   "price": 250000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/403-Gallery-Ct-Lenoir-City-TN-37772/70525216_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70525086",
+   "acres": 0.21,
+   "price": 138500,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2670-Old-Club-Rd-Loudon-TN-37774/70525086_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z90218283",
+   "acres": 0.28,
+   "price": 185000,
+   "town": "Clinton",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/184-Harbour-Dr-Clinton-TN-37716/90218283_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122172",
+   "acres": 0.3,
+   "price": 199999,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/299-Firefly-Dr-Loudon-TN-37774/455122172_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70525190",
+   "acres": 0.36,
+   "price": 240000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/717-Starboard-Dr-Lenoir-City-TN-37772/70525190_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463997362",
+   "acres": 0.37,
+   "price": 249900,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/730-Wiley-Oakley-Dr-LOT-284-Gatlinburg-TN-37738/463997362_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81149132",
+   "acres": 0.19,
+   "price": 129999,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/1565-Bobcat-Run-Dr-Loudon-TN-37774/81149132_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81153295",
+   "acres": 0.24,
+   "price": 165000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/236-Chatuga-Way-Loudon-TN-37774/81153295_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66904421",
+   "acres": 0.13,
+   "price": 89750,
+   "town": "Oak Ridge",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/96-Royal-Troon-Cir-Oak-Ridge-TN-37830/66904421_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122232",
+   "acres": 0.13,
+   "price": 89900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/546-Black-Bear-Cir-Loudon-TN-37774/455122232_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70525021",
+   "acres": 0.31,
+   "price": 215000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/592-Old-Barn-Ln-Loudon-TN-37774/70525021_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81110655",
+   "acres": 0.18,
+   "price": 125000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/650-Red-Fox-Run-Loudon-TN-37774/81110655_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z453606860",
+   "acres": 0.35,
+   "price": 244500,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/111-Magnolia-Hl-Loudon-TN-37774/453606860_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455942499",
+   "acres": 0.25,
+   "price": 175000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/651-Eagle-Point-Dr-LOT-77-Loudon-TN-37774/455942499_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2055264177",
+   "acres": 0.13,
+   "price": 95000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/652-Black-Bear-Cir-Loudon-TN-37774/2055264177_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465241878",
+   "acres": 0.17,
+   "price": 125000,
+   "town": "Knoxville",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/9235-Sway-Branch-Ln-LOT-40-Knoxville-TN-37922/465241878_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70525076",
+   "acres": 0.21,
+   "price": 154900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/3567-Old-Club-Rd-Loudon-TN-37774/70525076_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66590473",
+   "acres": 0.14,
+   "price": 103750,
+   "town": "Oak Ridge",
+   "county": "Anderson",
+   "url": "https://www.zillow.com/homedetails/20-Royal-Troon-Cir-Oak-Ridge-TN-37830/66590473_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122228",
+   "acres": 0.13,
+   "price": 99900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/696-Black-Bear-Cir-Loudon-TN-37774/455122228_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455121565",
+   "acres": 0.27,
+   "price": 209000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/313-17th-Dr-Loudon-TN-37774/455121565_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2123486434",
+   "acres": 0.25,
+   "price": 197500,
+   "town": "Farragut",
+   "county": "Knox",
+   "url": "https://www.zillow.com/homedetails/12308-Cotton-Blossom-Ln-Farragut-TN-37934/2123486434_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z455122235",
+   "acres": 0.13,
+   "price": 105000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/440-Black-Bear-Cir-Loudon-TN-37774/455122235_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z454842254",
+   "acres": 0.27,
+   "price": 219900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/2594-Chestnut-Ln-Loudon-TN-37774/454842254_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z465182926",
+   "acres": 0.17,
+   "price": 139900,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/416-Eastgate-Rd-LOT-0-Sevierville-TN-37862/465182926_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z81200039",
+   "acres": 0.29,
+   "price": 250000,
+   "town": "Vonore",
+   "county": "Monroe",
+   "url": "https://www.zillow.com/homedetails/113-Breakers-Dr-Vonore-TN-37885/81200039_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z440047934",
+   "acres": 0.14,
+   "price": 127500,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/1462-Black-Bear-Cir-Loudon-TN-37774/440047934_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z439162687",
+   "acres": 0.14,
+   "price": 129900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/980-Black-Bear-Cir-Loudon-TN-37774/439162687_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z214906580",
+   "acres": 0.2,
+   "price": 189900,
+   "town": "Pigeon Forge",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/4121-Sherwood-Heights-Way-Pigeon-Forge-TN-37863/214906580_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z70525020",
+   "acres": 0.26,
+   "price": 249000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/714-Old-Barn-Ln-Loudon-TN-37774/70525020_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z66934484",
+   "acres": 0.23,
+   "price": 225000,
+   "town": "Lenoir City",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/15380-Lighthouse-Pointe-Dr-Lenoir-City-TN-37772/66934484_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z444665976",
+   "acres": 0.16,
+   "price": 159000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/958-Black-Bear-Cir-Loudon-TN-37774/444665976_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z2058872847",
+   "acres": 0.13,
+   "price": 150000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/387-Black-Bear-Cir-Loudon-TN-37774/2058872847_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z348888524",
+   "acres": 0.13,
+   "price": 169900,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/695-Black-Bear-Cir-Loudon-TN-37774/348888524_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z351124208",
+   "acres": 0.13,
+   "price": 175000,
+   "town": "Loudon",
+   "county": "Loudon",
+   "url": "https://www.zillow.com/homedetails/805-Black-Bear-Cir-Loudon-TN-37774/351124208_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z55748443",
+   "acres": 0.15,
+   "price": 245000,
+   "town": "Sevierville",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/2297-Windy-Ln-Sevierville-TN-37876/55748443_zpid/",
+   "missCount": 1
+  },
+  {
+   "id": "z463853456",
+   "acres": 0.13,
+   "price": 225000,
+   "town": "Gatlinburg",
+   "county": "Sevier",
+   "url": "https://www.zillow.com/homedetails/748-Widows-Knob-Rd-LOT-3-Gatlinburg-TN-37738/463853456_zpid/",
+   "missCount": 1
   }
  ],
  "retired": [],
  "gone": [],
  "tooFar": [],
- "tooSteep": [],
+ "tooSteep": [
+  {
+   "id": "z42538353",
+   "acres": 1.1,
+   "price": 195000,
+   "town": "Maynardville",
+   "county": "Union",
+   "url": "https://www.zillow.com/homedetails/S-Cove-Rd-Maynardville-TN-37807/42538353_zpid/",
+   "slope": 20.5
+  }
+ ],
  "rejected": [],
  "baseline": false
 }
