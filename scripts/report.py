@@ -19,6 +19,16 @@ def row(t):
             f"{t['town']}, {t['county']} | [listing]({t['url']}) |")
 
 
+def commit_message(r):
+    bits = ["%d new" % len(r["new"])]
+    if r.get("priceCuts"):
+        bits.append("%d cut" % len(r["priceCuts"]))
+    if r.get("retired"):
+        bits.append("%d retired" % len(r["retired"]))
+    bits.append("%d active" % r.get("confirmed", r["count"]))
+    return "sweep %s: %s" % (r["date"], ", ".join(bits))
+
+
 def main():
     path = os.path.join(ROOT, "data", "report.json")
     if not os.path.exists(path):
@@ -26,6 +36,10 @@ def main():
         return 0
     with open(path) as f:
         r = json.load(f)
+
+    if "--commit-message" in sys.argv:
+        print(commit_message(r))
+        return 0
 
     out = [f"## Knoxville Land Scout — {r['date']}", ""]
     out.append(f"**{r.get('confirmed', r['count'])} confirmed active tracts** "
