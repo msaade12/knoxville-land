@@ -2,8 +2,8 @@ name: Daily land sweep
 
 on:
   schedule:
-    # 11:15 UTC ≈ 6:15am Central / 7:15am Eastern, every day
-    - cron: '15 11 * * *'
+    # 13:15 UTC ≈ 9:15am Eastern - two hours after the Mac's 7am run, as a fallback
+    - cron: '15 13 * * *'
   workflow_dispatch:          # lets you run it by hand from the Actions tab
 
 permissions:
@@ -24,6 +24,11 @@ jobs:
           python-version: '3.12'
 
       - name: Sweep Redfin
+        # Zillow returns 403 to GitHub's servers, so this run is Redfin-only.
+        # The full sweep with Zillow runs from the owner's Mac (scripts/daily-local.sh).
+        env:
+          SWEEP_SKIP_ZILLOW: "1"
+          PAGE_FETCH_CAP: "0"
         run: python3 scripts/sweep.py
 
       - name: Summarise the run
